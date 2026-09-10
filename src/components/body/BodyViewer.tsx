@@ -7,6 +7,7 @@ import CameraRig from './CameraRig';
 import Fallback2D from './Fallback2D';
 import { skinMaterial } from './skinMaterial';
 import { useRegionPicker } from './useRegionPicker';
+import { ASSET_VERSION } from './assetVersion';
 import regions from '@/data/regions.json';
 export type PainPin={id:string;regionId:string;point:[number,number,number];intensity:number};
 export type BodyViewerProps={active?:string;back?:boolean;sex?:'male'|'female';zoom?:number;reset?:number;pins?:PainPin[];onSelect?:(id:string,point?:[number,number,number])=>void;mini?:boolean};
@@ -14,7 +15,7 @@ function Loader(){const {progress}=useProgress();return <Html center><div classN
 function Quality({dragging}:{dragging:boolean}){const {setDpr}=useThree();const frames=useRef<number[]>([]);useFrame((_,delta)=>{if(!dragging){frames.current=[];return;}frames.current.push(delta);if(frames.current.length===60){if(frames.current.reduce((a,b)=>a+b,0)/60>.02)setDpr(Math.min(window.devicePixelRatio,1.5));frames.current=[];}});return null;}
 function Pin({pin}:{pin:PainPin}){const ref=useRef<THREE.Group>(null);useFrame(({camera})=>{if(ref.current)ref.current.scale.setScalar(camera.position.distanceTo(ref.current.position)/3.45);});return <group ref={ref} position={pin.point}><mesh><sphereGeometry args={[.014,20,20]}/><meshStandardMaterial color={pin.intensity>6?'#cf593b':pin.intensity>3?'#e6954e':'#e4bf60'} emissive="#cf693b" emissiveIntensity={.6}/></mesh><mesh><sphereGeometry args={[.028,20,20]}/><meshBasicMaterial color="#e7a875" transparent opacity={.2}/></mesh></group>;}
 function Model({sex='male',active='',onSelect=()=>{},pins=[],dragging=false}:BodyViewerProps&{dragging?:boolean}){
- const {scene}=useGLTF(`/models/${sex}.glb`);const [map,normal,mask]=useTexture(['/models/skin-albedo.jpg','/models/skin-normal.png','/models/body-regions.png']);const pick=useRegionPicker();
+ const {scene}=useGLTF(`/models/${sex}.glb?v=${ASSET_VERSION}`);const [map,normal,mask]=useTexture([`/models/skin-albedo.jpg?v=${ASSET_VERSION}`,`/models/skin-normal.png?v=${ASSET_VERSION}`,`/models/body-regions.png?v=${ASSET_VERSION}`]);const pick=useRegionPicker();
  const activeColor=regions.find(r=>r.id===active)?.maskColor[0]||0;
  const material=useMemo(()=>skinMaterial(map,normal,mask,activeColor),[map,normal,mask,activeColor]);
  const {invalidate}=useThree();
