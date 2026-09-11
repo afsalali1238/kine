@@ -1,0 +1,6 @@
+.next
+node_modules
+public/models/*.glb
+src/data/v1
+package-lock.json
+MEDIA-COVERAGE.md

@@ -1,38 +1,54 @@
 {
-  "name": "nextjs-postgresql-template",
+  "name": "kine",
+  "version": "2.0.0",
   "private": true,
+  "description": "kinē — 3D-guided musculoskeletal recovery",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "dev": "next dev",
+    "prebuild": "npm run content:build",
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check . && node scripts/check-lines.mjs",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "e2e": "node scripts/run-e2e.mjs",
+    "assets:check": "node scripts/build-body-assets.mjs --check",
+    "content:build": "node scripts/build-content.mjs",
+    "content:validate": "node scripts/validate-content.mjs",
+    "assets:build": "node scripts/build-body-assets.mjs",
+    "verify": "node scripts/verify.mjs"
   },
   "dependencies": {
-    "@playwright/test": "^1.63.0",
+    "@eslint/eslintrc": "^3.3.7",
     "@react-three/drei": "^10.7.8",
     "@react-three/fiber": "^9.7.0",
-    "@types/three": "^0.185.4",
-    "dotenv": "17.3.1",
-    "drizzle-orm": "0.45.2",
-    "lucide-react": "^1.43.0",
+    "idb-keyval": "^6.2.2",
+    "lucide-react": "^0.544.0",
     "next": "16.2.6",
-    "pg": "8.20.0",
     "react": "19.2.6",
     "react-dom": "19.2.6",
-    "three": "^0.186.0"
+    "three": "^0.186.0",
+    "zustand": "^5.0.8"
   },
   "devDependencies": {
+    "@playwright/test": "^1.63.0",
     "@tailwindcss/postcss": "4.1.17",
     "@types/node": "22.19.15",
-    "@types/pg": "8.18.0",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
-    "drizzle-kit": "0.31.10",
+    "@types/three": "^0.185.4",
     "eslint": "9.39.4",
     "eslint-config-next": "16.2.6",
     "postcss": "8.5.8",
+    "prettier": "^3.6.2",
     "tailwindcss": "4.1.17",
-    "typescript": "5.9.3"
+    "typescript": "5.9.3",
+    "vitest": "^3.2.4"
   }
 }

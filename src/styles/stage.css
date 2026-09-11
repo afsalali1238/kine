@@ -1,0 +1,179 @@
+/**
+ * The 3D stage: canvas sizing, the overlay controls, pins, and the 2D fallback tier
+ * that replaces WebGL.
+ */
+
+/* ---------- 3D stage ---------- */
+
+.viewer {
+  position: relative;
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  border: 1px solid var(--color-line);
+  background:
+    radial-gradient(ellipse at 50% 34%, #f4f2ea 0%, #f7f6ef 48%, #f3f2ea 100%), var(--color-surface);
+  min-height: 52dvh;
+  touch-action: none;
+  user-select: none;
+}
+
+.viewer-fill {
+  min-height: calc(100dvh - 132px);
+}
+
+.viewer canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+}
+
+.viewer-canvas {
+  position: absolute;
+  inset: 0;
+}
+
+.viewer-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.viewer-overlay > * {
+  pointer-events: auto;
+}
+
+.viewer-tools {
+  position: absolute;
+  inset-inline-end: 10px;
+  top: 46px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 4px;
+  border-radius: 12px;
+  border: 1px solid var(--color-line);
+  background: color-mix(in srgb, var(--color-surface) 85%, transparent);
+  backdrop-filter: blur(6px);
+}
+
+.icon-btn {
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  border-radius: 9px;
+  color: var(--color-muted);
+}
+
+.icon-btn[data-active='true'],
+.icon-btn:hover {
+  background: var(--color-pale);
+  color: var(--color-sage-deep);
+}
+
+.seg {
+  display: inline-flex;
+  padding: 3px;
+  gap: 2px;
+  border-radius: 12px;
+  border: 1px solid var(--color-line);
+  background: color-mix(in srgb, var(--color-surface) 88%, transparent);
+}
+
+.seg button {
+  min-height: 38px;
+  padding: 6px 12px;
+  border-radius: 9px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--color-muted);
+}
+
+.seg button[data-selected='true'] {
+  background: var(--color-pale);
+  color: var(--color-sage-deep);
+}
+
+.hint {
+  position: absolute;
+  inset-inline: 0;
+  bottom: 8px;
+  text-align: center;
+  font-size: 11px;
+  color: color-mix(in srgb, var(--color-muted) 85%, transparent);
+  pointer-events: none;
+}
+
+.loadbar {
+  position: absolute;
+  inset-inline: 18%;
+  top: 46%;
+  height: 3px;
+  border-radius: 999px;
+  background: var(--color-line);
+  overflow: hidden;
+}
+
+.loadbar i {
+  display: block;
+  height: 100%;
+  background: var(--color-sage);
+  transition: width 0.2s;
+}
+
+.fallback {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 12px;
+}
+
+.pin-card {
+  position: absolute;
+  inset-inline: 10px;
+  bottom: 10px;
+  border-radius: 13px;
+  border: 1px solid var(--color-line);
+  background: color-mix(in srgb, var(--color-surface) 94%, transparent);
+  backdrop-filter: blur(8px);
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.strip {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+}
+
+.strip figure {
+  margin: 0;
+  border: 1px solid var(--color-line);
+  border-radius: 11px;
+  background: var(--color-surface);
+  padding: 6px 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.strip figcaption {
+  font-size: 9.5px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+
+.strip svg {
+  width: 100%;
+  height: 108px;
+}

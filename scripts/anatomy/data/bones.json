@@ -1,0 +1,132 @@
+[
+  {
+    "id": "hips",
+    "parent": null,
+    "pos": [0, 0.95, 0]
+  },
+  {
+    "id": "spine_01",
+    "parent": "hips",
+    "pos": [0, 1, -0.004]
+  },
+  {
+    "id": "spine_02",
+    "parent": "spine_01",
+    "pos": [0, 1.13, 0.002]
+  },
+  {
+    "id": "spine_03",
+    "parent": "spine_02",
+    "pos": [0, 1.27, 0]
+  },
+  {
+    "id": "neck_01",
+    "parent": "spine_03",
+    "pos": [0, 1.44, -0.006]
+  },
+  {
+    "id": "head",
+    "parent": "neck_01",
+    "pos": [0, 1.53, -0.004]
+  },
+  {
+    "id": "scapula_l",
+    "parent": "spine_03",
+    "pos": [0.055, 1.32, -0.055]
+  },
+  {
+    "id": "scapula_r",
+    "parent": "spine_03",
+    "pos": [-0.055, 1.32, -0.055]
+  },
+  {
+    "id": "clavicle_l",
+    "parent": "spine_03",
+    "pos": [0.05, 1.4, 0.022]
+  },
+  {
+    "id": "clavicle_r",
+    "parent": "spine_03",
+    "pos": [-0.05, 1.4, 0.022]
+  },
+  {
+    "id": "shoulder_l",
+    "parent": "clavicle_l",
+    "pos": [0.163, 1.4, 0.006]
+  },
+  {
+    "id": "shoulder_r",
+    "parent": "clavicle_r",
+    "pos": [-0.163, 1.4, 0.006]
+  },
+  {
+    "id": "upperarm_l",
+    "parent": "shoulder_l",
+    "pos": [0.183, 1.408, 0]
+  },
+  {
+    "id": "upperarm_r",
+    "parent": "shoulder_r",
+    "pos": [-0.183, 1.408, 0]
+  },
+  {
+    "id": "lowerarm_l",
+    "parent": "upperarm_l",
+    "pos": [0.256, 1.14, -0.012]
+  },
+  {
+    "id": "lowerarm_r",
+    "parent": "upperarm_r",
+    "pos": [-0.256, 1.14, -0.012]
+  },
+  {
+    "id": "hand_l",
+    "parent": "lowerarm_l",
+    "pos": [0.287, 0.9, 0.022]
+  },
+  {
+    "id": "hand_r",
+    "parent": "lowerarm_r",
+    "pos": [-0.287, 0.9, 0.022]
+  },
+  {
+    "id": "thigh_l",
+    "parent": "hips",
+    "pos": [0.093, 0.925, -0.008]
+  },
+  {
+    "id": "thigh_r",
+    "parent": "hips",
+    "pos": [-0.093, 0.925, -0.008]
+  },
+  {
+    "id": "calf_l",
+    "parent": "thigh_l",
+    "pos": [0.104, 0.485, 0.02]
+  },
+  {
+    "id": "calf_r",
+    "parent": "thigh_r",
+    "pos": [-0.104, 0.485, 0.02]
+  },
+  {
+    "id": "foot_l",
+    "parent": "calf_l",
+    "pos": [0.058, 0.088, -0.014]
+  },
+  {
+    "id": "foot_r",
+    "parent": "calf_r",
+    "pos": [-0.058, 0.088, -0.014]
+  },
+  {
+    "id": "toe_l",
+    "parent": "foot_l",
+    "pos": [0.062, 0.03, 0.095]
+  },
+  {
+    "id": "toe_r",
+    "parent": "foot_r",
+    "pos": [-0.062, 0.03, 0.095]
+  }
+]

@@ -1,0 +1,125 @@
+/**
+ * The session player and the bottom sheet it opens.
+ */
+
+/* ---------- session ---------- */
+
+.player {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.beat {
+  display: flex;
+  gap: 4px;
+  align-items: flex-end;
+  height: 26px;
+}
+
+.beat i {
+  flex: 1;
+  background: var(--color-line);
+  border-radius: 3px;
+  height: 8px;
+  transition: height 0.12s linear;
+}
+
+.beat i[data-on='true'] {
+  background: var(--color-sage);
+  height: 24px;
+}
+
+.big-count {
+  font-size: 40px;
+  font-weight: 650;
+  letter-spacing: -1.4px;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+.meter {
+  height: 6px;
+  border-radius: 999px;
+  background: var(--color-line);
+  overflow: hidden;
+}
+
+.meter i {
+  display: block;
+  height: 100%;
+  background: var(--color-sage-deep);
+}
+
+.light {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 13px;
+  font-weight: 620;
+}
+
+.light span {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+}
+
+.light[data-tone='green'] span {
+  background: var(--color-ok);
+}
+
+.light[data-tone='amber'] span {
+  background: var(--color-warn);
+}
+
+.light[data-tone='red'] span {
+  background: var(--color-danger);
+}
+
+/* ---------- sheet ---------- */
+
+.sheet-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  background: rgba(28, 32, 24, 0.35);
+  display: flex;
+  align-items: flex-end;
+  animation: fade 0.16s ease-out;
+}
+
+.sheet {
+  width: 100%;
+  max-height: 86dvh;
+  overflow: auto;
+  background: var(--color-surface);
+  border-start-start-radius: 20px;
+  border-start-end-radius: 20px;
+  border-top: 1px solid var(--color-line);
+  padding: 8px 14px calc(18px + env(safe-area-inset-bottom));
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  animation: rise 0.2s ease-out;
+}
+
+.sheet-handle {
+  width: 42px;
+  height: 4px;
+  border-radius: 999px;
+  background: var(--color-line);
+  margin: 4px auto 2px;
+}
+
+@keyframes rise {
+  from {
+    transform: translateY(14px);
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+}

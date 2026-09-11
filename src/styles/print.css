@@ -1,0 +1,133 @@
+/**
+ * Print: the handout strips the chrome so a page of frames and doses reads clean on
+ * paper, plus the landscape rules for the stage.
+ */
+
+/* ---------- print ---------- */
+
+.handout {
+  background: #fff;
+  color: #1c1c1a;
+  padding: 22px 18px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.handout-ex {
+  break-inside: avoid;
+  border-top: 1px solid #ddd9d0;
+  padding-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.handout svg {
+  overflow: visible;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .shell {
+    padding-bottom: 0;
+  }
+  body {
+    background: #fff;
+    font-size: 12px;
+  }
+  .handout {
+    padding: 0;
+    gap: 12px;
+  }
+}
+
+@media (min-width: 720px) {
+  body {
+    font-size: 15.5px;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  .page {
+    padding: 22px 22px 34px;
+    gap: 16px;
+  }
+  .viewer {
+    min-height: 62dvh;
+  }
+  .cols-2 {
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+  }
+  .cols-2b {
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  }
+  .cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .strip svg {
+    height: 150px;
+  }
+  .shell {
+    padding-bottom: 0;
+  }
+  .nav {
+    position: sticky;
+    top: 0;
+    bottom: auto;
+    inset-inline: auto;
+    justify-content: flex-start;
+    padding: 8px 14px;
+    border-top: 0;
+    border-bottom: 1px solid var(--color-line);
+    gap: 6px;
+  }
+  .nav a {
+    flex: 0 0 auto;
+    flex-direction: row;
+    gap: 8px;
+    padding: 8px 14px;
+    font-size: 13px;
+  }
+  .nav-desktop-order {
+    order: 2;
+  }
+}
+
+@media (min-width: 1080px) {
+  .cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .viewer-fill {
+    min-height: calc(100dvh - 150px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* Orientation: keep the 3D stage usable on a phone held sideways. */
+@media (orientation: landscape) and (max-height: 520px) {
+  .viewer {
+    min-height: 100dvh;
+  }
+  .viewer-fill {
+    min-height: 100dvh;
+  }
+  .page {
+    padding-top: 8px;
+  }
+  .cols-2,
+  .cols-2b {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: start;
+  }
+}

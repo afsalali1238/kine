@@ -1,0 +1,400 @@
+[
+  {
+    "base": "forehead",
+    "family": "head-jaw",
+    "side": "center",
+    "views": ["front"],
+    "paired": false
+  },
+  {
+    "base": "temple",
+    "family": "head-jaw",
+    "side": "paired",
+    "views": ["front", "left", "right"]
+  },
+  {
+    "base": "ear",
+    "family": "head-jaw",
+    "side": "paired",
+    "views": ["left", "right", "back"]
+  },
+  {
+    "base": "face",
+    "family": "head-jaw",
+    "side": "center",
+    "views": ["front"],
+    "fallback": true
+  },
+  {
+    "base": "jaw",
+    "family": "head-jaw",
+    "side": "paired",
+    "views": ["front", "left", "right"]
+  },
+  {
+    "base": "occiput",
+    "family": "neck",
+    "side": "center",
+    "views": ["back"]
+  },
+  {
+    "base": "scalp-side",
+    "family": "head-jaw",
+    "side": "paired",
+    "views": ["top", "left", "right"]
+  },
+  {
+    "base": "scalp-top",
+    "family": "head-jaw",
+    "side": "center",
+    "views": ["top"]
+  },
+  {
+    "base": "cervical-upper",
+    "family": "neck",
+    "side": "center",
+    "views": ["back"]
+  },
+  {
+    "base": "cervical-lower",
+    "family": "neck",
+    "side": "center",
+    "views": ["back", "left", "right"]
+  },
+  {
+    "base": "sterno",
+    "family": "neck",
+    "side": "center",
+    "views": ["front"]
+  },
+  {
+    "base": "trapezius-upper",
+    "family": "neck",
+    "side": "paired",
+    "views": ["back", "top"]
+  },
+  {
+    "base": "ac-joint",
+    "family": "shoulder",
+    "side": "paired",
+    "views": ["top", "front", "back"]
+  },
+  {
+    "base": "anterior-deltoid",
+    "family": "shoulder",
+    "side": "paired",
+    "views": ["front", "left", "right"]
+  },
+  {
+    "base": "lateral-deltoid",
+    "family": "shoulder",
+    "side": "paired",
+    "views": ["left", "right"]
+  },
+  {
+    "base": "posterior-deltoid",
+    "family": "shoulder",
+    "side": "paired",
+    "views": ["back"]
+  },
+  {
+    "base": "rotator-cuff",
+    "family": "shoulder",
+    "side": "paired",
+    "views": ["back", "top"]
+  },
+  {
+    "base": "scapula",
+    "family": "shoulder",
+    "side": "paired",
+    "views": ["back"]
+  },
+  {
+    "base": "pectoral",
+    "family": "chest",
+    "side": "paired",
+    "views": ["front"]
+  },
+  {
+    "base": "rhomboid",
+    "family": "upper-back",
+    "side": "center",
+    "views": ["back"]
+  },
+  {
+    "base": "thoracic-spine",
+    "family": "upper-back",
+    "side": "center",
+    "views": ["back"]
+  },
+  {
+    "base": "costal-margin",
+    "family": "chest",
+    "side": "paired",
+    "views": ["front", "left", "right"]
+  },
+  {
+    "base": "oblique",
+    "family": "trunk",
+    "side": "paired",
+    "views": ["left", "right"]
+  },
+  {
+    "base": "upper-abdomen",
+    "family": "trunk",
+    "side": "center",
+    "views": ["front"]
+  },
+  {
+    "base": "lower-abdomen",
+    "family": "trunk",
+    "side": "center",
+    "views": ["front"]
+  },
+  {
+    "base": "lumbar-spine",
+    "family": "lower-back",
+    "side": "center",
+    "views": ["back"]
+  },
+  {
+    "base": "sacrum",
+    "family": "lower-back",
+    "side": "center",
+    "views": ["back"]
+  },
+  {
+    "base": "si-joint",
+    "family": "lower-back",
+    "side": "paired",
+    "views": ["back"]
+  },
+  {
+    "base": "gluteus-maximus",
+    "family": "hip",
+    "side": "paired",
+    "views": ["back", "bottom"]
+  },
+  {
+    "base": "gluteus-medius",
+    "family": "hip",
+    "side": "paired",
+    "views": ["left", "right", "back"]
+  },
+  {
+    "base": "hip-anterior",
+    "family": "hip",
+    "side": "paired",
+    "views": ["front"]
+  },
+  {
+    "base": "hip-lateral",
+    "family": "hip",
+    "side": "paired",
+    "views": ["left", "right"]
+  },
+  {
+    "base": "quadriceps",
+    "family": "knee",
+    "side": "paired",
+    "views": ["front"]
+  },
+  {
+    "base": "hamstring-proximal",
+    "family": "hip",
+    "side": "paired",
+    "views": ["back"]
+  },
+  {
+    "base": "hamstring-mid",
+    "family": "thigh",
+    "side": "paired",
+    "views": ["back"]
+  },
+  {
+    "base": "adductor",
+    "family": "hip",
+    "side": "paired",
+    "views": ["left", "right"]
+  },
+  {
+    "base": "it-band",
+    "family": "knee",
+    "side": "paired",
+    "views": ["left", "right"]
+  },
+  {
+    "base": "knee-anterior",
+    "family": "knee",
+    "side": "paired",
+    "views": ["front"]
+  },
+  {
+    "base": "knee-medial",
+    "family": "knee",
+    "side": "paired",
+    "views": ["left", "right"]
+  },
+  {
+    "base": "knee-lateral",
+    "family": "knee",
+    "side": "paired",
+    "views": ["left", "right"]
+  },
+  {
+    "base": "knee-posterior",
+    "family": "knee",
+    "side": "paired",
+    "views": ["back"]
+  },
+  {
+    "base": "patellar-tendon",
+    "family": "knee",
+    "side": "paired",
+    "views": ["front", "bottom"]
+  },
+  {
+    "base": "calf",
+    "family": "ankle",
+    "side": "paired",
+    "views": ["back"]
+  },
+  {
+    "base": "shin",
+    "family": "lower-leg",
+    "side": "paired",
+    "views": ["front"]
+  },
+  {
+    "base": "medial-shin",
+    "family": "lower-leg",
+    "side": "paired",
+    "views": ["left", "right"]
+  },
+  {
+    "base": "achilles",
+    "family": "ankle",
+    "side": "paired",
+    "views": ["back"]
+  },
+  {
+    "base": "ankle-lateral",
+    "family": "ankle",
+    "side": "paired",
+    "views": ["left", "right"]
+  },
+  {
+    "base": "ankle-medial",
+    "family": "ankle",
+    "side": "paired",
+    "views": ["left", "right"]
+  },
+  {
+    "base": "heel",
+    "family": "ankle",
+    "side": "paired",
+    "views": ["back", "bottom"]
+  },
+  {
+    "base": "plantar-arch",
+    "family": "ankle",
+    "side": "paired",
+    "views": ["bottom"]
+  },
+  {
+    "base": "forefoot",
+    "family": "foot",
+    "side": "paired",
+    "views": ["front", "top", "bottom"]
+  },
+  {
+    "base": "instep",
+    "family": "foot",
+    "side": "paired",
+    "views": ["top", "front"]
+  },
+  {
+    "base": "toes",
+    "family": "foot",
+    "side": "paired",
+    "views": ["front", "top", "bottom"]
+  },
+  {
+    "base": "biceps",
+    "family": "elbow",
+    "side": "paired",
+    "views": ["front", "left", "right"]
+  },
+  {
+    "base": "triceps",
+    "family": "elbow",
+    "side": "paired",
+    "views": ["back"]
+  },
+  {
+    "base": "elbow-lateral",
+    "family": "elbow",
+    "side": "paired",
+    "views": ["left", "right"]
+  },
+  {
+    "base": "elbow-medial",
+    "family": "elbow",
+    "side": "paired",
+    "views": ["left", "right"]
+  },
+  {
+    "base": "elbow-posterior",
+    "family": "elbow",
+    "side": "paired",
+    "views": ["back"]
+  },
+  {
+    "base": "forearm-flexor",
+    "family": "elbow",
+    "side": "paired",
+    "views": ["front"]
+  },
+  {
+    "base": "forearm-extensor",
+    "family": "elbow",
+    "side": "paired",
+    "views": ["back"]
+  },
+  {
+    "base": "wrist-dorsal",
+    "family": "wrist",
+    "side": "paired",
+    "views": ["back"]
+  },
+  {
+    "base": "wrist-volar",
+    "family": "wrist",
+    "side": "paired",
+    "views": ["front"]
+  },
+  {
+    "base": "thumb-base",
+    "family": "wrist",
+    "side": "paired",
+    "views": ["front", "left", "right"]
+  },
+  {
+    "base": "hand-palm",
+    "family": "wrist",
+    "side": "paired",
+    "views": ["front", "bottom"]
+  },
+  {
+    "base": "hand-dorsum",
+    "family": "wrist",
+    "side": "paired",
+    "views": ["back"]
+  },
+  {
+    "base": "fingers",
+    "family": "wrist",
+    "side": "paired",
+    "views": ["front", "back", "bottom"]
+  }
+]

@@ -6,7 +6,39 @@
     "explanation": "Your back is sensitive to sustained arching or standing. Comfortable bending and gradually rebuilding strength may help.",
     "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
-    "nameAr": "نمط ألم أسفل الظهر"
+    "nameAr": "ألم ظهر يستريح مع الانحناء",
+    "family": "trunk",
+    "sites": [
+      "lumbar-spine",
+      "sacrum",
+      "oblique",
+      "upper-abdomen",
+      "lower-abdomen"
+    ],
+    "prefer": [
+      "mobility",
+      "motor_control",
+      "isometric"
+    ],
+    "caps": {
+      "lumbar": {
+        "flexion": 60,
+        "extension": 12
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "Comfortable bending is your friend here — we use it to unload the joint surfaces.",
+    "redirect": null,
+    "shares": [],
+    "families": [
+      "lower-back",
+      "trunk"
+    ]
   },
   {
     "id": "back-extension",
@@ -15,7 +47,40 @@
     "explanation": "Sitting and bending seem to irritate your back. Short, comfortable movement in the opposite direction may help.",
     "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
-    "nameAr": "نمط ألم أسفل الظهر"
+    "nameAr": "ألم ظهر يستريح مع الاستقامة",
+    "family": "lower-back",
+    "sites": [
+      "lumbar-spine",
+      "sacrum",
+      "si-joint",
+      "quadriceps",
+      "hip-anterior"
+    ],
+    "prefer": [
+      "mobility",
+      "motor_control",
+      "strength"
+    ],
+    "caps": {
+      "lumbar": {
+        "flexion": 10,
+        "extension": 30
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "Straightening eases you, so we keep the low back long and avoid sustained slumping.",
+    "redirect": null,
+    "shares": [],
+    "families": [
+      "lower-back",
+      "knee",
+      "hip"
+    ]
   },
   {
     "id": "lumbar-radicular",
@@ -24,7 +89,44 @@
     "explanation": "A sensitive nerve can cause pain or tingling that travels into a leg. Start with movements that keep symptoms closer to your back, not farther down your leg.",
     "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
-    "nameAr": "نمط ألم أسفل الظهر"
+    "nameAr": "ألم أسفل الظهر مع تحسس العصب",
+    "family": "lower-back",
+    "sites": [
+      "lumbar-spine",
+      "sacrum",
+      "gluteus-maximus",
+      "hamstring-mid",
+      "knee-posterior"
+    ],
+    "prefer": [
+      "mobility",
+      "nerve_glide",
+      "motor_control"
+    ],
+    "caps": {
+      "lumbar": {
+        "flexion": 35,
+        "extension": 15
+      },
+      "hip": {
+        "flexion": 80
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": false,
+    "nerveWatch": true,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "Nerves do not like being stretched hard. We move within a range that leaves the leg calm.",
+    "redirect": null,
+    "shares": [],
+    "families": [
+      "lower-back",
+      "hip",
+      "thigh",
+      "knee"
+    ]
   },
   {
     "id": "si-joint",
@@ -33,7 +135,40 @@
     "explanation": "Pain close to the pelvic joints can be sensitive to uneven loading. Comfortable, even-sided movement and gradual hip strength may help.",
     "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
-    "nameAr": "نمط ألم أسفل الظهر"
+    "nameAr": "ألم حول مفصل الحوض الخلفي",
+    "family": "lower-back",
+    "sites": [
+      "si-joint",
+      "sacrum",
+      "gluteus-medius",
+      "gluteus-maximus",
+      "lower-abdomen"
+    ],
+    "prefer": [
+      "isometric",
+      "motor_control",
+      "strength"
+    ],
+    "caps": {
+      "pelvis": {
+        "lateral_flexion": 12,
+        "internal_rotation": 12
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "Symmetry and steady loading suit this joint: avoid long strides and heavy twisting at first.",
+    "redirect": null,
+    "shares": [],
+    "families": [
+      "lower-back",
+      "hip",
+      "trunk"
+    ]
   },
   {
     "id": "neck-mechanical",
@@ -42,7 +177,38 @@
     "explanation": "Neck movement can become uncomfortable after an awkward load or position. Gentle movement and gradual strength usually help.",
     "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
-    "nameAr": "نمط ألم الرقبة"
+    "nameAr": "رقبة متحسسة ويابسة",
+    "family": "neck",
+    "sites": [
+      "cervical-upper",
+      "cervical-lower",
+      "trapezius-upper",
+      "occiput"
+    ],
+    "prefer": [
+      "mobility",
+      "isometric"
+    ],
+    "caps": {
+      "cervical": {
+        "flexion": 45,
+        "extension": 45,
+        "lateral_flexion": 40,
+        "internal_rotation": 60
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "Small, frequent, comfortable movement. Cracking or end-range stretching is not the goal.",
+    "redirect": null,
+    "shares": [],
+    "families": [
+      "neck"
+    ]
   },
   {
     "id": "neck-postural",
@@ -51,7 +217,40 @@
     "explanation": "Long periods in one position can tire the neck and shoulders. Regular movement breaks matter more than finding a perfect posture.",
     "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
-    "nameAr": "نمط ألم الرقبة"
+    "nameAr": "انزعاج الرقبة مع وضوية ثابتة",
+    "family": "neck",
+    "sites": [
+      "trapezius-upper",
+      "cervical-lower",
+      "rhomboid",
+      "thoracic-spine",
+      "scapula"
+    ],
+    "prefer": [
+      "motor_control",
+      "strength",
+      "mobility"
+    ],
+    "caps": {
+      "cervical": {
+        "flexion": 40,
+        "extension": 40
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "Holding one position is the trigger, not the position itself — we change shape often.",
+    "redirect": null,
+    "shares": [],
+    "families": [
+      "neck",
+      "upper-back",
+      "shoulder"
+    ]
   },
   {
     "id": "neck-headache",
@@ -60,7 +259,39 @@
     "explanation": "Some headaches change with neck position or movement. Easy neck mobility can help, but new or unusual headaches need an assessment.",
     "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
-    "nameAr": "نمط ألم الرقبة"
+    "nameAr": "صداع مرتبط بحركة الرقبة",
+    "family": "head-jaw",
+    "sites": [
+      "occiput",
+      "cervical-upper",
+      "temple",
+      "forehead",
+      "scalp-side"
+    ],
+    "prefer": [
+      "mobility",
+      "motor_control"
+    ],
+    "caps": {
+      "cervical": {
+        "flexion": 40,
+        "extension": 30,
+        "lateral_flexion": 30
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "These headaches usually start in the upper neck, so we move the neck, not the head only.",
+    "redirect": null,
+    "shares": [],
+    "families": [
+      "neck",
+      "head-jaw"
+    ]
   },
   {
     "id": "cervical-radicular",
@@ -69,7 +300,42 @@
     "explanation": "Pain or tingling travelling into the arm can reflect nerve sensitivity. Avoid movements that spread symptoms farther down the arm.",
     "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
-    "nameAr": "نمط ألم الرقبة"
+    "nameAr": "ألم رقبة مع تحسس أعصب اليد",
+    "family": "neck",
+    "sites": [
+      "cervical-upper",
+      "cervical-lower",
+      "trapezius-upper",
+      "posterior-deltoid",
+      "forearm-extensor"
+    ],
+    "prefer": [
+      "mobility",
+      "nerve_glide",
+      "isometric"
+    ],
+    "caps": {
+      "cervical": {
+        "flexion": 35,
+        "extension": 25,
+        "lateral_flexion": 30,
+        "internal_rotation": 40
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": false,
+    "nerveWatch": true,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "If tingling travels further down the arm, we shorten the range immediately.",
+    "redirect": null,
+    "shares": [],
+    "families": [
+      "neck",
+      "shoulder",
+      "elbow"
+    ]
   },
   {
     "id": "rotator-cuff",
@@ -78,7 +344,39 @@
     "explanation": "The muscles and tendons supporting your shoulder may be sensitive to reaching and lifting. A manageable amount of loading can build their tolerance.",
     "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
-    "nameAr": "نمط ألم الكتف"
+    "nameAr": "كتف يتحسس الحمل",
+    "family": "shoulder",
+    "sites": [
+      "rotator-cuff",
+      "posterior-deltoid",
+      "lateral-deltoid",
+      "scapula",
+      "anterior-deltoid"
+    ],
+    "prefer": [
+      "isometric",
+      "motor_control",
+      "strength"
+    ],
+    "caps": {
+      "shoulder": {
+        "flexion": 120,
+        "abduction": 100,
+        "external_rotation": 45
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "Load the cuff before you load the range. Pain-free early, full range later.",
+    "redirect": null,
+    "shares": [],
+    "families": [
+      "shoulder"
+    ]
   },
   {
     "id": "subacromial",
@@ -87,7 +385,38 @@
     "explanation": "Reaching overhead can irritate a sensitive shoulder. Comfortable movement and gradual shoulder strength can improve confidence and capacity.",
     "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
-    "nameAr": "نمط ألم الكتف"
+    "nameAr": "ألم عند رفع الذراع",
+    "family": "shoulder",
+    "sites": [
+      "lateral-deltoid",
+      "anterior-deltoid",
+      "ac-joint",
+      "rotator-cuff"
+    ],
+    "prefer": [
+      "mobility",
+      "isometric",
+      "motor_control"
+    ],
+    "caps": {
+      "shoulder": {
+        "flexion": 110,
+        "abduction": 90,
+        "internal_rotation": 60
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "The painful arc is usually in the middle. We train below it and above it, not inside it.",
+    "redirect": null,
+    "shares": [],
+    "families": [
+      "shoulder"
+    ]
   },
   {
     "id": "frozen-shoulder",
@@ -96,7 +425,43 @@
     "explanation": "A slowly stiffening shoulder, including difficulty turning the arm outwards, can need a gentler approach. Avoid forcing stretches or heavy strengthening while it is very painful.",
     "course": "Often changes over many months. Comfort and useful movement matter more than forcing range.",
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
-    "nameAr": "نمط ألم الكتف"
+    "nameAr": "تيبس الكتف في عدة اتجاهات",
+    "family": "shoulder",
+    "sites": [
+      "anterior-deltoid",
+      "posterior-deltoid",
+      "lateral-deltoid",
+      "rotator-cuff",
+      "pectoral"
+    ],
+    "prefer": [
+      "mobility",
+      "breathing"
+    ],
+    "caps": {
+      "shoulder": {
+        "flexion": 100,
+        "abduction": 80,
+        "external_rotation": 40,
+        "internal_rotation": 40
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": 1,
+    "lockPhases": [
+      2,
+      3
+    ],
+    "cue": "Stiffness in several directions means we protect the joint: no strengthening until it settles.",
+    "redirect": null,
+    "shares": [],
+    "families": [
+      "shoulder",
+      "chest"
+    ]
   },
   {
     "id": "ac-joint",
@@ -105,7 +470,39 @@
     "explanation": "The small joint at the top of your shoulder can be sensitive to crossing your arm or lying on that side. Adjust the load while keeping comfortable movement.",
     "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
-    "nameAr": "نمط ألم الكتف"
+    "nameAr": "ألم أعلى الكتف",
+    "family": "shoulder",
+    "sites": [
+      "ac-joint",
+      "anterior-deltoid",
+      "pectoral",
+      "lateral-deltoid"
+    ],
+    "prefer": [
+      "isometric",
+      "mobility",
+      "motor_control"
+    ],
+    "caps": {
+      "shoulder": {
+        "flexion": 90,
+        "abduction": 80,
+        "internal_rotation": 30
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "Reaching across the body is the provocative direction, so we keep the arm in front of you.",
+    "redirect": null,
+    "shares": [],
+    "families": [
+      "shoulder",
+      "chest"
+    ]
   },
   {
     "id": "patellofemoral",
@@ -114,7 +511,40 @@
     "explanation": "Stairs, squats or long sitting can be uncomfortable when the kneecap area is sensitive. Gradual hip and knee loading can build tolerance.",
     "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
-    "nameAr": "نمط ألم الركبة"
+    "nameAr": "ألم حول صابونة الركبة",
+    "family": "knee",
+    "sites": [
+      "knee-anterior",
+      "quadriceps",
+      "patellar-tendon",
+      "it-band",
+      "knee-lateral"
+    ],
+    "prefer": [
+      "isometric",
+      "strength",
+      "mobility"
+    ],
+    "caps": {
+      "knee": {
+        "flexion": 60
+      },
+      "hip": {
+        "flexion": 85
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "We build the quadriceps in the range that does not press the kneecap in hard.",
+    "redirect": null,
+    "shares": [],
+    "families": [
+      "knee"
+    ]
   },
   {
     "id": "patellar-tendon",
@@ -123,7 +553,35 @@
     "explanation": "Jumping and faster loading can irritate the tendon below the kneecap. Start with manageable loading, then rebuild spring and speed.",
     "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
-    "nameAr": "نمط ألم الركبة"
+    "nameAr": "تحمل الرضفي أمام الركبة",
+    "family": "knee",
+    "sites": [
+      "patellar-tendon",
+      "knee-anterior",
+      "quadriceps"
+    ],
+    "prefer": [
+      "isometric",
+      "eccentric",
+      "strength"
+    ],
+    "caps": {
+      "knee": {
+        "flexion": 70
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": true,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "Tendons like slow, heavy, predictable load. Total rest usually makes the next day worse.",
+    "redirect": null,
+    "shares": [],
+    "families": [
+      "knee"
+    ]
   },
   {
     "id": "meniscal",
@@ -132,7 +590,39 @@
     "explanation": "A sensitive knee can dislike deep bending and rotation. Comfortable movement and strength help; true locking needs an assessment.",
     "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
-    "nameAr": "نمط ألم الركبة"
+    "nameAr": "ركبة تتحسس الدوران",
+    "family": "knee",
+    "sites": [
+      "knee-medial",
+      "knee-lateral",
+      "knee-posterior",
+      "hamstring-mid",
+      "calf"
+    ],
+    "prefer": [
+      "mobility",
+      "strength",
+      "motor_control"
+    ],
+    "caps": {
+      "knee": {
+        "flexion": 90
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "Deep squatting and twisting together is the aggravating pattern, so we separate them.",
+    "redirect": null,
+    "shares": [],
+    "families": [
+      "knee",
+      "thigh",
+      "ankle"
+    ]
   },
   {
     "id": "knee-oa",
@@ -141,7 +631,38 @@
     "explanation": "A knee that stiffens after rest often benefits from regular gentle movement and progressive strength. Symptoms do not tell us how much structural change is present.",
     "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
-    "nameAr": "نمط ألم الركبة"
+    "nameAr": "ركبة يابسة تلين مع الحركة",
+    "family": "knee",
+    "sites": [
+      "knee-anterior",
+      "knee-medial",
+      "knee-lateral",
+      "quadriceps",
+      "calf"
+    ],
+    "prefer": [
+      "mobility",
+      "strength",
+      "isometric"
+    ],
+    "caps": {
+      "knee": {
+        "flexion": 110
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "Stiffness eases with movement, so the first minutes are a warm-up, not a waste.",
+    "redirect": null,
+    "shares": [],
+    "families": [
+      "knee",
+      "ankle"
+    ]
   },
   {
     "id": "gluteal-tendon",
@@ -150,7 +671,37 @@
     "explanation": "The outer hip tendons may be sensitive to compression and load. Avoid hanging on one hip and build strength without squeezing the painful side.",
     "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
-    "nameAr": "نمط ألم الورك"
+    "nameAr": "ألم خارج الورك",
+    "family": "hip",
+    "sites": [
+      "gluteus-medius",
+      "hip-lateral",
+      "gluteus-maximus",
+      "hamstring-proximal"
+    ],
+    "prefer": [
+      "isometric",
+      "strength",
+      "motor_control"
+    ],
+    "caps": {
+      "hip": {
+        "abduction": 35,
+        "flexion": 80
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "Compression matters more than weakness: we reduce time on that side before adding load.",
+    "redirect": null,
+    "shares": [],
+    "families": [
+      "hip"
+    ]
   },
   {
     "id": "hip-oa",
@@ -159,7 +710,41 @@
     "explanation": "Hip stiffness often responds to regular comfortable movement and strength. Keep useful movement in your day and build gradually.",
     "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
-    "nameAr": "نمط ألم الورك"
+    "nameAr": "ورك يابس بعد الجلوس",
+    "family": "hip",
+    "sites": [
+      "hip-anterior",
+      "hip-lateral",
+      "quadriceps",
+      "gluteus-maximus",
+      "thoracic-spine"
+    ],
+    "prefer": [
+      "mobility",
+      "strength",
+      "isometric"
+    ],
+    "caps": {
+      "hip": {
+        "flexion": 100,
+        "internal_rotation": 20,
+        "abduction": 30
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "Stiffness after sitting eases with movement; end-range grinding is not a goal.",
+    "redirect": null,
+    "shares": [],
+    "families": [
+      "hip",
+      "knee",
+      "upper-back"
+    ]
   },
   {
     "id": "groin-strain",
@@ -168,7 +753,37 @@
     "explanation": "The muscles around your groin can become sensitive after a change in activity or a strain. Begin with easy contractions before returning to faster movements.",
     "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
-    "nameAr": "نمط ألم الورك"
+    "nameAr": "شد في المغبن",
+    "family": "hip",
+    "sites": [
+      "hip-anterior",
+      "adductor",
+      "lower-abdomen"
+    ],
+    "prefer": [
+      "isometric",
+      "strength",
+      "mobility"
+    ],
+    "caps": {
+      "hip": {
+        "abduction": 30,
+        "flexion": 90
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": true,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "Adduction is loaded early but slowly — this area is stubborn when rushed.",
+    "redirect": null,
+    "shares": [],
+    "families": [
+      "hip",
+      "trunk"
+    ]
   },
   {
     "id": "ankle-sprain",
@@ -177,7 +792,38 @@
     "explanation": "After a twist, comfortable motion and gradually returning weight through the ankle can help. Major swelling or inability to bear weight needs assessment.",
     "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
-    "nameAr": "نمط ألم الكاحل"
+    "nameAr": "كاحل يتعافى من التواء",
+    "family": "ankle",
+    "sites": [
+      "ankle-lateral",
+      "ankle-medial",
+      "calf",
+      "shin"
+    ],
+    "prefer": [
+      "mobility",
+      "isometric",
+      "balance"
+    ],
+    "caps": {
+      "ankle": {
+        "flexion": 40,
+        "extension": 20
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "Balance work is not a bonus here: it is how the ankle learns to trust the ground again.",
+    "redirect": null,
+    "shares": [],
+    "families": [
+      "ankle",
+      "lower-leg"
+    ]
   },
   {
     "id": "achilles",
@@ -186,7 +832,37 @@
     "explanation": "The tendon behind the ankle may be sensitive to sudden increases in walking or running. Consistent slow calf loading builds tolerance.",
     "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
-    "nameAr": "نمط ألم الكاحل"
+    "nameAr": "وتار أخيل يتحسس الحمل",
+    "family": "ankle",
+    "sites": [
+      "achilles",
+      "calf",
+      "heel",
+      "ankle-medial"
+    ],
+    "prefer": [
+      "isometric",
+      "eccentric",
+      "strength"
+    ],
+    "caps": {
+      "ankle": {
+        "flexion": 45,
+        "extension": 15
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": true,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "Heel raises are the treatment, not the risk — but slow, and never first thing in the morning.",
+    "redirect": null,
+    "shares": [],
+    "families": [
+      "ankle"
+    ]
   },
   {
     "id": "plantar-heel",
@@ -195,7 +871,40 @@
     "explanation": "The tissues under the heel may be sensitive after rest and long periods of standing. Comfortable foot and calf loading can help.",
     "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
-    "nameAr": "نمط ألم الكاحل"
+    "nameAr": "ألم الكعب في أول الخطوات",
+    "family": "ankle",
+    "sites": [
+      "heel",
+      "plantar-arch",
+      "toes",
+      "forefoot"
+    ],
+    "prefer": [
+      "isometric",
+      "mobility",
+      "strength"
+    ],
+    "caps": {
+      "ankle": {
+        "extension": 18
+      },
+      "toes": {
+        "extension": 45
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": true,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "First-step pain eases with load preparedness: calf and foot work before you stand up.",
+    "redirect": null,
+    "shares": [],
+    "families": [
+      "ankle",
+      "foot"
+    ]
   },
   {
     "id": "lateral-elbow",
@@ -204,7 +913,40 @@
     "explanation": "Gripping and lifting may irritate the muscles attaching to the outer elbow. Adjust the grip load and rebuild wrist strength.",
     "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
-    "nameAr": "نمط ألم الذراع"
+    "nameAr": "ألم خارج المرفق",
+    "family": "elbow",
+    "sites": [
+      "elbow-lateral",
+      "forearm-extensor",
+      "wrist-dorsal"
+    ],
+    "prefer": [
+      "isometric",
+      "eccentric",
+      "strength"
+    ],
+    "caps": {
+      "elbow": {
+        "flexion": 140
+      },
+      "wrist": {
+        "extension": 60,
+        "flexion": 60
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": true,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "Grip and wrist extension load the tender spot. We work the wrist with the elbow bent.",
+    "redirect": null,
+    "shares": [],
+    "families": [
+      "elbow",
+      "wrist"
+    ]
   },
   {
     "id": "medial-elbow",
@@ -213,7 +955,40 @@
     "explanation": "Pulling and wrist bending can irritate the inner elbow. Gradual forearm loading and activity changes can build tolerance.",
     "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
-    "nameAr": "نمط ألم الذراع"
+    "nameAr": "ألم داخل المرفق",
+    "family": "elbow",
+    "sites": [
+      "elbow-medial",
+      "forearm-flexor",
+      "wrist-volar"
+    ],
+    "prefer": [
+      "isometric",
+      "eccentric",
+      "strength"
+    ],
+    "caps": {
+      "elbow": {
+        "flexion": 140
+      },
+      "wrist": {
+        "flexion": 60,
+        "extension": 60
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": true,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "Same logic as the outer elbow: less stretch, more steady load, and the grip gets easier.",
+    "redirect": null,
+    "shares": [],
+    "families": [
+      "elbow",
+      "wrist"
+    ]
   },
   {
     "id": "de-quervain",
@@ -222,7 +997,38 @@
     "explanation": "Thumb and wrist tendons can become sensitive with repetitive use. Reduce prolonged pinching and begin comfortable movement.",
     "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
-    "nameAr": "نمط ألم الذراع"
+    "nameAr": "ألم الرسغ جهة الإبهام",
+    "family": "wrist",
+    "sites": [
+      "thumb-base",
+      "wrist-volar",
+      "forearm-extensor"
+    ],
+    "prefer": [
+      "isometric",
+      "mobility",
+      "strength"
+    ],
+    "caps": {
+      "wrist": {
+        "extension": 45,
+        "flexion": 45,
+        "abduction": 15
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": true,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "Lifting with the thumb out to the side is what flares it. We keep the thumb in line.",
+    "redirect": null,
+    "shares": [],
+    "families": [
+      "wrist",
+      "elbow"
+    ]
   },
   {
     "id": "carpal-tunnel",
@@ -231,7 +1037,42 @@
     "explanation": "A sensitive nerve at the wrist can cause hand tingling, often at night. Keep the wrist comfortable and seek assessment for persistent numbness or weakness.",
     "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
-    "nameAr": "نمط ألم الذراع"
+    "nameAr": "تنميل في اليد",
+    "family": "wrist",
+    "sites": [
+      "wrist-volar",
+      "hand-palm",
+      "fingers",
+      "forearm-flexor",
+      "elbow-medial"
+    ],
+    "prefer": [
+      "nerve_glide",
+      "mobility",
+      "isometric"
+    ],
+    "caps": {
+      "wrist": {
+        "extension": 40,
+        "flexion": 40
+      },
+      "elbow": {
+        "flexion": 120
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": false,
+    "nerveWatch": true,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "Nerve symptoms need positions that unload them: we avoid end-range wrist flexion and extension.",
+    "redirect": null,
+    "shares": [],
+    "families": [
+      "wrist",
+      "elbow"
+    ]
   },
   {
     "id": "thoracic",
@@ -240,7 +1081,41 @@
     "explanation": "Your upper back can become sensitive to sustained positions and unfamiliar loads. Easy rotation, breathing and strength can help.",
     "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
-    "nameAr": "نمط ألم أعلى الظهر"
+    "nameAr": "يبوسة أعلى الظهر",
+    "family": "upper-back",
+    "sites": [
+      "thoracic-spine",
+      "rhomboid",
+      "costal-margin",
+      "scapula"
+    ],
+    "prefer": [
+      "mobility",
+      "motor_control",
+      "strength"
+    ],
+    "caps": {
+      "thoracic": {
+        "flexion": 40,
+        "extension": 30,
+        "rotation": 35
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "The upper back is stiff because it is unloaded, not because it is fragile.",
+    "redirect": null,
+    "shares": [
+      "thoracic"
+    ],
+    "families": [
+      "upper-back",
+      "shoulder"
+    ]
   },
   {
     "id": "rib",
@@ -249,6 +1124,756 @@
     "explanation": "Muscles and joints around the ribs can become sensitive to twisting and deep breathing. Keep movement easy; chest pain or breathlessness needs prompt assessment.",
     "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
-    "nameAr": "نمط ألم أعلى الظهر"
+    "nameAr": "ألم حركة الأضلاع",
+    "family": "upper-back",
+    "sites": [
+      "costal-margin",
+      "thoracic-spine",
+      "pectoral",
+      "oblique"
+    ],
+    "prefer": [
+      "breathing",
+      "mobility",
+      "motor_control"
+    ],
+    "caps": {
+      "thoracic": {
+        "flexion": 25,
+        "extension": 20,
+        "rotation": 20
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "Breathing is the treatment here: a shallow rib cage keeps the area guarded.",
+    "redirect": null,
+    "shares": [],
+    "families": [
+      "upper-back",
+      "chest",
+      "trunk"
+    ]
+  },
+  {
+    "id": "trunk-motor",
+    "group": "trunk",
+    "family": "trunk",
+    "name": "Tummy and back muscles that have switched off",
+    "explanation": "Your symptoms sit in the trunk muscles rather than the spine itself. Breathing, gentle bracing and steady loading usually settle it.",
+    "course": "Often improves within a few weeks once the trunk muscles are used consistently rather than hard.",
+    "helps": "Short, frequent sessions. Stop before form breaks down, not when it hurts.",
+    "nameAr": "تحكم عضلات الجذع",
+    "sites": [
+      "oblique",
+      "upper-abdomen",
+      "lower-abdomen",
+      "lumbar-spine"
+    ],
+    "prefer": [
+      "breathing",
+      "motor_control",
+      "isometric"
+    ],
+    "caps": {
+      "lumbar": {
+        "flexion": 40,
+        "lateral_flexion": 22
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "The tummy muscles work with the back, not against it. We start with breathing and bracing.",
+    "redirect": null,
+    "shares": [
+      "back-flexion"
+    ]
+  },
+  {
+    "id": "scapular",
+    "group": "shoulder",
+    "family": "shoulder",
+    "name": "Pain around the shoulder blade",
+    "explanation": "The blade has to glide for the arm to work. When it sticks, the shoulder and neck both take the load.",
+    "course": "Responds well to a few weeks of controlled movement and loading.",
+    "helps": "Move the blade, then load it. Posture cues alone rarely fix this.",
+    "nameAr": "ألم حول لوح الكتف",
+    "sites": [
+      "scapula",
+      "rhomboid",
+      "trapezius-upper",
+      "posterior-deltoid"
+    ],
+    "prefer": [
+      "motor_control",
+      "strength",
+      "mobility"
+    ],
+    "caps": {
+      "scapula": {
+        "abduction": 40,
+        "adduction": 40
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "The blade has to move freely before the arm can be strong.",
+    "redirect": null,
+    "shares": [
+      "thoracic"
+    ]
+  },
+  {
+    "id": "shoulder-instability",
+    "group": "shoulder",
+    "family": "shoulder",
+    "name": "A shoulder that feels insecure",
+    "explanation": "After a sprain or a dislocation the shoulder often feels loose or guards itself. We build steadiness in the arc where you feel safe.",
+    "course": "Confidence in the shoulder usually returns gradually over 6–12 weeks of steady loading.",
+    "helps": "Keep the arm in front of you at first. Avoid end-range external rotation with load.",
+    "nameAr": "كتف يشعر بعدم الثبات",
+    "sites": [
+      "anterior-deltoid",
+      "rotator-cuff",
+      "lateral-deltoid",
+      "pectoral"
+    ],
+    "prefer": [
+      "isometric",
+      "strength",
+      "motor_control"
+    ],
+    "caps": {
+      "shoulder": {
+        "flexion": 120,
+        "abduction": 90,
+        "external_rotation": 30
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "A shoulder that has felt loose is trained in the safe arc, with the arm in front of the body.",
+    "redirect": null,
+    "shares": [
+      "rotator-cuff"
+    ]
+  },
+  {
+    "id": "itb",
+    "group": "knee",
+    "family": "knee",
+    "name": "Pain on the outside of the knee or thigh",
+    "explanation": "The band down the outside of the thigh gets loaded heavily when the hip muscles do less work. It settles with hip strength and a temporary reduction in volume.",
+    "course": "Usually improves over 4–8 weeks when running or walking load is cut back and rebuilt.",
+    "helps": "Reduce distance first, then strengthen the hip. Stretching the band itself changes little.",
+    "nameAr": "ألم خارج الركبة والفخذ",
+    "sites": [
+      "it-band",
+      "knee-lateral",
+      "gluteus-medius",
+      "hip-lateral",
+      "quadriceps"
+    ],
+    "prefer": [
+      "isometric",
+      "strength",
+      "mobility"
+    ],
+    "caps": {
+      "knee": {
+        "flexion": 70
+      },
+      "hip": {
+        "abduction": 30
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "The outer knee usually settles when the hip muscles take more of the work.",
+    "redirect": null,
+    "shares": [
+      "patellofemoral"
+    ]
+  },
+  {
+    "id": "hamstring-strain",
+    "group": "hip",
+    "family": "hip",
+    "name": "Back of the thigh, sore when you push off",
+    "explanation": "The hamstring is usually irritated at its muscle belly or near the sit bone. It heals best under gradual load, not rest and stretching.",
+    "course": "Expect 3–6 weeks for a simple strain; heavier ones take longer.",
+    "helps": "Isometrics early, slow lengthening under load later. Avoid aggressive stretching for a week.",
+    "nameAr": "إصابة عضلات خلف الفخذ",
+    "sites": [
+      "hamstring-mid",
+      "hamstring-proximal",
+      "gluteus-maximus",
+      "knee-posterior"
+    ],
+    "prefer": [
+      "isometric",
+      "eccentric",
+      "strength"
+    ],
+    "caps": {
+      "hip": {
+        "flexion": 70
+      },
+      "knee": {
+        "flexion": 100
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": true,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "Early stretching is what turns a short strain into a long one. We load it gently instead.",
+    "redirect": null,
+    "shares": [
+      "groin-strain"
+    ]
+  },
+  {
+    "id": "thigh-muscle",
+    "group": "knee",
+    "family": "knee",
+    "name": "Thigh muscle ache after activity",
+    "explanation": "Front, side or back of the thigh, usually reproduced by the same contraction that hurt it. Capacity, not damage, is the limiting factor.",
+    "course": "Typically settles in 2–4 weeks with steady loading.",
+    "helps": "Keep the muscle working through the range that does not sharp-pain.",
+    "nameAr": "ألم عضلي في الفخذ",
+    "sites": [
+      "quadriceps",
+      "adductor",
+      "hamstring-mid",
+      "it-band"
+    ],
+    "prefer": [
+      "isometric",
+      "strength",
+      "mobility"
+    ],
+    "caps": {
+      "knee": {
+        "flexion": 100
+      },
+      "hip": {
+        "flexion": 90,
+        "abduction": 30
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "Ache on the squeeze is fine; sharp pain at the same spot means we shorten the lever.",
+    "redirect": null,
+    "shares": [
+      "groin-strain"
+    ]
+  },
+  {
+    "id": "hip-flexor",
+    "group": "hip",
+    "family": "hip",
+    "name": "Pinching at the front of the hip",
+    "explanation": "A pinch at a fixed angle is usually the soft tissues being compressed, not damage. Working around the pinch keeps things moving.",
+    "course": "Settles over a few weeks when the provocative angle is respected.",
+    "helps": "Stop short of the pinch, then extend the range weekly.",
+    "nameAr": "ألم أمام الورك",
+    "sites": [
+      "hip-anterior",
+      "quadriceps",
+      "lower-abdomen",
+      "lumbar-spine"
+    ],
+    "prefer": [
+      "isometric",
+      "mobility",
+      "strength"
+    ],
+    "caps": {
+      "hip": {
+        "flexion": 95
+      },
+      "lumbar": {
+        "extension": 25
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "Front-of-hip pinching means we stop short of the pinch and work around it.",
+    "redirect": null,
+    "shares": [
+      "hip-oa"
+    ]
+  },
+  {
+    "id": "ankle-instability",
+    "group": "ankle",
+    "family": "ankle",
+    "name": "An ankle that keeps going over",
+    "explanation": "After repeated sprains the ankle reacts more slowly than it needs to. Balance and peroneal work is the treatment.",
+    "course": "Neuromuscular gains build over 6–8 weeks of short daily practice.",
+    "helps": "Practice balance on soft surfaces, progress to turning and landing.",
+    "nameAr": "كاحل يوشك أن ينخاس",
+    "sites": [
+      "ankle-lateral",
+      "ankle-medial",
+      "calf",
+      "shin"
+    ],
+    "prefer": [
+      "balance",
+      "strength",
+      "isometric"
+    ],
+    "caps": {
+      "ankle": {
+        "flexion": 45,
+        "extension": 22
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "Giving way is a control problem, so we train control on unstable ground progressively.",
+    "redirect": null,
+    "shares": [
+      "ankle-sprain"
+    ]
+  },
+  {
+    "id": "shin-stress",
+    "group": "lower-leg",
+    "family": "lower-leg",
+    "name": "Shin pain that builds with impact",
+    "explanation": "Pain along the inner shin that worsens with running is a load-tolerance problem. Bone stress needs load removed early, not pushed through.",
+    "course": "A few weeks of reduced impact plus calf and hip capacity usually settles it.",
+    "helps": "Reduce impact now, keep non-impact fitness, rebuild distance slowly.",
+    "nameAr": "ألم أمام الساق مع الجري",
+    "sites": [
+      "shin",
+      "medial-shin",
+      "calf"
+    ],
+    "prefer": [
+      "isometric",
+      "strength",
+      "balance"
+    ],
+    "caps": {
+      "ankle": {
+        "flexion": 35,
+        "extension": 15
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": true,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "Pain along the shin that is worse with impact needs load reduced now, then rebuilt carefully.",
+    "redirect": null,
+    "shares": [
+      "ankle-sprain"
+    ]
+  },
+  {
+    "id": "forefoot",
+    "group": "foot",
+    "family": "foot",
+    "name": "Ball of the foot or toes",
+    "explanation": "Forefoot pain is usually about load under the metatarsal heads and how stiff the big toe is. Foot and calf work helps; so does the shoe.",
+    "course": "Improves over several weeks once the load pattern changes.",
+    "helps": "Calf strength, toe movement, and shoes that bend where your foot bends.",
+    "nameAr": "ألم مشط القدم",
+    "sites": [
+      "forefoot",
+      "toes",
+      "instep",
+      "plantar-arch",
+      "heel"
+    ],
+    "prefer": [
+      "mobility",
+      "strength",
+      "balance"
+    ],
+    "caps": {
+      "toes": {
+        "extension": 50,
+        "flexion": 40
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "Toe and ball-of-foot pain responds to calf work and to shoes that bend where you bend.",
+    "redirect": null,
+    "shares": [
+      "plantar-heel"
+    ]
+  },
+  {
+    "id": "elbow-extension",
+    "group": "elbow",
+    "family": "elbow",
+    "name": "Back of the elbow when you straighten under load",
+    "explanation": "The triceps insertion is loaded most at the end of straightening, so early work happens in mid-range.",
+    "course": "Tendon-type symptoms: expect several weeks of steady load.",
+    "helps": "Bent-elbow loading first, gradual straightening under load later.",
+    "nameAr": "ألم خلف المرفق",
+    "sites": [
+      "elbow-posterior",
+      "triceps",
+      "forearm-extensor",
+      "elbow-lateral"
+    ],
+    "prefer": [
+      "mobility",
+      "isometric",
+      "strength"
+    ],
+    "caps": {
+      "elbow": {
+        "flexion": 145,
+        "extension": 8
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "Straightening under load is the sore movement, so we build in the middle of the range first.",
+    "redirect": null,
+    "shares": [
+      "lateral-elbow"
+    ]
+  },
+  {
+    "id": "biceps-tendon",
+    "group": "elbow",
+    "family": "elbow",
+    "name": "Front of shoulder and elbow that ache together",
+    "explanation": "The biceps tendon crosses both joints, so overhead load aggravates the shoulder and the elbow at once.",
+    "course": "Usually settles in 4–8 weeks with graded loading.",
+    "helps": "Reduce overhead volume, strengthen elbow flexion in mid-range.",
+    "nameAr": "ألم الوتر الأمامي للكتف والمرفق",
+    "sites": [
+      "biceps",
+      "anterior-deltoid",
+      "elbow-lateral",
+      "triceps"
+    ],
+    "prefer": [
+      "isometric",
+      "mobility",
+      "strength"
+    ],
+    "caps": {
+      "shoulder": {
+        "flexion": 120
+      },
+      "elbow": {
+        "flexion": 130
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "Front-of-shoulder and elbow ache usually shares one cause: overhead loading too early.",
+    "redirect": null,
+    "shares": [
+      "lateral-elbow"
+    ]
+  },
+  {
+    "id": "wrist-load",
+    "group": "wrist",
+    "family": "wrist",
+    "name": "Wrist pain when you push through it",
+    "explanation": "Weight-bearing with the wrist bent back concentrates load on the small bones on the back of the wrist.",
+    "course": "A few weeks of graded wrist loading, often with a brace for the aggravating activity.",
+    "helps": "Keep the wrist straight when loading, build tolerance gradually.",
+    "nameAr": "ألم الرسغ مع الحمل",
+    "sites": [
+      "wrist-dorsal",
+      "hand-dorsum",
+      "forearm-extensor",
+      "wrist-volar"
+    ],
+    "prefer": [
+      "mobility",
+      "isometric",
+      "strength"
+    ],
+    "caps": {
+      "wrist": {
+        "extension": 60,
+        "flexion": 60
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "Weight-bearing through a bent-back wrist is the aggravator. We build the same load upright first.",
+    "redirect": null,
+    "shares": [
+      "lateral-elbow"
+    ]
+  },
+  {
+    "id": "hand-stiff",
+    "group": "wrist",
+    "family": "wrist",
+    "name": "Stiff fingers and hand",
+    "explanation": "The hand loses movement quickly and regains it with repetition. Tendon gliding and gentle grip work keep things moving.",
+    "course": "Consistency matters more than intensity; several short sessions a day.",
+    "helps": "Move it often, avoid forcing a fist, warm the hand first.",
+    "nameAr": "يبوسة اليد والأصابع",
+    "sites": [
+      "fingers",
+      "hand-palm",
+      "hand-dorsum",
+      "thumb-base",
+      "wrist-volar"
+    ],
+    "prefer": [
+      "mobility",
+      "isometric"
+    ],
+    "caps": {
+      "wrist": {
+        "flexion": 60,
+        "extension": 60
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "Tendon gliding keeps the fingers moving; forcing a fist is what makes the morning worse.",
+    "redirect": null,
+    "shares": [
+      "lateral-elbow"
+    ]
+  },
+  {
+    "id": "chest-wall",
+    "group": "chest",
+    "family": "chest",
+    "name": "Chest wall pain with movement or breathing",
+    "explanation": "The joints where the ribs meet the breastbone are commonly tender and reproducible to touch. It is uncomfortable rather than dangerous — but chest symptoms still get checked.",
+    "course": "Often settles in a few weeks with movement and breathing work.",
+    "helps": "Deep breaths at your own pace, gentle opening, and an assessment if it is not clearly muscular.",
+    "nameAr": "ألم جدار الصدر",
+    "sites": [
+      "pectoral",
+      "costal-margin",
+      "upper-abdomen"
+    ],
+    "prefer": [
+      "breathing",
+      "mobility"
+    ],
+    "caps": {
+      "thoracic": {
+        "extension": 20
+      }
+    },
+    "guidanceOnly": false,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": true,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "Chest wall pain is common and benign, but chest symptoms always get checked first.",
+    "redirect": null,
+    "shares": [
+      "rib"
+    ]
+  },
+  {
+    "id": "tmj",
+    "group": "head-jaw",
+    "family": "head-jaw",
+    "name": "Jaw joint that clicks, aches or locks",
+    "explanation": "The jaw joint and the muscles of chewing are closely linked to neck posture and clenching. Position and habit changes do most of the work.",
+    "course": "Varies; many settle with a few weeks of rest positions and stress management.",
+    "helps": "Teeth apart, tongue on the roof of the mouth, soft diet for a week, and an assessment if it locks.",
+    "nameAr": "مفصل الفك",
+    "sites": [
+      "jaw",
+      "temple",
+      "face",
+      "ear"
+    ],
+    "prefer": [
+      "mobility",
+      "motor_control"
+    ],
+    "caps": {
+      "cervical": {
+        "flexion": 30
+      }
+    },
+    "guidanceOnly": true,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "Jaw patterns are managed with rest positions, not exercise machines: keep teeth apart.",
+    "redirect": null,
+    "shares": []
+  },
+  {
+    "id": "head-face-review",
+    "group": "head-jaw",
+    "family": "head-jaw",
+    "name": "Head and face discomfort",
+    "explanation": "Pain in the face, scalp or ear is usually not a muscle-joint problem that an exercise programme can fix. Neck-related headache is the exception, and we do treat that.",
+    "course": "Depends entirely on the cause.",
+    "helps": "If it came on suddenly and severely, or with visual or neurological change, seek care now.",
+    "nameAr": "الرأس والوجه",
+    "sites": [
+      "forehead",
+      "face",
+      "ear",
+      "scalp-side",
+      "scalp-top",
+      "temple"
+    ],
+    "prefer": [],
+    "caps": {},
+    "guidanceOnly": true,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "These areas are usually not a muscle-joint problem, so we point you somewhere useful instead.",
+    "redirect": null,
+    "shares": []
+  },
+  {
+    "id": "front-of-neck-review",
+    "group": "neck",
+    "family": "neck",
+    "name": "Front of the neck or throat",
+    "explanation": "Tenderness or a lump at the front of the neck needs a clinician rather than exercises. Neck movement from behind is often the actual source and we can treat that.",
+    "course": "Not an exercise-responsive pattern in most cases.",
+    "helps": "Get it assessed, especially with swallowing change, swelling or a persistent lump.",
+    "nameAr": "أمام الرقبة",
+    "sites": [
+      "sterno",
+      "cervical-lower"
+    ],
+    "prefer": [],
+    "caps": {},
+    "guidanceOnly": true,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "Front-of-neck symptoms need a person looking, not a programme.",
+    "redirect": null,
+    "shares": []
+  },
+  {
+    "id": "abdomen-review",
+    "group": "trunk",
+    "family": "trunk",
+    "name": "Tummy-area discomfort",
+    "explanation": "Pain inside the abdomen is usually from organs rather than the wall. Muscle and nerve pain in the tummy wall does exist, and we can treat that after a clinician agrees.",
+    "course": "Depends on the cause.",
+    "helps": "New, severe, one-sided with a bulge, or with fever or bowel change: get seen.",
+    "nameAr": "منطقة البطن",
+    "sites": [
+      "upper-abdomen",
+      "lower-abdomen"
+    ],
+    "prefer": [],
+    "caps": {},
+    "guidanceOnly": true,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "Tummy symptoms are usually not musculoskeletal. Here is what to watch and when to seek help.",
+    "redirect": null,
+    "shares": []
+  },
+  {
+    "id": "olecranon-review",
+    "group": "elbow",
+    "family": "elbow",
+    "name": "Tip of the elbow, swollen or warm",
+    "explanation": "The bursa at the tip of the elbow swells after leaning or a knock. Sometimes it becomes infected, which is not an exercise problem.",
+    "course": "Simple bursitis settles over weeks once the pressure is removed.",
+    "helps": "Stop leaning on it. If it is hot, red or you feel unwell, get seen today.",
+    "nameAr": "خلف المرفق",
+    "sites": [
+      "elbow-posterior"
+    ],
+    "prefer": [],
+    "caps": {},
+    "guidanceOnly": true,
+    "tendon": false,
+    "nerveWatch": false,
+    "reviewSoon": false,
+    "maxPhase": null,
+    "lockPhases": [],
+    "cue": "Back-of-elbow swelling or warmth needs assessment; leaning on it is the thing to stop.",
+    "redirect": null,
+    "shares": []
   }
 ]

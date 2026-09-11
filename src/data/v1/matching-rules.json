@@ -1,0 +1,369 @@
+[
+  {
+    "presentationId": "back-flexion",
+    "group": "lower-back",
+    "baseScore": 3,
+    "aggravators": {
+      "arching": 4,
+      "standing": 4
+    },
+    "easers": {
+      "bending": 3
+    },
+    "neuroWeight": -1,
+    "gradualWeight": 0,
+    "incidentWeight": 0
+  },
+  {
+    "presentationId": "back-extension",
+    "group": "lower-back",
+    "baseScore": 1,
+    "aggravators": {
+      "bending": 4,
+      "sitting": 4,
+      "lifting": 4
+    },
+    "easers": {
+      "arching": 3
+    },
+    "neuroWeight": -1,
+    "gradualWeight": 0,
+    "incidentWeight": 0
+  },
+  {
+    "presentationId": "lumbar-radicular",
+    "group": "lower-back",
+    "baseScore": 1,
+    "aggravators": {
+      "tingling": 4,
+      "leg": 4
+    },
+    "easers": {},
+    "neuroWeight": 7,
+    "gradualWeight": 0,
+    "incidentWeight": 0
+  },
+  {
+    "presentationId": "si-joint",
+    "group": "lower-back",
+    "baseScore": 1,
+    "aggravators": {
+      "stairs": 4,
+      "one-leg": 4
+    },
+    "easers": {},
+    "neuroWeight": -1,
+    "gradualWeight": 0,
+    "incidentWeight": 0
+  },
+  {
+    "presentationId": "neck-mechanical",
+    "group": "neck",
+    "baseScore": 3,
+    "aggravators": {
+      "turning": 4
+    },
+    "easers": {},
+    "neuroWeight": -1,
+    "gradualWeight": 0,
+    "incidentWeight": 0
+  },
+  {
+    "presentationId": "neck-postural",
+    "group": "neck",
+    "baseScore": 1,
+    "aggravators": {
+      "sitting": 4,
+      "desk": 4
+    },
+    "easers": {},
+    "neuroWeight": -1,
+    "gradualWeight": 0,
+    "incidentWeight": 0
+  },
+  {
+    "presentationId": "neck-headache",
+    "group": "neck",
+    "baseScore": 1,
+    "aggravators": {
+      "headache": 4
+    },
+    "easers": {},
+    "neuroWeight": -1,
+    "gradualWeight": 0,
+    "incidentWeight": 0
+  },
+  {
+    "presentationId": "cervical-radicular",
+    "group": "neck",
+    "baseScore": 1,
+    "aggravators": {
+      "tingling": 4,
+      "arm": 4
+    },
+    "easers": {},
+    "neuroWeight": 7,
+    "gradualWeight": 0,
+    "incidentWeight": 0
+  },
+  {
+    "presentationId": "rotator-cuff",
+    "group": "shoulder",
+    "baseScore": 3,
+    "aggravators": {
+      "lifting": 4,
+      "reaching": 4
+    },
+    "easers": {},
+    "neuroWeight": -1,
+    "gradualWeight": 0,
+    "incidentWeight": 0
+  },
+  {
+    "presentationId": "subacromial",
+    "group": "shoulder",
+    "baseScore": 1,
+    "aggravators": {
+      "overhead": 4
+    },
+    "easers": {},
+    "neuroWeight": -1,
+    "gradualWeight": 0,
+    "incidentWeight": 0
+  },
+  {
+    "presentationId": "frozen-shoulder",
+    "group": "shoulder",
+    "baseScore": 1,
+    "aggravators": {
+      "stiff-all": 4,
+      "dressing": 4
+    },
+    "easers": {},
+    "neuroWeight": -1,
+    "gradualWeight": 4,
+    "incidentWeight": 0
+  },
+  {
+    "presentationId": "ac-joint",
+    "group": "shoulder",
+    "baseScore": 1,
+    "aggravators": {
+      "cross-body": 4,
+      "side-lying": 4
+    },
+    "easers": {},
+    "neuroWeight": -1,
+    "gradualWeight": 0,
+    "incidentWeight": 0
+  },
+  {
+    "presentationId": "patellofemoral",
+    "group": "knee",
+    "baseScore": 3,
+    "aggravators": {
+      "stairs": 4,
+      "squatting": 4,
+      "sitting": 4
+    },
+    "easers": {},
+    "neuroWeight": -1,
+    "gradualWeight": 0,
+    "incidentWeight": 0
+  },
+  {
+    "presentationId": "patellar-tendon",
+    "group": "knee",
+    "baseScore": 1,
+    "aggravators": {
+      "jumping": 4,
+      "running": 4
+    },
+    "easers": {},
+    "neuroWeight": -1,
+    "gradualWeight": 0,
+    "incidentWeight": 0
+  },
+  {
+    "presentationId": "meniscal",
+    "group": "knee",
+    "baseScore": 1,
+    "aggravators": {
+      "twisting": 4,
+      "deep-bend": 4
+    },
+    "easers": {},
+    "neuroWeight": -1,
+    "gradualWeight": 0,
+    "incidentWeight": 5
+  },
+  {
+    "presentationId": "knee-oa",
+    "group": "knee",
+    "baseScore": 1,
+    "aggravators": {
+      "morning": 4,
+      "walking": 4
+    },
+    "easers": {},
+    "neuroWeight": -1,
+    "gradualWeight": 0,
+    "incidentWeight": 0
+  },
+  {
+    "presentationId": "gluteal-tendon",
+    "group": "hip",
+    "baseScore": 3,
+    "aggravators": {
+      "side-lying": 4,
+      "one-leg": 4
+    },
+    "easers": {},
+    "neuroWeight": -1,
+    "gradualWeight": 0,
+    "incidentWeight": 0
+  },
+  {
+    "presentationId": "hip-oa",
+    "group": "hip",
+    "baseScore": 1,
+    "aggravators": {
+      "morning": 4,
+      "walking": 4
+    },
+    "easers": {},
+    "neuroWeight": -1,
+    "gradualWeight": 0,
+    "incidentWeight": 0
+  },
+  {
+    "presentationId": "groin-strain",
+    "group": "hip",
+    "baseScore": 1,
+    "aggravators": {
+      "running": 4,
+      "incident": 4
+    },
+    "easers": {},
+    "neuroWeight": -1,
+    "gradualWeight": 0,
+    "incidentWeight": 5
+  },
+  {
+    "presentationId": "ankle-sprain",
+    "group": "ankle",
+    "baseScore": 3,
+    "aggravators": {
+      "incident": 4,
+      "twisting": 4
+    },
+    "easers": {},
+    "neuroWeight": -1,
+    "gradualWeight": 0,
+    "incidentWeight": 5
+  },
+  {
+    "presentationId": "achilles",
+    "group": "ankle",
+    "baseScore": 1,
+    "aggravators": {
+      "running": 4,
+      "heel-raise": 4
+    },
+    "easers": {},
+    "neuroWeight": -1,
+    "gradualWeight": 0,
+    "incidentWeight": 0
+  },
+  {
+    "presentationId": "plantar-heel",
+    "group": "ankle",
+    "baseScore": 1,
+    "aggravators": {
+      "morning": 4,
+      "standing": 4
+    },
+    "easers": {},
+    "neuroWeight": -1,
+    "gradualWeight": 0,
+    "incidentWeight": 0
+  },
+  {
+    "presentationId": "lateral-elbow",
+    "group": "elbow",
+    "baseScore": 3,
+    "aggravators": {
+      "gripping": 4,
+      "lifting": 4
+    },
+    "easers": {},
+    "neuroWeight": -1,
+    "gradualWeight": 0,
+    "incidentWeight": 0
+  },
+  {
+    "presentationId": "medial-elbow",
+    "group": "elbow",
+    "baseScore": 1,
+    "aggravators": {
+      "pulling": 4,
+      "wrist-flexion": 4
+    },
+    "easers": {},
+    "neuroWeight": -1,
+    "gradualWeight": 0,
+    "incidentWeight": 0
+  },
+  {
+    "presentationId": "de-quervain",
+    "group": "elbow",
+    "baseScore": 1,
+    "aggravators": {
+      "thumb": 4,
+      "pinching": 4
+    },
+    "easers": {},
+    "neuroWeight": -1,
+    "gradualWeight": 0,
+    "incidentWeight": 0
+  },
+  {
+    "presentationId": "carpal-tunnel",
+    "group": "elbow",
+    "baseScore": 1,
+    "aggravators": {
+      "tingling": 4,
+      "night": 4
+    },
+    "easers": {},
+    "neuroWeight": 7,
+    "gradualWeight": 0,
+    "incidentWeight": 0
+  },
+  {
+    "presentationId": "thoracic",
+    "group": "upper-back",
+    "baseScore": 3,
+    "aggravators": {
+      "sitting": 4,
+      "turning": 4
+    },
+    "easers": {},
+    "neuroWeight": -1,
+    "gradualWeight": 0,
+    "incidentWeight": 0
+  },
+  {
+    "presentationId": "rib",
+    "group": "upper-back",
+    "baseScore": 1,
+    "aggravators": {
+      "breathing": 4,
+      "twisting": 4
+    },
+    "easers": {},
+    "neuroWeight": -1,
+    "gradualWeight": 0,
+    "incidentWeight": 0
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "id": "back-flexion",
+    "group": "lower-back",
+    "name": "Back pain that prefers bending",
+    "explanation": "Your back is sensitive to sustained arching or standing. Comfortable bending and gradually rebuilding strength may help.",
+    "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
+    "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
+    "nameAr": "نمط ألم أسفل الظهر"
+  },
+  {
+    "id": "back-extension",
+    "group": "lower-back",
+    "name": "Back pain that prefers straightening",
+    "explanation": "Sitting and bending seem to irritate your back. Short, comfortable movement in the opposite direction may help.",
+    "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
+    "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
+    "nameAr": "نمط ألم أسفل الظهر"
+  },
+  {
+    "id": "lumbar-radicular",
+    "group": "lower-back",
+    "name": "Back pain with sensitive leg nerves",
+    "explanation": "A sensitive nerve can cause pain or tingling that travels into a leg. Start with movements that keep symptoms closer to your back, not farther down your leg.",
+    "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
+    "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
+    "nameAr": "نمط ألم أسفل الظهر"
+  },
+  {
+    "id": "si-joint",
+    "group": "lower-back",
+    "name": "Pain around the back of your pelvis",
+    "explanation": "Pain close to the pelvic joints can be sensitive to uneven loading. Comfortable, even-sided movement and gradual hip strength may help.",
+    "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
+    "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
+    "nameAr": "نمط ألم أسفل الظهر"
+  },
+  {
+    "id": "neck-mechanical",
+    "group": "neck",
+    "name": "A sensitive, stiff neck",
+    "explanation": "Neck movement can become uncomfortable after an awkward load or position. Gentle movement and gradual strength usually help.",
+    "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
+    "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
+    "nameAr": "نمط ألم الرقبة"
+  },
+  {
+    "id": "neck-postural",
+    "group": "neck",
+    "name": "Neck discomfort with sustained positions",
+    "explanation": "Long periods in one position can tire the neck and shoulders. Regular movement breaks matter more than finding a perfect posture.",
+    "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
+    "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
+    "nameAr": "نمط ألم الرقبة"
+  },
+  {
+    "id": "neck-headache",
+    "group": "neck",
+    "name": "Headache linked to neck movement",
+    "explanation": "Some headaches change with neck position or movement. Easy neck mobility can help, but new or unusual headaches need an assessment.",
+    "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
+    "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
+    "nameAr": "نمط ألم الرقبة"
+  },
+  {
+    "id": "cervical-radicular",
+    "group": "neck",
+    "name": "Neck pain with sensitive arm nerves",
+    "explanation": "Pain or tingling travelling into the arm can reflect nerve sensitivity. Avoid movements that spread symptoms farther down the arm.",
+    "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
+    "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
+    "nameAr": "نمط ألم الرقبة"
+  },
+  {
+    "id": "rotator-cuff",
+    "group": "shoulder",
+    "name": "A shoulder sensitive to load",
+    "explanation": "The muscles and tendons supporting your shoulder may be sensitive to reaching and lifting. A manageable amount of loading can build their tolerance.",
+    "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
+    "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
+    "nameAr": "نمط ألم الكتف"
+  },
+  {
+    "id": "subacromial",
+    "group": "shoulder",
+    "name": "Pain when raising your arm",
+    "explanation": "Reaching overhead can irritate a sensitive shoulder. Comfortable movement and gradual shoulder strength can improve confidence and capacity.",
+    "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
+    "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
+    "nameAr": "نمط ألم الكتف"
+  },
+  {
+    "id": "frozen-shoulder",
+    "group": "shoulder",
+    "name": "A shoulder becoming stiff in several directions",
+    "explanation": "A slowly stiffening shoulder, including difficulty turning the arm outwards, can need a gentler approach. Avoid forcing stretches or heavy strengthening while it is very painful.",
+    "course": "Often changes over many months. Comfort and useful movement matter more than forcing range.",
+    "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
+    "nameAr": "نمط ألم الكتف"
+  },
+  {
+    "id": "ac-joint",
+    "group": "shoulder",
+    "name": "Pain at the top of your shoulder",
+    "explanation": "The small joint at the top of your shoulder can be sensitive to crossing your arm or lying on that side. Adjust the load while keeping comfortable movement.",
+    "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
+    "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
+    "nameAr": "نمط ألم الكتف"
+  },
+  {
+    "id": "patellofemoral",
+    "group": "knee",
+    "name": "Pain around the kneecap",
+    "explanation": "Stairs, squats or long sitting can be uncomfortable when the kneecap area is sensitive. Gradual hip and knee loading can build tolerance.",
+    "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
+    "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
+    "nameAr": "نمط ألم الركبة"
+  },
+  {
+    "id": "patellar-tendon",
+    "group": "knee",
+    "name": "A kneecap tendon sensitive to load",
+    "explanation": "Jumping and faster loading can irritate the tendon below the kneecap. Start with manageable loading, then rebuild spring and speed.",
+    "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
+    "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
+    "nameAr": "نمط ألم الركبة"
+  },
+  {
+    "id": "meniscal",
+    "group": "knee",
+    "name": "A knee sensitive to twisting",
+    "explanation": "A sensitive knee can dislike deep bending and rotation. Comfortable movement and strength help; true locking needs an assessment.",
+    "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
+    "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
+    "nameAr": "نمط ألم الركبة"
+  },
+  {
+    "id": "knee-oa",
+    "group": "knee",
+    "name": "A stiff knee that eases with movement",
+    "explanation": "A knee that stiffens after rest often benefits from regular gentle movement and progressive strength. Symptoms do not tell us how much structural change is present.",
+    "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
+    "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
+    "nameAr": "نمط ألم الركبة"
+  },
+  {
+    "id": "gluteal-tendon",
+    "group": "hip",
+    "name": "Pain on the outside of your hip",
+    "explanation": "The outer hip tendons may be sensitive to compression and load. Avoid hanging on one hip and build strength without squeezing the painful side.",
+    "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
+    "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
+    "nameAr": "نمط ألم الورك"
+  },
+  {
+    "id": "hip-oa",
+    "group": "hip",
+    "name": "A hip that feels stiff after rest",
+    "explanation": "Hip stiffness often responds to regular comfortable movement and strength. Keep useful movement in your day and build gradually.",
+    "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
+    "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
+    "nameAr": "نمط ألم الورك"
+  },
+  {
+    "id": "groin-strain",
+    "group": "hip",
+    "name": "A groin sensitive after activity",
+    "explanation": "The muscles around your groin can become sensitive after a change in activity or a strain. Begin with easy contractions before returning to faster movements.",
+    "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
+    "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
+    "nameAr": "نمط ألم الورك"
+  },
+  {
+    "id": "ankle-sprain",
+    "group": "ankle",
+    "name": "An ankle recovering from a twist",
+    "explanation": "After a twist, comfortable motion and gradually returning weight through the ankle can help. Major swelling or inability to bear weight needs assessment.",
+    "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
+    "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
+    "nameAr": "نمط ألم الكاحل"
+  },
+  {
+    "id": "achilles",
+    "group": "ankle",
+    "name": "An Achilles tendon sensitive to load",
+    "explanation": "The tendon behind the ankle may be sensitive to sudden increases in walking or running. Consistent slow calf loading builds tolerance.",
+    "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
+    "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
+    "nameAr": "نمط ألم الكاحل"
+  },
+  {
+    "id": "plantar-heel",
+    "group": "ankle",
+    "name": "Heel pain on your first steps",
+    "explanation": "The tissues under the heel may be sensitive after rest and long periods of standing. Comfortable foot and calf loading can help.",
+    "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
+    "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
+    "nameAr": "نمط ألم الكاحل"
+  },
+  {
+    "id": "lateral-elbow",
+    "group": "elbow",
+    "name": "Pain on the outside of your elbow",
+    "explanation": "Gripping and lifting may irritate the muscles attaching to the outer elbow. Adjust the grip load and rebuild wrist strength.",
+    "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
+    "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
+    "nameAr": "نمط ألم الذراع"
+  },
+  {
+    "id": "medial-elbow",
+    "group": "elbow",
+    "name": "Pain on the inside of your elbow",
+    "explanation": "Pulling and wrist bending can irritate the inner elbow. Gradual forearm loading and activity changes can build tolerance.",
+    "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
+    "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
+    "nameAr": "نمط ألم الذراع"
+  },
+  {
+    "id": "de-quervain",
+    "group": "elbow",
+    "name": "Pain on the thumb side of your wrist",
+    "explanation": "Thumb and wrist tendons can become sensitive with repetitive use. Reduce prolonged pinching and begin comfortable movement.",
+    "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
+    "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
+    "nameAr": "نمط ألم الذراع"
+  },
+  {
+    "id": "carpal-tunnel",
+    "group": "elbow",
+    "name": "Tingling into the hand",
+    "explanation": "A sensitive nerve at the wrist can cause hand tingling, often at night. Keep the wrist comfortable and seek assessment for persistent numbness or weakness.",
+    "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
+    "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
+    "nameAr": "نمط ألم الذراع"
+  },
+  {
+    "id": "thoracic",
+    "group": "upper-back",
+    "name": "A stiff, sensitive upper back",
+    "explanation": "Your upper back can become sensitive to sustained positions and unfamiliar loads. Easy rotation, breathing and strength can help.",
+    "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
+    "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
+    "nameAr": "نمط ألم أعلى الظهر"
+  },
+  {
+    "id": "rib",
+    "group": "upper-back",
+    "name": "Rib-area pain with movement",
+    "explanation": "Muscles and joints around the ribs can become sensitive to twisting and deep breathing. Keep movement easy; chest pain or breathlessness needs prompt assessment.",
+    "course": "Often improves over several weeks with a manageable, consistent routine. Persistent symptoms can still improve; progress is not always linear.",
+    "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
+    "nameAr": "نمط ألم أعلى الظهر"
+  }
+]

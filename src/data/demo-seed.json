@@ -1,0 +1,390 @@
+{
+  "version": 2,
+  "note": "Seeded journey so the progress and weekly-review screens are populated on a fresh install.",
+  "journey": {
+    "regionId": "lumbar-spine",
+    "sex": "male",
+    "presentationId": "back-flexion",
+    "phase": 1,
+    "goal": "Carry my daughter without wincing",
+    "programme": [
+      {
+        "exerciseId": "neck-4",
+        "phase": 1,
+        "order": 0,
+        "sets": 5,
+        "reps": null,
+        "holdSeconds": 30
+      },
+      {
+        "exerciseId": "lower-back-2",
+        "phase": 1,
+        "order": 1,
+        "sets": 2,
+        "reps": 10,
+        "holdSeconds": null
+      },
+      {
+        "exerciseId": "lower-back-7",
+        "phase": 1,
+        "order": 2,
+        "sets": 3,
+        "reps": 10,
+        "holdSeconds": null
+      },
+      {
+        "exerciseId": "lower-back-1",
+        "phase": 1,
+        "order": 3,
+        "sets": 1,
+        "reps": 6,
+        "holdSeconds": null
+      }
+    ]
+  },
+  "logs": [
+    {
+      "date": "2026-08-22",
+      "pain": 7,
+      "feeling": "worse",
+      "session": true,
+      "phase": 1,
+      "completed": [
+        "neck-4",
+        "lower-back-2",
+        "lower-back-7",
+        "lower-back-1"
+      ],
+      "settled": false,
+      "morningWorse": true,
+      "effort": "hard",
+      "swaps": []
+    },
+    {
+      "date": "2026-08-23",
+      "pain": 6,
+      "feeling": "worse",
+      "session": true,
+      "phase": 1,
+      "completed": [
+        "neck-4",
+        "lower-back-2",
+        "lower-back-7",
+        "lower-back-1"
+      ],
+      "settled": false,
+      "morningWorse": true,
+      "effort": "hard",
+      "swaps": []
+    },
+    {
+      "date": "2026-08-24",
+      "pain": 4,
+      "feeling": "same",
+      "session": true,
+      "phase": 1,
+      "completed": [
+        "neck-4",
+        "lower-back-2",
+        "lower-back-7",
+        "lower-back-1"
+      ],
+      "settled": true,
+      "morningWorse": false,
+      "effort": "right",
+      "swaps": []
+    },
+    {
+      "date": "2026-08-25",
+      "pain": 6,
+      "feeling": "worse",
+      "session": true,
+      "phase": 1,
+      "completed": [
+        "neck-4",
+        "lower-back-2",
+        "lower-back-7",
+        "lower-back-1"
+      ],
+      "settled": false,
+      "morningWorse": true,
+      "effort": "hard",
+      "swaps": []
+    },
+    {
+      "date": "2026-08-26",
+      "pain": 5,
+      "feeling": "same",
+      "session": false,
+      "phase": 1,
+      "completed": [],
+      "settled": null,
+      "morningWorse": null,
+      "effort": "right",
+      "swaps": []
+    },
+    {
+      "date": "2026-08-27",
+      "pain": 4,
+      "feeling": "same",
+      "session": true,
+      "phase": 1,
+      "completed": [
+        "neck-4",
+        "lower-back-2",
+        "lower-back-7",
+        "lower-back-1"
+      ],
+      "settled": true,
+      "morningWorse": false,
+      "effort": "right",
+      "swaps": []
+    },
+    {
+      "date": "2026-08-28",
+      "pain": 6,
+      "feeling": "worse",
+      "session": true,
+      "phase": 1,
+      "completed": [
+        "neck-4",
+        "lower-back-2",
+        "lower-back-7",
+        "lower-back-1"
+      ],
+      "settled": false,
+      "morningWorse": true,
+      "effort": "hard",
+      "swaps": []
+    },
+    {
+      "date": "2026-08-29",
+      "pain": 5,
+      "feeling": "same",
+      "session": true,
+      "phase": 1,
+      "completed": [
+        "neck-4",
+        "lower-back-2",
+        "lower-back-7",
+        "lower-back-1"
+      ],
+      "settled": true,
+      "morningWorse": false,
+      "effort": "right",
+      "swaps": []
+    },
+    {
+      "date": "2026-08-30",
+      "pain": 3,
+      "feeling": "better",
+      "session": true,
+      "phase": 1,
+      "completed": [
+        "neck-4",
+        "lower-back-2",
+        "lower-back-7",
+        "lower-back-1"
+      ],
+      "settled": true,
+      "morningWorse": false,
+      "effort": "easy",
+      "swaps": []
+    },
+    {
+      "date": "2026-08-31",
+      "pain": 5,
+      "feeling": "same",
+      "session": true,
+      "phase": 1,
+      "completed": [
+        "neck-4",
+        "lower-back-2",
+        "lower-back-7",
+        "lower-back-1"
+      ],
+      "settled": true,
+      "morningWorse": false,
+      "effort": "right",
+      "swaps": []
+    },
+    {
+      "date": "2026-09-01",
+      "pain": 4,
+      "feeling": "same",
+      "session": true,
+      "phase": 1,
+      "completed": [
+        "neck-4",
+        "lower-back-2",
+        "lower-back-7",
+        "lower-back-1"
+      ],
+      "settled": true,
+      "morningWorse": false,
+      "effort": "right",
+      "swaps": []
+    },
+    {
+      "date": "2026-09-02",
+      "pain": 3,
+      "feeling": "better",
+      "session": false,
+      "phase": 1,
+      "completed": [],
+      "settled": null,
+      "morningWorse": null,
+      "effort": "easy",
+      "swaps": [
+        {
+          "from": "lower-back-7",
+          "to": "lower-back-6",
+          "reason": "pain"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "pain": 5,
+      "feeling": "same",
+      "session": true,
+      "phase": 1,
+      "completed": [
+        "neck-4",
+        "lower-back-2",
+        "lower-back-7",
+        "lower-back-1"
+      ],
+      "settled": true,
+      "morningWorse": false,
+      "effort": "right",
+      "swaps": []
+    },
+    {
+      "date": "2026-09-04",
+      "pain": 4,
+      "feeling": "same",
+      "session": true,
+      "phase": 1,
+      "completed": [
+        "neck-4",
+        "lower-back-2",
+        "lower-back-7",
+        "lower-back-1"
+      ],
+      "settled": true,
+      "morningWorse": false,
+      "effort": "right",
+      "swaps": []
+    },
+    {
+      "date": "2026-09-05",
+      "pain": 2,
+      "feeling": "better",
+      "session": true,
+      "phase": 2,
+      "completed": [
+        "neck-4",
+        "lower-back-2",
+        "lower-back-7",
+        "lower-back-1"
+      ],
+      "settled": true,
+      "morningWorse": false,
+      "effort": "easy",
+      "swaps": []
+    },
+    {
+      "date": "2026-09-06",
+      "pain": 4,
+      "feeling": "same",
+      "session": false,
+      "phase": 2,
+      "completed": [],
+      "settled": null,
+      "morningWorse": null,
+      "effort": "right",
+      "swaps": []
+    },
+    {
+      "date": "2026-09-07",
+      "pain": 3,
+      "feeling": "better",
+      "session": true,
+      "phase": 2,
+      "completed": [
+        "neck-4",
+        "lower-back-2",
+        "lower-back-7",
+        "lower-back-1"
+      ],
+      "settled": true,
+      "morningWorse": false,
+      "effort": "easy",
+      "swaps": []
+    },
+    {
+      "date": "2026-09-08",
+      "pain": 2,
+      "feeling": "better",
+      "session": true,
+      "phase": 2,
+      "completed": [
+        "neck-4",
+        "lower-back-2",
+        "lower-back-7",
+        "lower-back-1"
+      ],
+      "settled": true,
+      "morningWorse": false,
+      "effort": "easy",
+      "swaps": []
+    },
+    {
+      "date": "2026-09-09",
+      "pain": 4,
+      "feeling": "same",
+      "session": false,
+      "phase": 2,
+      "completed": [],
+      "settled": null,
+      "morningWorse": null,
+      "effort": "right",
+      "swaps": []
+    },
+    {
+      "date": "2026-09-10",
+      "pain": 3,
+      "feeling": "better",
+      "session": true,
+      "phase": 2,
+      "completed": [
+        "neck-4",
+        "lower-back-2",
+        "lower-back-7",
+        "lower-back-1"
+      ],
+      "settled": true,
+      "morningWorse": false,
+      "effort": "easy",
+      "swaps": []
+    },
+    {
+      "date": "2026-09-11",
+      "pain": 1,
+      "feeling": "better",
+      "session": true,
+      "phase": 2,
+      "completed": [
+        "neck-4",
+        "lower-back-2",
+        "lower-back-7",
+        "lower-back-1"
+      ],
+      "settled": true,
+      "morningWorse": false,
+      "effort": "easy",
+      "swaps": []
+    }
+  ]
+}

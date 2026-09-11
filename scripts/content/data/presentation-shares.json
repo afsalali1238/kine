@@ -1,0 +1,17 @@
+{
+  "shoulder-instability": ["rotator-cuff"],
+  "scapular": ["thoracic"],
+  "thigh-muscle": ["groin-strain"],
+  "hamstring-strain": ["groin-strain"],
+  "itb": ["patellofemoral"],
+  "ankle-instability": ["ankle-sprain"],
+  "shin-stress": ["ankle-sprain"],
+  "forefoot": ["plantar-heel"],
+  "elbow-extension": ["lateral-elbow"],
+  "biceps-tendon": ["lateral-elbow"],
+  "hand-stiff": ["lateral-elbow"],
+  "wrist-load": ["lateral-elbow"],
+  "trunk-motor": ["back-flexion"],
+  "hip-flexor": ["hip-oa"],
+  "chest-wall": ["rib"]
+}

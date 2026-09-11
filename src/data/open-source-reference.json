@@ -5,9 +5,7 @@
     "level": "beginner",
     "mechanic": "isolation",
     "equipment": "machine",
-    "primaryMuscles": [
-      "calves"
-    ],
+    "primaryMuscles": ["calves"],
     "secondaryMuscles": [],
     "instructions": [
       "Sit on the machine and place your toes on the lower portion of the platform provided with the heels extending off. Choose the toe positioning of your choice (forward, in, or out) as per the beginning of this chapter.",
@@ -18,10 +16,7 @@
       "Repeat for the recommended amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Seated_Calf_Raise/0.jpg",
-      "Seated_Calf_Raise/1.jpg"
-    ],
+    "images": ["Seated_Calf_Raise/0.jpg", "Seated_Calf_Raise/1.jpg"],
     "id": "Seated_Calf_Raise"
   },
   {
@@ -30,9 +25,7 @@
     "level": "beginner",
     "mechanic": "isolation",
     "equipment": "machine",
-    "primaryMuscles": [
-      "calves"
-    ],
+    "primaryMuscles": ["calves"],
     "secondaryMuscles": [],
     "instructions": [
       "Adjust the padded lever of the calf raise machine to fit your height.",
@@ -42,10 +35,7 @@
       "Repeat for the recommended amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Standing_Calf_Raises/0.jpg",
-      "Standing_Calf_Raises/1.jpg"
-    ],
+    "images": ["Standing_Calf_Raises/0.jpg", "Standing_Calf_Raises/1.jpg"],
     "id": "Standing_Calf_Raises"
   }
 ]

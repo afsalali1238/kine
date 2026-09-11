@@ -1,31 +1,99 @@
-# kinē body asset contract
+# kinē body asset contract (v2)
 
-## Assets shipped
+Every number on this page is measured from the build, not remembered from a plan. Re-run
+`npm run assets:build` and the whole file is reproducible; `npm run assets:check` fails if the
+shipped GLBs do not match the generator that claims to have produced them.
 
-- `male.glb`, `female.glb`: real external skin geometry derived from MakeHuman hm08 `base.obj` and Caucasian young-adult macro targets. 26,756 triangles, approximately 787 KB each; one indexed primitive and smooth vertex normals. No capsule mannequin. Source assets explicitly CC0.
-- `body-regions.png`: 2048² RGB region-ID atlas in the source OBJ UV layout. 31 coarse anatomical regions; colours correspond to `src/data/regions.json`. Approximate anatomical boundaries are classified per UV texel from barycentrically interpolated source-skin positions, with non-overwriting island gutters. **Not a clinically signed-off fine-grained anatomical segmentation.**
-- `skin-albedo.jpg`, `skin-normal.png`: small procedurally authored colour/pore textures, not a scan. Total current assets about 2.1 MB uncompressed on disk.
-- Source: https://github.com/makehumancommunity/makehuman/tree/master/makehuman/data . Mesh attribution is embedded in upstream `base.obj`; copyright holders include Data Collection AB, Joel Palmius, Jonas Hauquier. Core graphical assets CC0: https://static.makehumancommunity.org/mpfb/faq/is_it_really_free.html .
+## What ships
 
-## Production replacement requirements
+- `body-male.glb`, `body-female.glb` — `scripts/build-body-assets.mjs` — 23,153 vertices, 46,198
+  triangles, 1.715 m tall, 1.21 MB each. Geometry plus the `_REGIONID` and `_THIN` attributes; no
+  skin, no morph targets, no embedded textures.
+- `skin-albedo.png`, `skin-normal.png`, `skin-orm.png` — same generator — 256², seamless,
+  procedural, 117 KB together. Low frequency on purpose: the figure is read at arm's length on a
+  phone, and every kilobyte here is paid for again on a cold start.
+- `ASSET-REPORT.json` — same generator — triangles, bytes and SHA-256 (16 hex) per body.
+- `src/data/regions.json` — same generator, then `content:build` — 119 regions with measured surface
+  area, centroid, neighbours and presentation mapping.
+- `src/data/skeleton.json` — `scripts/anatomy/rig.mjs` — 26 bones, 13 joints, axis vectors, ROM
+  table and base poses; shared by the locator and the demonstrator.
+- `src/data/body-outline.json` — same generator — silhouette slices plus 119 anchors, one set per
+  sex, for the reduced-motion tier.
 
-1. External, neutral anatomical skin mesh in metres, Y up, feet at Y=0, crown about Y=1.8, face toward +Z. Subject's left is +X. Neutral A pose, no accessories or helper meshes. Preserve all target centroids in the editable region data or update those records.
-2. Target 40k–80k clinically useful triangles (do not subdivide just to hit a count), seamless normals, no duplicated overlapping regional surfaces. One skin primitive. Separate eyes are permitted if needed.
-3. Use non-mirrored, non-overlapping mask UVs. Current assets use `TEXCOORD_0` from OBJ with V=0 at the bottom. **The external region PNG uses `flipY=true`**; the CPU picker uses `y=(1-v)*height`. glTF-exported replacement textures often use top-origin V, so align both paths explicitly. If beauty UVs are mirrored, provide a dedicated `TEXCOORD_1` mask UV and update picker/shader together.
-4. PBR textures: sRGB albedo with neutral lighting; tangent-space normal (pores and wrinkles, intensity tuned per model); linear roughness (about .45–.65, lower on forehead/shoulders); linear AO in a distinct AO UV channel. Avoid baked specular or directional shadows. Optional sparse facial/skin detail overlays.
-5. 2048² flat RGB region mask, PNG, no antialiasing, no lighting, no lossy compression, no colour-management conversion. `NoColorSpace`, nearest filtering, no mipmaps. Keep at least 4-pixel UV island gutters. Current colours are `[7*(index+1),40,80]`, and the shader/picker identify the red channel; a larger catalog should switch both to full RGB decoding. Never reuse an ID on left and right.
-6. Author the complete fine-grained region list in the brief: face subdivisions, all shoulder surfaces, muscular subdivisions, lumbar vs sacrum vs glutes, knee surfaces, Achilles vs heel vs foot arch. Current coarse atlas covers clinical families but does not yet separate all these sites. Annotate anatomical boundaries in the mesh's UV space, not in screen coordinates.
-7. Compress with Draco or meshopt and KTX2/Basis only after all regional QA passes. Target **≤6 MB combined** for both bodies and shared maps. Existing raw GLBs are deliberately very small and don't need an external decoder; a compressed replacement must register its decoder in `BodyViewer`.
-8. Optional glTF skeleton and named motion clips for exercise education. The shipped skin GLBs are static; idle breathing is shader deformation, not a joint rig. Do not replace actual exercise instruction with arbitrary joint animations.
+The v1 pair (`male.glb`, `female.glb` at 1,400 vertices) and the 2048² `body-regions.png` UV mask
+are deleted, not archived: the placeholder mesh was the reason the 3D stage read as broken, and the
+mask's source OBJ no longer exists, so nothing could keep the two in step.
+
+## Geometry channels
+
+The GLB is glTF 2.0 with one indexed primitive and these attributes:
+
+- `POSITION`, `NORMAL` — the external skin, metres, Y up, feet at y=0, crown at y≈1.72, face toward
+  +Z, subject's left at +X.
+- `TEXCOORD_0` — oblique planar projection `(x·0.9+y·0.35, z·0.9+y·0.35)`. Seam-free at pore scale
+  by construction. This is a deliberate deviation from an unfolded UV layout: the skin textures are
+  procedural and isotropic, so nothing needs an artist's unwrap.
+- `_REGIONID` (uint16, `SCALAR`) — the region catalog index + 1 per vertex. `glTF` lower-cases
+  unknown attribute names on import, so runtime code reads `_regionid`.
+- `_THIN` (uint8, normalised) — soft-tissue thickness proxy: 235 over ear, fingers, toes, face,
+  thumb base and nose; 150 over heel and plantar arch; 40 elsewhere.
+
+Region identity lives in the **vertex data**, so a pick is a triangle lookup. There is no texture to
+sample on the CPU, no `flipY` convention to keep in sync, and no way for the highlight to disagree
+with the label.
+
+## Authoring source
+
+`scripts/anatomy/zones.mjs` holds one table of 60 anatomical bases that `expandZones()` expands to
+119 left/right/front/posterior regions. `parts.mjs` lofts the body from cross-section profiles, and
+each loft band declares which zone it belongs to. That single table emits the mesh, the region
+records and the 2D outline, so an id means the same thing in all three. `build-body-assets.mjs`
+refuses to write anything unless:
+
+1. standing height is between 1.55 m and 1.85 m for both sexes;
+2. the triangle count is at least 20,000;
+3. **no vertex is untagged**;
+4. at least 70 regions exist (v2 ships 119);
+5. every region measures ≥120 mm² of surface and ≥6 triangles, because a fingertip-sized target
+   cannot be tapped on a phone.
 
 ## Rendering contract
 
-`BodyViewer` exposes region ID, front/back, body type, reset, zoom, up to five pins, and `onSelect(id, worldPoint)`. Other app components do not import Three. The main scene uses a 35° lens, ACES, three-point warm/cool lighting, contact shadows, wrap diffuse + warm grazing-angle term, and 0.2 Hz / 0.4% torso breathing. Cached geometry/textures are shared between viewer instances; owned materials, intervals and controls are cleaned up. Geometry cache lives for the browser session to avoid repeated downloads. There is no remote environment-map dependency.
+`src/modules/body/Studio.tsx` is the only lighting rig: a warm key spot, cool fill, amber rim,
+hemisphere and ambient, ACES tone mapping at exposure 1.05, 35° lens, a single-frame contact shadow,
+and a rectangle lightformer environment instead of an HDRI file (no network fetch, nothing to 404).
+`src/modules/body/skinMaterial.ts` produces the shared material — albedo, normal at scale 0.35,
+roughness from the ORM's green channel, `metalness 0`, `envMapIntensity 0.6` — plus one shader
+injection: the per-vertex `aHi` highlight, tinted stronger where `_THIN` says the skin is thin.
 
-## Acceptance checks before replacing assets
+The locator and the demonstrator use **the same geometry and the same material instance rules**; the
+demonstrator clones the buffer and adds `skinIndex`/`skinWeight` built at runtime from
+`skeleton.json`. That is why the two figures are visually identical by construction. The rig is
+built in the browser rather than baked into the GLB on purpose: hand-authored inverse bind matrices
+are the kind of thing that silently renders a collapsed body.
 
-- Click actual skin and confirm the label and shader agree; specifically lumbar must not highlight glutes or thighs.
-- Check both sexes, both orientations, both sides, and UV seams.
-- Pin offset must remain outside skin at zoom limits. Current pins are adjusted by re-tapping; continuous drag re-raycasting is not yet implemented.
-- Test on real mid-range Android hardware over throttled 4G. Demand rendering and DPR safeguards are implemented, but **60 fps and <3-second cold-interactive are not certified performance results**.
-- A render-failure/WebGL2 fallback must retain the region-ID callback contract. The fallback is a vector body map, not a photograph.
+## Posing
+
+`src/data/skeleton.json` is the joint contract: for each joint, the bones it drives, an axis vector
+**per side**, a ROM window, and the mirror rule (the right vector must be the x-mirror of the left,
+asserted in `rig.mjs` at build time). Base poses carry `root.roll/pitch/yaw` plus `root.drop`, the
+metres the figure comes down toward its support, so a seated mannequin sits on the chair rather than
+hovering half a metre above it. A lying figure is instead measured: `floorLift()` finds the lowest
+rotated vertex and rests the body on the floor.
+
+## Measurement rules
+
+- Region area and centroid come from the mesh: each triangle is attributed to the region shared by
+  at least two of its corners, and the centroid is area-weighted. A first-corner rule plus a
+  vertex-mean centroid made a left muscle measure differently from its mirrored twin.
+- `body-outline.json` is generated per sex, because bust and waist shift both the silhouette and the
+  anchor positions the 2D tier taps.
+
+## Not certified
+
+Rendering at 60 fps and a cold-interactive under 3 s on mid-range Android are targets of this build,
+not measurements of it: there is no GPU or browser in this environment, so the checks that exist are
+the headless ones in `tests/render.test.ts` (does the file parse, does every region exist in the
+vertex data, does a pose actually deform the body, does a left pose stay on the left). Anyone who
+can run it on a real phone should record the numbers here before the figures are quoted anywhere
+else.

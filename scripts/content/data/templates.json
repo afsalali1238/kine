@@ -1,0 +1,1855 @@
+[
+  {
+    "id": "supine-breathing",
+    "pattern": "belly breathing|rib breathing",
+    "flags": "i",
+    "base": "supine",
+    "range": {
+      "lumbar.flexion": [1, 5],
+      "thoracic.flexion": [1, 6]
+    },
+    "hold": null,
+    "mirror": false,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 0,
+        "elevation": 12,
+        "distance": 2.1,
+        "target": "lumbar"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 90,
+        "elevation": 6,
+        "distance": 2,
+        "target": "lumbar"
+      }
+    ],
+    "highlight": ["upper-abdomen", "lower-abdomen"],
+    "fault": {
+      "id": "held-breath",
+      "label": "Breath held, ribs braced instead of soft",
+      "labelAr": "كتم النفس والشد على الأضلاع",
+      "delta": {}
+    }
+  },
+  {
+    "id": "supported-rest",
+    "pattern": "supported .* rest|short supported",
+    "flags": "i",
+    "base": "standing",
+    "range": {},
+    "hold": "position",
+    "mirror": false,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 0,
+        "elevation": 8,
+        "distance": 2.4,
+        "target": "chest"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 90,
+        "elevation": 6,
+        "distance": 2.3,
+        "target": "chest"
+      }
+    ],
+    "highlight": [],
+    "fault": {
+      "id": "tension",
+      "label": "Shoulders lifting toward the ears",
+      "labelAr": "ارتفاع الكتفين نحو الأذنين",
+      "delta": {
+        "scapula.abduction": [0, 10]
+      }
+    }
+  },
+  {
+    "id": "pelvic-tilt",
+    "pattern": "pelvic tilt",
+    "flags": "i",
+    "base": "supine",
+    "range": {
+      "pelvis.flexion": [0, 12],
+      "lumbar.flexion": [0, 8]
+    },
+    "hold": null,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 90,
+        "elevation": 4,
+        "distance": 1.9,
+        "target": "hips"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 0,
+        "elevation": 6,
+        "distance": 2.2,
+        "target": "hips"
+      }
+    ],
+    "highlight": ["lower-abdomen", "lumbar-spine"],
+    "fault": {
+      "id": "hip-lift",
+      "label": "Lifting the bottom instead of tilting the pelvis",
+      "labelAr": "رفع المقعدة بدل إمالة الحوض",
+      "delta": {
+        "pelvis.flexion": [0, 25]
+      }
+    }
+  },
+  {
+    "id": "knee-rocks",
+    "pattern": "knee rocks",
+    "flags": "i",
+    "base": "supine",
+    "range": {
+      "pelvis.lateral_flexion": [-6, 6],
+      "lumbar.lateral_flexion": [-5, 5]
+    },
+    "hold": null,
+    "sideToSide": true,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 0,
+        "elevation": 8,
+        "distance": 2.2,
+        "target": "hips"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 180,
+        "elevation": 8,
+        "distance": 2.2,
+        "target": "hips"
+      }
+    ],
+    "highlight": ["oblique", "lumbar-spine"],
+    "fault": {
+      "id": "shoulders-move",
+      "label": "Shoulders swinging with the knees",
+      "labelAr": "اهتزاز الكتفين مع الركبتين",
+      "delta": {
+        "thoracic.lateral_flexion": [-8, 8]
+      }
+    }
+  },
+  {
+    "id": "press-up",
+    "pattern": "supported back extension|press.?up",
+    "flags": "i",
+    "base": "prone",
+    "range": {
+      "lumbar.extension": [0, 16],
+      "thoracic.extension": [0, 14],
+      "cervical.extension": [0, 8]
+    },
+    "hold": null,
+    "translate": true,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 90,
+        "elevation": 4,
+        "distance": 2,
+        "target": "lumbar"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 0,
+        "elevation": 8,
+        "distance": 2.3,
+        "target": "lumbar"
+      }
+    ],
+    "highlight": ["lumbar-spine"],
+    "fault": {
+      "id": "arms-push-hard",
+      "label": "Arms locking out and the low back cramping into extension",
+      "labelAr": "فرد الذراعين وتقلص أسفل الظهر",
+      "delta": {
+        "lumbar.extension": [0, 30]
+      }
+    }
+  },
+  {
+    "id": "abdominal-brace",
+    "pattern": "abdominal brace",
+    "flags": "i",
+    "base": "supine",
+    "range": {
+      "lumbar.flexion": [0, 3]
+    },
+    "hold": "iso",
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 0,
+        "elevation": 10,
+        "distance": 1.9,
+        "target": "lower-abdomen"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 90,
+        "elevation": 4,
+        "distance": 1.9,
+        "target": "lower-abdomen"
+      }
+    ],
+    "highlight": ["lower-abdomen", "oblique"],
+    "fault": {
+      "id": "hold-breath",
+      "label": "Sucking in and holding the breath",
+      "labelAr": "شد البطن وكتم النفس",
+      "delta": {}
+    }
+  },
+  {
+    "id": "heel-slide",
+    "pattern": "heel slide",
+    "flags": "i",
+    "base": "supine",
+    "range": {
+      "hip.flexion": [0, 45],
+      "knee.flexion": [0, 70]
+    },
+    "hold": null,
+    "mirror": true,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 90,
+        "elevation": 4,
+        "distance": 2,
+        "target": "hips"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 0,
+        "elevation": 8,
+        "distance": 2.2,
+        "target": "hips"
+      }
+    ],
+    "highlight": ["hamstring-mid", "quadriceps"],
+    "fault": {
+      "id": "back-lifts",
+      "label": "Lower back peeling off the floor",
+      "labelAr": "انفصال أسفل الظهر عن الأرض",
+      "delta": {
+        "lumbar.flexion": [0, 14]
+      }
+    }
+  },
+  {
+    "id": "bridge",
+    "pattern": "bridge march|single leg bridge|^bridge$",
+    "flags": "i",
+    "base": "supine",
+    "range": {
+      "hip.extension": [0, 22],
+      "pelvis.extension": [0, 14],
+      "knee.flexion": [45, 40]
+    },
+    "hold": null,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 90,
+        "elevation": 2,
+        "distance": 2.1,
+        "target": "hips"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 0,
+        "elevation": 6,
+        "distance": 2.3,
+        "target": "hips"
+      }
+    ],
+    "highlight": ["gluteus-maximus", "hamstring-mid"],
+    "fault": {
+      "id": "back-arch",
+      "label": "Back arching instead of hips lifting",
+      "labelAr": "تقوس الظهر بدل رفع الوركين",
+      "delta": {
+        "lumbar.extension": [0, 22],
+        "hip.extension": [0, 30]
+      }
+    }
+  },
+  {
+    "id": "bird-dog",
+    "pattern": "bird dog",
+    "flags": "i",
+    "base": "four_point",
+    "range": {
+      "hip.extension": [0, 15],
+      "shoulder.flexion": [0, 60],
+      "lumbar.flexion": [0, 4]
+    },
+    "hold": null,
+    "mirror": true,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 180,
+        "elevation": 8,
+        "distance": 2.2,
+        "target": "hips"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 90,
+        "elevation": 2,
+        "distance": 2,
+        "target": "lumbar"
+      }
+    ],
+    "highlight": ["lumbar-spine", "gluteus-maximus", "rhomboid"],
+    "fault": {
+      "id": "twist",
+      "label": "Hips and shoulders rotating to reach further",
+      "labelAr": "دوران الحوض والكتفين للوصول أبعد",
+      "delta": {
+        "pelvis.internal_rotation": [0, 18],
+        "lumbar.extension": [0, 12]
+      }
+    }
+  },
+  {
+    "id": "sit-to-stand",
+    "pattern": "sit to stand",
+    "flags": "i",
+    "base": "seated",
+    "range": {
+      "hip.flexion": [88, 8],
+      "knee.flexion": [92, 8],
+      "ankle.flexion": [0, 12]
+    },
+    "hold": null,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 90,
+        "elevation": 2,
+        "distance": 2.2,
+        "target": "hips"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 0,
+        "elevation": 6,
+        "distance": 2.3,
+        "target": "knees"
+      }
+    ],
+    "highlight": ["quadriceps", "gluteus-maximus"],
+    "fault": {
+      "id": "knees-cave",
+      "label": "Knees collapsing inward and chest folding forward",
+      "labelAr": "ان انهيار الركبتين للداخل",
+      "delta": {
+        "knee.internal_rotation": [0, 14],
+        "lumbar.flexion": [0, 16]
+      }
+    }
+  },
+  {
+    "id": "hip-hinge",
+    "pattern": "hip hinge",
+    "flags": "i",
+    "base": "standing",
+    "range": {
+      "hip.extension": [0, 8],
+      "hip.flexion": [0, 55],
+      "lumbar.flexion": [0, 6],
+      "knee.flexion": [0, 8]
+    },
+    "hold": null,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 90,
+        "elevation": 0,
+        "distance": 2.3,
+        "target": "hips"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 0,
+        "elevation": 6,
+        "distance": 2.4,
+        "target": "hips"
+      }
+    ],
+    "highlight": ["hamstring-mid", "gluteus-maximus", "lumbar-spine"],
+    "fault": {
+      "id": "round-back",
+      "label": "Back rounding instead of hips going back",
+      "labelAr": "تقوس الظهر بدل دفع الوركين للخلف",
+      "delta": {
+        "lumbar.flexion": [0, 26],
+        "thoracic.flexion": [0, 20]
+      }
+    }
+  },
+  {
+    "id": "squat",
+    "pattern": "squat|step down|step up|split squat",
+    "flags": "i",
+    "base": "standing",
+    "range": {
+      "hip.flexion": [0, 75],
+      "knee.flexion": [0, 80],
+      "ankle.flexion": [0, 22]
+    },
+    "hold": null,
+    "mirror": true,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 90,
+        "elevation": 0,
+        "distance": 2.4,
+        "target": "knees"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 0,
+        "elevation": 4,
+        "distance": 2.5,
+        "target": "knees"
+      }
+    ],
+    "highlight": ["quadriceps", "gluteus-maximus", "gluteus-medius"],
+    "fault": {
+      "id": "knees-cave",
+      "label": "Knee tracking inward over the big toe",
+      "labelAr": "ميل الركبة للداخل فوق الإبهام",
+      "delta": {
+        "knee.internal_rotation": [0, 16],
+        "hip.internal_rotation": [0, 14]
+      }
+    }
+  },
+  {
+    "id": "carry",
+    "pattern": "suitcase carry|farmer carry",
+    "flags": "i",
+    "base": "standing",
+    "range": {
+      "lumbar.lateral_flexion": [0, 3]
+    },
+    "hold": "walk",
+    "mirror": true,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 0,
+        "elevation": 4,
+        "distance": 2.6,
+        "target": "hips"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 90,
+        "elevation": 2,
+        "distance": 2.4,
+        "target": "hips"
+      }
+    ],
+    "highlight": ["oblique", "lumbar-spine"],
+    "props": ["weight"],
+    "fault": {
+      "id": "lean",
+      "label": "Leaning toward the weight instead of away from it",
+      "labelAr": "الميل نحو الثقل بدل بعيدًا عنه",
+      "delta": {
+        "lumbar.lateral_flexion": [0, 14]
+      }
+    }
+  },
+  {
+    "id": "neck-rotation",
+    "pattern": "neck turns|neck rotation|resisted neck rotation|seated neck rotation",
+    "flags": "i",
+    "base": "seated",
+    "range": {
+      "cervical.internal_rotation": [-45, 45]
+    },
+    "hold": null,
+    "mirror": true,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 0,
+        "elevation": 6,
+        "distance": 1.15,
+        "target": "head"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 90,
+        "elevation": 4,
+        "distance": 1.15,
+        "target": "head"
+      }
+    ],
+    "highlight": ["sterno", "cervical-upper", "trapezius-upper"],
+    "fault": {
+      "id": "shoulder-turns",
+      "label": "The shoulders turn instead of the neck",
+      "labelAr": "دوران الكتفين بدل الرقبة",
+      "delta": {
+        "thoracic.internal_rotation": [-14, 14]
+      }
+    }
+  },
+  {
+    "id": "chin-tuck",
+    "pattern": "chin tuck|chin nod",
+    "flags": "i",
+    "base": "seated",
+    "range": {
+      "cervical.flexion": [0, 12],
+      "head.flexion": [0, 8]
+    },
+    "hold": null,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 90,
+        "elevation": 0,
+        "distance": 1.1,
+        "target": "cervical"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 0,
+        "elevation": 4,
+        "distance": 1.2,
+        "target": "cervical"
+      }
+    ],
+    "highlight": ["cervical-lower", "scapula"],
+    "fault": {
+      "id": "chin-down-eyes",
+      "label": "Pushing the chin down instead of gliding back",
+      "labelAr": "دفع الذقن للأسفل بدل إرجاعه للخلف",
+      "delta": {
+        "cervical.flexion": [0, 28]
+      }
+    }
+  },
+  {
+    "id": "neck-iso",
+    "pattern": "neck rotation hold|neck isometric press",
+    "flags": "i",
+    "base": "seated",
+    "range": {
+      "cervical.internal_rotation": [-8, 8],
+      "cervical.lateral_flexion": [-6, 6]
+    },
+    "hold": "iso",
+    "mirror": true,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 0,
+        "elevation": 4,
+        "distance": 1.1,
+        "target": "head"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 90,
+        "elevation": 2,
+        "distance": 1.1,
+        "target": "head"
+      }
+    ],
+    "highlight": ["cervical-upper", "trapezius-upper"],
+    "fault": {
+      "id": "jaw-clench",
+      "label": "Jaw clenching and breath holding",
+      "labelAr": "شد الفك وكتم النفس",
+      "delta": {}
+    }
+  },
+  {
+    "id": "shoulder-rolls",
+    "pattern": "shoulder rolls",
+    "flags": "i",
+    "base": "seated",
+    "range": {
+      "scapula.abduction": [-12, 12],
+      "scapula.adduction": [-12, 12]
+    },
+    "hold": null,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 0,
+        "elevation": 10,
+        "distance": 1.5,
+        "target": "chest"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 180,
+        "elevation": 10,
+        "distance": 1.5,
+        "target": "chest"
+      }
+    ],
+    "highlight": ["trapezius-upper", "scapula"],
+    "fault": {
+      "id": "shrug-hold",
+      "label": "Shruging up and holding there",
+      "labelAr": "رفع الكتفين والبقاء عليهما",
+      "delta": {
+        "scapula.abduction": [0, 22]
+      }
+    }
+  },
+  {
+    "id": "pendulum",
+    "pattern": "pendulum",
+    "flags": "i",
+    "base": "standing",
+    "range": {
+      "shoulder.flexion": [-18, 18],
+      "shoulder.abduction": [-14, 14]
+    },
+    "hold": null,
+    "mirror": true,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 0,
+        "elevation": 12,
+        "distance": 1.9,
+        "target": "shoulder"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 90,
+        "elevation": 8,
+        "distance": 1.8,
+        "target": "shoulder"
+      }
+    ],
+    "highlight": ["lateral-deltoid", "rotator-cuff"],
+    "fault": {
+      "id": "swing-with-back",
+      "label": "Moving from the back, not a relaxed arm",
+      "labelAr": "الحركة من الظهر لا من ذراع مرتخية",
+      "delta": {
+        "lumbar.lateral_flexion": [-12, 12]
+      }
+    }
+  },
+  {
+    "id": "wall-slide",
+    "pattern": "wall slide|table slide|assisted arm elevation",
+    "flags": "i",
+    "base": "wall_standing",
+    "range": {
+      "shoulder.flexion": [0, 110],
+      "scapula.abduction": [0, 25]
+    },
+    "hold": null,
+    "mirror": true,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 90,
+        "elevation": 4,
+        "distance": 2,
+        "target": "shoulder"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 0,
+        "elevation": 6,
+        "distance": 2.1,
+        "target": "shoulder"
+      }
+    ],
+    "highlight": ["anterior-deltoid", "scapula", "rotator-cuff"],
+    "props": ["wall"],
+    "fault": {
+      "id": "shrug",
+      "label": "Shoulder hiking up to the ear to reach higher",
+      "labelAr": "رفع الكتف نحو الأذن للوصول أعلى",
+      "delta": {
+        "scapula.abduction": [0, 30],
+        "lumbar.extension": [0, 10]
+      }
+    }
+  },
+  {
+    "id": "shoulder-iso-er",
+    "pattern": "external rotation hold",
+    "flags": "i",
+    "base": "standing",
+    "range": {
+      "shoulder.external_rotation": [0, 25],
+      "elbow.flexion": [85, 90]
+    },
+    "hold": "iso",
+    "mirror": true,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 0,
+        "elevation": 8,
+        "distance": 1.7,
+        "target": "shoulder"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 90,
+        "elevation": 4,
+        "distance": 1.6,
+        "target": "elbow"
+      }
+    ],
+    "highlight": ["rotator-cuff", "posterior-deltoid"],
+    "fault": {
+      "id": "elbow-drift",
+      "label": "Elbow drifting away from the ribs",
+      "labelAr": "ابتعاد المرفق عن الضلوع",
+      "delta": {
+        "shoulder.abduction": [0, 25]
+      }
+    }
+  },
+  {
+    "id": "band-er",
+    "pattern": "band external rotation|standing external rotation",
+    "flags": "i",
+    "base": "standing",
+    "range": {
+      "shoulder.external_rotation": [0, 45],
+      "elbow.flexion": [88, 88]
+    },
+    "hold": null,
+    "mirror": true,
+    "props": ["band"],
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 0,
+        "elevation": 8,
+        "distance": 1.8,
+        "target": "shoulder"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 90,
+        "elevation": 4,
+        "distance": 1.7,
+        "target": "elbow"
+      }
+    ],
+    "highlight": ["rotator-cuff", "posterior-deltoid", "scapula"],
+    "fault": {
+      "id": "wrist-flick",
+      "label": "Wrist and elbow doing the work, not the cuff",
+      "labelAr": "الرسغ والمرفق يقومان بالعمل",
+      "delta": {
+        "wrist.extension": [0, 30]
+      }
+    }
+  },
+  {
+    "id": "scaption",
+    "pattern": "scaption",
+    "flags": "i",
+    "base": "standing",
+    "range": {
+      "shoulder.flexion": [0, 100],
+      "shoulder.abduction": [0, 35]
+    },
+    "hold": null,
+    "mirror": true,
+    "props": ["weight"],
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 0,
+        "elevation": 6,
+        "distance": 2,
+        "target": "shoulder"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 90,
+        "elevation": 2,
+        "distance": 1.9,
+        "target": "shoulder"
+      }
+    ],
+    "highlight": ["lateral-deltoid", "anterior-deltoid", "scapula"],
+    "fault": {
+      "id": "thumb-down",
+      "label": "Thumb pointing down (internal rotation) at the top",
+      "labelAr": "الإبهام للأسفل في نهاية الحركة",
+      "delta": {
+        "shoulder.internal_rotation": [0, 45]
+      }
+    }
+  },
+  {
+    "id": "push-up",
+    "pattern": "wall push up|incline push up|push.?up",
+    "flags": "i",
+    "base": "standing",
+    "range": {
+      "elbow.flexion": [6, 70],
+      "shoulder.flexion": [0, 26],
+      "lumbar.flexion": [0, 3]
+    },
+    "hold": null,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 90,
+        "elevation": 6,
+        "distance": 2.3,
+        "target": "chest"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 0,
+        "elevation": 8,
+        "distance": 2.4,
+        "target": "chest"
+      }
+    ],
+    "highlight": ["pectoral", "anterior-deltoid", "lateral-deltoid"],
+    "props": ["wall"],
+    "fault": {
+      "id": "hips-sag",
+      "label": "Hips sagging, low back taking the load",
+      "labelAr": "هبوط الوركين وحمل أسفل الظهر",
+      "delta": {
+        "lumbar.extension": [0, 20],
+        "hip.flexion": [0, 16]
+      }
+    }
+  },
+  {
+    "id": "overhead-press",
+    "pattern": "overhead press|overhead reach|incline wall press",
+    "flags": "i",
+    "base": "standing",
+    "range": {
+      "shoulder.flexion": [0, 150],
+      "elbow.flexion": [80, 4],
+      "scapula.abduction": [0, 40]
+    },
+    "hold": null,
+    "mirror": true,
+    "props": ["weight"],
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 90,
+        "elevation": 4,
+        "distance": 2.4,
+        "target": "shoulder"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 0,
+        "elevation": 6,
+        "distance": 2.4,
+        "target": "shoulder"
+      }
+    ],
+    "highlight": ["anterior-deltoid", "lateral-deltoid", "trapezius-upper"],
+    "fault": {
+      "id": "rib-flare",
+      "label": "Ribs flaring and back arching to get overhead",
+      "labelAr": "بروز الأضلاع وتقوس الظهر للوصول",
+      "delta": {
+        "lumbar.extension": [0, 22],
+        "thoracic.extension": [0, 14]
+      }
+    }
+  },
+  {
+    "id": "scapula-setting",
+    "pattern": "shoulder blade setting",
+    "flags": "i",
+    "base": "standing",
+    "range": {
+      "scapula.adduction": [0, 14],
+      "scapula.abduction": [0, 6]
+    },
+    "hold": "iso",
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 180,
+        "elevation": 10,
+        "distance": 1.8,
+        "target": "chest"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 90,
+        "elevation": 4,
+        "distance": 1.8,
+        "target": "chest"
+      }
+    ],
+    "highlight": ["scapula", "rhomboid", "trapezius-upper"],
+    "fault": {
+      "id": "squeeze-hard",
+      "label": "Squeezing to the point of a pinch",
+      "labelAr": "الضغط حتى ظهور قرصة",
+      "delta": {
+        "scapula.adduction": [0, 26]
+      }
+    }
+  },
+  {
+    "id": "calf-iso",
+    "pattern": "calf hold|seated calf",
+    "flags": "i",
+    "base": "seated",
+    "range": {
+      "ankle.flexion": [0, 18]
+    },
+    "hold": "iso",
+    "mirror": true,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 90,
+        "elevation": -8,
+        "distance": 1.4,
+        "target": "ankle"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 0,
+        "elevation": -4,
+        "distance": 1.5,
+        "target": "ankle"
+      }
+    ],
+    "highlight": ["calf", "achilles"],
+    "fault": {
+      "id": "toes-grip",
+      "label": "Gripping with the toes instead of the calf",
+      "labelAr": "قبض الأصابع بدل السمانة",
+      "delta": {
+        "toes.flexion": [0, 40]
+      }
+    }
+  },
+  {
+    "id": "row",
+    "pattern": "band row|resisted row|band pull apart",
+    "flags": "i",
+    "base": "standing",
+    "range": {
+      "shoulder.extension": [0, 20],
+      "elbow.flexion": [70, 12],
+      "scapula.adduction": [0, 22]
+    },
+    "hold": null,
+    "props": ["band"],
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 180,
+        "elevation": 8,
+        "distance": 2.2,
+        "target": "chest"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 90,
+        "elevation": 4,
+        "distance": 2.1,
+        "target": "chest"
+      }
+    ],
+    "highlight": ["rhomboid", "posterior-deltoid", "scapula"],
+    "fault": {
+      "id": "shoulders-up",
+      "label": "Shoulders lifting and back arching at the end of the pull",
+      "labelAr": "ارتفاع الكتفين وتقوس الظهر عند السحب",
+      "delta": {
+        "scapula.abduction": [0, 20],
+        "lumbar.extension": [0, 14]
+      }
+    }
+  },
+  {
+    "id": "prone-y",
+    "pattern": "prone arm lift",
+    "flags": "i",
+    "base": "prone",
+    "range": {
+      "shoulder.flexion": [0, 130],
+      "scapula.adduction": [0, 18],
+      "cervical.extension": [0, 10]
+    },
+    "hold": null,
+    "mirror": true,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 180,
+        "elevation": 12,
+        "distance": 2.2,
+        "target": "chest"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 90,
+        "elevation": 4,
+        "distance": 2.1,
+        "target": "chest"
+      }
+    ],
+    "highlight": ["trapezius-upper", "scapula", "rotator-cuff"],
+    "fault": {
+      "id": "chin-lift",
+      "label": "Head lifting hard instead of the arm",
+      "labelAr": "رفع الرأس بقوة بدل الذراع",
+      "delta": {
+        "cervical.extension": [0, 26]
+      }
+    }
+  },
+  {
+    "id": "quad-set",
+    "pattern": "knee extension hold|quadriceps squeeze",
+    "flags": "i",
+    "base": "supine",
+    "range": {
+      "knee.extension": [4, 0],
+      "hip.flexion": [8, 6]
+    },
+    "hold": "iso",
+    "mirror": true,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 90,
+        "elevation": 0,
+        "distance": 1.7,
+        "target": "knee"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 0,
+        "elevation": 6,
+        "distance": 2,
+        "target": "knee"
+      }
+    ],
+    "highlight": ["quadriceps", "patellar-tendon"],
+    "fault": {
+      "id": "heel-press",
+      "label": "Pressing the heel down and holding the breath",
+      "labelAr": "الضغط بالكعب وكتم النفس",
+      "delta": {
+        "ankle.flexion": [0, 18]
+      }
+    }
+  },
+  {
+    "id": "seated-knee-ext",
+    "pattern": "seated knee extension|slow knee extension",
+    "flags": "i",
+    "base": "seated",
+    "range": {
+      "knee.flexion": [85, 5]
+    },
+    "hold": null,
+    "mirror": true,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 90,
+        "elevation": 0,
+        "distance": 1.8,
+        "target": "knee"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 0,
+        "elevation": 4,
+        "distance": 2,
+        "target": "knee"
+      }
+    ],
+    "highlight": ["quadriceps", "patellar-tendon"],
+    "fault": {
+      "id": "kick",
+      "label": "Kicking up fast and swinging the hip",
+      "labelAr": "الركل السريع وتأرجح الورك",
+      "delta": {
+        "hip.flexion": [0, 22],
+        "knee.extension": [0, 10]
+      }
+    }
+  },
+  {
+    "id": "seated-knee-bend",
+    "pattern": "seated knee bend|heel slide \\(seated\\)|knee bend",
+    "flags": "i",
+    "base": "seated",
+    "range": {
+      "knee.flexion": [40, 95],
+      "hip.flexion": [80, 88]
+    },
+    "hold": null,
+    "mirror": true,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 90,
+        "elevation": 0,
+        "distance": 1.8,
+        "target": "knee"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 180,
+        "elevation": 6,
+        "distance": 2,
+        "target": "knee"
+      }
+    ],
+    "highlight": ["quadriceps", "hamstring-mid"],
+    "fault": {
+      "id": "lean-back",
+      "label": "Leaning far back to avoid the bend",
+      "labelAr": "الميل للخلف لتجنب الثني",
+      "delta": {
+        "lumbar.extension": [0, 16]
+      }
+    }
+  },
+  {
+    "id": "hip-rolls",
+    "pattern": "hip rolls|seated hip rotation",
+    "flags": "i",
+    "base": "seated",
+    "range": {
+      "hip.internal_rotation": [-14, 14],
+      "hip.abduction": [0, 12]
+    },
+    "hold": null,
+    "mirror": true,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 0,
+        "elevation": 14,
+        "distance": 2,
+        "target": "knees"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 90,
+        "elevation": 6,
+        "distance": 1.9,
+        "target": "hips"
+      }
+    ],
+    "highlight": ["gluteus-medius", "hip-anterior"],
+    "fault": {
+      "id": "pelvis-moves",
+      "label": "Pelvis rocking instead of the hip turning",
+      "labelAr": "تأرجح الحوض بدل دوران الورك",
+      "delta": {
+        "pelvis.internal_rotation": [-14, 14]
+      }
+    }
+  },
+  {
+    "id": "glute-squeeze",
+    "pattern": "gluteal squeeze",
+    "flags": "i",
+    "base": "standing",
+    "range": {
+      "hip.extension": [0, 6]
+    },
+    "hold": "iso",
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 180,
+        "elevation": 8,
+        "distance": 2.1,
+        "target": "hips"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 90,
+        "elevation": 2,
+        "distance": 2,
+        "target": "hips"
+      }
+    ],
+    "highlight": ["gluteus-maximus"],
+    "fault": {
+      "id": "arch",
+      "label": "Arching the back to fake the squeeze",
+      "labelAr": "تقوس الظهر لتقليص الانقباض",
+      "delta": {
+        "lumbar.extension": [0, 18]
+      }
+    }
+  },
+  {
+    "id": "hip-abd-iso",
+    "pattern": "hip abduction hold",
+    "flags": "i",
+    "base": "side_lying",
+    "range": {
+      "hip.abduction": [0, 22]
+    },
+    "hold": "iso",
+    "mirror": true,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 90,
+        "elevation": 4,
+        "distance": 2,
+        "target": "hip"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 0,
+        "elevation": 6,
+        "distance": 2.2,
+        "target": "hip"
+      }
+    ],
+    "highlight": ["gluteus-medius", "hip-lateral", "it-band"],
+    "fault": {
+      "id": "roll-back",
+      "label": "Rolling backward and pulling with the low back",
+      "labelAr": "الميل للخلف وسحب أسفل الظهر",
+      "delta": {
+        "pelvis.extension": [0, 16],
+        "lumbar.extension": [0, 14]
+      }
+    }
+  },
+  {
+    "id": "standing-hip-abd",
+    "pattern": "standing hip abduction|lateral step",
+    "flags": "i",
+    "base": "standing",
+    "range": {
+      "hip.abduction": [0, 32],
+      "pelvis.lateral_flexion": [-6, 6]
+    },
+    "hold": null,
+    "mirror": true,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 0,
+        "elevation": 4,
+        "distance": 2.3,
+        "target": "hips"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 90,
+        "elevation": 2,
+        "distance": 2.2,
+        "target": "hips"
+      }
+    ],
+    "highlight": ["gluteus-medius", "hip-lateral"],
+    "fault": {
+      "id": "lean-away",
+      "label": "Leaning the body over instead of lifting the leg",
+      "labelAr": "ميل الجسم بدل رفع الساق",
+      "delta": {
+        "lumbar.lateral_flexion": [0, 18]
+      }
+    }
+  },
+  {
+    "id": "clam-shell",
+    "pattern": "knee rocks seated|clam",
+    "flags": "i",
+    "base": "side_lying",
+    "range": {
+      "hip.abduction": [0, 28],
+      "hip.external_rotation": [0, 20]
+    },
+    "hold": null,
+    "mirror": true,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 0,
+        "elevation": 6,
+        "distance": 2,
+        "target": "hip"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 90,
+        "elevation": 2,
+        "distance": 1.9,
+        "target": "hip"
+      }
+    ],
+    "highlight": ["gluteus-medius"],
+    "fault": {
+      "id": "pelvis-rock",
+      "label": "Pelvis rocking back as the knee opens",
+      "labelAr": "ميل الحوض للخلف عند فتح الركبة",
+      "delta": {
+        "pelvis.internal_rotation": [0, 18]
+      }
+    }
+  },
+  {
+    "id": "ankle-pump",
+    "pattern": "ankle pumps|toe spread|ankle circles",
+    "flags": "i",
+    "base": "seated",
+    "range": {
+      "ankle.flexion": [8, -12],
+      "toes.extension": [0, 25]
+    },
+    "hold": null,
+    "mirror": true,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 90,
+        "elevation": -6,
+        "distance": 1.4,
+        "target": "ankle"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 0,
+        "elevation": -4,
+        "distance": 1.5,
+        "target": "ankle"
+      }
+    ],
+    "highlight": ["calf", "shin", "toes"],
+    "fault": {
+      "id": "hip-lift",
+      "label": "Lifting the whole leg to fake the movement",
+      "labelAr": "رفع الساق كلها لتقليد الحركة",
+      "delta": {
+        "hip.flexion": [0, 18]
+      }
+    }
+  },
+  {
+    "id": "calf-raise",
+    "pattern": "heel raise|calf raise",
+    "flags": "i",
+    "base": "standing",
+    "range": {
+      "ankle.flexion": [0, 38],
+      "knee.flexion": [0, 6]
+    },
+    "hold": null,
+    "mirror": true,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 90,
+        "elevation": -2,
+        "distance": 2.1,
+        "target": "ankle"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 0,
+        "elevation": -2,
+        "distance": 2.2,
+        "target": "ankle"
+      }
+    ],
+    "highlight": ["calf", "achilles", "plantar-arch"],
+    "props": ["wall"],
+    "fault": {
+      "id": "splay",
+      "label": "Toes splaying and hips pushing to get height",
+      "labelAr": "انتشار الأصابع ودفع الوركين",
+      "delta": {
+        "toes.extension": [0, 45],
+        "hip.flexion": [0, 12]
+      }
+    }
+  },
+  {
+    "id": "heel-lower",
+    "pattern": "heel lowering|slow wrist lowering",
+    "flags": "i",
+    "base": "standing",
+    "range": {
+      "ankle.flexion": [26, -8],
+      "ankle.extension": [0, 14]
+    },
+    "hold": null,
+    "mirror": true,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 90,
+        "elevation": -2,
+        "distance": 2,
+        "target": "ankle"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 180,
+        "elevation": 4,
+        "distance": 2.1,
+        "target": "achilles"
+      }
+    ],
+    "highlight": ["calf", "achilles"],
+    "props": ["step"],
+    "fault": {
+      "id": "drop",
+      "label": "Dropping down fast instead of lowering slowly",
+      "labelAr": "الهبوط السريع بدل النزول البطيء",
+      "delta": {
+        "ankle.extension": [0, 22]
+      }
+    }
+  },
+  {
+    "id": "band-eversion",
+    "pattern": "band ankle eversion",
+    "flags": "i",
+    "base": "seated",
+    "range": {
+      "ankle.abduction": [-8, 20]
+    },
+    "hold": null,
+    "mirror": true,
+    "props": ["band"],
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 0,
+        "elevation": -10,
+        "distance": 1.4,
+        "target": "foot"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 90,
+        "elevation": -6,
+        "distance": 1.4,
+        "target": "foot"
+      }
+    ],
+    "highlight": ["shin", "calf", "ankle-lateral"],
+    "fault": {
+      "id": "knee-adducts",
+      "label": "Knee knocking inward to help the foot",
+      "labelAr": "ميل الركبة للداخل لمساعدة القدم",
+      "delta": {
+        "knee.internal_rotation": [0, 14]
+      }
+    }
+  },
+  {
+    "id": "balance",
+    "pattern": "balance",
+    "flags": "i",
+    "base": "standing",
+    "range": {
+      "ankle.flexion": [-4, 4],
+      "ankle.abduction": [-3, 3],
+      "hip.flexion": [0, 12]
+    },
+    "hold": "iso",
+    "mirror": true,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 0,
+        "elevation": -4,
+        "distance": 2.4,
+        "target": "hips"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 90,
+        "elevation": 0,
+        "distance": 2.3,
+        "target": "ankle"
+      }
+    ],
+    "highlight": ["calf", "shin", "gluteus-medius"],
+    "fault": {
+      "id": "hold-wall",
+      "label": "Gripping the wall with a locked arm",
+      "labelAr": "التشبث بالجدار بذراع مقفلة",
+      "delta": {
+        "shoulder.flexion": [0, 30]
+      }
+    }
+  },
+  {
+    "id": "wrist-circles",
+    "pattern": "wrist circles|hand opening|thumb slide|pinch and release|towel grip",
+    "flags": "i",
+    "base": "seated",
+    "range": {
+      "wrist.flexion": [0, 25],
+      "wrist.extension": [0, 25],
+      "wrist.abduction": [-14, 14]
+    },
+    "hold": null,
+    "mirror": true,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 0,
+        "elevation": 18,
+        "distance": 1.05,
+        "target": "wrist"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 90,
+        "elevation": 10,
+        "distance": 1.05,
+        "target": "wrist"
+      }
+    ],
+    "highlight": ["forearm-flexor", "forearm-extensor", "hand-palm"],
+    "fault": {
+      "id": "stiff-shoulder",
+      "label": "Moving the whole arm instead of the wrist",
+      "labelAr": "تحريك الذراع كاملة بدل الرسغ",
+      "delta": {
+        "shoulder.flexion": [0, 20]
+      }
+    }
+  },
+  {
+    "id": "wrist-ext",
+    "pattern": "wrist extension|loaded wrist extension",
+    "flags": "i",
+    "base": "seated",
+    "range": {
+      "wrist.extension": [0, 45]
+    },
+    "hold": null,
+    "mirror": true,
+    "props": ["weight"],
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 0,
+        "elevation": 16,
+        "distance": 1.05,
+        "target": "wrist"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 90,
+        "elevation": 8,
+        "distance": 1.05,
+        "target": "wrist"
+      }
+    ],
+    "highlight": ["forearm-extensor", "elbow-lateral"],
+    "fault": {
+      "id": "elbow-lift",
+      "label": "Elbow lifting and shoulder helping",
+      "labelAr": "رفع المرفق ومساعدة الكتف",
+      "delta": {
+        "shoulder.flexion": [0, 26],
+        "elbow.extension": [0, 10]
+      }
+    }
+  },
+  {
+    "id": "wrist-flex",
+    "pattern": "wrist flexion|loaded wrist flexion",
+    "flags": "i",
+    "base": "seated",
+    "range": {
+      "wrist.flexion": [0, 45]
+    },
+    "hold": null,
+    "mirror": true,
+    "props": ["weight"],
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 180,
+        "elevation": 14,
+        "distance": 1.05,
+        "target": "wrist"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 90,
+        "elevation": 8,
+        "distance": 1.05,
+        "target": "wrist"
+      }
+    ],
+    "highlight": ["forearm-flexor", "elbow-medial"],
+    "fault": {
+      "id": "fast",
+      "label": "Snapping the wrist up quickly",
+      "labelAr": "خطف الرسغ بسرعة",
+      "delta": {}
+    }
+  },
+  {
+    "id": "forearm-rot",
+    "pattern": "forearm rotation|resisted forearm rotation",
+    "flags": "i",
+    "base": "seated",
+    "range": {
+      "elbow.internal_rotation": [-70, 70]
+    },
+    "hold": null,
+    "mirror": true,
+    "props": ["weight"],
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 0,
+        "elevation": 24,
+        "distance": 1.1,
+        "target": "elbow"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 90,
+        "elevation": 10,
+        "distance": 1.1,
+        "target": "elbow"
+      }
+    ],
+    "highlight": ["biceps", "forearm-flexor"],
+    "fault": {
+      "id": "shoulder-rot",
+      "label": "Shoulder rotating to fake the turn",
+      "labelAr": "دوران الكتف لتقليد الحركة",
+      "delta": {
+        "shoulder.internal_rotation": [-24, 24]
+      }
+    }
+  },
+  {
+    "id": "elbow-flex",
+    "pattern": "elbow|biceps curl",
+    "flags": "i",
+    "base": "standing",
+    "range": {
+      "elbow.flexion": [10, 100]
+    },
+    "hold": null,
+    "mirror": true,
+    "props": ["weight"],
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 90,
+        "elevation": 6,
+        "distance": 1.6,
+        "target": "elbow"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 0,
+        "elevation": 6,
+        "distance": 1.8,
+        "target": "elbow"
+      }
+    ],
+    "highlight": ["biceps", "elbow-lateral"],
+    "fault": {
+      "id": "lean-back",
+      "label": "Swinging the trunk to finish the rep",
+      "labelAr": "أرجحة الجذع لإكمال التكرار",
+      "delta": {
+        "lumbar.extension": [0, 16],
+        "hip.extension": [0, 10]
+      }
+    }
+  },
+  {
+    "id": "open-book",
+    "pattern": "open book",
+    "flags": "i",
+    "base": "side_lying",
+    "range": {
+      "thoracic.internal_rotation": [0, 35],
+      "shoulder.flexion": [0, 40],
+      "scapula.abduction": [0, 25]
+    },
+    "hold": null,
+    "mirror": true,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 180,
+        "elevation": 14,
+        "distance": 2.1,
+        "target": "chest"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 0,
+        "elevation": 10,
+        "distance": 2.1,
+        "target": "chest"
+      }
+    ],
+    "highlight": ["rhomboid", "thoracic-spine", "pectoral"],
+    "fault": {
+      "id": "knees-roll",
+      "label": "Knees rolling up to force the twist",
+      "labelAr": "رفع الركبتين لإجبار الدوران",
+      "delta": {
+        "pelvis.internal_rotation": [0, 18]
+      }
+    }
+  },
+  {
+    "id": "thoracic-rotation",
+    "pattern": "thoracic rotation|gentle rotation|rotation press",
+    "flags": "i",
+    "base": "seated",
+    "range": {
+      "thoracic.internal_rotation": [-28, 28]
+    },
+    "hold": null,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 0,
+        "elevation": 10,
+        "distance": 1.9,
+        "target": "chest"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 90,
+        "elevation": 6,
+        "distance": 1.8,
+        "target": "chest"
+      }
+    ],
+    "highlight": ["thoracic-spine", "oblique", "costal-margin"],
+    "fault": {
+      "id": "lumbar-twist",
+      "label": "Pelvis turning so the low back takes over",
+      "labelAr": "دوران الحوض ليأخذ أسفل الظهر العبء",
+      "delta": {
+        "pelvis.internal_rotation": [-22, 22]
+      }
+    }
+  },
+  {
+    "id": "chest-open",
+    "pattern": "chest opening|seated thoracic extension",
+    "flags": "i",
+    "base": "seated",
+    "range": {
+      "thoracic.extension": [0, 22],
+      "scapula.adduction": [0, 16]
+    },
+    "hold": null,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 90,
+        "elevation": 6,
+        "distance": 2,
+        "target": "chest"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 0,
+        "elevation": 8,
+        "distance": 2,
+        "target": "chest"
+      }
+    ],
+    "highlight": ["pectoral", "costal-margin", "thoracic-spine"],
+    "fault": {
+      "id": "rib-flare",
+      "label": "Ribs popping forward instead of the upper back extending",
+      "labelAr": "بروز الأضلاع بدل امتداد أعلى الظهر",
+      "delta": {
+        "lumbar.extension": [0, 20]
+      }
+    }
+  },
+  {
+    "id": "extension-in-seated",
+    "pattern": "thoracic extension",
+    "flags": "i",
+    "base": "seated",
+    "range": {
+      "thoracic.extension": [0, 18]
+    },
+    "hold": null,
+    "cameras": [
+      {
+        "id": "primary",
+        "azimuth": 90,
+        "elevation": 4,
+        "distance": 1.9,
+        "target": "thoracic"
+      },
+      {
+        "id": "secondary",
+        "azimuth": 180,
+        "elevation": 8,
+        "distance": 2,
+        "target": "thoracic"
+      }
+    ],
+    "highlight": ["thoracic-spine", "rhomboid"],
+    "fault": {
+      "id": "from-low-back",
+      "label": "Extension coming from the low back",
+      "labelAr": "الامتداد من أسفل الظهر",
+      "delta": {
+        "lumbar.extension": [0, 22]
+      }
+    }
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "supine": {
+    "root": {
+      "roll": -90
+    },
+    "hip.flexion": 8,
+    "knee.flexion": 25,
+    "head.flexion": 6
+  },
+  "prone": {
+    "root": {
+      "roll": 90
+    },
+    "head.extension": 12,
+    "knee.flexion": 10
+  },
+  "side_lying": {
+    "root": {
+      "roll": -90,
+      "yaw": -90
+    },
+    "hip.flexion": 18,
+    "knee.flexion": 38,
+    "head.flexion": 4
+  },
+  "seated": {
+    "root": {
+      "drop": 0.51
+    },
+    "hip.flexion": 88,
+    "knee.flexion": 92,
+    "ankle.extension": 4,
+    "lumbar.flexion": 4
+  },
+  "standing": {},
+  "wall_standing": {
+    "lumbar.extension": 3
+  },
+  "four_point": {
+    "root": {
+      "roll": 90,
+      "pitch": 0
+    },
+    "hip.flexion": 92,
+    "knee.flexion": 92,
+    "head.extension": 16
+  },
+  "half_kneeling": {
+    "root": {
+      "drop": 0.44
+    },
+    "hip.flexion": 88,
+    "knee.flexion": 118,
+    "lumbar.extension": 3
+  },
+  "long_sitting": {
+    "root": {
+      "drop": 0.8
+    },
+    "hip.flexion": 8,
+    "knee.flexion": 6,
+    "lumbar.flexion": 6
+  }
+}

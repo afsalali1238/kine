@@ -1,0 +1,6099 @@
+[
+  {
+    "id": "lower-back-1",
+    "name": "Supported belly breathing",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "back-flexion",
+      "back-extension",
+      "lumbar-radicular",
+      "si-joint"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "abdomen",
+      "lower-back"
+    ],
+    "type": "mobility",
+    "sets": 1,
+    "reps": 6,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "lying",
+    "cues": [
+      "Lie supported with your knees bent and your shoulders relaxed.",
+      "Rest your hands around the lower ribs.",
+      "Breathe in gently through your nose and let the ribs widen.",
+      "Breathe out slowly without bracing or forcing the breath."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "lower-back-1-supported",
+    "harderVariantId": "lower-back-2",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "abdomen",
+        "lower-back"
+      ]
+    }
+  },
+  {
+    "id": "lower-back-2",
+    "name": "Small pelvic tilts",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "back-flexion",
+      "back-extension",
+      "lumbar-radicular",
+      "si-joint"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "abdomen",
+      "lower-back"
+    ],
+    "type": "mobility",
+    "sets": 2,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "lying",
+    "cues": [
+      "Lie on your back with your knees bent and feet supported.",
+      "Gently roll your pelvis to soften the space beneath your lower back.",
+      "Return to the middle without pushing into a large arch."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "lower-back-1",
+    "harderVariantId": "lower-back-3",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "abdomen",
+        "lower-back"
+      ]
+    }
+  },
+  {
+    "id": "lower-back-3",
+    "name": "Gentle knee rocks",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "back-flexion",
+      "back-extension",
+      "lumbar-radicular",
+      "si-joint"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "abdomen",
+      "lower-back"
+    ],
+    "type": "mobility",
+    "sets": 2,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "lying",
+    "cues": [
+      "Lie on your back with both knees bent and feet together.",
+      "Let the knees move a small distance to one side.",
+      "Return to centre, then repeat to the other side without forcing range."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "lower-back-2",
+    "harderVariantId": "lower-back-4",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "abdomen",
+        "lower-back"
+      ]
+    }
+  },
+  {
+    "id": "lower-back-4",
+    "name": "Supported back extension",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "back-flexion",
+      "back-extension",
+      "lumbar-radicular",
+      "si-joint"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "abdomen",
+      "lower-back"
+    ],
+    "type": "mobility",
+    "sets": 2,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "lying",
+    "cues": [
+      "Lie on your stomach with a pillow under the chest if needed.",
+      "Prop gently onto your forearms, keeping your pelvis relaxed.",
+      "Return down if symptoms spread farther into the leg."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "lower-back-3",
+    "harderVariantId": "lower-back-5",
+    "contraindicatedFor": [
+      "back-flexion"
+    ],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "abdomen",
+        "lower-back"
+      ]
+    }
+  },
+  {
+    "id": "lower-back-5",
+    "name": "Supine abdominal brace",
+    "nameAr": "تمرين ثبات لطيف",
+    "presentationIds": [
+      "back-flexion",
+      "back-extension",
+      "lumbar-radicular",
+      "si-joint"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "abdomen",
+      "lower-back"
+    ],
+    "type": "isometric",
+    "sets": 5,
+    "reps": 0,
+    "holdSeconds": 30,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "lying",
+    "cues": [
+      "Lie on your back with your knees bent.",
+      "Gently tighten the lower abdomen as if preparing for a light nudge.",
+      "Keep breathing normally and release fully between holds."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "lower-back-4",
+    "harderVariantId": "lower-back-6",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "abdomen",
+        "lower-back"
+      ]
+    }
+  },
+  {
+    "id": "lower-back-6",
+    "name": "Heel slides",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "back-flexion",
+      "back-extension",
+      "lumbar-radicular",
+      "si-joint"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "abdomen",
+      "lower-back"
+    ],
+    "type": "mobility",
+    "sets": 2,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "lying",
+    "cues": [
+      "Lie with your legs supported.",
+      "Slide one heel towards your bottom through a comfortable range.",
+      "Slide it away again without forcing the knee or back."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "lower-back-5",
+    "harderVariantId": "lower-back-7",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "abdomen",
+        "lower-back"
+      ]
+    }
+  },
+  {
+    "id": "lower-back-7",
+    "name": "Bridge",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "back-flexion",
+      "back-extension",
+      "lumbar-radicular",
+      "si-joint"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "abdomen",
+      "lower-back"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "lying",
+    "cues": [
+      "Lie on your back with knees bent and feet hip-width apart.",
+      "Press through the feet and lift your hips without arching the back.",
+      "Lower slowly and keep the pelvis level."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "lower-back-6",
+    "harderVariantId": "lower-back-8",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "abdomen",
+        "lower-back"
+      ]
+    }
+  },
+  {
+    "id": "lower-back-8",
+    "name": "Bird dog preparation",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "back-flexion",
+      "back-extension",
+      "lumbar-radicular",
+      "si-joint"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "abdomen",
+      "lower-back"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "four_point",
+    "cues": [
+      "Start on hands and knees with your back comfortable.",
+      "Slide one leg back; add the opposite arm only if you stay steady.",
+      "Keep your pelvis level and return slowly without holding your breath."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "lower-back-7",
+    "harderVariantId": "lower-back-9",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "abdomen",
+        "lower-back"
+      ]
+    }
+  },
+  {
+    "id": "lower-back-9",
+    "name": "Sit to stand",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "back-flexion",
+      "back-extension",
+      "lumbar-radicular",
+      "si-joint"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "abdomen",
+      "lower-back"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "chair",
+    "positionRequired": "standing",
+    "cues": [
+      "Sit near the front of a stable chair with feet hip-width apart.",
+      "Lean forward slightly and press through both feet to stand.",
+      "Lower slowly to the chair; use the armrests if needed."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "lower-back-8",
+    "harderVariantId": "lower-back-10",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "abdomen",
+        "lower-back"
+      ]
+    }
+  },
+  {
+    "id": "lower-back-10",
+    "name": "Standing hip hinge",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "back-flexion",
+      "back-extension",
+      "lumbar-radicular",
+      "si-joint"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "abdomen",
+      "lower-back"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Stand with feet hip-width apart and knees softly bent.",
+      "Send your hips backwards while keeping the load close to your body.",
+      "Press through the feet to stand tall without leaning backwards."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "lower-back-9",
+    "harderVariantId": "lower-back-11",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "abdomen",
+        "lower-back"
+      ]
+    }
+  },
+  {
+    "id": "lower-back-11",
+    "name": "Bridge march",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "back-flexion",
+      "back-extension",
+      "lumbar-radicular",
+      "si-joint"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "abdomen",
+      "lower-back"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "lying",
+    "cues": [
+      "Lie on your back with knees bent and feet hip-width apart.",
+      "Press through the feet and lift your hips without arching the back.",
+      "Lower slowly and keep the pelvis level."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "lower-back-10",
+    "harderVariantId": "lower-back-12",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "abdomen",
+        "lower-back"
+      ]
+    }
+  },
+  {
+    "id": "lower-back-12",
+    "name": "Bird dog",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "back-flexion",
+      "back-extension",
+      "lumbar-radicular",
+      "si-joint"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "abdomen",
+      "lower-back"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "four_point",
+    "cues": [
+      "Start on hands and knees with your back comfortable.",
+      "Slide one leg back; add the opposite arm only if you stay steady.",
+      "Keep your pelvis level and return slowly without holding your breath."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "lower-back-11",
+    "harderVariantId": "lower-back-13",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "abdomen",
+        "lower-back"
+      ]
+    }
+  },
+  {
+    "id": "lower-back-13",
+    "name": "Chair squat",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "back-flexion",
+      "back-extension",
+      "lumbar-radicular",
+      "si-joint"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "abdomen",
+      "lower-back"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "chair",
+    "positionRequired": "standing",
+    "cues": [
+      "Sit near the front of a stable chair with feet hip-width apart.",
+      "Lean forward slightly and press through both feet to stand.",
+      "Lower slowly to the chair; use the armrests if needed."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "lower-back-12",
+    "harderVariantId": "lower-back-14",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "abdomen",
+        "lower-back"
+      ]
+    }
+  },
+  {
+    "id": "lower-back-14",
+    "name": "Loaded hip hinge",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "back-flexion",
+      "back-extension",
+      "lumbar-radicular",
+      "si-joint"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "abdomen",
+      "lower-back"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "weight",
+    "positionRequired": "standing",
+    "cues": [
+      "Stand with feet hip-width apart and knees softly bent.",
+      "Send your hips backwards while keeping the load close to your body.",
+      "Press through the feet to stand tall without leaning backwards."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "lower-back-13",
+    "harderVariantId": "lower-back-15",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "abdomen",
+        "lower-back"
+      ]
+    }
+  },
+  {
+    "id": "lower-back-15",
+    "name": "Suitcase carry",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "back-flexion",
+      "back-extension",
+      "lumbar-radicular",
+      "si-joint"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "abdomen",
+      "lower-back"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Choose a light load you can hold without increasing symptoms.",
+      "Stand comfortably tall and take slow, even steps.",
+      "Keep breathing and avoid leaning to compensate for the load."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "lower-back-14",
+    "harderVariantId": "lower-back-15-progressed",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "abdomen",
+        "lower-back"
+      ]
+    }
+  },
+  {
+    "id": "neck-1",
+    "name": "Supported neck rest",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "neck-mechanical",
+      "neck-postural",
+      "neck-headache",
+      "cervical-radicular"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "forehead",
+      "jaw"
+    ],
+    "type": "mobility",
+    "sets": 1,
+    "reps": 0,
+    "holdSeconds": 45,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Support the painful area with a pillow or folded towel.",
+      "Choose a position that reduces discomfort rather than stretching it.",
+      "Let the surrounding muscles relax as you breathe slowly."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "neck-1-supported",
+    "harderVariantId": "neck-2",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "forehead",
+        "jaw"
+      ]
+    }
+  },
+  {
+    "id": "neck-2",
+    "name": "Small neck turns",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "neck-mechanical",
+      "neck-postural",
+      "neck-headache",
+      "cervical-radicular"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "forehead",
+      "jaw"
+    ],
+    "type": "mobility",
+    "sets": 2,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "seated",
+    "cues": [
+      "Sit supported with your shoulders relaxed.",
+      "For turns, rotate your head gently; for chin nods, make a small yes movement.",
+      "For a hold, press lightly into your hand without moving your head.",
+      "Stop if you develop dizziness, spreading tingling, or a new headache."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "neck-1",
+    "harderVariantId": "neck-3",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "forehead",
+        "jaw"
+      ]
+    }
+  },
+  {
+    "id": "neck-3",
+    "name": "Gentle chin nod",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "neck-mechanical",
+      "neck-postural",
+      "neck-headache",
+      "cervical-radicular"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "forehead",
+      "jaw"
+    ],
+    "type": "mobility",
+    "sets": 2,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "seated",
+    "cues": [
+      "Sit supported with your shoulders relaxed.",
+      "For turns, rotate your head gently; for chin nods, make a small yes movement.",
+      "For a hold, press lightly into your hand without moving your head.",
+      "Stop if you develop dizziness, spreading tingling, or a new headache."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "neck-2",
+    "harderVariantId": "neck-4",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "forehead",
+        "jaw"
+      ]
+    }
+  },
+  {
+    "id": "neck-4",
+    "name": "Neck rotation hold",
+    "nameAr": "تمرين ثبات لطيف",
+    "presentationIds": [
+      "neck-mechanical",
+      "neck-postural",
+      "neck-headache",
+      "cervical-radicular"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "forehead",
+      "jaw"
+    ],
+    "type": "isometric",
+    "sets": 5,
+    "reps": 0,
+    "holdSeconds": 30,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "seated",
+    "cues": [
+      "Sit supported with your shoulders relaxed.",
+      "For turns, rotate your head gently; for chin nods, make a small yes movement.",
+      "For a hold, press lightly into your hand without moving your head.",
+      "Stop if you develop dizziness, spreading tingling, or a new headache."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "neck-3",
+    "harderVariantId": "neck-5",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "forehead",
+        "jaw"
+      ]
+    }
+  },
+  {
+    "id": "neck-5",
+    "name": "Seated shoulder rolls",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "neck-mechanical",
+      "neck-postural",
+      "neck-headache",
+      "cervical-radicular"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "forehead",
+      "jaw"
+    ],
+    "type": "mobility",
+    "sets": 2,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "chair",
+    "positionRequired": "seated",
+    "cues": [
+      "Sit or stand comfortably without bracing your neck.",
+      "Let your shoulder blades move gently back and then relax.",
+      "Keep the movement small and do not pull hard downwards."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "neck-4",
+    "harderVariantId": "neck-6",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "forehead",
+        "jaw"
+      ]
+    }
+  },
+  {
+    "id": "neck-6",
+    "name": "Chin tuck",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "neck-mechanical",
+      "neck-postural",
+      "neck-headache",
+      "cervical-radicular"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "forehead",
+      "jaw"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "seated",
+    "cues": [
+      "Sit supported with your shoulders relaxed.",
+      "For turns, rotate your head gently; for chin nods, make a small yes movement.",
+      "For a hold, press lightly into your hand without moving your head.",
+      "Stop if you develop dizziness, spreading tingling, or a new headache."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "neck-5",
+    "harderVariantId": "neck-7",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "forehead",
+        "jaw"
+      ]
+    }
+  },
+  {
+    "id": "neck-7",
+    "name": "Seated neck rotation",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "neck-mechanical",
+      "neck-postural",
+      "neck-headache",
+      "cervical-radicular"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "forehead",
+      "jaw"
+    ],
+    "type": "mobility",
+    "sets": 2,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "chair",
+    "positionRequired": "seated",
+    "cues": [
+      "Sit supported with your shoulders relaxed.",
+      "For turns, rotate your head gently; for chin nods, make a small yes movement.",
+      "For a hold, press lightly into your hand without moving your head.",
+      "Stop if you develop dizziness, spreading tingling, or a new headache."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "neck-6",
+    "harderVariantId": "neck-8",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "forehead",
+        "jaw"
+      ]
+    }
+  },
+  {
+    "id": "neck-8",
+    "name": "Neck isometric press",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "neck-mechanical",
+      "neck-postural",
+      "neck-headache",
+      "cervical-radicular"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "forehead",
+      "jaw"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "seated",
+    "cues": [
+      "Sit supported with your shoulders relaxed.",
+      "For turns, rotate your head gently; for chin nods, make a small yes movement.",
+      "For a hold, press lightly into your hand without moving your head.",
+      "Stop if you develop dizziness, spreading tingling, or a new headache."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "neck-7",
+    "harderVariantId": "neck-9",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "forehead",
+        "jaw"
+      ]
+    }
+  },
+  {
+    "id": "neck-9",
+    "name": "Wall slide",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "neck-mechanical",
+      "neck-postural",
+      "neck-headache",
+      "cervical-radicular"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "forehead",
+      "jaw"
+    ],
+    "type": "mobility",
+    "sets": 2,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "wall",
+    "positionRequired": "standing",
+    "cues": [
+      "Support your arm on a wall or with your other hand.",
+      "Reach upwards only as far as feels comfortable.",
+      "Keep the neck relaxed and lower slowly without forcing the range."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "neck-8",
+    "harderVariantId": "neck-10",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "forehead",
+        "jaw"
+      ]
+    }
+  },
+  {
+    "id": "neck-10",
+    "name": "Band row",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "neck-mechanical",
+      "neck-postural",
+      "neck-headache",
+      "cervical-radicular"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "forehead",
+      "jaw"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "band",
+    "positionRequired": "standing",
+    "cues": [
+      "Secure a light band to a stable anchor, or hold it between your hands for a pull-apart.",
+      "Draw your elbows back while keeping the shoulders relaxed.",
+      "Return slowly without leaning backwards or jutting your chin."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "neck-9",
+    "harderVariantId": "neck-11",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "forehead",
+        "jaw"
+      ]
+    }
+  },
+  {
+    "id": "neck-11",
+    "name": "Standing chin tuck",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "neck-mechanical",
+      "neck-postural",
+      "neck-headache",
+      "cervical-radicular"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "forehead",
+      "jaw"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "seated",
+    "cues": [
+      "Sit supported with your shoulders relaxed.",
+      "For turns, rotate your head gently; for chin nods, make a small yes movement.",
+      "For a hold, press lightly into your hand without moving your head.",
+      "Stop if you develop dizziness, spreading tingling, or a new headache."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "neck-10",
+    "harderVariantId": "neck-12",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "forehead",
+        "jaw"
+      ]
+    }
+  },
+  {
+    "id": "neck-12",
+    "name": "Resisted neck rotation",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "neck-mechanical",
+      "neck-postural",
+      "neck-headache",
+      "cervical-radicular"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "forehead",
+      "jaw"
+    ],
+    "type": "mobility",
+    "sets": 2,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "seated",
+    "cues": [
+      "Sit supported with your shoulders relaxed.",
+      "For turns, rotate your head gently; for chin nods, make a small yes movement.",
+      "For a hold, press lightly into your hand without moving your head.",
+      "Stop if you develop dizziness, spreading tingling, or a new headache."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "neck-11",
+    "harderVariantId": "neck-13",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "forehead",
+        "jaw"
+      ]
+    }
+  },
+  {
+    "id": "neck-13",
+    "name": "Incline wall press",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "neck-mechanical",
+      "neck-postural",
+      "neck-headache",
+      "cervical-radicular"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "forehead",
+      "jaw"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Place your hands on a wall or a stable raised surface.",
+      "Bend your elbows slowly while keeping your body in a comfortable line.",
+      "Press away without shrugging or forcing shoulder pain."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "neck-12",
+    "harderVariantId": "neck-14",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "forehead",
+        "jaw"
+      ]
+    }
+  },
+  {
+    "id": "neck-14",
+    "name": "Band pull apart",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "neck-mechanical",
+      "neck-postural",
+      "neck-headache",
+      "cervical-radicular"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "forehead",
+      "jaw"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "band",
+    "positionRequired": "standing",
+    "cues": [
+      "Secure a light band to a stable anchor, or hold it between your hands for a pull-apart.",
+      "Draw your elbows back while keeping the shoulders relaxed.",
+      "Return slowly without leaning backwards or jutting your chin."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "neck-13",
+    "harderVariantId": "neck-15",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "forehead",
+        "jaw"
+      ]
+    }
+  },
+  {
+    "id": "neck-15",
+    "name": "Overhead reach",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "neck-mechanical",
+      "neck-postural",
+      "neck-headache",
+      "cervical-radicular"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "forehead",
+      "jaw"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Support your arm on a wall or with your other hand.",
+      "Reach upwards only as far as feels comfortable.",
+      "Keep the neck relaxed and lower slowly without forcing the range."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "neck-14",
+    "harderVariantId": "neck-15-progressed",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "forehead",
+        "jaw"
+      ]
+    }
+  },
+  {
+    "id": "shoulder-1",
+    "name": "Supported shoulder rest",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "rotator-cuff",
+      "subacromial",
+      "frozen-shoulder",
+      "ac-joint"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "shoulder-left",
+      "shoulder-right"
+    ],
+    "type": "mobility",
+    "sets": 1,
+    "reps": 0,
+    "holdSeconds": 45,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Support the painful area with a pillow or folded towel.",
+      "Choose a position that reduces discomfort rather than stretching it.",
+      "Let the surrounding muscles relax as you breathe slowly."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "shoulder-1-supported",
+    "harderVariantId": "shoulder-2",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "shoulder-left",
+        "shoulder-right"
+      ]
+    }
+  },
+  {
+    "id": "shoulder-2",
+    "name": "Small pendulum",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "rotator-cuff",
+      "subacromial",
+      "frozen-shoulder",
+      "ac-joint"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "shoulder-left",
+      "shoulder-right"
+    ],
+    "type": "mobility",
+    "sets": 2,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Support one hand on a stable table and lean forward.",
+      "Let the other arm relax and hang freely.",
+      "Shift your body gently to create small, easy circles without actively lifting the arm."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "shoulder-1",
+    "harderVariantId": "shoulder-3",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "shoulder-left",
+        "shoulder-right"
+      ]
+    }
+  },
+  {
+    "id": "shoulder-3",
+    "name": "Table slide",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "rotator-cuff",
+      "subacromial",
+      "frozen-shoulder",
+      "ac-joint"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "shoulder-left",
+      "shoulder-right"
+    ],
+    "type": "mobility",
+    "sets": 2,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "seated",
+    "cues": [
+      "Sit facing a table with the hand resting on a towel.",
+      "Slide the hand forward as you lean gently from the hips.",
+      "Stop before sharp pain and slide back without shrugging."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "shoulder-2",
+    "harderVariantId": "shoulder-4",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "shoulder-left",
+        "shoulder-right"
+      ]
+    }
+  },
+  {
+    "id": "shoulder-4",
+    "name": "Shoulder blade setting",
+    "nameAr": "تمرين ثبات لطيف",
+    "presentationIds": [
+      "rotator-cuff",
+      "subacromial",
+      "frozen-shoulder",
+      "ac-joint"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "shoulder-left",
+      "shoulder-right"
+    ],
+    "type": "isometric",
+    "sets": 5,
+    "reps": 0,
+    "holdSeconds": 30,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Sit or stand comfortably without bracing your neck.",
+      "Let your shoulder blades move gently back and then relax.",
+      "Keep the movement small and do not pull hard downwards."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "shoulder-3",
+    "harderVariantId": "shoulder-5",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "shoulder-left",
+        "shoulder-right"
+      ]
+    }
+  },
+  {
+    "id": "shoulder-5",
+    "name": "External rotation hold",
+    "nameAr": "تمرين ثبات لطيف",
+    "presentationIds": [
+      "rotator-cuff",
+      "subacromial",
+      "frozen-shoulder",
+      "ac-joint"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "shoulder-left",
+      "shoulder-right"
+    ],
+    "type": "isometric",
+    "sets": 5,
+    "reps": 0,
+    "holdSeconds": 30,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Keep your elbow bent to a right angle and close to your side.",
+      "Turn the forearm outwards without twisting your trunk.",
+      "For a hold, press gently into a wall or the other hand without moving."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "shoulder-4",
+    "harderVariantId": "shoulder-6",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "shoulder-left",
+        "shoulder-right"
+      ]
+    }
+  },
+  {
+    "id": "shoulder-6",
+    "name": "Assisted arm elevation",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "rotator-cuff",
+      "subacromial",
+      "frozen-shoulder",
+      "ac-joint"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "shoulder-left",
+      "shoulder-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Support your arm on a wall or with your other hand.",
+      "Reach upwards only as far as feels comfortable.",
+      "Keep the neck relaxed and lower slowly without forcing the range."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "shoulder-5",
+    "harderVariantId": "shoulder-7",
+    "contraindicatedFor": [
+      "frozen-shoulder"
+    ],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "shoulder-left",
+        "shoulder-right"
+      ]
+    }
+  },
+  {
+    "id": "shoulder-7",
+    "name": "Wall slide",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "rotator-cuff",
+      "subacromial",
+      "frozen-shoulder",
+      "ac-joint"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "shoulder-left",
+      "shoulder-right"
+    ],
+    "type": "mobility",
+    "sets": 2,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "wall",
+    "positionRequired": "standing",
+    "cues": [
+      "Support your arm on a wall or with your other hand.",
+      "Reach upwards only as far as feels comfortable.",
+      "Keep the neck relaxed and lower slowly without forcing the range."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "shoulder-6",
+    "harderVariantId": "shoulder-8",
+    "contraindicatedFor": [
+      "frozen-shoulder"
+    ],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "shoulder-left",
+        "shoulder-right"
+      ]
+    }
+  },
+  {
+    "id": "shoulder-8",
+    "name": "Band external rotation",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "rotator-cuff",
+      "subacromial",
+      "frozen-shoulder",
+      "ac-joint"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "shoulder-left",
+      "shoulder-right"
+    ],
+    "type": "mobility",
+    "sets": 2,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "band",
+    "positionRequired": "standing",
+    "cues": [
+      "Keep your elbow bent to a right angle and close to your side.",
+      "Turn the forearm outwards without twisting your trunk.",
+      "For a hold, press gently into a wall or the other hand without moving."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "shoulder-7",
+    "harderVariantId": "shoulder-9",
+    "contraindicatedFor": [
+      "frozen-shoulder"
+    ],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "shoulder-left",
+        "shoulder-right"
+      ]
+    }
+  },
+  {
+    "id": "shoulder-9",
+    "name": "Light scaption",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "rotator-cuff",
+      "subacromial",
+      "frozen-shoulder",
+      "ac-joint"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "shoulder-left",
+      "shoulder-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Stand with thumbs pointing up and arms slightly forward of your sides.",
+      "Raise the arms slowly to a comfortable height, no higher than the shoulders at first.",
+      "Lower over three seconds without shrugging."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "shoulder-8",
+    "harderVariantId": "shoulder-10",
+    "contraindicatedFor": [
+      "frozen-shoulder"
+    ],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "shoulder-left",
+        "shoulder-right"
+      ]
+    }
+  },
+  {
+    "id": "shoulder-10",
+    "name": "Wall push up",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "rotator-cuff",
+      "subacromial",
+      "frozen-shoulder",
+      "ac-joint"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "shoulder-left",
+      "shoulder-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "wall",
+    "positionRequired": "standing",
+    "cues": [
+      "Place your hands on a wall or a stable raised surface.",
+      "Bend your elbows slowly while keeping your body in a comfortable line.",
+      "Press away without shrugging or forcing shoulder pain."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "shoulder-9",
+    "harderVariantId": "shoulder-11",
+    "contraindicatedFor": [
+      "frozen-shoulder"
+    ],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "shoulder-left",
+        "shoulder-right"
+      ]
+    }
+  },
+  {
+    "id": "shoulder-11",
+    "name": "Standing external rotation",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "rotator-cuff",
+      "subacromial",
+      "frozen-shoulder",
+      "ac-joint"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "shoulder-left",
+      "shoulder-right"
+    ],
+    "type": "mobility",
+    "sets": 2,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Keep your elbow bent to a right angle and close to your side.",
+      "Turn the forearm outwards without twisting your trunk.",
+      "For a hold, press gently into a wall or the other hand without moving."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "shoulder-10",
+    "harderVariantId": "shoulder-12",
+    "contraindicatedFor": [
+      "frozen-shoulder"
+    ],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "shoulder-left",
+        "shoulder-right"
+      ]
+    }
+  },
+  {
+    "id": "shoulder-12",
+    "name": "Band row",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "rotator-cuff",
+      "subacromial",
+      "frozen-shoulder",
+      "ac-joint"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "shoulder-left",
+      "shoulder-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "band",
+    "positionRequired": "standing",
+    "cues": [
+      "Secure a light band to a stable anchor, or hold it between your hands for a pull-apart.",
+      "Draw your elbows back while keeping the shoulders relaxed.",
+      "Return slowly without leaning backwards or jutting your chin."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "shoulder-11",
+    "harderVariantId": "shoulder-13",
+    "contraindicatedFor": [
+      "frozen-shoulder"
+    ],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "shoulder-left",
+        "shoulder-right"
+      ]
+    }
+  },
+  {
+    "id": "shoulder-13",
+    "name": "Incline push up",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "rotator-cuff",
+      "subacromial",
+      "frozen-shoulder",
+      "ac-joint"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "shoulder-left",
+      "shoulder-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Place your hands on a wall or a stable raised surface.",
+      "Bend your elbows slowly while keeping your body in a comfortable line.",
+      "Press away without shrugging or forcing shoulder pain."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "shoulder-12",
+    "harderVariantId": "shoulder-14",
+    "contraindicatedFor": [
+      "frozen-shoulder"
+    ],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "shoulder-left",
+        "shoulder-right"
+      ]
+    }
+  },
+  {
+    "id": "shoulder-14",
+    "name": "Weighted scaption",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "rotator-cuff",
+      "subacromial",
+      "frozen-shoulder",
+      "ac-joint"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "shoulder-left",
+      "shoulder-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "weight",
+    "positionRequired": "standing",
+    "cues": [
+      "Stand with thumbs pointing up and arms slightly forward of your sides.",
+      "Raise the arms slowly to a comfortable height, no higher than the shoulders at first.",
+      "Lower over three seconds without shrugging."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "shoulder-13",
+    "harderVariantId": "shoulder-15",
+    "contraindicatedFor": [
+      "frozen-shoulder"
+    ],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "shoulder-left",
+        "shoulder-right"
+      ]
+    }
+  },
+  {
+    "id": "shoulder-15",
+    "name": "Overhead press",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "rotator-cuff",
+      "subacromial",
+      "frozen-shoulder",
+      "ac-joint"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "shoulder-left",
+      "shoulder-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Support your arm on a wall or with your other hand.",
+      "Reach upwards only as far as feels comfortable.",
+      "Keep the neck relaxed and lower slowly without forcing the range."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "shoulder-14",
+    "harderVariantId": "shoulder-15-progressed",
+    "contraindicatedFor": [
+      "frozen-shoulder"
+    ],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "shoulder-left",
+        "shoulder-right"
+      ]
+    }
+  },
+  {
+    "id": "knee-1",
+    "name": "Supported knee rest",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "patellofemoral",
+      "patellar-tendon",
+      "meniscal",
+      "knee-oa"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "knee-left",
+      "knee-right"
+    ],
+    "type": "mobility",
+    "sets": 1,
+    "reps": 0,
+    "holdSeconds": 45,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Support the painful area with a pillow or folded towel.",
+      "Choose a position that reduces discomfort rather than stretching it.",
+      "Let the surrounding muscles relax as you breathe slowly."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "knee-1-supported",
+    "harderVariantId": "knee-2",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "knee-left",
+        "knee-right"
+      ]
+    }
+  },
+  {
+    "id": "knee-2",
+    "name": "Knee extension hold",
+    "nameAr": "تمرين ثبات لطيف",
+    "presentationIds": [
+      "patellofemoral",
+      "patellar-tendon",
+      "meniscal",
+      "knee-oa"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "knee-left",
+      "knee-right"
+    ],
+    "type": "isometric",
+    "sets": 5,
+    "reps": 0,
+    "holdSeconds": 30,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Sit or lie with the thigh supported.",
+      "Straighten the knee gently by tightening the front of the thigh.",
+      "Keep the hip relaxed; lower slowly or release the hold completely."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "knee-1",
+    "harderVariantId": "knee-3",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "knee-left",
+        "knee-right"
+      ]
+    }
+  },
+  {
+    "id": "knee-3",
+    "name": "Heel slide",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "patellofemoral",
+      "patellar-tendon",
+      "meniscal",
+      "knee-oa"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "knee-left",
+      "knee-right"
+    ],
+    "type": "mobility",
+    "sets": 2,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "lying",
+    "cues": [
+      "Lie with your legs supported.",
+      "Slide one heel towards your bottom through a comfortable range.",
+      "Slide it away again without forcing the knee or back."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "knee-2",
+    "harderVariantId": "knee-4",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "knee-left",
+        "knee-right"
+      ]
+    }
+  },
+  {
+    "id": "knee-4",
+    "name": "Gentle quadriceps squeeze",
+    "nameAr": "تمرين ثبات لطيف",
+    "presentationIds": [
+      "patellofemoral",
+      "patellar-tendon",
+      "meniscal",
+      "knee-oa"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "knee-left",
+      "knee-right"
+    ],
+    "type": "isometric",
+    "sets": 5,
+    "reps": 0,
+    "holdSeconds": 30,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Sit or lie with the thigh supported.",
+      "Straighten the knee gently by tightening the front of the thigh.",
+      "Keep the hip relaxed; lower slowly or release the hold completely."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "knee-3",
+    "harderVariantId": "knee-5",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "knee-left",
+        "knee-right"
+      ]
+    }
+  },
+  {
+    "id": "knee-5",
+    "name": "Seated knee bend",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "patellofemoral",
+      "patellar-tendon",
+      "meniscal",
+      "knee-oa"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "knee-left",
+      "knee-right"
+    ],
+    "type": "mobility",
+    "sets": 2,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "chair",
+    "positionRequired": "seated",
+    "cues": [
+      "Sit on a stable chair with your foot on the floor.",
+      "Slide the foot backwards to bend the knee comfortably.",
+      "Slide it forwards again without forcing stiffness."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "knee-4",
+    "harderVariantId": "knee-6",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "knee-left",
+        "knee-right"
+      ]
+    }
+  },
+  {
+    "id": "knee-6",
+    "name": "Seated knee extension",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "patellofemoral",
+      "patellar-tendon",
+      "meniscal",
+      "knee-oa"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "knee-left",
+      "knee-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "chair",
+    "positionRequired": "seated",
+    "cues": [
+      "Sit or lie with the thigh supported.",
+      "Straighten the knee gently by tightening the front of the thigh.",
+      "Keep the hip relaxed; lower slowly or release the hold completely."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "knee-5",
+    "harderVariantId": "knee-7",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "knee-left",
+        "knee-right"
+      ]
+    }
+  },
+  {
+    "id": "knee-7",
+    "name": "High chair sit to stand",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "patellofemoral",
+      "patellar-tendon",
+      "meniscal",
+      "knee-oa"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "knee-left",
+      "knee-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "chair",
+    "positionRequired": "standing",
+    "cues": [
+      "Sit near the front of a stable chair with feet hip-width apart.",
+      "Lean forward slightly and press through both feet to stand.",
+      "Lower slowly to the chair; use the armrests if needed."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "knee-6",
+    "harderVariantId": "knee-8",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "knee-left",
+        "knee-right"
+      ]
+    }
+  },
+  {
+    "id": "knee-8",
+    "name": "Low step up",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "patellofemoral",
+      "patellar-tendon",
+      "meniscal",
+      "knee-oa"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "knee-left",
+      "knee-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Use a low, stable step and keep a hand near a rail.",
+      "Place your whole foot on the step and keep the knee aligned with your toes.",
+      "Move slowly up or down without dropping the pelvis."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "knee-7",
+    "harderVariantId": "knee-9",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "knee-left",
+        "knee-right"
+      ]
+    }
+  },
+  {
+    "id": "knee-9",
+    "name": "Supported mini squat",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "patellofemoral",
+      "patellar-tendon",
+      "meniscal",
+      "knee-oa"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "knee-left",
+      "knee-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Stand with feet comfortably apart beside a stable support.",
+      "Bend hips and knees together as if sitting back.",
+      "Push through the feet to return, staying within a manageable range."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "knee-8",
+    "harderVariantId": "knee-10",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "knee-left",
+        "knee-right"
+      ]
+    }
+  },
+  {
+    "id": "knee-10",
+    "name": "Slow knee extension",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "patellofemoral",
+      "patellar-tendon",
+      "meniscal",
+      "knee-oa"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "knee-left",
+      "knee-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Sit or lie with the thigh supported.",
+      "Straighten the knee gently by tightening the front of the thigh.",
+      "Keep the hip relaxed; lower slowly or release the hold completely."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "knee-9",
+    "harderVariantId": "knee-11",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "knee-left",
+        "knee-right"
+      ]
+    }
+  },
+  {
+    "id": "knee-11",
+    "name": "Chair squat",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "patellofemoral",
+      "patellar-tendon",
+      "meniscal",
+      "knee-oa"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "knee-left",
+      "knee-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "chair",
+    "positionRequired": "standing",
+    "cues": [
+      "Sit near the front of a stable chair with feet hip-width apart.",
+      "Lean forward slightly and press through both feet to stand.",
+      "Lower slowly to the chair; use the armrests if needed."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "knee-10",
+    "harderVariantId": "knee-12",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "knee-left",
+        "knee-right"
+      ]
+    }
+  },
+  {
+    "id": "knee-12",
+    "name": "Step down",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "patellofemoral",
+      "patellar-tendon",
+      "meniscal",
+      "knee-oa"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "knee-left",
+      "knee-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Use a low, stable step and keep a hand near a rail.",
+      "Place your whole foot on the step and keep the knee aligned with your toes.",
+      "Move slowly up or down without dropping the pelvis."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "knee-11",
+    "harderVariantId": "knee-13",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "knee-left",
+        "knee-right"
+      ]
+    }
+  },
+  {
+    "id": "knee-13",
+    "name": "Split squat",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "patellofemoral",
+      "patellar-tendon",
+      "meniscal",
+      "knee-oa"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "knee-left",
+      "knee-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Stand in a short split stance beside a stable support.",
+      "Lower a small distance by bending both knees.",
+      "Push through the front foot and keep the knee pointing with your toes."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "knee-12",
+    "harderVariantId": "knee-14",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "knee-left",
+        "knee-right"
+      ]
+    }
+  },
+  {
+    "id": "knee-14",
+    "name": "Weighted squat",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "patellofemoral",
+      "patellar-tendon",
+      "meniscal",
+      "knee-oa"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "knee-left",
+      "knee-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "weight",
+    "positionRequired": "standing",
+    "cues": [
+      "Stand with feet comfortably apart beside a stable support.",
+      "Bend hips and knees together as if sitting back.",
+      "Push through the feet to return, staying within a manageable range."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "knee-13",
+    "harderVariantId": "knee-15",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "knee-left",
+        "knee-right"
+      ]
+    }
+  },
+  {
+    "id": "knee-15",
+    "name": "Single leg sit to stand",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "patellofemoral",
+      "patellar-tendon",
+      "meniscal",
+      "knee-oa"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "knee-left",
+      "knee-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "chair",
+    "positionRequired": "standing",
+    "cues": [
+      "Sit near the front of a stable chair with feet hip-width apart.",
+      "Lean forward slightly and press through both feet to stand.",
+      "Lower slowly to the chair; use the armrests if needed."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "knee-14",
+    "harderVariantId": "knee-15-progressed",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "knee-left",
+        "knee-right"
+      ]
+    }
+  },
+  {
+    "id": "hip-1",
+    "name": "Supported hip rest",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "gluteal-tendon",
+      "hip-oa",
+      "groin-strain"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "hip-left",
+      "hip-right"
+    ],
+    "type": "mobility",
+    "sets": 1,
+    "reps": 0,
+    "holdSeconds": 45,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Support the painful area with a pillow or folded towel.",
+      "Choose a position that reduces discomfort rather than stretching it.",
+      "Let the surrounding muscles relax as you breathe slowly."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "hip-1-supported",
+    "harderVariantId": "hip-2",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "hip-left",
+        "hip-right"
+      ]
+    }
+  },
+  {
+    "id": "hip-2",
+    "name": "Small hip rolls",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "gluteal-tendon",
+      "hip-oa",
+      "groin-strain"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "hip-left",
+      "hip-right"
+    ],
+    "type": "mobility",
+    "sets": 2,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Lie on your back with both knees bent and feet together.",
+      "Let the knees move a small distance to one side.",
+      "Return to centre, then repeat to the other side without forcing range."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "hip-1",
+    "harderVariantId": "hip-3",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "hip-left",
+        "hip-right"
+      ]
+    }
+  },
+  {
+    "id": "hip-3",
+    "name": "Gluteal squeeze",
+    "nameAr": "تمرين ثبات لطيف",
+    "presentationIds": [
+      "gluteal-tendon",
+      "hip-oa",
+      "groin-strain"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "hip-left",
+      "hip-right"
+    ],
+    "type": "isometric",
+    "sets": 5,
+    "reps": 0,
+    "holdSeconds": 30,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Lie or stand with your hips supported comfortably.",
+      "Squeeze the buttock muscles gently without arching your back.",
+      "Keep breathing and relax completely between efforts."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "hip-2",
+    "harderVariantId": "hip-4",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "hip-left",
+        "hip-right"
+      ]
+    }
+  },
+  {
+    "id": "hip-4",
+    "name": "Supported hip abduction hold",
+    "nameAr": "تمرين ثبات لطيف",
+    "presentationIds": [
+      "gluteal-tendon",
+      "hip-oa",
+      "groin-strain"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "hip-left",
+      "hip-right"
+    ],
+    "type": "isometric",
+    "sets": 5,
+    "reps": 0,
+    "holdSeconds": 30,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Stand beside a stable support and keep your pelvis level.",
+      "Move one leg a small distance sideways without leaning your trunk.",
+      "For a hold, press the outer leg gently into a wall without moving."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "hip-3",
+    "harderVariantId": "hip-5",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "hip-left",
+        "hip-right"
+      ]
+    }
+  },
+  {
+    "id": "hip-5",
+    "name": "Seated hip rotation",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "gluteal-tendon",
+      "hip-oa",
+      "groin-strain"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "hip-left",
+      "hip-right"
+    ],
+    "type": "mobility",
+    "sets": 2,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "chair",
+    "positionRequired": "seated",
+    "cues": [
+      "Sit tall with both thighs supported.",
+      "Keep the thigh still and move your foot gently inwards and outwards.",
+      "Avoid twisting the pelvis or forcing groin pain."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "hip-4",
+    "harderVariantId": "hip-6",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "hip-left",
+        "hip-right"
+      ]
+    }
+  },
+  {
+    "id": "hip-6",
+    "name": "Bridge",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "gluteal-tendon",
+      "hip-oa",
+      "groin-strain"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "hip-left",
+      "hip-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "lying",
+    "cues": [
+      "Lie on your back with knees bent and feet hip-width apart.",
+      "Press through the feet and lift your hips without arching the back.",
+      "Lower slowly and keep the pelvis level."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "hip-5",
+    "harderVariantId": "hip-7",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "hip-left",
+        "hip-right"
+      ]
+    }
+  },
+  {
+    "id": "hip-7",
+    "name": "Standing hip abduction",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "gluteal-tendon",
+      "hip-oa",
+      "groin-strain"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "hip-left",
+      "hip-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Stand beside a stable support and keep your pelvis level.",
+      "Move one leg a small distance sideways without leaning your trunk.",
+      "For a hold, press the outer leg gently into a wall without moving."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "hip-6",
+    "harderVariantId": "hip-8",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "hip-left",
+        "hip-right"
+      ]
+    }
+  },
+  {
+    "id": "hip-8",
+    "name": "High chair sit to stand",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "gluteal-tendon",
+      "hip-oa",
+      "groin-strain"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "hip-left",
+      "hip-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "chair",
+    "positionRequired": "standing",
+    "cues": [
+      "Sit near the front of a stable chair with feet hip-width apart.",
+      "Lean forward slightly and press through both feet to stand.",
+      "Lower slowly to the chair; use the armrests if needed."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "hip-7",
+    "harderVariantId": "hip-9",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "hip-left",
+        "hip-right"
+      ]
+    }
+  },
+  {
+    "id": "hip-9",
+    "name": "Low step up",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "gluteal-tendon",
+      "hip-oa",
+      "groin-strain"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "hip-left",
+      "hip-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Use a low, stable step and keep a hand near a rail.",
+      "Place your whole foot on the step and keep the knee aligned with your toes.",
+      "Move slowly up or down without dropping the pelvis."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "hip-8",
+    "harderVariantId": "hip-10",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "hip-left",
+        "hip-right"
+      ]
+    }
+  },
+  {
+    "id": "hip-10",
+    "name": "Supported hip hinge",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "gluteal-tendon",
+      "hip-oa",
+      "groin-strain"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "hip-left",
+      "hip-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Stand with feet hip-width apart and knees softly bent.",
+      "Send your hips backwards while keeping the load close to your body.",
+      "Press through the feet to stand tall without leaning backwards."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "hip-9",
+    "harderVariantId": "hip-11",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "hip-left",
+        "hip-right"
+      ]
+    }
+  },
+  {
+    "id": "hip-11",
+    "name": "Single leg bridge",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "gluteal-tendon",
+      "hip-oa",
+      "groin-strain"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "hip-left",
+      "hip-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "lying",
+    "cues": [
+      "Lie on your back with knees bent and feet hip-width apart.",
+      "Press through the feet and lift your hips without arching the back.",
+      "Lower slowly and keep the pelvis level."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "hip-10",
+    "harderVariantId": "hip-12",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "hip-left",
+        "hip-right"
+      ]
+    }
+  },
+  {
+    "id": "hip-12",
+    "name": "Lateral step up",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "gluteal-tendon",
+      "hip-oa",
+      "groin-strain"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "hip-left",
+      "hip-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Use a low, stable step and keep a hand near a rail.",
+      "Place your whole foot on the step and keep the knee aligned with your toes.",
+      "Move slowly up or down without dropping the pelvis."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "hip-11",
+    "harderVariantId": "hip-13",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "hip-left",
+        "hip-right"
+      ]
+    }
+  },
+  {
+    "id": "hip-13",
+    "name": "Split squat",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "gluteal-tendon",
+      "hip-oa",
+      "groin-strain"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "hip-left",
+      "hip-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Stand in a short split stance beside a stable support.",
+      "Lower a small distance by bending both knees.",
+      "Push through the front foot and keep the knee pointing with your toes."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "hip-12",
+    "harderVariantId": "hip-14",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "hip-left",
+        "hip-right"
+      ]
+    }
+  },
+  {
+    "id": "hip-14",
+    "name": "Weighted hip hinge",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "gluteal-tendon",
+      "hip-oa",
+      "groin-strain"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "hip-left",
+      "hip-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "weight",
+    "positionRequired": "standing",
+    "cues": [
+      "Stand with feet hip-width apart and knees softly bent.",
+      "Send your hips backwards while keeping the load close to your body.",
+      "Press through the feet to stand tall without leaning backwards."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "hip-13",
+    "harderVariantId": "hip-15",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "hip-left",
+        "hip-right"
+      ]
+    }
+  },
+  {
+    "id": "hip-15",
+    "name": "Lateral step down",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "gluteal-tendon",
+      "hip-oa",
+      "groin-strain"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "hip-left",
+      "hip-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Use a low, stable step and keep a hand near a rail.",
+      "Place your whole foot on the step and keep the knee aligned with your toes.",
+      "Move slowly up or down without dropping the pelvis."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "hip-14",
+    "harderVariantId": "hip-15-progressed",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "hip-left",
+        "hip-right"
+      ]
+    }
+  },
+  {
+    "id": "ankle-1",
+    "name": "Supported ankle rest",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "ankle-sprain",
+      "achilles",
+      "plantar-heel"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "calf-left",
+      "calf-right"
+    ],
+    "type": "mobility",
+    "sets": 1,
+    "reps": 0,
+    "holdSeconds": 45,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Support the painful area with a pillow or folded towel.",
+      "Choose a position that reduces discomfort rather than stretching it.",
+      "Let the surrounding muscles relax as you breathe slowly."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "ankle-1-supported",
+    "harderVariantId": "ankle-2",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "calf-left",
+        "calf-right"
+      ]
+    }
+  },
+  {
+    "id": "ankle-2",
+    "name": "Small ankle pumps",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "ankle-sprain",
+      "achilles",
+      "plantar-heel"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "calf-left",
+      "calf-right"
+    ],
+    "type": "mobility",
+    "sets": 2,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "seated",
+    "cues": [
+      "Sit with the leg supported and the foot free to move.",
+      "Move the ankle or toes slowly through a comfortable range.",
+      "Keep the knee still and avoid forcing into the painful direction."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "ankle-1",
+    "harderVariantId": "ankle-3",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "calf-left",
+        "calf-right"
+      ]
+    }
+  },
+  {
+    "id": "ankle-3",
+    "name": "Ankle circles",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "ankle-sprain",
+      "achilles",
+      "plantar-heel"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "calf-left",
+      "calf-right"
+    ],
+    "type": "mobility",
+    "sets": 2,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "seated",
+    "cues": [
+      "Sit with the leg supported and the foot free to move.",
+      "Move the ankle or toes slowly through a comfortable range.",
+      "Keep the knee still and avoid forcing into the painful direction."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "ankle-2",
+    "harderVariantId": "ankle-4",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "calf-left",
+        "calf-right"
+      ]
+    }
+  },
+  {
+    "id": "ankle-4",
+    "name": "Seated calf hold",
+    "nameAr": "تمرين ثبات لطيف",
+    "presentationIds": [
+      "ankle-sprain",
+      "achilles",
+      "plantar-heel"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "calf-left",
+      "calf-right"
+    ],
+    "type": "isometric",
+    "sets": 5,
+    "reps": 0,
+    "holdSeconds": 30,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "chair",
+    "positionRequired": "seated",
+    "cues": [
+      "Hold a stable support and keep your feet pointing forwards.",
+      "Rise onto the balls of your feet without rolling the ankles outwards.",
+      "Lower the heels over three seconds; begin on level ground."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "ankle-3",
+    "harderVariantId": "ankle-5",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "calf-left",
+        "calf-right"
+      ]
+    }
+  },
+  {
+    "id": "ankle-5",
+    "name": "Gentle toe spread",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "ankle-sprain",
+      "achilles",
+      "plantar-heel"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "calf-left",
+      "calf-right"
+    ],
+    "type": "mobility",
+    "sets": 2,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "seated",
+    "cues": [
+      "Sit with the leg supported and the foot free to move.",
+      "Move the ankle or toes slowly through a comfortable range.",
+      "Keep the knee still and avoid forcing into the painful direction."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "ankle-4",
+    "harderVariantId": "ankle-6",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "calf-left",
+        "calf-right"
+      ]
+    }
+  },
+  {
+    "id": "ankle-6",
+    "name": "Seated heel raise",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "ankle-sprain",
+      "achilles",
+      "plantar-heel"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "calf-left",
+      "calf-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "chair",
+    "positionRequired": "seated",
+    "cues": [
+      "Hold a stable support and keep your feet pointing forwards.",
+      "Rise onto the balls of your feet without rolling the ankles outwards.",
+      "Lower the heels over three seconds; begin on level ground."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "ankle-5",
+    "harderVariantId": "ankle-7",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "calf-left",
+        "calf-right"
+      ]
+    }
+  },
+  {
+    "id": "ankle-7",
+    "name": "Double leg calf raise",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "ankle-sprain",
+      "achilles",
+      "plantar-heel"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "calf-left",
+      "calf-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Hold a stable support and keep your feet pointing forwards.",
+      "Rise onto the balls of your feet without rolling the ankles outwards.",
+      "Lower the heels over three seconds; begin on level ground."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "ankle-6",
+    "harderVariantId": "ankle-8",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "calf-left",
+        "calf-right"
+      ]
+    }
+  },
+  {
+    "id": "ankle-8",
+    "name": "Band ankle eversion",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "ankle-sprain",
+      "achilles",
+      "plantar-heel"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "calf-left",
+      "calf-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "band",
+    "positionRequired": "seated",
+    "cues": [
+      "Sit with the leg supported and the foot free to move.",
+      "Move the ankle or toes slowly through a comfortable range.",
+      "Keep the knee still and avoid forcing into the painful direction."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "ankle-7",
+    "harderVariantId": "ankle-9",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "calf-left",
+        "calf-right"
+      ]
+    }
+  },
+  {
+    "id": "ankle-9",
+    "name": "Supported balance",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "ankle-sprain",
+      "achilles",
+      "plantar-heel"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "calf-left",
+      "calf-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Stand beside a counter with your fingertips ready for support.",
+      "Shift weight onto one foot without gripping with your toes.",
+      "Keep the pelvis level; put the other foot down whenever needed."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "ankle-8",
+    "harderVariantId": "ankle-10",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "calf-left",
+        "calf-right"
+      ]
+    }
+  },
+  {
+    "id": "ankle-10",
+    "name": "Slow heel lowering",
+    "nameAr": "خفض بطيء ومتحكم",
+    "presentationIds": [
+      "ankle-sprain",
+      "achilles",
+      "plantar-heel"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "calf-left",
+      "calf-right"
+    ],
+    "type": "eccentric",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Hold a stable support and keep your feet pointing forwards.",
+      "Rise onto the balls of your feet without rolling the ankles outwards.",
+      "Lower the heels over three seconds; begin on level ground."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "ankle-9",
+    "harderVariantId": "ankle-11",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "calf-left",
+        "calf-right"
+      ]
+    }
+  },
+  {
+    "id": "ankle-11",
+    "name": "Single leg calf raise",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "ankle-sprain",
+      "achilles",
+      "plantar-heel"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "calf-left",
+      "calf-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Hold a stable support and keep your feet pointing forwards.",
+      "Rise onto the balls of your feet without rolling the ankles outwards.",
+      "Lower the heels over three seconds; begin on level ground."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "ankle-10",
+    "harderVariantId": "ankle-12",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "calf-left",
+        "calf-right"
+      ]
+    }
+  },
+  {
+    "id": "ankle-12",
+    "name": "Step calf raise",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "ankle-sprain",
+      "achilles",
+      "plantar-heel"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "calf-left",
+      "calf-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Use a low, stable step and keep a hand near a rail.",
+      "Place your whole foot on the step and keep the knee aligned with your toes.",
+      "Move slowly up or down without dropping the pelvis."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "ankle-11",
+    "harderVariantId": "ankle-13",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "calf-left",
+        "calf-right"
+      ]
+    }
+  },
+  {
+    "id": "ankle-13",
+    "name": "Single leg balance reach",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "ankle-sprain",
+      "achilles",
+      "plantar-heel"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "calf-left",
+      "calf-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Stand beside a counter with your fingertips ready for support.",
+      "Shift weight onto one foot without gripping with your toes.",
+      "Keep the pelvis level; put the other foot down whenever needed."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "ankle-12",
+    "harderVariantId": "ankle-14",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "calf-left",
+        "calf-right"
+      ]
+    }
+  },
+  {
+    "id": "ankle-14",
+    "name": "Loaded calf raise",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "ankle-sprain",
+      "achilles",
+      "plantar-heel"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "calf-left",
+      "calf-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "weight",
+    "positionRequired": "standing",
+    "cues": [
+      "Hold a stable support and keep your feet pointing forwards.",
+      "Rise onto the balls of your feet without rolling the ankles outwards.",
+      "Lower the heels over three seconds; begin on level ground."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "ankle-13",
+    "harderVariantId": "ankle-15",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "calf-left",
+        "calf-right"
+      ]
+    }
+  },
+  {
+    "id": "ankle-15",
+    "name": "Quick calf raise",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "ankle-sprain",
+      "achilles",
+      "plantar-heel"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "calf-left",
+      "calf-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Hold a stable support and keep your feet pointing forwards.",
+      "Rise onto the balls of your feet without rolling the ankles outwards.",
+      "Lower the heels over three seconds; begin on level ground."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "ankle-14",
+    "harderVariantId": "ankle-15-progressed",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "calf-left",
+        "calf-right"
+      ]
+    }
+  },
+  {
+    "id": "elbow-1",
+    "name": "Supported wrist rest",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "lateral-elbow",
+      "medial-elbow",
+      "de-quervain",
+      "carpal-tunnel"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "elbow-left",
+      "elbow-right"
+    ],
+    "type": "mobility",
+    "sets": 1,
+    "reps": 0,
+    "holdSeconds": 45,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Support the painful area with a pillow or folded towel.",
+      "Choose a position that reduces discomfort rather than stretching it.",
+      "Let the surrounding muscles relax as you breathe slowly."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "elbow-1-supported",
+    "harderVariantId": "elbow-2",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "elbow-left",
+        "elbow-right"
+      ]
+    }
+  },
+  {
+    "id": "elbow-2",
+    "name": "Small wrist circles",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "lateral-elbow",
+      "medial-elbow",
+      "de-quervain",
+      "carpal-tunnel"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "elbow-left",
+      "elbow-right"
+    ],
+    "type": "mobility",
+    "sets": 2,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "seated",
+    "cues": [
+      "Rest your forearm on a table with your hand just beyond the edge.",
+      "Move the wrist or rotate the forearm slowly while keeping the elbow still.",
+      "For a hold, press lightly into the other hand without moving.",
+      "Start with no weight and add a small load only if the next morning is no worse."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "elbow-1",
+    "harderVariantId": "elbow-3",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "elbow-left",
+        "elbow-right"
+      ]
+    }
+  },
+  {
+    "id": "elbow-3",
+    "name": "Wrist extension hold",
+    "nameAr": "تمرين ثبات لطيف",
+    "presentationIds": [
+      "lateral-elbow",
+      "medial-elbow",
+      "de-quervain",
+      "carpal-tunnel"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "elbow-left",
+      "elbow-right"
+    ],
+    "type": "isometric",
+    "sets": 5,
+    "reps": 0,
+    "holdSeconds": 30,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "seated",
+    "cues": [
+      "Rest your forearm on a table with your hand just beyond the edge.",
+      "Move the wrist or rotate the forearm slowly while keeping the elbow still.",
+      "For a hold, press lightly into the other hand without moving.",
+      "Start with no weight and add a small load only if the next morning is no worse."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "elbow-2",
+    "harderVariantId": "elbow-4",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "elbow-left",
+        "elbow-right"
+      ]
+    }
+  },
+  {
+    "id": "elbow-4",
+    "name": "Gentle hand opening",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "lateral-elbow",
+      "medial-elbow",
+      "de-quervain",
+      "carpal-tunnel"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "elbow-left",
+      "elbow-right"
+    ],
+    "type": "mobility",
+    "sets": 2,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "seated",
+    "cues": [
+      "Rest your forearm on a support and keep the wrist near neutral.",
+      "Open and close the fingers or move the thumb gently without forcing a stretch.",
+      "Use only a light grip and stop if numbness increases."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "elbow-3",
+    "harderVariantId": "elbow-5",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "elbow-left",
+        "elbow-right"
+      ]
+    }
+  },
+  {
+    "id": "elbow-5",
+    "name": "Thumb slide",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "lateral-elbow",
+      "medial-elbow",
+      "de-quervain",
+      "carpal-tunnel"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "elbow-left",
+      "elbow-right"
+    ],
+    "type": "mobility",
+    "sets": 2,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "seated",
+    "cues": [
+      "Rest your forearm on a support and keep the wrist near neutral.",
+      "Open and close the fingers or move the thumb gently without forcing a stretch.",
+      "Use only a light grip and stop if numbness increases."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "elbow-4",
+    "harderVariantId": "elbow-6",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "elbow-left",
+        "elbow-right"
+      ]
+    }
+  },
+  {
+    "id": "elbow-6",
+    "name": "Wrist extension",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "lateral-elbow",
+      "medial-elbow",
+      "de-quervain",
+      "carpal-tunnel"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "elbow-left",
+      "elbow-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "seated",
+    "cues": [
+      "Rest your forearm on a table with your hand just beyond the edge.",
+      "Move the wrist or rotate the forearm slowly while keeping the elbow still.",
+      "For a hold, press lightly into the other hand without moving.",
+      "Start with no weight and add a small load only if the next morning is no worse."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "elbow-5",
+    "harderVariantId": "elbow-7",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "elbow-left",
+        "elbow-right"
+      ]
+    }
+  },
+  {
+    "id": "elbow-7",
+    "name": "Wrist flexion",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "lateral-elbow",
+      "medial-elbow",
+      "de-quervain",
+      "carpal-tunnel"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "elbow-left",
+      "elbow-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "seated",
+    "cues": [
+      "Rest your forearm on a table with your hand just beyond the edge.",
+      "Move the wrist or rotate the forearm slowly while keeping the elbow still.",
+      "For a hold, press lightly into the other hand without moving.",
+      "Start with no weight and add a small load only if the next morning is no worse."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "elbow-6",
+    "harderVariantId": "elbow-8",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "elbow-left",
+        "elbow-right"
+      ]
+    }
+  },
+  {
+    "id": "elbow-8",
+    "name": "Forearm rotation",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "lateral-elbow",
+      "medial-elbow",
+      "de-quervain",
+      "carpal-tunnel"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "elbow-left",
+      "elbow-right"
+    ],
+    "type": "mobility",
+    "sets": 2,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "seated",
+    "cues": [
+      "Rest your forearm on a table with your hand just beyond the edge.",
+      "Move the wrist or rotate the forearm slowly while keeping the elbow still.",
+      "For a hold, press lightly into the other hand without moving.",
+      "Start with no weight and add a small load only if the next morning is no worse."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "elbow-7",
+    "harderVariantId": "elbow-9",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "elbow-left",
+        "elbow-right"
+      ]
+    }
+  },
+  {
+    "id": "elbow-9",
+    "name": "Gentle towel grip",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "lateral-elbow",
+      "medial-elbow",
+      "de-quervain",
+      "carpal-tunnel"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "elbow-left",
+      "elbow-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "seated",
+    "cues": [
+      "Rest your forearm on a support and keep the wrist near neutral.",
+      "Open and close the fingers or move the thumb gently without forcing a stretch.",
+      "Use only a light grip and stop if numbness increases."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "elbow-8",
+    "harderVariantId": "elbow-10",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "elbow-left",
+        "elbow-right"
+      ]
+    }
+  },
+  {
+    "id": "elbow-10",
+    "name": "Slow wrist lowering",
+    "nameAr": "خفض بطيء ومتحكم",
+    "presentationIds": [
+      "lateral-elbow",
+      "medial-elbow",
+      "de-quervain",
+      "carpal-tunnel"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "elbow-left",
+      "elbow-right"
+    ],
+    "type": "eccentric",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "seated",
+    "cues": [
+      "Rest your forearm on a table with your hand just beyond the edge.",
+      "Move the wrist or rotate the forearm slowly while keeping the elbow still.",
+      "For a hold, press lightly into the other hand without moving.",
+      "Start with no weight and add a small load only if the next morning is no worse."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "elbow-9",
+    "harderVariantId": "elbow-11",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "elbow-left",
+        "elbow-right"
+      ]
+    }
+  },
+  {
+    "id": "elbow-11",
+    "name": "Loaded wrist extension",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "lateral-elbow",
+      "medial-elbow",
+      "de-quervain",
+      "carpal-tunnel"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "elbow-left",
+      "elbow-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "weight",
+    "positionRequired": "seated",
+    "cues": [
+      "Rest your forearm on a table with your hand just beyond the edge.",
+      "Move the wrist or rotate the forearm slowly while keeping the elbow still.",
+      "For a hold, press lightly into the other hand without moving.",
+      "Start with no weight and add a small load only if the next morning is no worse."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "elbow-10",
+    "harderVariantId": "elbow-12",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "elbow-left",
+        "elbow-right"
+      ]
+    }
+  },
+  {
+    "id": "elbow-12",
+    "name": "Loaded wrist flexion",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "lateral-elbow",
+      "medial-elbow",
+      "de-quervain",
+      "carpal-tunnel"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "elbow-left",
+      "elbow-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "weight",
+    "positionRequired": "seated",
+    "cues": [
+      "Rest your forearm on a table with your hand just beyond the edge.",
+      "Move the wrist or rotate the forearm slowly while keeping the elbow still.",
+      "For a hold, press lightly into the other hand without moving.",
+      "Start with no weight and add a small load only if the next morning is no worse."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "elbow-11",
+    "harderVariantId": "elbow-13",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "elbow-left",
+        "elbow-right"
+      ]
+    }
+  },
+  {
+    "id": "elbow-13",
+    "name": "Resisted forearm rotation",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "lateral-elbow",
+      "medial-elbow",
+      "de-quervain",
+      "carpal-tunnel"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "elbow-left",
+      "elbow-right"
+    ],
+    "type": "mobility",
+    "sets": 2,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "seated",
+    "cues": [
+      "Rest your forearm on a table with your hand just beyond the edge.",
+      "Move the wrist or rotate the forearm slowly while keeping the elbow still.",
+      "For a hold, press lightly into the other hand without moving.",
+      "Start with no weight and add a small load only if the next morning is no worse."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "elbow-12",
+    "harderVariantId": "elbow-14",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "elbow-left",
+        "elbow-right"
+      ]
+    }
+  },
+  {
+    "id": "elbow-14",
+    "name": "Farmer carry",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "lateral-elbow",
+      "medial-elbow",
+      "de-quervain",
+      "carpal-tunnel"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "elbow-left",
+      "elbow-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Choose a light load you can hold without increasing symptoms.",
+      "Stand comfortably tall and take slow, even steps.",
+      "Keep breathing and avoid leaning to compensate for the load."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "elbow-13",
+    "harderVariantId": "elbow-15",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "elbow-left",
+        "elbow-right"
+      ]
+    }
+  },
+  {
+    "id": "elbow-15",
+    "name": "Pinch and release",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "lateral-elbow",
+      "medial-elbow",
+      "de-quervain",
+      "carpal-tunnel"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "elbow-left",
+      "elbow-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "seated",
+    "cues": [
+      "Rest your forearm on a support and keep the wrist near neutral.",
+      "Open and close the fingers or move the thumb gently without forcing a stretch.",
+      "Use only a light grip and stop if numbness increases."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "elbow-14",
+    "harderVariantId": "elbow-15-progressed",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "elbow-left",
+        "elbow-right"
+      ]
+    }
+  },
+  {
+    "id": "upper-back-1",
+    "name": "Supported rib breathing",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "thoracic",
+      "rib"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "chest",
+      "upper-back"
+    ],
+    "type": "mobility",
+    "sets": 1,
+    "reps": 6,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "lying",
+    "cues": [
+      "Lie supported with your knees bent and your shoulders relaxed.",
+      "Rest your hands around the lower ribs.",
+      "Breathe in gently through your nose and let the ribs widen.",
+      "Breathe out slowly without bracing or forcing the breath."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "upper-back-1-supported",
+    "harderVariantId": "upper-back-2",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "chest",
+        "upper-back"
+      ]
+    }
+  },
+  {
+    "id": "upper-back-2",
+    "name": "Small shoulder rolls",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "thoracic",
+      "rib"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "chest",
+      "upper-back"
+    ],
+    "type": "mobility",
+    "sets": 2,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Sit or stand comfortably without bracing your neck.",
+      "Let your shoulder blades move gently back and then relax.",
+      "Keep the movement small and do not pull hard downwards."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "upper-back-1",
+    "harderVariantId": "upper-back-3",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "chest",
+        "upper-back"
+      ]
+    }
+  },
+  {
+    "id": "upper-back-3",
+    "name": "Seated gentle rotation",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "thoracic",
+      "rib"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "chest",
+      "upper-back"
+    ],
+    "type": "mobility",
+    "sets": 2,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "chair",
+    "positionRequired": "seated",
+    "cues": [
+      "Sit supported, or lie on your side for an open book.",
+      "Turn through the upper back while keeping your pelvis comfortable and steady.",
+      "Breathe out gently into the movement and return without forcing range."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "upper-back-2",
+    "harderVariantId": "upper-back-4",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "chest",
+        "upper-back"
+      ]
+    }
+  },
+  {
+    "id": "upper-back-4",
+    "name": "Shoulder blade setting",
+    "nameAr": "تمرين ثبات لطيف",
+    "presentationIds": [
+      "thoracic",
+      "rib"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "chest",
+      "upper-back"
+    ],
+    "type": "isometric",
+    "sets": 5,
+    "reps": 0,
+    "holdSeconds": 30,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Sit or stand comfortably without bracing your neck.",
+      "Let your shoulder blades move gently back and then relax.",
+      "Keep the movement small and do not pull hard downwards."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "upper-back-3",
+    "harderVariantId": "upper-back-5",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "chest",
+        "upper-back"
+      ]
+    }
+  },
+  {
+    "id": "upper-back-5",
+    "name": "Supported chest opening",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "thoracic",
+      "rib"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "chest",
+      "upper-back"
+    ],
+    "type": "mobility",
+    "sets": 2,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Sit or stand comfortably without bracing your neck.",
+      "Let your shoulder blades move gently back and then relax.",
+      "Keep the movement small and do not pull hard downwards."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "upper-back-4",
+    "harderVariantId": "upper-back-6",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "chest",
+        "upper-back"
+      ]
+    }
+  },
+  {
+    "id": "upper-back-6",
+    "name": "Seated thoracic extension",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "thoracic",
+      "rib"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "chest",
+      "upper-back"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "chair",
+    "positionRequired": "seated",
+    "cues": [
+      "Sit supported, or lie on your side for an open book.",
+      "Turn through the upper back while keeping your pelvis comfortable and steady.",
+      "Breathe out gently into the movement and return without forcing range."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "upper-back-5",
+    "harderVariantId": "upper-back-7",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "chest",
+        "upper-back"
+      ]
+    }
+  },
+  {
+    "id": "upper-back-7",
+    "name": "Side lying open book",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "thoracic",
+      "rib"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "chest",
+      "upper-back"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Sit supported, or lie on your side for an open book.",
+      "Turn through the upper back while keeping your pelvis comfortable and steady.",
+      "Breathe out gently into the movement and return without forcing range."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "upper-back-6",
+    "harderVariantId": "upper-back-8",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "chest",
+        "upper-back"
+      ]
+    }
+  },
+  {
+    "id": "upper-back-8",
+    "name": "Wall slide",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "thoracic",
+      "rib"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "chest",
+      "upper-back"
+    ],
+    "type": "mobility",
+    "sets": 2,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "wall",
+    "positionRequired": "standing",
+    "cues": [
+      "Support your arm on a wall or with your other hand.",
+      "Reach upwards only as far as feels comfortable.",
+      "Keep the neck relaxed and lower slowly without forcing the range."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "upper-back-7",
+    "harderVariantId": "upper-back-9",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "chest",
+        "upper-back"
+      ]
+    }
+  },
+  {
+    "id": "upper-back-9",
+    "name": "Band row",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "thoracic",
+      "rib"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "chest",
+      "upper-back"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "band",
+    "positionRequired": "standing",
+    "cues": [
+      "Secure a light band to a stable anchor, or hold it between your hands for a pull-apart.",
+      "Draw your elbows back while keeping the shoulders relaxed.",
+      "Return slowly without leaning backwards or jutting your chin."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "upper-back-8",
+    "harderVariantId": "upper-back-10",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "chest",
+        "upper-back"
+      ]
+    }
+  },
+  {
+    "id": "upper-back-10",
+    "name": "Standing thoracic rotation",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "thoracic",
+      "rib"
+    ],
+    "phase": 2,
+    "targetRegions": [
+      "chest",
+      "upper-back"
+    ],
+    "type": "mobility",
+    "sets": 2,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Sit supported, or lie on your side for an open book.",
+      "Turn through the upper back while keeping your pelvis comfortable and steady.",
+      "Breathe out gently into the movement and return without forcing range."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "upper-back-9",
+    "harderVariantId": "upper-back-11",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "chest",
+        "upper-back"
+      ]
+    }
+  },
+  {
+    "id": "upper-back-11",
+    "name": "Band pull apart",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "thoracic",
+      "rib"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "chest",
+      "upper-back"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "band",
+    "positionRequired": "standing",
+    "cues": [
+      "Secure a light band to a stable anchor, or hold it between your hands for a pull-apart.",
+      "Draw your elbows back while keeping the shoulders relaxed.",
+      "Return slowly without leaning backwards or jutting your chin."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "upper-back-10",
+    "harderVariantId": "upper-back-12",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "chest",
+        "upper-back"
+      ]
+    }
+  },
+  {
+    "id": "upper-back-12",
+    "name": "Prone arm lift",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "thoracic",
+      "rib"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "chest",
+      "upper-back"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "lying",
+    "cues": [
+      "Lie on your stomach with your forehead supported on a towel.",
+      "Lift an arm a small distance while keeping your neck relaxed.",
+      "Lower slowly without shrugging or arching your back."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "upper-back-11",
+    "harderVariantId": "upper-back-13",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "chest",
+        "upper-back"
+      ]
+    }
+  },
+  {
+    "id": "upper-back-13",
+    "name": "Resisted row",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "thoracic",
+      "rib"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "chest",
+      "upper-back"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "band",
+    "positionRequired": "standing",
+    "cues": [
+      "Secure a light band to a stable anchor, or hold it between your hands for a pull-apart.",
+      "Draw your elbows back while keeping the shoulders relaxed.",
+      "Return slowly without leaning backwards or jutting your chin."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "upper-back-12",
+    "harderVariantId": "upper-back-14",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "chest",
+        "upper-back"
+      ]
+    }
+  },
+  {
+    "id": "upper-back-14",
+    "name": "Standing rotation press",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "thoracic",
+      "rib"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "chest",
+      "upper-back"
+    ],
+    "type": "mobility",
+    "sets": 2,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Sit supported, or lie on your side for an open book.",
+      "Turn through the upper back while keeping your pelvis comfortable and steady.",
+      "Breathe out gently into the movement and return without forcing range."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "upper-back-13",
+    "harderVariantId": "upper-back-15",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "chest",
+        "upper-back"
+      ]
+    }
+  },
+  {
+    "id": "upper-back-15",
+    "name": "Overhead reach",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "thoracic",
+      "rib"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "chest",
+      "upper-back"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Support your arm on a wall or with your other hand.",
+      "Reach upwards only as far as feels comfortable.",
+      "Keep the neck relaxed and lower slowly without forcing the range."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "upper-back-14",
+    "harderVariantId": "upper-back-15-progressed",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "chest",
+        "upper-back"
+      ]
+    }
+  },
+  {
+    "id": "lower-back-1-supported",
+    "name": "Short supported belly breathing",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "back-flexion",
+      "back-extension",
+      "lumbar-radicular",
+      "si-joint"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "abdomen",
+      "lower-back"
+    ],
+    "type": "mobility",
+    "sets": 1,
+    "reps": 3,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "lying",
+    "cues": [
+      "Lie supported with your knees bent and your shoulders relaxed.",
+      "Rest your hands around the lower ribs.",
+      "Breathe in gently through your nose and let the ribs widen.",
+      "Breathe out slowly without bracing or forcing the breath."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "lower-back-1-supported",
+    "harderVariantId": "lower-back-1",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "abdomen",
+        "lower-back"
+      ]
+    }
+  },
+  {
+    "id": "lower-back-15-progressed",
+    "name": "Suitcase carry with a little more resistance",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "back-flexion",
+      "back-extension",
+      "lumbar-radicular",
+      "si-joint"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "abdomen",
+      "lower-back"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Choose a light load you can hold without increasing symptoms.",
+      "Stand comfortably tall and take slow, even steps.",
+      "Keep breathing and avoid leaning to compensate for the load."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "lower-back-15",
+    "harderVariantId": "lower-back-15-progressed",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "abdomen",
+        "lower-back"
+      ]
+    }
+  },
+  {
+    "id": "neck-1-supported",
+    "name": "Short supported neck rest",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "neck-mechanical",
+      "neck-postural",
+      "neck-headache",
+      "cervical-radicular"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "forehead",
+      "jaw"
+    ],
+    "type": "mobility",
+    "sets": 1,
+    "reps": 3,
+    "holdSeconds": 10,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Support the painful area with a pillow or folded towel.",
+      "Choose a position that reduces discomfort rather than stretching it.",
+      "Let the surrounding muscles relax as you breathe slowly."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "neck-1-supported",
+    "harderVariantId": "neck-1",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "forehead",
+        "jaw"
+      ]
+    }
+  },
+  {
+    "id": "neck-15-progressed",
+    "name": "Overhead reach with a little more resistance",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "neck-mechanical",
+      "neck-postural",
+      "neck-headache",
+      "cervical-radicular"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "forehead",
+      "jaw"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Support your arm on a wall or with your other hand.",
+      "Reach upwards only as far as feels comfortable.",
+      "Keep the neck relaxed and lower slowly without forcing the range."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "neck-15",
+    "harderVariantId": "neck-15-progressed",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "forehead",
+        "jaw"
+      ]
+    }
+  },
+  {
+    "id": "shoulder-1-supported",
+    "name": "Short supported shoulder rest",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "rotator-cuff",
+      "subacromial",
+      "frozen-shoulder",
+      "ac-joint"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "shoulder-left",
+      "shoulder-right"
+    ],
+    "type": "mobility",
+    "sets": 1,
+    "reps": 3,
+    "holdSeconds": 10,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Support the painful area with a pillow or folded towel.",
+      "Choose a position that reduces discomfort rather than stretching it.",
+      "Let the surrounding muscles relax as you breathe slowly."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "shoulder-1-supported",
+    "harderVariantId": "shoulder-1",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "shoulder-left",
+        "shoulder-right"
+      ]
+    }
+  },
+  {
+    "id": "shoulder-15-progressed",
+    "name": "Overhead press with a little more resistance",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "rotator-cuff",
+      "subacromial",
+      "frozen-shoulder",
+      "ac-joint"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "shoulder-left",
+      "shoulder-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Support your arm on a wall or with your other hand.",
+      "Reach upwards only as far as feels comfortable.",
+      "Keep the neck relaxed and lower slowly without forcing the range."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "shoulder-15",
+    "harderVariantId": "shoulder-15-progressed",
+    "contraindicatedFor": [
+      "frozen-shoulder"
+    ],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "shoulder-left",
+        "shoulder-right"
+      ]
+    }
+  },
+  {
+    "id": "knee-1-supported",
+    "name": "Short supported knee rest",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "patellofemoral",
+      "patellar-tendon",
+      "meniscal",
+      "knee-oa"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "knee-left",
+      "knee-right"
+    ],
+    "type": "mobility",
+    "sets": 1,
+    "reps": 3,
+    "holdSeconds": 10,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Support the painful area with a pillow or folded towel.",
+      "Choose a position that reduces discomfort rather than stretching it.",
+      "Let the surrounding muscles relax as you breathe slowly."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "knee-1-supported",
+    "harderVariantId": "knee-1",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "knee-left",
+        "knee-right"
+      ]
+    }
+  },
+  {
+    "id": "knee-15-progressed",
+    "name": "Single leg sit to stand with a little more resistance",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "patellofemoral",
+      "patellar-tendon",
+      "meniscal",
+      "knee-oa"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "knee-left",
+      "knee-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "chair",
+    "positionRequired": "standing",
+    "cues": [
+      "Sit near the front of a stable chair with feet hip-width apart.",
+      "Lean forward slightly and press through both feet to stand.",
+      "Lower slowly to the chair; use the armrests if needed."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "knee-15",
+    "harderVariantId": "knee-15-progressed",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "knee-left",
+        "knee-right"
+      ]
+    }
+  },
+  {
+    "id": "hip-1-supported",
+    "name": "Short supported hip rest",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "gluteal-tendon",
+      "hip-oa",
+      "groin-strain"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "hip-left",
+      "hip-right"
+    ],
+    "type": "mobility",
+    "sets": 1,
+    "reps": 3,
+    "holdSeconds": 10,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Support the painful area with a pillow or folded towel.",
+      "Choose a position that reduces discomfort rather than stretching it.",
+      "Let the surrounding muscles relax as you breathe slowly."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "hip-1-supported",
+    "harderVariantId": "hip-1",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "hip-left",
+        "hip-right"
+      ]
+    }
+  },
+  {
+    "id": "hip-15-progressed",
+    "name": "Lateral step down with a little more resistance",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "gluteal-tendon",
+      "hip-oa",
+      "groin-strain"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "hip-left",
+      "hip-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Use a low, stable step and keep a hand near a rail.",
+      "Place your whole foot on the step and keep the knee aligned with your toes.",
+      "Move slowly up or down without dropping the pelvis."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "hip-15",
+    "harderVariantId": "hip-15-progressed",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "hip-left",
+        "hip-right"
+      ]
+    }
+  },
+  {
+    "id": "ankle-1-supported",
+    "name": "Short supported ankle rest",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "ankle-sprain",
+      "achilles",
+      "plantar-heel"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "calf-left",
+      "calf-right"
+    ],
+    "type": "mobility",
+    "sets": 1,
+    "reps": 3,
+    "holdSeconds": 10,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Support the painful area with a pillow or folded towel.",
+      "Choose a position that reduces discomfort rather than stretching it.",
+      "Let the surrounding muscles relax as you breathe slowly."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "ankle-1-supported",
+    "harderVariantId": "ankle-1",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "calf-left",
+        "calf-right"
+      ]
+    }
+  },
+  {
+    "id": "ankle-15-progressed",
+    "name": "Quick calf raise with a little more resistance",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "ankle-sprain",
+      "achilles",
+      "plantar-heel"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "calf-left",
+      "calf-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Hold a stable support and keep your feet pointing forwards.",
+      "Rise onto the balls of your feet without rolling the ankles outwards.",
+      "Lower the heels over three seconds; begin on level ground."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "ankle-15",
+    "harderVariantId": "ankle-15-progressed",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "calf-left",
+        "calf-right"
+      ]
+    }
+  },
+  {
+    "id": "elbow-1-supported",
+    "name": "Short supported wrist rest",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "lateral-elbow",
+      "medial-elbow",
+      "de-quervain",
+      "carpal-tunnel"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "elbow-left",
+      "elbow-right"
+    ],
+    "type": "mobility",
+    "sets": 1,
+    "reps": 3,
+    "holdSeconds": 10,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Support the painful area with a pillow or folded towel.",
+      "Choose a position that reduces discomfort rather than stretching it.",
+      "Let the surrounding muscles relax as you breathe slowly."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "elbow-1-supported",
+    "harderVariantId": "elbow-1",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "elbow-left",
+        "elbow-right"
+      ]
+    }
+  },
+  {
+    "id": "elbow-15-progressed",
+    "name": "Pinch and release with a little more resistance",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "lateral-elbow",
+      "medial-elbow",
+      "de-quervain",
+      "carpal-tunnel"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "elbow-left",
+      "elbow-right"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "seated",
+    "cues": [
+      "Rest your forearm on a support and keep the wrist near neutral.",
+      "Open and close the fingers or move the thumb gently without forcing a stretch.",
+      "Use only a light grip and stop if numbness increases."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "elbow-15",
+    "harderVariantId": "elbow-15-progressed",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "elbow-left",
+        "elbow-right"
+      ]
+    }
+  },
+  {
+    "id": "upper-back-1-supported",
+    "name": "Short supported rib breathing",
+    "nameAr": "حركة لطيفة للمفصل",
+    "presentationIds": [
+      "thoracic",
+      "rib"
+    ],
+    "phase": 1,
+    "targetRegions": [
+      "chest",
+      "upper-back"
+    ],
+    "type": "mobility",
+    "sets": 1,
+    "reps": 3,
+    "holdSeconds": 0,
+    "tempo": "Slow and comfortable",
+    "restSeconds": 30,
+    "frequencyPerWeek": 7,
+    "equipment": "none",
+    "positionRequired": "lying",
+    "cues": [
+      "Lie supported with your knees bent and your shoulders relaxed.",
+      "Rest your hands around the lower ribs.",
+      "Breathe in gently through your nose and let the ribs widen.",
+      "Breathe out slowly without bracing or forcing the breath."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "upper-back-1-supported",
+    "harderVariantId": "upper-back-1",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "chest",
+        "upper-back"
+      ]
+    }
+  },
+  {
+    "id": "upper-back-15-progressed",
+    "name": "Overhead reach with a little more resistance",
+    "nameAr": "تمرين تقوية تدريجي",
+    "presentationIds": [
+      "thoracic",
+      "rib"
+    ],
+    "phase": 3,
+    "targetRegions": [
+      "chest",
+      "upper-back"
+    ],
+    "type": "strength",
+    "sets": 3,
+    "reps": 10,
+    "holdSeconds": 0,
+    "tempo": "3 seconds down",
+    "restSeconds": 30,
+    "frequencyPerWeek": 4,
+    "equipment": "none",
+    "positionRequired": "standing",
+    "cues": [
+      "Support your arm on a wall or with your other hand.",
+      "Reach upwards only as far as feels comfortable.",
+      "Keep the neck relaxed and lower slowly without forcing the range."
+    ],
+    "commonMistakes": [
+      "Forcing the movement beyond a comfortable range.",
+      "Holding your breath or rushing the lowering phase."
+    ],
+    "easierVariantId": "upper-back-15",
+    "harderVariantId": "upper-back-15-progressed",
+    "contraindicatedFor": [],
+    "media": {
+      "video": null,
+      "thumbnail": null,
+      "highlightRegions": [
+        "chest",
+        "upper-back"
+      ]
+    }
+  }
+]

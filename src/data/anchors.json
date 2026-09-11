@@ -1,0 +1,573 @@
+{
+  "version": 2,
+  "anchors": {
+    "forehead": {
+      "target": [
+        0,
+        1.687,
+        0.078
+      ],
+      "radius": 0.187
+    },
+    "temple": {
+      "target": [
+        0,
+        1.661,
+        0.012
+      ],
+      "radius": 0.151
+    },
+    "ear": {
+      "target": [
+        0,
+        1.606,
+        0
+      ],
+      "radius": 0.179
+    },
+    "face": {
+      "target": [
+        0,
+        1.596,
+        0.016
+      ],
+      "radius": 0.405
+    },
+    "jaw": {
+      "target": [
+        0.001,
+        1.536,
+        0.01
+      ],
+      "radius": 0.29
+    },
+    "occiput": {
+      "target": [
+        0,
+        1.661,
+        -0.078
+      ],
+      "radius": 0.209
+    },
+    "scalp-side": {
+      "target": [
+        0,
+        1.676,
+        -0.043
+      ],
+      "radius": 0.097
+    },
+    "scalp-top": {
+      "target": [
+        0,
+        1.712,
+        -0.004
+      ],
+      "radius": 0.278
+    },
+    "cervical-upper": {
+      "target": [
+        0.001,
+        1.507,
+        -0.046
+      ],
+      "radius": 0.179
+    },
+    "cervical-lower": {
+      "target": [
+        0,
+        1.466,
+        -0.009
+      ],
+      "radius": 0.309
+    },
+    "sterno": {
+      "target": [
+        0,
+        1.44,
+        0.042
+      ],
+      "radius": 0.196
+    },
+    "trapezius-upper": {
+      "target": [
+        0,
+        1.464,
+        -0.01
+      ],
+      "radius": 0.263
+    },
+    "ac-joint": {
+      "target": [
+        0,
+        1.453,
+        0.052
+      ],
+      "radius": 0.139
+    },
+    "anterior-deltoid": {
+      "target": [
+        0.001,
+        1.377,
+        0.06
+      ],
+      "radius": 0.167
+    },
+    "lateral-deltoid": {
+      "target": [
+        0,
+        1.368,
+        -0.002
+      ],
+      "radius": 0.221
+    },
+    "posterior-deltoid": {
+      "target": [
+        0,
+        1.372,
+        -0.057
+      ],
+      "radius": 0.155
+    },
+    "rotator-cuff": {
+      "target": [
+        -0.001,
+        1.385,
+        -0.074
+      ],
+      "radius": 0.138
+    },
+    "scapula": {
+      "target": [
+        0,
+        1.38,
+        -0.006
+      ],
+      "radius": 0.177
+    },
+    "pectoral": {
+      "target": [
+        0,
+        1.347,
+        0.1
+      ],
+      "radius": 0.153
+    },
+    "rhomboid": {
+      "target": [
+        0,
+        1.383,
+        -0.114
+      ],
+      "radius": 0.187
+    },
+    "thoracic-spine": {
+      "target": [
+        0,
+        1.244,
+        -0.112
+      ],
+      "radius": 0.193
+    },
+    "costal-margin": {
+      "target": [
+        0,
+        1.171,
+        0.032
+      ],
+      "radius": 0.199
+    },
+    "oblique": {
+      "target": [
+        0,
+        1.099,
+        -0.066
+      ],
+      "radius": 0.192
+    },
+    "upper-abdomen": {
+      "target": [
+        0,
+        1.134,
+        0.026
+      ],
+      "radius": 0.398
+    },
+    "lower-abdomen": {
+      "target": [
+        0,
+        0.975,
+        0.096
+      ],
+      "radius": 0.219
+    },
+    "lumbar-spine": {
+      "target": [
+        0,
+        1.009,
+        -0.109
+      ],
+      "radius": 0.224
+    },
+    "sacrum": {
+      "target": [
+        0,
+        0.966,
+        -0.113
+      ],
+      "radius": 0.161
+    },
+    "si-joint": {
+      "target": [
+        0,
+        1.006,
+        -0.083
+      ],
+      "radius": 0.099
+    },
+    "gluteus-maximus": {
+      "target": [
+        0,
+        0.944,
+        -0.086
+      ],
+      "radius": 0.16
+    },
+    "gluteus-medius": {
+      "target": [
+        -0.001,
+        1.017,
+        -0.006
+      ],
+      "radius": 0.138
+    },
+    "hip-anterior": {
+      "target": [
+        -0.002,
+        0.899,
+        0.039
+      ],
+      "radius": 0.307
+    },
+    "hip-lateral": {
+      "target": [
+        0,
+        0.925,
+        0.035
+      ],
+      "radius": 0.136
+    },
+    "quadriceps": {
+      "target": [
+        0,
+        0.773,
+        0.059
+      ],
+      "radius": 0.322
+    },
+    "hamstring-proximal": {
+      "target": [
+        0,
+        0.863,
+        -0.078
+      ],
+      "radius": 0.226
+    },
+    "hamstring-mid": {
+      "target": [
+        0,
+        0.692,
+        -0.065
+      ],
+      "radius": 0.268
+    },
+    "adductor": {
+      "target": [
+        0,
+        0.694,
+        0.005
+      ],
+      "radius": 0.14
+    },
+    "it-band": {
+      "target": [
+        0,
+        0.707,
+        0.004
+      ],
+      "radius": 0.147
+    },
+    "knee-anterior": {
+      "target": [
+        0,
+        0.497,
+        0.064
+      ],
+      "radius": 0.19
+    },
+    "knee-medial": {
+      "target": [
+        0,
+        0.497,
+        0.018
+      ],
+      "radius": 0.151
+    },
+    "knee-lateral": {
+      "target": [
+        0,
+        0.498,
+        0.018
+      ],
+      "radius": 0.151
+    },
+    "knee-posterior": {
+      "target": [
+        0,
+        0.497,
+        -0.031
+      ],
+      "radius": 0.19
+    },
+    "patellar-tendon": {
+      "target": [
+        -0.001,
+        0.422,
+        0.072
+      ],
+      "radius": 0.138
+    },
+    "calf": {
+      "target": [
+        0.001,
+        0.37,
+        -0.058
+      ],
+      "radius": 0.247
+    },
+    "shin": {
+      "target": [
+        0,
+        0.276,
+        0.017
+      ],
+      "radius": 0.337
+    },
+    "medial-shin": {
+      "target": [
+        0,
+        0.316,
+        0.005
+      ],
+      "radius": 0.145
+    },
+    "achilles": {
+      "target": [
+        0,
+        0.194,
+        -0.051
+      ],
+      "radius": 0.167
+    },
+    "ankle-lateral": {
+      "target": [
+        0,
+        0.095,
+        -0.022
+      ],
+      "radius": 0.149
+    },
+    "ankle-medial": {
+      "target": [
+        0,
+        0.096,
+        -0.022
+      ],
+      "radius": 0.149
+    },
+    "heel": {
+      "target": [
+        -0.002,
+        0.046,
+        -0.062
+      ],
+      "radius": 0.147
+    },
+    "plantar-arch": {
+      "target": [
+        0,
+        0.023,
+        0.009
+      ],
+      "radius": 0.184
+    },
+    "forefoot": {
+      "target": [
+        0.001,
+        0.048,
+        0.039
+      ],
+      "radius": 0.283
+    },
+    "instep": {
+      "target": [
+        0.001,
+        0.064,
+        0.024
+      ],
+      "radius": 0.179
+    },
+    "toes": {
+      "target": [
+        0,
+        0.029,
+        0.108
+      ],
+      "radius": 0.168
+    },
+    "biceps": {
+      "target": [
+        0.001,
+        1.241,
+        0.024
+      ],
+      "radius": 0.301
+    },
+    "triceps": {
+      "target": [
+        0,
+        1.239,
+        -0.057
+      ],
+      "radius": 0.228
+    },
+    "elbow-lateral": {
+      "target": [
+        0,
+        1.138,
+        -0.004
+      ],
+      "radius": 0.16
+    },
+    "elbow-medial": {
+      "target": [
+        0,
+        1.138,
+        -0.004
+      ],
+      "radius": 0.16
+    },
+    "elbow-posterior": {
+      "target": [
+        0,
+        1.13,
+        -0.048
+      ],
+      "radius": 0.186
+    },
+    "forearm-flexor": {
+      "target": [
+        0,
+        1.03,
+        0.002
+      ],
+      "radius": 0.346
+    },
+    "forearm-extensor": {
+      "target": [
+        0,
+        1.026,
+        0.018
+      ],
+      "radius": 0.236
+    },
+    "wrist-dorsal": {
+      "target": [
+        0,
+        0.902,
+        0.022
+      ],
+      "radius": 0.18
+    },
+    "wrist-volar": {
+      "target": [
+        0,
+        0.902,
+        0.028
+      ],
+      "radius": 0.203
+    },
+    "thumb-base": {
+      "target": [
+        0,
+        0.827,
+        0.057
+      ],
+      "radius": 0.173
+    },
+    "hand-palm": {
+      "target": [
+        0,
+        0.83,
+        0.043
+      ],
+      "radius": 0.211
+    },
+    "hand-dorsum": {
+      "target": [
+        0,
+        0.832,
+        0.021
+      ],
+      "radius": 0.289
+    },
+    "fingers": {
+      "target": [
+        0,
+        0.756,
+        0.033
+      ],
+      "radius": 0.186
+    },
+    "hips": {
+      "target": [
+        0,
+        1.009,
+        -0.109
+      ],
+      "radius": 0.224
+    },
+    "chest": {
+      "target": [
+        0,
+        1.244,
+        -0.112
+      ],
+      "radius": 0.193
+    },
+    "head": {
+      "target": [
+        0,
+        1.661,
+        -0.078
+      ],
+      "radius": 0.209
+    },
+    "knees": {
+      "target": [
+        0,
+        0.497,
+        0.064
+      ],
+      "radius": 0.19
+    },
+    "foot": {
+      "target": [
+        0,
+        0.095,
+        -0.022
+      ],
+      "radius": 0.149
+    }
+  }
+}

@@ -1,0 +1,1485 @@
+{
+  "version": 2,
+  "generator": "scripts/build-body-assets.mjs",
+  "bones": [
+    {
+      "id": "hips",
+      "parent": null,
+      "pos": [
+        0,
+        0.95,
+        0
+      ]
+    },
+    {
+      "id": "spine_01",
+      "parent": "hips",
+      "pos": [
+        0,
+        1,
+        -0.004
+      ]
+    },
+    {
+      "id": "spine_02",
+      "parent": "spine_01",
+      "pos": [
+        0,
+        1.13,
+        0.002
+      ]
+    },
+    {
+      "id": "spine_03",
+      "parent": "spine_02",
+      "pos": [
+        0,
+        1.27,
+        0
+      ]
+    },
+    {
+      "id": "neck_01",
+      "parent": "spine_03",
+      "pos": [
+        0,
+        1.44,
+        -0.006
+      ]
+    },
+    {
+      "id": "head",
+      "parent": "neck_01",
+      "pos": [
+        0,
+        1.53,
+        -0.004
+      ]
+    },
+    {
+      "id": "scapula_l",
+      "parent": "spine_03",
+      "pos": [
+        0.055,
+        1.32,
+        -0.055
+      ]
+    },
+    {
+      "id": "scapula_r",
+      "parent": "spine_03",
+      "pos": [
+        -0.055,
+        1.32,
+        -0.055
+      ]
+    },
+    {
+      "id": "clavicle_l",
+      "parent": "spine_03",
+      "pos": [
+        0.05,
+        1.4,
+        0.022
+      ]
+    },
+    {
+      "id": "clavicle_r",
+      "parent": "spine_03",
+      "pos": [
+        -0.05,
+        1.4,
+        0.022
+      ]
+    },
+    {
+      "id": "shoulder_l",
+      "parent": "clavicle_l",
+      "pos": [
+        0.163,
+        1.4,
+        0.006
+      ]
+    },
+    {
+      "id": "shoulder_r",
+      "parent": "clavicle_r",
+      "pos": [
+        -0.163,
+        1.4,
+        0.006
+      ]
+    },
+    {
+      "id": "upperarm_l",
+      "parent": "shoulder_l",
+      "pos": [
+        0.183,
+        1.408,
+        0
+      ]
+    },
+    {
+      "id": "upperarm_r",
+      "parent": "shoulder_r",
+      "pos": [
+        -0.183,
+        1.408,
+        0
+      ]
+    },
+    {
+      "id": "lowerarm_l",
+      "parent": "upperarm_l",
+      "pos": [
+        0.256,
+        1.14,
+        -0.012
+      ]
+    },
+    {
+      "id": "lowerarm_r",
+      "parent": "upperarm_r",
+      "pos": [
+        -0.256,
+        1.14,
+        -0.012
+      ]
+    },
+    {
+      "id": "hand_l",
+      "parent": "lowerarm_l",
+      "pos": [
+        0.287,
+        0.9,
+        0.022
+      ]
+    },
+    {
+      "id": "hand_r",
+      "parent": "lowerarm_r",
+      "pos": [
+        -0.287,
+        0.9,
+        0.022
+      ]
+    },
+    {
+      "id": "thigh_l",
+      "parent": "hips",
+      "pos": [
+        0.093,
+        0.925,
+        -0.008
+      ]
+    },
+    {
+      "id": "thigh_r",
+      "parent": "hips",
+      "pos": [
+        -0.093,
+        0.925,
+        -0.008
+      ]
+    },
+    {
+      "id": "calf_l",
+      "parent": "thigh_l",
+      "pos": [
+        0.104,
+        0.485,
+        0.02
+      ]
+    },
+    {
+      "id": "calf_r",
+      "parent": "thigh_r",
+      "pos": [
+        -0.104,
+        0.485,
+        0.02
+      ]
+    },
+    {
+      "id": "foot_l",
+      "parent": "calf_l",
+      "pos": [
+        0.058,
+        0.088,
+        -0.014
+      ]
+    },
+    {
+      "id": "foot_r",
+      "parent": "calf_r",
+      "pos": [
+        -0.058,
+        0.088,
+        -0.014
+      ]
+    },
+    {
+      "id": "toe_l",
+      "parent": "foot_l",
+      "pos": [
+        0.062,
+        0.03,
+        0.095
+      ]
+    },
+    {
+      "id": "toe_r",
+      "parent": "foot_r",
+      "pos": [
+        -0.062,
+        0.03,
+        0.095
+      ]
+    }
+  ],
+  "joints": {
+    "lumbar": {
+      "paired": false,
+      "bones": [
+        "spine_01"
+      ],
+      "axes": {
+        "flexion": {
+          "left": [
+            1,
+            0,
+            0
+          ],
+          "right": [
+            1,
+            0,
+            0
+          ]
+        },
+        "extension": {
+          "left": [
+            -1,
+            0,
+            0
+          ],
+          "right": [
+            -1,
+            0,
+            0
+          ]
+        },
+        "lateral_flexion": {
+          "left": [
+            0,
+            0,
+            -1
+          ],
+          "right": [
+            0,
+            0,
+            1
+          ]
+        },
+        "internal_rotation": {
+          "left": [
+            0,
+            1,
+            0
+          ],
+          "right": [
+            0,
+            -1,
+            0
+          ]
+        }
+      },
+      "rom": {
+        "flexion": [
+          0,
+          60
+        ],
+        "extension": [
+          0,
+          35
+        ],
+        "lateral_flexion": [
+          0,
+          28
+        ],
+        "internal_rotation": [
+          -32,
+          32
+        ]
+      }
+    },
+    "thoracic": {
+      "paired": false,
+      "bones": [
+        "spine_02",
+        "spine_03"
+      ],
+      "axes": {
+        "flexion": {
+          "left": [
+            1,
+            0,
+            0
+          ],
+          "right": [
+            1,
+            0,
+            0
+          ]
+        },
+        "extension": {
+          "left": [
+            -1,
+            0,
+            0
+          ],
+          "right": [
+            -1,
+            0,
+            0
+          ]
+        },
+        "lateral_flexion": {
+          "left": [
+            0,
+            0,
+            -1
+          ],
+          "right": [
+            0,
+            0,
+            1
+          ]
+        },
+        "internal_rotation": {
+          "left": [
+            0,
+            1,
+            0
+          ],
+          "right": [
+            0,
+            -1,
+            0
+          ]
+        }
+      },
+      "rom": {
+        "flexion": [
+          0,
+          45
+        ],
+        "extension": [
+          0,
+          30
+        ],
+        "lateral_flexion": [
+          0,
+          25
+        ],
+        "internal_rotation": [
+          -35,
+          35
+        ]
+      }
+    },
+    "cervical": {
+      "paired": false,
+      "bones": [
+        "neck_01"
+      ],
+      "axes": {
+        "flexion": {
+          "left": [
+            1,
+            0,
+            0
+          ],
+          "right": [
+            1,
+            0,
+            0
+          ]
+        },
+        "extension": {
+          "left": [
+            -1,
+            0,
+            0
+          ],
+          "right": [
+            -1,
+            0,
+            0
+          ]
+        },
+        "lateral_flexion": {
+          "left": [
+            0,
+            0,
+            -1
+          ],
+          "right": [
+            0,
+            0,
+            1
+          ]
+        },
+        "internal_rotation": {
+          "left": [
+            0,
+            1,
+            0
+          ],
+          "right": [
+            0,
+            -1,
+            0
+          ]
+        }
+      },
+      "rom": {
+        "flexion": [
+          0,
+          50
+        ],
+        "extension": [
+          0,
+          55
+        ],
+        "lateral_flexion": [
+          0,
+          45
+        ],
+        "internal_rotation": [
+          -70,
+          70
+        ]
+      }
+    },
+    "head": {
+      "paired": false,
+      "bones": [
+        "head"
+      ],
+      "axes": {
+        "flexion": {
+          "left": [
+            1,
+            0,
+            0
+          ],
+          "right": [
+            1,
+            0,
+            0
+          ]
+        },
+        "extension": {
+          "left": [
+            -1,
+            0,
+            0
+          ],
+          "right": [
+            -1,
+            0,
+            0
+          ]
+        }
+      },
+      "rom": {
+        "flexion": [
+          0,
+          35
+        ],
+        "extension": [
+          0,
+          40
+        ]
+      }
+    },
+    "pelvis": {
+      "paired": false,
+      "bones": [
+        "hips"
+      ],
+      "axes": {
+        "flexion": {
+          "left": [
+            1,
+            0,
+            0
+          ],
+          "right": [
+            1,
+            0,
+            0
+          ]
+        },
+        "extension": {
+          "left": [
+            -1,
+            0,
+            0
+          ],
+          "right": [
+            -1,
+            0,
+            0
+          ]
+        },
+        "lateral_flexion": {
+          "left": [
+            0,
+            0,
+            -1
+          ],
+          "right": [
+            0,
+            0,
+            1
+          ]
+        },
+        "internal_rotation": {
+          "left": [
+            0,
+            1,
+            0
+          ],
+          "right": [
+            0,
+            -1,
+            0
+          ]
+        }
+      },
+      "rom": {
+        "flexion": [
+          -25,
+          25
+        ],
+        "extension": [
+          -25,
+          25
+        ],
+        "lateral_flexion": [
+          -18,
+          18
+        ],
+        "internal_rotation": [
+          -25,
+          25
+        ]
+      }
+    },
+    "shoulder": {
+      "paired": true,
+      "bones": [
+        "upperarm"
+      ],
+      "axes": {
+        "flexion": {
+          "left": [
+            -1,
+            0,
+            0
+          ],
+          "right": [
+            -1,
+            0,
+            0
+          ]
+        },
+        "extension": {
+          "left": [
+            1,
+            0,
+            0
+          ],
+          "right": [
+            1,
+            0,
+            0
+          ]
+        },
+        "abduction": {
+          "left": [
+            0,
+            0,
+            1
+          ],
+          "right": [
+            0,
+            0,
+            -1
+          ]
+        },
+        "internal_rotation": {
+          "left": [
+            0,
+            -1,
+            0
+          ],
+          "right": [
+            0,
+            1,
+            0
+          ]
+        },
+        "external_rotation": {
+          "left": [
+            0,
+            1,
+            0
+          ],
+          "right": [
+            0,
+            -1,
+            0
+          ]
+        }
+      },
+      "rom": {
+        "flexion": [
+          0,
+          180
+        ],
+        "extension": [
+          0,
+          65
+        ],
+        "abduction": [
+          0,
+          180
+        ],
+        "internal_rotation": [
+          -95,
+          95
+        ],
+        "external_rotation": [
+          -95,
+          95
+        ]
+      }
+    },
+    "scapula": {
+      "paired": true,
+      "bones": [
+        "scapula"
+      ],
+      "axes": {
+        "abduction": {
+          "left": [
+            0,
+            0,
+            1
+          ],
+          "right": [
+            0,
+            0,
+            -1
+          ]
+        },
+        "adduction": {
+          "left": [
+            0,
+            0,
+            -1
+          ],
+          "right": [
+            0,
+            0,
+            1
+          ]
+        },
+        "internal_rotation": {
+          "left": [
+            0,
+            -1,
+            0
+          ],
+          "right": [
+            0,
+            1,
+            0
+          ]
+        },
+        "external_rotation": {
+          "left": [
+            0,
+            1,
+            0
+          ],
+          "right": [
+            0,
+            -1,
+            0
+          ]
+        }
+      },
+      "rom": {
+        "abduction": [
+          -25,
+          60
+        ],
+        "adduction": [
+          -25,
+          60
+        ],
+        "internal_rotation": [
+          -40,
+          40
+        ],
+        "external_rotation": [
+          -40,
+          40
+        ]
+      }
+    },
+    "elbow": {
+      "paired": true,
+      "bones": [
+        "lowerarm"
+      ],
+      "axes": {
+        "flexion": {
+          "left": [
+            -1,
+            0,
+            0
+          ],
+          "right": [
+            -1,
+            0,
+            0
+          ]
+        },
+        "extension": {
+          "left": [
+            1,
+            0,
+            0
+          ],
+          "right": [
+            1,
+            0,
+            0
+          ]
+        },
+        "internal_rotation": {
+          "left": [
+            0,
+            -1,
+            0
+          ],
+          "right": [
+            0,
+            1,
+            0
+          ]
+        },
+        "external_rotation": {
+          "left": [
+            0,
+            1,
+            0
+          ],
+          "right": [
+            0,
+            -1,
+            0
+          ]
+        }
+      },
+      "rom": {
+        "flexion": [
+          0,
+          155
+        ],
+        "extension": [
+          0,
+          12
+        ],
+        "internal_rotation": [
+          -85,
+          85
+        ],
+        "external_rotation": [
+          -85,
+          85
+        ]
+      }
+    },
+    "wrist": {
+      "paired": true,
+      "bones": [
+        "hand"
+      ],
+      "axes": {
+        "flexion": {
+          "left": [
+            -1,
+            0,
+            0
+          ],
+          "right": [
+            -1,
+            0,
+            0
+          ]
+        },
+        "extension": {
+          "left": [
+            1,
+            0,
+            0
+          ],
+          "right": [
+            1,
+            0,
+            0
+          ]
+        },
+        "abduction": {
+          "left": [
+            0,
+            0,
+            1
+          ],
+          "right": [
+            0,
+            0,
+            -1
+          ]
+        },
+        "adduction": {
+          "left": [
+            0,
+            0,
+            -1
+          ],
+          "right": [
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      "rom": {
+        "flexion": [
+          0,
+          85
+        ],
+        "extension": [
+          0,
+          75
+        ],
+        "abduction": [
+          0,
+          28
+        ],
+        "adduction": [
+          0,
+          38
+        ]
+      }
+    },
+    "hip": {
+      "paired": true,
+      "bones": [
+        "thigh"
+      ],
+      "axes": {
+        "flexion": {
+          "left": [
+            -1,
+            0,
+            0
+          ],
+          "right": [
+            -1,
+            0,
+            0
+          ]
+        },
+        "extension": {
+          "left": [
+            1,
+            0,
+            0
+          ],
+          "right": [
+            1,
+            0,
+            0
+          ]
+        },
+        "abduction": {
+          "left": [
+            0,
+            0,
+            1
+          ],
+          "right": [
+            0,
+            0,
+            -1
+          ]
+        },
+        "internal_rotation": {
+          "left": [
+            0,
+            -1,
+            0
+          ],
+          "right": [
+            0,
+            1,
+            0
+          ]
+        },
+        "external_rotation": {
+          "left": [
+            0,
+            1,
+            0
+          ],
+          "right": [
+            0,
+            -1,
+            0
+          ]
+        }
+      },
+      "rom": {
+        "flexion": [
+          0,
+          125
+        ],
+        "extension": [
+          0,
+          30
+        ],
+        "abduction": [
+          0,
+          48
+        ],
+        "internal_rotation": [
+          -45,
+          45
+        ],
+        "external_rotation": [
+          -45,
+          45
+        ]
+      }
+    },
+    "knee": {
+      "paired": true,
+      "bones": [
+        "calf"
+      ],
+      "axes": {
+        "flexion": {
+          "left": [
+            -1,
+            0,
+            0
+          ],
+          "right": [
+            -1,
+            0,
+            0
+          ]
+        },
+        "extension": {
+          "left": [
+            1,
+            0,
+            0
+          ],
+          "right": [
+            1,
+            0,
+            0
+          ]
+        },
+        "internal_rotation": {
+          "left": [
+            0,
+            -1,
+            0
+          ],
+          "right": [
+            0,
+            1,
+            0
+          ]
+        },
+        "external_rotation": {
+          "left": [
+            0,
+            1,
+            0
+          ],
+          "right": [
+            0,
+            -1,
+            0
+          ]
+        }
+      },
+      "rom": {
+        "flexion": [
+          0,
+          140
+        ],
+        "extension": [
+          0,
+          12
+        ],
+        "internal_rotation": [
+          -30,
+          30
+        ],
+        "external_rotation": [
+          -30,
+          30
+        ]
+      }
+    },
+    "ankle": {
+      "paired": true,
+      "bones": [
+        "foot"
+      ],
+      "axes": {
+        "flexion": {
+          "left": [
+            1,
+            0,
+            0
+          ],
+          "right": [
+            1,
+            0,
+            0
+          ]
+        },
+        "extension": {
+          "left": [
+            -1,
+            0,
+            0
+          ],
+          "right": [
+            -1,
+            0,
+            0
+          ]
+        },
+        "abduction": {
+          "left": [
+            0,
+            -1,
+            0
+          ],
+          "right": [
+            0,
+            1,
+            0
+          ]
+        },
+        "adduction": {
+          "left": [
+            0,
+            1,
+            0
+          ],
+          "right": [
+            0,
+            -1,
+            0
+          ]
+        }
+      },
+      "rom": {
+        "flexion": [
+          0,
+          50
+        ],
+        "extension": [
+          0,
+          22
+        ],
+        "abduction": [
+          0,
+          22
+        ],
+        "adduction": [
+          0,
+          32
+        ]
+      }
+    },
+    "toes": {
+      "paired": true,
+      "bones": [
+        "toe"
+      ],
+      "axes": {
+        "flexion": {
+          "left": [
+            1,
+            0,
+            0
+          ],
+          "right": [
+            1,
+            0,
+            0
+          ]
+        },
+        "extension": {
+          "left": [
+            -1,
+            0,
+            0
+          ],
+          "right": [
+            -1,
+            0,
+            0
+          ]
+        }
+      },
+      "rom": {
+        "flexion": [
+          0,
+          50
+        ],
+        "extension": [
+          0,
+          75
+        ]
+      }
+    }
+  },
+  "boneCount": 26,
+  "rom": {
+    "lumbar": {
+      "flexion": [
+        0,
+        60
+      ],
+      "extension": [
+        0,
+        35
+      ],
+      "lateral_flexion": [
+        0,
+        28
+      ],
+      "internal_rotation": [
+        -32,
+        32
+      ]
+    },
+    "thoracic": {
+      "flexion": [
+        0,
+        45
+      ],
+      "extension": [
+        0,
+        30
+      ],
+      "lateral_flexion": [
+        0,
+        25
+      ],
+      "internal_rotation": [
+        -35,
+        35
+      ]
+    },
+    "cervical": {
+      "flexion": [
+        0,
+        50
+      ],
+      "extension": [
+        0,
+        55
+      ],
+      "lateral_flexion": [
+        0,
+        45
+      ],
+      "internal_rotation": [
+        -70,
+        70
+      ]
+    },
+    "head": {
+      "flexion": [
+        0,
+        35
+      ],
+      "extension": [
+        0,
+        40
+      ]
+    },
+    "pelvis": {
+      "flexion": [
+        -25,
+        25
+      ],
+      "extension": [
+        -25,
+        25
+      ],
+      "lateral_flexion": [
+        -18,
+        18
+      ],
+      "internal_rotation": [
+        -25,
+        25
+      ]
+    },
+    "shoulder": {
+      "flexion": [
+        0,
+        180
+      ],
+      "extension": [
+        0,
+        65
+      ],
+      "abduction": [
+        0,
+        180
+      ],
+      "internal_rotation": [
+        -95,
+        95
+      ],
+      "external_rotation": [
+        -95,
+        95
+      ]
+    },
+    "scapula": {
+      "abduction": [
+        -25,
+        60
+      ],
+      "adduction": [
+        -25,
+        60
+      ],
+      "internal_rotation": [
+        -40,
+        40
+      ],
+      "external_rotation": [
+        -40,
+        40
+      ]
+    },
+    "elbow": {
+      "flexion": [
+        0,
+        155
+      ],
+      "extension": [
+        0,
+        12
+      ],
+      "internal_rotation": [
+        -85,
+        85
+      ],
+      "external_rotation": [
+        -85,
+        85
+      ]
+    },
+    "wrist": {
+      "flexion": [
+        0,
+        85
+      ],
+      "extension": [
+        0,
+        75
+      ],
+      "abduction": [
+        0,
+        28
+      ],
+      "adduction": [
+        0,
+        38
+      ]
+    },
+    "hip": {
+      "flexion": [
+        0,
+        125
+      ],
+      "extension": [
+        0,
+        30
+      ],
+      "abduction": [
+        0,
+        48
+      ],
+      "internal_rotation": [
+        -45,
+        45
+      ],
+      "external_rotation": [
+        -45,
+        45
+      ]
+    },
+    "knee": {
+      "flexion": [
+        0,
+        140
+      ],
+      "extension": [
+        0,
+        12
+      ],
+      "internal_rotation": [
+        -30,
+        30
+      ],
+      "external_rotation": [
+        -30,
+        30
+      ]
+    },
+    "ankle": {
+      "flexion": [
+        0,
+        50
+      ],
+      "extension": [
+        0,
+        22
+      ],
+      "abduction": [
+        0,
+        22
+      ],
+      "adduction": [
+        0,
+        32
+      ]
+    },
+    "toes": {
+      "flexion": [
+        0,
+        50
+      ],
+      "extension": [
+        0,
+        75
+      ]
+    }
+  },
+  "basePoses": {
+    "supine": {
+      "root": {
+        "roll": -90
+      },
+      "hip.flexion": 8,
+      "knee.flexion": 25,
+      "head.flexion": 6
+    },
+    "prone": {
+      "root": {
+        "roll": 90
+      },
+      "head.extension": 12,
+      "knee.flexion": 10
+    },
+    "side_lying": {
+      "root": {
+        "roll": -90,
+        "yaw": -90
+      },
+      "hip.flexion": 18,
+      "knee.flexion": 38,
+      "head.flexion": 4
+    },
+    "seated": {
+      "root": {
+        "drop": 0.51
+      },
+      "hip.flexion": 88,
+      "knee.flexion": 92,
+      "ankle.extension": 4,
+      "lumbar.flexion": 4
+    },
+    "standing": {},
+    "wall_standing": {
+      "lumbar.extension": 3
+    },
+    "four_point": {
+      "root": {
+        "roll": 90,
+        "pitch": 0
+      },
+      "hip.flexion": 92,
+      "knee.flexion": 92,
+      "head.extension": 16
+    },
+    "half_kneeling": {
+      "root": {
+        "drop": 0.44
+      },
+      "hip.flexion": 88,
+      "knee.flexion": 118,
+      "lumbar.extension": 3
+    },
+    "long_sitting": {
+      "root": {
+        "drop": 0.8
+      },
+      "hip.flexion": 8,
+      "knee.flexion": 6,
+      "lumbar.flexion": 6
+    }
+  },
+  "axisIds": [
+    "flexion",
+    "extension",
+    "lateral_flexion",
+    "internal_rotation",
+    "abduction",
+    "external_rotation",
+    "adduction"
+  ],
+  "pairedJoints": [
+    "shoulder",
+    "scapula",
+    "elbow",
+    "wrist",
+    "hip",
+    "knee",
+    "ankle",
+    "toes"
+  ]
+}

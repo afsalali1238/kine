@@ -1,0 +1,599 @@
+{
+  "back-flexion": {
+    "sites": ["lumbar-spine", "sacrum", "oblique", "upper-abdomen", "lower-abdomen"],
+    "prefer": ["mobility", "motor_control", "isometric"],
+    "extendFirst": false,
+    "caps": {
+      "lumbar": {
+        "flexion": 60,
+        "extension": 12
+      }
+    },
+    "cue": "Comfortable bending is your friend here — we use it to unload the joint surfaces."
+  },
+  "back-extension": {
+    "sites": ["lumbar-spine", "sacrum", "si-joint", "quadriceps", "hip-anterior"],
+    "prefer": ["mobility", "motor_control", "strength"],
+    "extendFirst": true,
+    "caps": {
+      "lumbar": {
+        "flexion": 10,
+        "extension": 30
+      }
+    },
+    "cue": "Straightening eases you, so we keep the low back long and avoid sustained slumping."
+  },
+  "lumbar-radicular": {
+    "sites": ["lumbar-spine", "sacrum", "gluteus-maximus", "hamstring-mid", "knee-posterior"],
+    "prefer": ["mobility", "nerve_glide", "motor_control"],
+    "caps": {
+      "lumbar": {
+        "flexion": 35,
+        "extension": 15
+      },
+      "hip": {
+        "flexion": 80
+      }
+    },
+    "nerveWatch": true,
+    "cue": "Nerves do not like being stretched hard. We move within a range that leaves the leg calm."
+  },
+  "si-joint": {
+    "sites": ["si-joint", "sacrum", "gluteus-medius", "gluteus-maximus", "lower-abdomen"],
+    "prefer": ["isometric", "motor_control", "strength"],
+    "caps": {
+      "pelvis": {
+        "lateral_flexion": 12,
+        "internal_rotation": 12
+      }
+    },
+    "cue": "Symmetry and steady loading suit this joint: avoid long strides and heavy twisting at first."
+  },
+  "trunk-motor": {
+    "sites": ["oblique", "upper-abdomen", "lower-abdomen", "lumbar-spine"],
+    "shares": ["back-flexion"],
+    "prefer": ["breathing", "motor_control", "isometric"],
+    "caps": {
+      "lumbar": {
+        "flexion": 40,
+        "lateral_flexion": 22
+      }
+    },
+    "cue": "The tummy muscles work with the back, not against it. We start with breathing and bracing."
+  },
+  "neck-mechanical": {
+    "sites": ["cervical-upper", "cervical-lower", "trapezius-upper", "occiput"],
+    "prefer": ["mobility", "isometric"],
+    "caps": {
+      "cervical": {
+        "flexion": 45,
+        "extension": 45,
+        "lateral_flexion": 40,
+        "internal_rotation": 60
+      }
+    },
+    "cue": "Small, frequent, comfortable movement. Cracking or end-range stretching is not the goal."
+  },
+  "neck-postural": {
+    "sites": ["trapezius-upper", "cervical-lower", "rhomboid", "thoracic-spine", "scapula"],
+    "prefer": ["motor_control", "strength", "mobility"],
+    "caps": {
+      "cervical": {
+        "flexion": 40,
+        "extension": 40
+      }
+    },
+    "cue": "Holding one position is the trigger, not the position itself — we change shape often."
+  },
+  "neck-headache": {
+    "sites": ["occiput", "cervical-upper", "temple", "forehead", "scalp-side"],
+    "prefer": ["mobility", "motor_control"],
+    "caps": {
+      "cervical": {
+        "flexion": 40,
+        "extension": 30,
+        "lateral_flexion": 30
+      }
+    },
+    "cue": "These headaches usually start in the upper neck, so we move the neck, not the head only."
+  },
+  "cervical-radicular": {
+    "sites": [
+      "cervical-upper",
+      "cervical-lower",
+      "trapezius-upper",
+      "posterior-deltoid",
+      "forearm-extensor"
+    ],
+    "prefer": ["mobility", "nerve_glide", "isometric"],
+    "caps": {
+      "cervical": {
+        "flexion": 35,
+        "extension": 25,
+        "lateral_flexion": 30,
+        "internal_rotation": 40
+      }
+    },
+    "nerveWatch": true,
+    "cue": "If tingling travels further down the arm, we shorten the range immediately."
+  },
+  "rotator-cuff": {
+    "sites": [
+      "rotator-cuff",
+      "posterior-deltoid",
+      "lateral-deltoid",
+      "scapula",
+      "anterior-deltoid"
+    ],
+    "prefer": ["isometric", "motor_control", "strength"],
+    "caps": {
+      "shoulder": {
+        "flexion": 120,
+        "abduction": 100,
+        "external_rotation": 45
+      }
+    },
+    "cue": "Load the cuff before you load the range. Pain-free early, full range later."
+  },
+  "subacromial": {
+    "sites": ["lateral-deltoid", "anterior-deltoid", "ac-joint", "rotator-cuff"],
+    "prefer": ["mobility", "isometric", "motor_control"],
+    "caps": {
+      "shoulder": {
+        "flexion": 110,
+        "abduction": 90,
+        "internal_rotation": 60
+      }
+    },
+    "cue": "The painful arc is usually in the middle. We train below it and above it, not inside it."
+  },
+  "frozen-shoulder": {
+    "sites": [
+      "anterior-deltoid",
+      "posterior-deltoid",
+      "lateral-deltoid",
+      "rotator-cuff",
+      "pectoral"
+    ],
+    "prefer": ["mobility", "breathing"],
+    "maxPhase": 1,
+    "lockPhases": [2, 3],
+    "caps": {
+      "shoulder": {
+        "flexion": 100,
+        "abduction": 80,
+        "external_rotation": 40,
+        "internal_rotation": 40
+      }
+    },
+    "cue": "Stiffness in several directions means we protect the joint: no strengthening until it settles."
+  },
+  "ac-joint": {
+    "sites": ["ac-joint", "anterior-deltoid", "pectoral", "lateral-deltoid"],
+    "prefer": ["isometric", "mobility", "motor_control"],
+    "caps": {
+      "shoulder": {
+        "flexion": 90,
+        "abduction": 80,
+        "internal_rotation": 30
+      }
+    },
+    "crossBodyPain": true,
+    "cue": "Reaching across the body is the provocative direction, so we keep the arm in front of you."
+  },
+  "scapular": {
+    "sites": ["scapula", "rhomboid", "trapezius-upper", "posterior-deltoid"],
+    "shares": ["thoracic"],
+    "prefer": ["motor_control", "strength", "mobility"],
+    "caps": {
+      "scapula": {
+        "abduction": 40,
+        "adduction": 40
+      }
+    },
+    "cue": "The blade has to move freely before the arm can be strong."
+  },
+  "shoulder-instability": {
+    "sites": ["anterior-deltoid", "rotator-cuff", "lateral-deltoid", "pectoral"],
+    "shares": ["rotator-cuff"],
+    "prefer": ["isometric", "strength", "motor_control"],
+    "caps": {
+      "shoulder": {
+        "flexion": 120,
+        "abduction": 90,
+        "external_rotation": 30
+      }
+    },
+    "cue": "A shoulder that has felt loose is trained in the safe arc, with the arm in front of the body."
+  },
+  "patellofemoral": {
+    "sites": ["knee-anterior", "quadriceps", "patellar-tendon", "it-band", "knee-lateral"],
+    "prefer": ["isometric", "strength", "mobility"],
+    "caps": {
+      "knee": {
+        "flexion": 60
+      },
+      "hip": {
+        "flexion": 85
+      }
+    },
+    "cue": "We build the quadriceps in the range that does not press the kneecap in hard."
+  },
+  "patellar-tendon": {
+    "sites": ["patellar-tendon", "knee-anterior", "quadriceps"],
+    "prefer": ["isometric", "eccentric", "strength"],
+    "caps": {
+      "knee": {
+        "flexion": 70
+      }
+    },
+    "tendon": true,
+    "cue": "Tendons like slow, heavy, predictable load. Total rest usually makes the next day worse."
+  },
+  "meniscal": {
+    "sites": ["knee-medial", "knee-lateral", "knee-posterior", "hamstring-mid", "calf"],
+    "prefer": ["mobility", "strength", "motor_control"],
+    "caps": {
+      "knee": {
+        "flexion": 90
+      }
+    },
+    "avoidTwist": true,
+    "cue": "Deep squatting and twisting together is the aggravating pattern, so we separate them."
+  },
+  "knee-oa": {
+    "sites": ["knee-anterior", "knee-medial", "knee-lateral", "quadriceps", "calf"],
+    "prefer": ["mobility", "strength", "isometric"],
+    "caps": {
+      "knee": {
+        "flexion": 110
+      }
+    },
+    "cue": "Stiffness eases with movement, so the first minutes are a warm-up, not a waste."
+  },
+  "itb": {
+    "sites": ["it-band", "knee-lateral", "gluteus-medius", "hip-lateral", "quadriceps"],
+    "shares": ["patellofemoral"],
+    "prefer": ["isometric", "strength", "mobility"],
+    "caps": {
+      "knee": {
+        "flexion": 70
+      },
+      "hip": {
+        "abduction": 30
+      }
+    },
+    "cue": "The outer knee usually settles when the hip muscles take more of the work."
+  },
+  "hamstring-strain": {
+    "sites": ["hamstring-mid", "hamstring-proximal", "gluteus-maximus", "knee-posterior"],
+    "shares": ["groin-strain"],
+    "prefer": ["isometric", "eccentric", "strength"],
+    "caps": {
+      "hip": {
+        "flexion": 70
+      },
+      "knee": {
+        "flexion": 100
+      }
+    },
+    "tendon": true,
+    "cue": "Early stretching is what turns a short strain into a long one. We load it gently instead."
+  },
+  "thigh-muscle": {
+    "sites": ["quadriceps", "adductor", "hamstring-mid", "it-band"],
+    "shares": ["groin-strain"],
+    "prefer": ["isometric", "strength", "mobility"],
+    "caps": {
+      "knee": {
+        "flexion": 100
+      },
+      "hip": {
+        "flexion": 90,
+        "abduction": 30
+      }
+    },
+    "cue": "Ache on the squeeze is fine; sharp pain at the same spot means we shorten the lever."
+  },
+  "gluteal-tendon": {
+    "sites": ["gluteus-medius", "hip-lateral", "gluteus-maximus", "hamstring-proximal"],
+    "prefer": ["isometric", "strength", "motor_control"],
+    "caps": {
+      "hip": {
+        "abduction": 35,
+        "flexion": 80
+      }
+    },
+    "lyingSidePain": true,
+    "cue": "Compression matters more than weakness: we reduce time on that side before adding load."
+  },
+  "hip-oa": {
+    "sites": ["hip-anterior", "hip-lateral", "quadriceps", "gluteus-maximus", "thoracic-spine"],
+    "prefer": ["mobility", "strength", "isometric"],
+    "caps": {
+      "hip": {
+        "flexion": 100,
+        "internal_rotation": 20,
+        "abduction": 30
+      }
+    },
+    "cue": "Stiffness after sitting eases with movement; end-range grinding is not a goal."
+  },
+  "groin-strain": {
+    "sites": ["hip-anterior", "adductor", "lower-abdomen"],
+    "prefer": ["isometric", "strength", "mobility"],
+    "caps": {
+      "hip": {
+        "abduction": 30,
+        "flexion": 90
+      }
+    },
+    "tendon": true,
+    "cue": "Adduction is loaded early but slowly — this area is stubborn when rushed."
+  },
+  "hip-flexor": {
+    "sites": ["hip-anterior", "quadriceps", "lower-abdomen", "lumbar-spine"],
+    "shares": ["hip-oa"],
+    "prefer": ["isometric", "mobility", "strength"],
+    "caps": {
+      "hip": {
+        "flexion": 95
+      },
+      "lumbar": {
+        "extension": 25
+      }
+    },
+    "cue": "Front-of-hip pinching means we stop short of the pinch and work around it."
+  },
+  "ankle-sprain": {
+    "sites": ["ankle-lateral", "ankle-medial", "calf", "shin"],
+    "prefer": ["mobility", "isometric", "balance"],
+    "caps": {
+      "ankle": {
+        "flexion": 40,
+        "extension": 20
+      }
+    },
+    "cue": "Balance work is not a bonus here: it is how the ankle learns to trust the ground again."
+  },
+  "ankle-instability": {
+    "sites": ["ankle-lateral", "ankle-medial", "calf", "shin"],
+    "shares": ["ankle-sprain"],
+    "prefer": ["balance", "strength", "isometric"],
+    "caps": {
+      "ankle": {
+        "flexion": 45,
+        "extension": 22
+      }
+    },
+    "cue": "Giving way is a control problem, so we train control on unstable ground progressively."
+  },
+  "achilles": {
+    "sites": ["achilles", "calf", "heel", "ankle-medial"],
+    "prefer": ["isometric", "eccentric", "strength"],
+    "caps": {
+      "ankle": {
+        "flexion": 45,
+        "extension": 15
+      }
+    },
+    "tendon": true,
+    "cue": "Heel raises are the treatment, not the risk — but slow, and never first thing in the morning."
+  },
+  "plantar-heel": {
+    "sites": ["heel", "plantar-arch", "toes", "forefoot"],
+    "prefer": ["isometric", "mobility", "strength"],
+    "caps": {
+      "ankle": {
+        "extension": 18
+      },
+      "toes": {
+        "extension": 45
+      }
+    },
+    "tendon": true,
+    "cue": "First-step pain eases with load preparedness: calf and foot work before you stand up."
+  },
+  "shin-stress": {
+    "sites": ["shin", "medial-shin", "calf"],
+    "shares": ["ankle-sprain"],
+    "prefer": ["isometric", "strength", "balance"],
+    "caps": {
+      "ankle": {
+        "flexion": 35,
+        "extension": 15
+      }
+    },
+    "reviewSoon": true,
+    "cue": "Pain along the shin that is worse with impact needs load reduced now, then rebuilt carefully."
+  },
+  "forefoot": {
+    "sites": ["forefoot", "toes", "instep", "plantar-arch", "heel"],
+    "shares": ["plantar-heel"],
+    "prefer": ["mobility", "strength", "balance"],
+    "caps": {
+      "toes": {
+        "extension": 50,
+        "flexion": 40
+      }
+    },
+    "cue": "Toe and ball-of-foot pain responds to calf work and to shoes that bend where you bend."
+  },
+  "lateral-elbow": {
+    "sites": ["elbow-lateral", "forearm-extensor", "wrist-dorsal"],
+    "prefer": ["isometric", "eccentric", "strength"],
+    "caps": {
+      "elbow": {
+        "flexion": 140
+      },
+      "wrist": {
+        "extension": 60,
+        "flexion": 60
+      }
+    },
+    "tendon": true,
+    "gripSensitive": true,
+    "cue": "Grip and wrist extension load the tender spot. We work the wrist with the elbow bent."
+  },
+  "medial-elbow": {
+    "sites": ["elbow-medial", "forearm-flexor", "wrist-volar"],
+    "prefer": ["isometric", "eccentric", "strength"],
+    "caps": {
+      "elbow": {
+        "flexion": 140
+      },
+      "wrist": {
+        "flexion": 60,
+        "extension": 60
+      }
+    },
+    "tendon": true,
+    "cue": "Same logic as the outer elbow: less stretch, more steady load, and the grip gets easier."
+  },
+  "elbow-extension": {
+    "sites": ["elbow-posterior", "triceps", "forearm-extensor", "elbow-lateral"],
+    "shares": ["lateral-elbow"],
+    "prefer": ["mobility", "isometric", "strength"],
+    "caps": {
+      "elbow": {
+        "flexion": 145,
+        "extension": 8
+      }
+    },
+    "cue": "Straightening under load is the sore movement, so we build in the middle of the range first."
+  },
+  "biceps-tendon": {
+    "sites": ["biceps", "anterior-deltoid", "elbow-lateral", "triceps"],
+    "shares": ["lateral-elbow"],
+    "prefer": ["isometric", "mobility", "strength"],
+    "caps": {
+      "shoulder": {
+        "flexion": 120
+      },
+      "elbow": {
+        "flexion": 130
+      }
+    },
+    "cue": "Front-of-shoulder and elbow ache usually shares one cause: overhead loading too early."
+  },
+  "de-quervain": {
+    "sites": ["thumb-base", "wrist-volar", "forearm-extensor"],
+    "prefer": ["isometric", "mobility", "strength"],
+    "caps": {
+      "wrist": {
+        "extension": 45,
+        "flexion": 45,
+        "abduction": 15
+      }
+    },
+    "tendon": true,
+    "pinchSensitive": true,
+    "cue": "Lifting with the thumb out to the side is what flares it. We keep the thumb in line."
+  },
+  "carpal-tunnel": {
+    "sites": ["wrist-volar", "hand-palm", "fingers", "forearm-flexor", "elbow-medial"],
+    "prefer": ["nerve_glide", "mobility", "isometric"],
+    "caps": {
+      "wrist": {
+        "extension": 40,
+        "flexion": 40
+      },
+      "elbow": {
+        "flexion": 120
+      }
+    },
+    "nerveWatch": true,
+    "cue": "Nerve symptoms need positions that unload them: we avoid end-range wrist flexion and extension."
+  },
+  "wrist-load": {
+    "sites": ["wrist-dorsal", "hand-dorsum", "forearm-extensor", "wrist-volar"],
+    "shares": ["lateral-elbow"],
+    "prefer": ["mobility", "isometric", "strength"],
+    "caps": {
+      "wrist": {
+        "extension": 60,
+        "flexion": 60
+      }
+    },
+    "cue": "Weight-bearing through a bent-back wrist is the aggravator. We build the same load upright first."
+  },
+  "hand-stiff": {
+    "sites": ["fingers", "hand-palm", "hand-dorsum", "thumb-base", "wrist-volar"],
+    "shares": ["lateral-elbow"],
+    "prefer": ["mobility", "isometric"],
+    "caps": {
+      "wrist": {
+        "flexion": 60,
+        "extension": 60
+      }
+    },
+    "cue": "Tendon gliding keeps the fingers moving; forcing a fist is what makes the morning worse."
+  },
+  "thoracic": {
+    "sites": ["thoracic-spine", "rhomboid", "costal-margin", "scapula"],
+    "shares": ["thoracic"],
+    "prefer": ["mobility", "motor_control", "strength"],
+    "caps": {
+      "thoracic": {
+        "flexion": 40,
+        "extension": 30,
+        "rotation": 35
+      }
+    },
+    "cue": "The upper back is stiff because it is unloaded, not because it is fragile."
+  },
+  "rib": {
+    "sites": ["costal-margin", "thoracic-spine", "pectoral", "oblique"],
+    "prefer": ["breathing", "mobility", "motor_control"],
+    "caps": {
+      "thoracic": {
+        "flexion": 25,
+        "extension": 20,
+        "rotation": 20
+      }
+    },
+    "cue": "Breathing is the treatment here: a shallow rib cage keeps the area guarded."
+  },
+  "chest-wall": {
+    "sites": ["pectoral", "costal-margin", "upper-abdomen"],
+    "prefer": ["breathing", "mobility"],
+    "caps": {
+      "thoracic": {
+        "extension": 20
+      }
+    },
+    "reviewSoon": true,
+    "cue": "Chest wall pain is common and benign, but chest symptoms always get checked first."
+  },
+  "tmj": {
+    "sites": ["jaw", "temple", "face", "ear"],
+    "prefer": ["mobility", "motor_control"],
+    "caps": {
+      "cervical": {
+        "flexion": 30
+      }
+    },
+    "guidanceOnly": true,
+    "cue": "Jaw patterns are managed with rest positions, not exercise machines: keep teeth apart."
+  },
+  "head-face-review": {
+    "sites": ["forehead", "face", "ear", "scalp-side", "scalp-top", "temple"],
+    "guidanceOnly": true,
+    "cue": "These areas are usually not a muscle-joint problem, so we point you somewhere useful instead."
+  },
+  "front-of-neck-review": {
+    "sites": ["sterno", "cervical-lower"],
+    "guidanceOnly": true,
+    "cue": "Front-of-neck symptoms need a person looking, not a programme."
+  },
+  "abdomen-review": {
+    "sites": ["upper-abdomen", "lower-abdomen"],
+    "guidanceOnly": true,
+    "cue": "Tummy symptoms are usually not musculoskeletal. Here is what to watch and when to seek help."
+  },
+  "olecranon-review": {
+    "sites": ["elbow-posterior"],
+    "guidanceOnly": true,
+    "cue": "Back-of-elbow swelling or warmth needs assessment; leaning on it is the thing to stop."
+  }
+}

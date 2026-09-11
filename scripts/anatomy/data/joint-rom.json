@@ -1,0 +1,78 @@
+{
+  "lumbar": {
+    "flexion": [0, 60],
+    "extension": [0, 35],
+    "lateral_flexion": [0, 28],
+    "internal_rotation": [-32, 32]
+  },
+  "thoracic": {
+    "flexion": [0, 45],
+    "extension": [0, 30],
+    "lateral_flexion": [0, 25],
+    "internal_rotation": [-35, 35]
+  },
+  "cervical": {
+    "flexion": [0, 50],
+    "extension": [0, 55],
+    "lateral_flexion": [0, 45],
+    "internal_rotation": [-70, 70]
+  },
+  "head": {
+    "flexion": [0, 35],
+    "extension": [0, 40]
+  },
+  "pelvis": {
+    "flexion": [-25, 25],
+    "extension": [-25, 25],
+    "lateral_flexion": [-18, 18],
+    "internal_rotation": [-25, 25]
+  },
+  "shoulder": {
+    "flexion": [0, 180],
+    "extension": [0, 65],
+    "abduction": [0, 180],
+    "internal_rotation": [-95, 95],
+    "external_rotation": [-95, 95]
+  },
+  "scapula": {
+    "abduction": [-25, 60],
+    "adduction": [-25, 60],
+    "internal_rotation": [-40, 40],
+    "external_rotation": [-40, 40]
+  },
+  "elbow": {
+    "flexion": [0, 155],
+    "extension": [0, 12],
+    "internal_rotation": [-85, 85],
+    "external_rotation": [-85, 85]
+  },
+  "wrist": {
+    "flexion": [0, 85],
+    "extension": [0, 75],
+    "abduction": [0, 28],
+    "adduction": [0, 38]
+  },
+  "hip": {
+    "flexion": [0, 125],
+    "extension": [0, 30],
+    "abduction": [0, 48],
+    "internal_rotation": [-45, 45],
+    "external_rotation": [-45, 45]
+  },
+  "knee": {
+    "flexion": [0, 140],
+    "extension": [0, 12],
+    "internal_rotation": [-30, 30],
+    "external_rotation": [-30, 30]
+  },
+  "ankle": {
+    "flexion": [0, 50],
+    "extension": [0, 22],
+    "abduction": [0, 22],
+    "adduction": [0, 32]
+  },
+  "toes": {
+    "flexion": [0, 50],
+    "extension": [0, 75]
+  }
+}

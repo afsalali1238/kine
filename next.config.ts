@@ -1,5 +1,9 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
-const nextConfig: NextConfig = {};
+const nextConfig: NextConfig = {
+  reactStrictMode: true,
+  turbopack: {},
+  experimental: { optimizePackageImports: ['@react-three/drei', 'lucide-react'] },
+};
 
 export default nextConfig;

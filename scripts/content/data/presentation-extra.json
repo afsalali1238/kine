@@ -1,0 +1,134 @@
+{
+  "trunk-motor": {
+    "name": "Tummy and back muscles that have switched off",
+    "explanation": "Your symptoms sit in the trunk muscles rather than the spine itself. Breathing, gentle bracing and steady loading usually settle it.",
+    "course": "Often improves within a few weeks once the trunk muscles are used consistently rather than hard.",
+    "helps": "Short, frequent sessions. Stop before form breaks down, not when it hurts."
+  },
+  "shoulder-instability": {
+    "name": "A shoulder that feels insecure",
+    "explanation": "After a sprain or a dislocation the shoulder often feels loose or guards itself. We build steadiness in the arc where you feel safe.",
+    "course": "Confidence in the shoulder usually returns gradually over 6–12 weeks of steady loading.",
+    "helps": "Keep the arm in front of you at first. Avoid end-range external rotation with load."
+  },
+  "scapular": {
+    "name": "Pain around the shoulder blade",
+    "explanation": "The blade has to glide for the arm to work. When it sticks, the shoulder and neck both take the load.",
+    "course": "Responds well to a few weeks of controlled movement and loading.",
+    "helps": "Move the blade, then load it. Posture cues alone rarely fix this."
+  },
+  "itb": {
+    "name": "Pain on the outside of the knee or thigh",
+    "explanation": "The band down the outside of the thigh gets loaded heavily when the hip muscles do less work. It settles with hip strength and a temporary reduction in volume.",
+    "course": "Usually improves over 4–8 weeks when running or walking load is cut back and rebuilt.",
+    "helps": "Reduce distance first, then strengthen the hip. Stretching the band itself changes little."
+  },
+  "hamstring-strain": {
+    "name": "Back of the thigh, sore when you push off",
+    "explanation": "The hamstring is usually irritated at its muscle belly or near the sit bone. It heals best under gradual load, not rest and stretching.",
+    "course": "Expect 3–6 weeks for a simple strain; heavier ones take longer.",
+    "helps": "Isometrics early, slow lengthening under load later. Avoid aggressive stretching for a week."
+  },
+  "thigh-muscle": {
+    "name": "Thigh muscle ache after activity",
+    "explanation": "Front, side or back of the thigh, usually reproduced by the same contraction that hurt it. Capacity, not damage, is the limiting factor.",
+    "course": "Typically settles in 2–4 weeks with steady loading.",
+    "helps": "Keep the muscle working through the range that does not sharp-pain."
+  },
+  "gluteal-tendon": {
+    "name": "Pain on the outside of your hip",
+    "explanation": "The gluteal tendons sit over the bony point of the hip. They dislike compression — lying on that side and long strides — as much as they dislike load.",
+    "course": "Slow but reliable: 8–12 weeks is common for tendon symptoms.",
+    "helps": "Sleep with a pillow between the knees, avoid crossing legs, load it steadily."
+  },
+  "groin-strain": {
+    "name": "Groin that pulls when you push off",
+    "explanation": "The adductor muscles are usually overloaded rather than torn. They respond to gradual loading across the whole range.",
+    "course": "4–8 weeks for a simple strain; longer if load is returned too fast.",
+    "helps": "Squeeze exercises early, then change-of-direction work late."
+  },
+  "hip-flexor": {
+    "name": "Pinching at the front of the hip",
+    "explanation": "A pinch at a fixed angle is usually the soft tissues being compressed, not damage. Working around the pinch keeps things moving.",
+    "course": "Settles over a few weeks when the provocative angle is respected.",
+    "helps": "Stop short of the pinch, then extend the range weekly."
+  },
+  "ankle-instability": {
+    "name": "An ankle that keeps going over",
+    "explanation": "After repeated sprains the ankle reacts more slowly than it needs to. Balance and peroneal work is the treatment.",
+    "course": "Neuromuscular gains build over 6–8 weeks of short daily practice.",
+    "helps": "Practice balance on soft surfaces, progress to turning and landing."
+  },
+  "shin-stress": {
+    "name": "Shin pain that builds with impact",
+    "explanation": "Pain along the inner shin that worsens with running is a load-tolerance problem. Bone stress needs load removed early, not pushed through.",
+    "course": "A few weeks of reduced impact plus calf and hip capacity usually settles it.",
+    "helps": "Reduce impact now, keep non-impact fitness, rebuild distance slowly."
+  },
+  "forefoot": {
+    "name": "Ball of the foot or toes",
+    "explanation": "Forefoot pain is usually about load under the metatarsal heads and how stiff the big toe is. Foot and calf work helps; so does the shoe.",
+    "course": "Improves over several weeks once the load pattern changes.",
+    "helps": "Calf strength, toe movement, and shoes that bend where your foot bends."
+  },
+  "elbow-extension": {
+    "name": "Back of the elbow when you straighten under load",
+    "explanation": "The triceps insertion is loaded most at the end of straightening, so early work happens in mid-range.",
+    "course": "Tendon-type symptoms: expect several weeks of steady load.",
+    "helps": "Bent-elbow loading first, gradual straightening under load later."
+  },
+  "biceps-tendon": {
+    "name": "Front of shoulder and elbow that ache together",
+    "explanation": "The biceps tendon crosses both joints, so overhead load aggravates the shoulder and the elbow at once.",
+    "course": "Usually settles in 4–8 weeks with graded loading.",
+    "helps": "Reduce overhead volume, strengthen elbow flexion in mid-range."
+  },
+  "wrist-load": {
+    "name": "Wrist pain when you push through it",
+    "explanation": "Weight-bearing with the wrist bent back concentrates load on the small bones on the back of the wrist.",
+    "course": "A few weeks of graded wrist loading, often with a brace for the aggravating activity.",
+    "helps": "Keep the wrist straight when loading, build tolerance gradually."
+  },
+  "hand-stiff": {
+    "name": "Stiff fingers and hand",
+    "explanation": "The hand loses movement quickly and regains it with repetition. Tendon gliding and gentle grip work keep things moving.",
+    "course": "Consistency matters more than intensity; several short sessions a day.",
+    "helps": "Move it often, avoid forcing a fist, warm the hand first."
+  },
+  "chest-wall": {
+    "name": "Chest wall pain with movement or breathing",
+    "explanation": "The joints where the ribs meet the breastbone are commonly tender and reproducible to touch. It is uncomfortable rather than dangerous — but chest symptoms still get checked.",
+    "course": "Often settles in a few weeks with movement and breathing work.",
+    "helps": "Deep breaths at your own pace, gentle opening, and an assessment if it is not clearly muscular."
+  },
+  "tmj": {
+    "name": "Jaw joint that clicks, aches or locks",
+    "explanation": "The jaw joint and the muscles of chewing are closely linked to neck posture and clenching. Position and habit changes do most of the work.",
+    "course": "Varies; many settle with a few weeks of rest positions and stress management.",
+    "helps": "Teeth apart, tongue on the roof of the mouth, soft diet for a week, and an assessment if it locks."
+  },
+  "head-face-review": {
+    "name": "Head and face discomfort",
+    "explanation": "Pain in the face, scalp or ear is usually not a muscle-joint problem that an exercise programme can fix. Neck-related headache is the exception, and we do treat that.",
+    "course": "Depends entirely on the cause.",
+    "helps": "If it came on suddenly and severely, or with visual or neurological change, seek care now."
+  },
+  "front-of-neck-review": {
+    "name": "Front of the neck or throat",
+    "explanation": "Tenderness or a lump at the front of the neck needs a clinician rather than exercises. Neck movement from behind is often the actual source and we can treat that.",
+    "course": "Not an exercise-responsive pattern in most cases.",
+    "helps": "Get it assessed, especially with swallowing change, swelling or a persistent lump."
+  },
+  "abdomen-review": {
+    "name": "Tummy-area discomfort",
+    "explanation": "Pain inside the abdomen is usually from organs rather than the wall. Muscle and nerve pain in the tummy wall does exist, and we can treat that after a clinician agrees.",
+    "course": "Depends on the cause.",
+    "helps": "New, severe, one-sided with a bulge, or with fever or bowel change: get seen."
+  },
+  "olecranon-review": {
+    "name": "Tip of the elbow, swollen or warm",
+    "explanation": "The bursa at the tip of the elbow swells after leaning or a knock. Sometimes it becomes infected, which is not an exercise problem.",
+    "course": "Simple bursitis settles over weeks once the pressure is removed.",
+    "helps": "Stop leaning on it. If it is hot, red or you feel unwell, get seen today."
+  }
+}

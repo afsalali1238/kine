@@ -1,0 +1,11 @@
+{
+  "printWidth": 100,
+  "proseWrap": "always",
+  "singleQuote": true,
+  "semi": true,
+  "trailingComma": "all",
+  "arrowParens": "always",
+  "overrides": [
+    { "files": ["src/data/*.json", "src/data/**/*.json"], "options": { "printWidth": 100 } }
+  ]
+}

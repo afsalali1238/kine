@@ -1,0 +1,21 @@
+{
+  "generator": "scripts/build-body-assets.mjs",
+  "quality": null,
+  "bodies": {
+    "male": {
+      "triangles": 46198,
+      "vertices": 23153,
+      "bytes": 1206653,
+      "hash": "23b50b5f9160e6f2",
+      "height": 1.715
+    },
+    "female": {
+      "triangles": 46198,
+      "vertices": 23153,
+      "bytes": 1206657,
+      "hash": "f5135d56f6abbd7c",
+      "height": 1.715
+    }
+  },
+  "regions": 119
+}

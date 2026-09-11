@@ -1,0 +1,31 @@
+{
+  "id": "generic-mobility",
+  "base": "standing",
+  "range": {
+    "thoracic.flexion": [0, 12]
+  },
+  "hold": null,
+  "cameras": [
+    {
+      "id": "primary",
+      "azimuth": 0,
+      "elevation": 6,
+      "distance": 2.4,
+      "target": "hips"
+    },
+    {
+      "id": "secondary",
+      "azimuth": 90,
+      "elevation": 2,
+      "distance": 2.3,
+      "target": "hips"
+    }
+  ],
+  "highlight": [],
+  "fault": {
+    "id": "rushing",
+    "label": "Moving faster than the prescription",
+    "labelAr": "الحركة أسرع من الوصفة",
+    "delta": {}
+  }
+}

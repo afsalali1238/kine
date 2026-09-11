@@ -1,0 +1,1 @@
+export { HandoutDoc } from './HandoutDoc';

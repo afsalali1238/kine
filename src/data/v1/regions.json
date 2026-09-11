@@ -1,0 +1,4657 @@
+[
+  {
+    "id": "forehead",
+    "regionIdValue": 1,
+    "base": "forehead",
+    "label": "Forehead",
+    "labelAr": "الجبهة",
+    "family": "head-jaw",
+    "side": "center",
+    "views": [
+      "front"
+    ],
+    "group": "head-jaw",
+    "synonyms": [
+      "front of head",
+      "brow",
+      "جبهه"
+    ],
+    "vertexCount": 136,
+    "triangles": 272,
+    "areaMm2": 8153,
+    "centroid": [
+      0,
+      1.6873,
+      0.0778
+    ],
+    "focusTarget": [
+      0,
+      1.687,
+      0.078
+    ],
+    "focusRadius": 0.187,
+    "focusDistance": 0.578,
+    "neighbours": [
+      "temple-right",
+      "face",
+      "temple-left",
+      "scalp-top"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "temple-left",
+    "regionIdValue": 2,
+    "base": "temple",
+    "label": "Temple, left",
+    "labelAr": "الصدغ اليسرى",
+    "family": "head-jaw",
+    "side": "left",
+    "views": [
+      "front",
+      "left"
+    ],
+    "group": "head-jaw",
+    "synonyms": [
+      "side of head left",
+      "migraine area left"
+    ],
+    "vertexCount": 72,
+    "triangles": 144,
+    "areaMm2": 4558,
+    "centroid": [
+      0.0793,
+      1.6623,
+      0.0115
+    ],
+    "focusTarget": [
+      0.079,
+      1.662,
+      0.012
+    ],
+    "focusRadius": 0.151,
+    "focusDistance": 0.467,
+    "neighbours": [
+      "face",
+      "ear-left",
+      "forehead",
+      "scalp-side-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "temple-right",
+    "regionIdValue": 3,
+    "base": "temple",
+    "label": "Temple, right",
+    "labelAr": "الصدغ اليمنى",
+    "family": "head-jaw",
+    "side": "right",
+    "views": [
+      "front",
+      "right"
+    ],
+    "group": "head-jaw",
+    "synonyms": [
+      "side of head right",
+      "migraine area right"
+    ],
+    "vertexCount": 72,
+    "triangles": 144,
+    "areaMm2": 4508,
+    "centroid": [
+      -0.0793,
+      1.6623,
+      0.0115
+    ],
+    "focusTarget": [
+      -0.079,
+      1.662,
+      0.012
+    ],
+    "focusRadius": 0.151,
+    "focusDistance": 0.467,
+    "neighbours": [
+      "face",
+      "ear-right",
+      "forehead",
+      "scalp-side-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "ear-left",
+    "regionIdValue": 4,
+    "base": "ear",
+    "label": "Behind the ear, left",
+    "labelAr": "الأذن اليسرى",
+    "family": "head-jaw",
+    "side": "left",
+    "views": [
+      "left",
+      "right",
+      "back"
+    ],
+    "group": "head-jaw",
+    "synonyms": [],
+    "vertexCount": 120,
+    "triangles": 236,
+    "areaMm2": 2674,
+    "centroid": [
+      0.0802,
+      1.5905,
+      -0.0047
+    ],
+    "focusTarget": [
+      0.08,
+      1.59,
+      -0.005
+    ],
+    "focusRadius": 0.179,
+    "focusDistance": 0.554,
+    "neighbours": [
+      "face",
+      "temple-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "ear-right",
+    "regionIdValue": 5,
+    "base": "ear",
+    "label": "Behind the ear, right",
+    "labelAr": "الأذن اليمنى",
+    "family": "head-jaw",
+    "side": "right",
+    "views": [
+      "left",
+      "right",
+      "back"
+    ],
+    "group": "head-jaw",
+    "synonyms": [],
+    "vertexCount": 120,
+    "triangles": 236,
+    "areaMm2": 2414,
+    "centroid": [
+      -0.0802,
+      1.5905,
+      -0.0047
+    ],
+    "focusTarget": [
+      -0.08,
+      1.59,
+      -0.005
+    ],
+    "focusRadius": 0.179,
+    "focusDistance": 0.554,
+    "neighbours": [
+      "face",
+      "temple-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "face",
+    "regionIdValue": 6,
+    "base": "face",
+    "label": "Face",
+    "labelAr": "الوجه",
+    "family": "head-jaw",
+    "side": "center",
+    "views": [
+      "front"
+    ],
+    "group": "head-jaw",
+    "synonyms": [],
+    "vertexCount": 963,
+    "triangles": 1890,
+    "areaMm2": 57614,
+    "centroid": [
+      0,
+      1.5894,
+      0.01
+    ],
+    "focusTarget": [
+      0,
+      1.589,
+      0.01
+    ],
+    "focusRadius": 0.405,
+    "focusDistance": 1.256,
+    "neighbours": [
+      "ear-right",
+      "ear-left",
+      "occiput",
+      "temple-right",
+      "temple-left",
+      "forehead",
+      "scalp-side-right",
+      "scalp-side-left",
+      "scalp-top",
+      "jaw-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "jaw-left",
+    "regionIdValue": 7,
+    "base": "jaw",
+    "label": "Jaw joint (TMJ), left",
+    "labelAr": "الفك والمفصل الفكي الصدغي اليسرى",
+    "family": "head-jaw",
+    "side": "left",
+    "views": [
+      "front",
+      "left"
+    ],
+    "group": "head-jaw",
+    "synonyms": [
+      "tmj left",
+      "jaw joint left",
+      "clicking jaw left",
+      "chewing left"
+    ],
+    "vertexCount": 414,
+    "triangles": 864,
+    "areaMm2": 25538,
+    "centroid": [
+      0.0314,
+      1.533,
+      0.0141
+    ],
+    "focusTarget": [
+      0.031,
+      1.533,
+      0.014
+    ],
+    "focusRadius": 0.285,
+    "focusDistance": 0.882,
+    "neighbours": [
+      "jaw-right",
+      "face"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "jaw-right",
+    "regionIdValue": 8,
+    "base": "jaw",
+    "label": "Jaw joint (TMJ), right",
+    "labelAr": "الفك والمفصل الفكي الصدغي اليمنى",
+    "family": "head-jaw",
+    "side": "right",
+    "views": [
+      "front",
+      "right"
+    ],
+    "group": "head-jaw",
+    "synonyms": [
+      "tmj right",
+      "jaw joint right",
+      "clicking jaw right",
+      "chewing right"
+    ],
+    "vertexCount": 432,
+    "triangles": 856,
+    "areaMm2": 26669,
+    "centroid": [
+      -0.0301,
+      1.5315,
+      0.0127
+    ],
+    "focusTarget": [
+      -0.03,
+      1.532,
+      0.013
+    ],
+    "focusRadius": 0.29,
+    "focusDistance": 0.898,
+    "neighbours": [
+      "jaw-left",
+      "face"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "occiput",
+    "regionIdValue": 9,
+    "base": "occiput",
+    "label": "Back of head",
+    "labelAr": "مؤخرة الرأس",
+    "family": "neck",
+    "side": "center",
+    "views": [
+      "back"
+    ],
+    "group": "neck",
+    "synonyms": [
+      "back of head",
+      "base of skull"
+    ],
+    "vertexCount": 187,
+    "triangles": 374,
+    "areaMm2": 9603,
+    "centroid": [
+      0,
+      1.6615,
+      -0.0781
+    ],
+    "focusTarget": [
+      0,
+      1.662,
+      -0.078
+    ],
+    "focusRadius": 0.209,
+    "focusDistance": 0.649,
+    "neighbours": [
+      "face",
+      "scalp-side-right",
+      "scalp-side-left",
+      "scalp-top"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "scalp-side-left",
+    "regionIdValue": 10,
+    "base": "scalp-side",
+    "label": "Side of head, left",
+    "labelAr": "جانب فروة الرأس اليسرى",
+    "family": "head-jaw",
+    "side": "left",
+    "views": [
+      "top",
+      "left"
+    ],
+    "group": "head-jaw",
+    "synonyms": [],
+    "vertexCount": 14,
+    "triangles": 28,
+    "areaMm2": 724,
+    "centroid": [
+      0.0718,
+      1.6763,
+      -0.0432
+    ],
+    "focusTarget": [
+      0.072,
+      1.676,
+      -0.043
+    ],
+    "focusRadius": 0.097,
+    "focusDistance": 0.42,
+    "neighbours": [
+      "temple-left",
+      "face",
+      "occiput",
+      "scalp-top"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "scalp-side-right",
+    "regionIdValue": 11,
+    "base": "scalp-side",
+    "label": "Side of head, right",
+    "labelAr": "جانب فروة الرأس اليمنى",
+    "family": "head-jaw",
+    "side": "right",
+    "views": [
+      "top",
+      "right"
+    ],
+    "group": "head-jaw",
+    "synonyms": [],
+    "vertexCount": 14,
+    "triangles": 28,
+    "areaMm2": 711,
+    "centroid": [
+      -0.0718,
+      1.6763,
+      -0.0432
+    ],
+    "focusTarget": [
+      -0.072,
+      1.676,
+      -0.043
+    ],
+    "focusRadius": 0.097,
+    "focusDistance": 0.42,
+    "neighbours": [
+      "occiput",
+      "face",
+      "temple-right",
+      "scalp-top"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "scalp-top",
+    "regionIdValue": 12,
+    "base": "scalp-top",
+    "label": "Top of head",
+    "labelAr": "أعلى الرأس",
+    "family": "head-jaw",
+    "side": "center",
+    "views": [
+      "top"
+    ],
+    "group": "head-jaw",
+    "synonyms": [],
+    "vertexCount": 392,
+    "triangles": 784,
+    "areaMm2": 23092,
+    "centroid": [
+      0,
+      1.7113,
+      -0.0043
+    ],
+    "focusTarget": [
+      0,
+      1.711,
+      -0.004
+    ],
+    "focusRadius": 0.278,
+    "focusDistance": 0.863,
+    "neighbours": [
+      "occiput",
+      "scalp-side-right",
+      "face",
+      "forehead",
+      "scalp-side-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "cervical-upper",
+    "regionIdValue": 13,
+    "base": "cervical-upper",
+    "label": "Upper neck",
+    "labelAr": "أعلى الرقبة",
+    "family": "neck",
+    "side": "center",
+    "views": [
+      "back"
+    ],
+    "group": "neck",
+    "synonyms": [
+      "top of neck",
+      "nape",
+      "neck"
+    ],
+    "vertexCount": 121,
+    "triangles": 231,
+    "areaMm2": 8489,
+    "centroid": [
+      0,
+      1.5065,
+      -0.0459
+    ],
+    "focusTarget": [
+      0,
+      1.507,
+      -0.046
+    ],
+    "focusRadius": 0.179,
+    "focusDistance": 0.555,
+    "neighbours": [
+      "cervical-lower"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "cervical-lower",
+    "regionIdValue": 14,
+    "base": "cervical-lower",
+    "label": "Lower neck",
+    "labelAr": "أسفل الرقبة",
+    "family": "neck",
+    "side": "center",
+    "views": [
+      "back",
+      "left",
+      "right"
+    ],
+    "group": "neck",
+    "synonyms": [
+      "lower neck",
+      "collar bone level",
+      "neck"
+    ],
+    "vertexCount": 505,
+    "triangles": 1027,
+    "areaMm2": 37278,
+    "centroid": [
+      0,
+      1.4744,
+      -0.0064
+    ],
+    "focusTarget": [
+      0,
+      1.474,
+      -0.006
+    ],
+    "focusRadius": 0.309,
+    "focusDistance": 0.957,
+    "neighbours": [
+      "trapezius-upper-right",
+      "trapezius-upper-left",
+      "sterno",
+      "cervical-upper"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "sterno",
+    "regionIdValue": 15,
+    "base": "sterno",
+    "label": "Front of neck / throat",
+    "labelAr": "الجهة الأمامية للرقبة",
+    "family": "neck",
+    "side": "center",
+    "views": [
+      "front"
+    ],
+    "group": "neck",
+    "synonyms": [],
+    "vertexCount": 156,
+    "triangles": 312,
+    "areaMm2": 13479,
+    "centroid": [
+      0,
+      1.4528,
+      0.0437
+    ],
+    "focusTarget": [
+      0,
+      1.453,
+      0.044
+    ],
+    "focusRadius": 0.196,
+    "focusDistance": 0.607,
+    "neighbours": [
+      "cervical-lower"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "trapezius-upper-left",
+    "regionIdValue": 16,
+    "base": "trapezius-upper",
+    "label": "Upper trapezius, left",
+    "labelAr": "العضلة شبه المنحرفة العلوية اليسرى",
+    "family": "neck",
+    "side": "left",
+    "views": [
+      "back",
+      "top"
+    ],
+    "group": "neck",
+    "synonyms": [
+      "knot in shoulder left",
+      "shoulder neck left",
+      "upper shoulder left",
+      "tension left"
+    ],
+    "vertexCount": 339,
+    "triangles": 628,
+    "areaMm2": 82497,
+    "centroid": [
+      0.0827,
+      1.4614,
+      -0.0111
+    ],
+    "focusTarget": [
+      0.083,
+      1.461,
+      -0.011
+    ],
+    "focusRadius": 0.263,
+    "focusDistance": 0.815,
+    "neighbours": [
+      "upper-abdomen",
+      "ac-joint-left",
+      "scapula-left",
+      "trapezius-upper-right",
+      "cervical-lower"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "trapezius-upper-right",
+    "regionIdValue": 17,
+    "base": "trapezius-upper",
+    "label": "Upper trapezius, right",
+    "labelAr": "العضلة شبه المنحرفة العلوية اليمنى",
+    "family": "neck",
+    "side": "right",
+    "views": [
+      "back",
+      "top"
+    ],
+    "group": "neck",
+    "synonyms": [
+      "knot in shoulder right",
+      "shoulder neck right",
+      "upper shoulder right",
+      "tension right"
+    ],
+    "vertexCount": 293,
+    "triangles": 582,
+    "areaMm2": 74861,
+    "centroid": [
+      -0.0957,
+      1.4588,
+      -0.0121
+    ],
+    "focusTarget": [
+      -0.096,
+      1.459,
+      -0.012
+    ],
+    "focusRadius": 0.248,
+    "focusDistance": 0.769,
+    "neighbours": [
+      "scapula-right",
+      "ac-joint-right",
+      "upper-abdomen",
+      "trapezius-upper-left",
+      "cervical-lower"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "ac-joint-left",
+    "regionIdValue": 18,
+    "base": "ac-joint",
+    "label": "Top of shoulder (AC joint), left",
+    "labelAr": "المفصل الأخرمي الترقوي اليسرى",
+    "family": "shoulder",
+    "side": "left",
+    "views": [
+      "top",
+      "front"
+    ],
+    "group": "shoulder",
+    "synonyms": [
+      "top of shoulder left",
+      "collar bone joint left",
+      "shoulder point left"
+    ],
+    "vertexCount": 56,
+    "triangles": 112,
+    "areaMm2": 11426,
+    "centroid": [
+      0.1665,
+      1.4513,
+      0.0513
+    ],
+    "focusTarget": [
+      0.166,
+      1.451,
+      0.051
+    ],
+    "focusRadius": 0.139,
+    "focusDistance": 0.432,
+    "neighbours": [
+      "pectoral-left",
+      "scapula-left",
+      "upper-abdomen",
+      "trapezius-upper-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "ac-joint-right",
+    "regionIdValue": 19,
+    "base": "ac-joint",
+    "label": "Top of shoulder (AC joint), right",
+    "labelAr": "المفصل الأخرمي الترقوي اليمنى",
+    "family": "shoulder",
+    "side": "right",
+    "views": [
+      "top",
+      "front"
+    ],
+    "group": "shoulder",
+    "synonyms": [
+      "top of shoulder right",
+      "collar bone joint right",
+      "shoulder point right"
+    ],
+    "vertexCount": 56,
+    "triangles": 112,
+    "areaMm2": 11186,
+    "centroid": [
+      -0.1665,
+      1.4513,
+      0.0513
+    ],
+    "focusTarget": [
+      -0.166,
+      1.451,
+      0.051
+    ],
+    "focusRadius": 0.139,
+    "focusDistance": 0.432,
+    "neighbours": [
+      "scapula-right",
+      "pectoral-right",
+      "upper-abdomen",
+      "trapezius-upper-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "anterior-deltoid-left",
+    "regionIdValue": 20,
+    "base": "anterior-deltoid",
+    "label": "Front of shoulder, left",
+    "labelAr": "الجزء الأمامي من العضلة الدالية اليسرى",
+    "family": "shoulder",
+    "side": "left",
+    "views": [
+      "front",
+      "left",
+      "right"
+    ],
+    "group": "shoulder",
+    "synonyms": [
+      "front of shoulder left",
+      "shoulder front left"
+    ],
+    "vertexCount": 99,
+    "triangles": 198,
+    "areaMm2": 14192,
+    "centroid": [
+      0.1761,
+      1.3726,
+      0.06
+    ],
+    "focusTarget": [
+      0.176,
+      1.373,
+      0.06
+    ],
+    "focusRadius": 0.167,
+    "focusDistance": 0.519,
+    "neighbours": [
+      "biceps-left",
+      "lateral-deltoid-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "anterior-deltoid-right",
+    "regionIdValue": 21,
+    "base": "anterior-deltoid",
+    "label": "Front of shoulder, right",
+    "labelAr": "الجزء الأمامي من العضلة الدالية اليمنى",
+    "family": "shoulder",
+    "side": "right",
+    "views": [
+      "front",
+      "left",
+      "right"
+    ],
+    "group": "shoulder",
+    "synonyms": [
+      "front of shoulder right",
+      "shoulder front right"
+    ],
+    "vertexCount": 99,
+    "triangles": 189,
+    "areaMm2": 12546,
+    "centroid": [
+      -0.1748,
+      1.3777,
+      0.06
+    ],
+    "focusTarget": [
+      -0.175,
+      1.378,
+      0.06
+    ],
+    "focusRadius": 0.167,
+    "focusDistance": 0.519,
+    "neighbours": [
+      "lateral-deltoid-right",
+      "biceps-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "lateral-deltoid-left",
+    "regionIdValue": 22,
+    "base": "lateral-deltoid",
+    "label": "Side of shoulder, left",
+    "labelAr": "الجزء الجانبي من العضلة الدالية اليسرى",
+    "family": "shoulder",
+    "side": "left",
+    "views": [
+      "left",
+      "right"
+    ],
+    "group": "shoulder",
+    "synonyms": [
+      "side of shoulder left",
+      "top outer shoulder left"
+    ],
+    "vertexCount": 216,
+    "triangles": 432,
+    "areaMm2": 26446,
+    "centroid": [
+      0.1883,
+      1.3629,
+      -0.0022
+    ],
+    "focusTarget": [
+      0.188,
+      1.363,
+      -0.002
+    ],
+    "focusRadius": 0.221,
+    "focusDistance": 0.685,
+    "neighbours": [
+      "posterior-deltoid-left",
+      "biceps-left",
+      "anterior-deltoid-left",
+      "triceps-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "lateral-deltoid-right",
+    "regionIdValue": 23,
+    "base": "lateral-deltoid",
+    "label": "Side of shoulder, right",
+    "labelAr": "الجزء الجانبي من العضلة الدالية اليمنى",
+    "family": "shoulder",
+    "side": "right",
+    "views": [
+      "left",
+      "right"
+    ],
+    "group": "shoulder",
+    "synonyms": [
+      "side of shoulder right",
+      "top outer shoulder right"
+    ],
+    "vertexCount": 216,
+    "triangles": 432,
+    "areaMm2": 30175,
+    "centroid": [
+      -0.1883,
+      1.3629,
+      -0.0022
+    ],
+    "focusTarget": [
+      -0.188,
+      1.363,
+      -0.002
+    ],
+    "focusRadius": 0.221,
+    "focusDistance": 0.685,
+    "neighbours": [
+      "posterior-deltoid-right",
+      "biceps-right",
+      "anterior-deltoid-right",
+      "triceps-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "posterior-deltoid-left",
+    "regionIdValue": 24,
+    "base": "posterior-deltoid",
+    "label": "Back of shoulder, left",
+    "labelAr": "الجزء الخلفي من العضلة الدالية اليسرى",
+    "family": "shoulder",
+    "side": "left",
+    "views": [
+      "back"
+    ],
+    "group": "shoulder",
+    "synonyms": [
+      "back of shoulder left",
+      "rear shoulder left"
+    ],
+    "vertexCount": 132,
+    "triangles": 264,
+    "areaMm2": 19071,
+    "centroid": [
+      0.1849,
+      1.3745,
+      -0.0632
+    ],
+    "focusTarget": [
+      0.185,
+      1.375,
+      -0.063
+    ],
+    "focusRadius": 0.185,
+    "focusDistance": 0.572,
+    "neighbours": [
+      "lateral-deltoid-left",
+      "biceps-left",
+      "triceps-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "posterior-deltoid-right",
+    "regionIdValue": 25,
+    "base": "posterior-deltoid",
+    "label": "Back of shoulder, right",
+    "labelAr": "الجزء الخلفي من العضلة الدالية اليمنى",
+    "family": "shoulder",
+    "side": "right",
+    "views": [
+      "back"
+    ],
+    "group": "shoulder",
+    "synonyms": [
+      "back of shoulder right",
+      "rear shoulder right"
+    ],
+    "vertexCount": 132,
+    "triangles": 253,
+    "areaMm2": 17097,
+    "centroid": [
+      -0.1862,
+      1.3745,
+      -0.0632
+    ],
+    "focusTarget": [
+      -0.186,
+      1.375,
+      -0.063
+    ],
+    "focusRadius": 0.185,
+    "focusDistance": 0.572,
+    "neighbours": [
+      "lateral-deltoid-right",
+      "biceps-right",
+      "triceps-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "scapula-left",
+    "regionIdValue": 28,
+    "base": "scapula",
+    "label": "Shoulder blade, left",
+    "labelAr": "عظم الكتف اليسرى",
+    "family": "shoulder",
+    "side": "left",
+    "views": [
+      "back"
+    ],
+    "group": "shoulder",
+    "synonyms": [
+      "shoulder blade left",
+      "bone on back of shoulder left"
+    ],
+    "vertexCount": 117,
+    "triangles": 234,
+    "areaMm2": 21691,
+    "centroid": [
+      0.1706,
+      1.3813,
+      -0.0074
+    ],
+    "focusTarget": [
+      0.171,
+      1.381,
+      -0.007
+    ],
+    "focusRadius": 0.177,
+    "focusDistance": 0.549,
+    "neighbours": [
+      "pectoral-left",
+      "upper-abdomen",
+      "ac-joint-left",
+      "trapezius-upper-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "scapula-right",
+    "regionIdValue": 29,
+    "base": "scapula",
+    "label": "Shoulder blade, right",
+    "labelAr": "عظم الكتف اليمنى",
+    "family": "shoulder",
+    "side": "right",
+    "views": [
+      "back"
+    ],
+    "group": "shoulder",
+    "synonyms": [
+      "shoulder blade right",
+      "bone on back of shoulder right"
+    ],
+    "vertexCount": 117,
+    "triangles": 234,
+    "areaMm2": 21668,
+    "centroid": [
+      -0.1706,
+      1.3813,
+      -0.0074
+    ],
+    "focusTarget": [
+      -0.171,
+      1.381,
+      -0.007
+    ],
+    "focusRadius": 0.177,
+    "focusDistance": 0.549,
+    "neighbours": [
+      "upper-abdomen",
+      "pectoral-right",
+      "ac-joint-right",
+      "trapezius-upper-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "pectoral-left",
+    "regionIdValue": 30,
+    "base": "pectoral",
+    "label": "Chest muscle, left",
+    "labelAr": "العضلة الصدرية اليسرى",
+    "family": "chest",
+    "side": "left",
+    "views": [
+      "front"
+    ],
+    "group": "chest",
+    "synonyms": [
+      "chest muscle left",
+      "pec left",
+      "chest left"
+    ],
+    "vertexCount": 76,
+    "triangles": 152,
+    "areaMm2": 17268,
+    "centroid": [
+      0.101,
+      1.346,
+      0.0992
+    ],
+    "focusTarget": [
+      0.101,
+      1.346,
+      0.099
+    ],
+    "focusRadius": 0.153,
+    "focusDistance": 0.475,
+    "neighbours": [
+      "upper-abdomen",
+      "costal-margin-left",
+      "scapula-left",
+      "ac-joint-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "pectoral-right",
+    "regionIdValue": 31,
+    "base": "pectoral",
+    "label": "Chest muscle, right",
+    "labelAr": "العضلة الصدرية اليمنى",
+    "family": "chest",
+    "side": "right",
+    "views": [
+      "front"
+    ],
+    "group": "chest",
+    "synonyms": [
+      "chest muscle right",
+      "pec right",
+      "chest right"
+    ],
+    "vertexCount": 76,
+    "triangles": 152,
+    "areaMm2": 17032,
+    "centroid": [
+      -0.101,
+      1.346,
+      0.0992
+    ],
+    "focusTarget": [
+      -0.101,
+      1.346,
+      0.099
+    ],
+    "focusRadius": 0.153,
+    "focusDistance": 0.475,
+    "neighbours": [
+      "costal-margin-right",
+      "upper-abdomen",
+      "scapula-right",
+      "ac-joint-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "rhomboid",
+    "regionIdValue": 32,
+    "base": "rhomboid",
+    "label": "Between shoulder blades",
+    "labelAr": "المنطقة بين الكتفين",
+    "family": "upper-back",
+    "side": "center",
+    "views": [
+      "back"
+    ],
+    "group": "upper-back",
+    "synonyms": [
+      "between shoulder blades",
+      "mid back between blades"
+    ],
+    "vertexCount": 136,
+    "triangles": 272,
+    "areaMm2": 29721,
+    "centroid": [
+      0,
+      1.3828,
+      -0.1133
+    ],
+    "focusTarget": [
+      0,
+      1.383,
+      -0.113
+    ],
+    "focusRadius": 0.187,
+    "focusDistance": 0.578,
+    "neighbours": [
+      "thoracic-spine",
+      "upper-abdomen"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "thoracic-spine",
+    "regionIdValue": 33,
+    "base": "thoracic-spine",
+    "label": "Upper / mid back",
+    "labelAr": "العمود الفقري الصدري",
+    "family": "upper-back",
+    "side": "center",
+    "views": [
+      "back"
+    ],
+    "group": "upper-back",
+    "synonyms": [
+      "upper back",
+      "mid back",
+      "back bone"
+    ],
+    "vertexCount": 150,
+    "triangles": 300,
+    "areaMm2": 33464,
+    "centroid": [
+      0,
+      1.2455,
+      -0.1119
+    ],
+    "focusTarget": [
+      0,
+      1.246,
+      -0.112
+    ],
+    "focusRadius": 0.193,
+    "focusDistance": 0.599,
+    "neighbours": [
+      "lumbar-spine",
+      "oblique-right",
+      "oblique-left",
+      "upper-abdomen",
+      "rhomboid"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "costal-margin-left",
+    "regionIdValue": 34,
+    "base": "costal-margin",
+    "label": "Rib margin, left",
+    "labelAr": "حافة الأضلاع اليسرى",
+    "family": "chest",
+    "side": "left",
+    "views": [
+      "front",
+      "left"
+    ],
+    "group": "chest",
+    "synonyms": [
+      "ribs left",
+      "rib cage left",
+      "side ribs left",
+      "ribe left"
+    ],
+    "vertexCount": 162,
+    "triangles": 324,
+    "areaMm2": 34623,
+    "centroid": [
+      0.1342,
+      1.1727,
+      0.0298
+    ],
+    "focusTarget": [
+      0.134,
+      1.173,
+      0.03
+    ],
+    "focusRadius": 0.199,
+    "focusDistance": 0.616,
+    "neighbours": [
+      "lower-abdomen",
+      "upper-abdomen",
+      "oblique-left",
+      "pectoral-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "costal-margin-right",
+    "regionIdValue": 35,
+    "base": "costal-margin",
+    "label": "Rib margin, right",
+    "labelAr": "حافة الأضلاع اليمنى",
+    "family": "chest",
+    "side": "right",
+    "views": [
+      "front",
+      "right"
+    ],
+    "group": "chest",
+    "synonyms": [
+      "ribs right",
+      "rib cage right",
+      "side ribs right",
+      "ribe right"
+    ],
+    "vertexCount": 162,
+    "triangles": 324,
+    "areaMm2": 34243,
+    "centroid": [
+      -0.1342,
+      1.1727,
+      0.0298
+    ],
+    "focusTarget": [
+      -0.134,
+      1.173,
+      0.03
+    ],
+    "focusRadius": 0.199,
+    "focusDistance": 0.616,
+    "neighbours": [
+      "oblique-right",
+      "upper-abdomen",
+      "lower-abdomen",
+      "pectoral-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "oblique-left",
+    "regionIdValue": 36,
+    "base": "oblique",
+    "label": "Side of tummy, left",
+    "labelAr": "العضلة المائلة للبطن اليسرى",
+    "family": "trunk",
+    "side": "left",
+    "views": [
+      "left"
+    ],
+    "group": "trunk",
+    "synonyms": [
+      "side of tummy left",
+      "love handles left",
+      "side stomach left"
+    ],
+    "vertexCount": 147,
+    "triangles": 294,
+    "areaMm2": 31061,
+    "centroid": [
+      0.1174,
+      1.1002,
+      -0.0655
+    ],
+    "focusTarget": [
+      0.117,
+      1.1,
+      -0.066
+    ],
+    "focusRadius": 0.192,
+    "focusDistance": 0.595,
+    "neighbours": [
+      "upper-abdomen",
+      "lumbar-spine",
+      "costal-margin-left",
+      "thoracic-spine"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "oblique-right",
+    "regionIdValue": 37,
+    "base": "oblique",
+    "label": "Side of tummy, right",
+    "labelAr": "العضلة المائلة للبطن اليمنى",
+    "family": "trunk",
+    "side": "right",
+    "views": [
+      "right"
+    ],
+    "group": "trunk",
+    "synonyms": [
+      "side of tummy right",
+      "love handles right",
+      "side stomach right"
+    ],
+    "vertexCount": 147,
+    "triangles": 294,
+    "areaMm2": 31709,
+    "centroid": [
+      -0.1174,
+      1.1002,
+      -0.0655
+    ],
+    "focusTarget": [
+      -0.117,
+      1.1,
+      -0.066
+    ],
+    "focusRadius": 0.192,
+    "focusDistance": 0.595,
+    "neighbours": [
+      "lumbar-spine",
+      "upper-abdomen",
+      "costal-margin-right",
+      "thoracic-spine"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "upper-abdomen",
+    "regionIdValue": 38,
+    "base": "upper-abdomen",
+    "label": "Upper tummy",
+    "labelAr": "أعلى البطن",
+    "family": "trunk",
+    "side": "center",
+    "views": [
+      "front"
+    ],
+    "group": "trunk",
+    "synonyms": [
+      "tummy",
+      "stomach",
+      "epigastric"
+    ],
+    "vertexCount": 922,
+    "triangles": 1876,
+    "areaMm2": 223738,
+    "centroid": [
+      0,
+      1.1566,
+      0.0252
+    ],
+    "focusTarget": [
+      0,
+      1.157,
+      0.025
+    ],
+    "focusRadius": 0.398,
+    "focusDistance": 1.233,
+    "neighbours": [
+      "lumbar-spine",
+      "lower-abdomen",
+      "oblique-right",
+      "oblique-left",
+      "costal-margin-right",
+      "costal-margin-left",
+      "pectoral-right",
+      "pectoral-left",
+      "thoracic-spine",
+      "rhomboid"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "lower-abdomen",
+    "regionIdValue": 39,
+    "base": "lower-abdomen",
+    "label": "Lower tummy",
+    "labelAr": "أسفل البطن",
+    "family": "trunk",
+    "side": "center",
+    "views": [
+      "front"
+    ],
+    "group": "trunk",
+    "synonyms": [
+      "lower tummy",
+      "pelvic area",
+      "bladder area"
+    ],
+    "vertexCount": 212,
+    "triangles": 424,
+    "areaMm2": 45113,
+    "centroid": [
+      0,
+      0.9724,
+      0.096
+    ],
+    "focusTarget": [
+      0,
+      0.972,
+      0.096
+    ],
+    "focusRadius": 0.219,
+    "focusDistance": 0.68,
+    "neighbours": [
+      "upper-abdomen",
+      "costal-margin-right",
+      "costal-margin-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "lumbar-spine",
+    "regionIdValue": 40,
+    "base": "lumbar-spine",
+    "label": "Lower back",
+    "labelAr": "العمود الفقري القطني",
+    "family": "lower-back",
+    "side": "center",
+    "views": [
+      "back"
+    ],
+    "group": "lower-back",
+    "synonyms": [
+      "lower back",
+      "small of back",
+      "back",
+      "waist"
+    ],
+    "vertexCount": 225,
+    "triangles": 450,
+    "areaMm2": 54066,
+    "centroid": [
+      0,
+      1.0018,
+      -0.1086
+    ],
+    "focusTarget": [
+      0,
+      1.002,
+      -0.109
+    ],
+    "focusRadius": 0.224,
+    "focusDistance": 0.695,
+    "neighbours": [
+      "upper-abdomen",
+      "oblique-right",
+      "oblique-left",
+      "thoracic-spine"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "sacrum",
+    "regionIdValue": 41,
+    "base": "sacrum",
+    "label": "Sacrum / tailbone",
+    "labelAr": "العجز",
+    "family": "lower-back",
+    "side": "center",
+    "views": [
+      "back"
+    ],
+    "group": "lower-back",
+    "synonyms": [
+      "tailbone area",
+      "base of spine"
+    ],
+    "vertexCount": 89,
+    "triangles": 178,
+    "areaMm2": 13283,
+    "centroid": [
+      0,
+      0.9737,
+      -0.1127
+    ],
+    "focusTarget": [
+      0,
+      0.974,
+      -0.113
+    ],
+    "focusRadius": 0.161,
+    "focusDistance": 0.5,
+    "neighbours": [
+      "hip-anterior-right",
+      "hamstring-proximal-right",
+      "gluteus-maximus-right",
+      "gluteus-maximus-left",
+      "hamstring-proximal-left",
+      "hip-anterior-left",
+      "si-joint-right",
+      "si-joint-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "si-joint-left",
+    "regionIdValue": 42,
+    "base": "si-joint",
+    "label": "Pelvis joint (SI), left",
+    "labelAr": "المفصل العجزي الحرقفي اليسرى",
+    "family": "lower-back",
+    "side": "left",
+    "views": [
+      "back"
+    ],
+    "group": "lower-back",
+    "synonyms": [
+      "si joint left",
+      "dimple of back left",
+      "pelvis joint left",
+      "one side of lower back left"
+    ],
+    "vertexCount": 15,
+    "triangles": 30,
+    "areaMm2": 1725,
+    "centroid": [
+      0.1062,
+      1.0075,
+      -0.0829
+    ],
+    "focusTarget": [
+      0.106,
+      1.007,
+      -0.083
+    ],
+    "focusRadius": 0.099,
+    "focusDistance": 0.42,
+    "neighbours": [
+      "hip-anterior-left",
+      "gluteus-maximus-left",
+      "sacrum"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "si-joint-right",
+    "regionIdValue": 43,
+    "base": "si-joint",
+    "label": "Pelvis joint (SI), right",
+    "labelAr": "المفصل العجزي الحرقفي اليمنى",
+    "family": "lower-back",
+    "side": "right",
+    "views": [
+      "back"
+    ],
+    "group": "lower-back",
+    "synonyms": [
+      "si joint right",
+      "dimple of back right",
+      "pelvis joint right",
+      "one side of lower back right"
+    ],
+    "vertexCount": 15,
+    "triangles": 30,
+    "areaMm2": 1739,
+    "centroid": [
+      -0.1062,
+      1.0075,
+      -0.0829
+    ],
+    "focusTarget": [
+      -0.106,
+      1.007,
+      -0.083
+    ],
+    "focusRadius": 0.099,
+    "focusDistance": 0.42,
+    "neighbours": [
+      "sacrum",
+      "gluteus-maximus-right",
+      "hip-anterior-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "gluteus-maximus-left",
+    "regionIdValue": 44,
+    "base": "gluteus-maximus",
+    "label": "Buttock, left",
+    "labelAr": "العضلة الأليوية الكبرى اليسرى",
+    "family": "hip",
+    "side": "left",
+    "views": [
+      "back"
+    ],
+    "group": "hip",
+    "synonyms": [
+      "buttock left",
+      "bottom left",
+      "cheek left"
+    ],
+    "vertexCount": 86,
+    "triangles": 172,
+    "areaMm2": 14794,
+    "centroid": [
+      0.1212,
+      0.9477,
+      -0.0831
+    ],
+    "focusTarget": [
+      0.121,
+      0.948,
+      -0.083
+    ],
+    "focusRadius": 0.16,
+    "focusDistance": 0.495,
+    "neighbours": [
+      "hip-anterior-left",
+      "hamstring-proximal-left",
+      "sacrum",
+      "gluteus-medius-left",
+      "si-joint-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "gluteus-maximus-right",
+    "regionIdValue": 45,
+    "base": "gluteus-maximus",
+    "label": "Buttock, right",
+    "labelAr": "العضلة الأليوية الكبرى اليمنى",
+    "family": "hip",
+    "side": "right",
+    "views": [
+      "back"
+    ],
+    "group": "hip",
+    "synonyms": [
+      "buttock right",
+      "bottom right",
+      "cheek right"
+    ],
+    "vertexCount": 86,
+    "triangles": 172,
+    "areaMm2": 15188,
+    "centroid": [
+      -0.1212,
+      0.9477,
+      -0.0831
+    ],
+    "focusTarget": [
+      -0.121,
+      0.948,
+      -0.083
+    ],
+    "focusRadius": 0.16,
+    "focusDistance": 0.495,
+    "neighbours": [
+      "hamstring-proximal-right",
+      "hip-anterior-right",
+      "sacrum",
+      "gluteus-medius-right",
+      "si-joint-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "gluteus-medius-left",
+    "regionIdValue": 46,
+    "base": "gluteus-medius",
+    "label": "Side hip muscle, left",
+    "labelAr": "العضلة الأليوية الوسطى اليسرى",
+    "family": "hip",
+    "side": "left",
+    "views": [
+      "left",
+      "back"
+    ],
+    "group": "hip",
+    "synonyms": [
+      "side of hip muscle left",
+      "outer hip deep left",
+      "hip tendon left"
+    ],
+    "vertexCount": 54,
+    "triangles": 94,
+    "areaMm2": 9398,
+    "centroid": [
+      0.1193,
+      1.0128,
+      -0.0058
+    ],
+    "focusTarget": [
+      0.119,
+      1.013,
+      -0.006
+    ],
+    "focusRadius": 0.138,
+    "focusDistance": 0.428,
+    "neighbours": [
+      "hip-lateral-left",
+      "hip-anterior-left",
+      "gluteus-maximus-left",
+      "hip-anterior-right",
+      "gluteus-medius-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "gluteus-medius-right",
+    "regionIdValue": 47,
+    "base": "gluteus-medius",
+    "label": "Side hip muscle, right",
+    "labelAr": "العضلة الأليوية الوسطى اليمنى",
+    "family": "hip",
+    "side": "right",
+    "views": [
+      "right",
+      "back"
+    ],
+    "group": "hip",
+    "synonyms": [
+      "side of hip muscle right",
+      "outer hip deep right",
+      "hip tendon right"
+    ],
+    "vertexCount": 40,
+    "triangles": 80,
+    "areaMm2": 9446,
+    "centroid": [
+      -0.1611,
+      1.0067,
+      -0.0079
+    ],
+    "focusTarget": [
+      -0.161,
+      1.007,
+      -0.008
+    ],
+    "focusRadius": 0.126,
+    "focusDistance": 0.42,
+    "neighbours": [
+      "gluteus-maximus-right",
+      "hip-anterior-right",
+      "hip-lateral-right",
+      "gluteus-medius-left",
+      "hip-anterior-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "hip-anterior-left",
+    "regionIdValue": 48,
+    "base": "hip-anterior",
+    "label": "Front of hip / groin, left",
+    "labelAr": "أمام الورك والمغبن اليسرى",
+    "family": "hip",
+    "side": "left",
+    "views": [
+      "front"
+    ],
+    "group": "hip",
+    "synonyms": [
+      "groin left",
+      "front of hip left",
+      "hip flexor left"
+    ],
+    "vertexCount": 497,
+    "triangles": 1024,
+    "areaMm2": 98475,
+    "centroid": [
+      0.0716,
+      0.9025,
+      0.0417
+    ],
+    "focusTarget": [
+      0.072,
+      0.902,
+      0.042
+    ],
+    "focusRadius": 0.307,
+    "focusDistance": 0.95,
+    "neighbours": [
+      "hip-anterior-right",
+      "hamstring-proximal-right",
+      "hamstring-proximal-left",
+      "gluteus-maximus-left",
+      "hip-lateral-left",
+      "sacrum",
+      "gluteus-medius-left",
+      "si-joint-left",
+      "gluteus-medius-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "hip-anterior-right",
+    "regionIdValue": 49,
+    "base": "hip-anterior",
+    "label": "Front of hip / groin, right",
+    "labelAr": "أمام الورك والمغبن اليمنى",
+    "family": "hip",
+    "side": "right",
+    "views": [
+      "front"
+    ],
+    "group": "hip",
+    "synonyms": [
+      "groin right",
+      "front of hip right",
+      "hip flexor right"
+    ],
+    "vertexCount": 382,
+    "triangles": 764,
+    "areaMm2": 95630,
+    "centroid": [
+      -0.0931,
+      0.9006,
+      0.0455
+    ],
+    "focusTarget": [
+      -0.093,
+      0.901,
+      0.045
+    ],
+    "focusRadius": 0.276,
+    "focusDistance": 0.854,
+    "neighbours": [
+      "hip-anterior-left",
+      "hamstring-proximal-right",
+      "hamstring-proximal-left",
+      "gluteus-maximus-right",
+      "hip-lateral-right",
+      "sacrum",
+      "gluteus-medius-right",
+      "si-joint-right",
+      "gluteus-medius-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "hip-lateral-left",
+    "regionIdValue": 50,
+    "base": "hip-lateral",
+    "label": "Outside of hip, left",
+    "labelAr": "الجهة الجانبية للورك اليسرى",
+    "family": "hip",
+    "side": "left",
+    "views": [
+      "left"
+    ],
+    "group": "hip",
+    "synonyms": [
+      "outer hip left",
+      "side of hip left",
+      "hip bursa left"
+    ],
+    "vertexCount": 51,
+    "triangles": 102,
+    "areaMm2": 8015,
+    "centroid": [
+      0.1557,
+      0.9291,
+      0.0344
+    ],
+    "focusTarget": [
+      0.156,
+      0.929,
+      0.034
+    ],
+    "focusRadius": 0.136,
+    "focusDistance": 0.42,
+    "neighbours": [
+      "hip-anterior-left",
+      "gluteus-medius-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "hip-lateral-right",
+    "regionIdValue": 51,
+    "base": "hip-lateral",
+    "label": "Outside of hip, right",
+    "labelAr": "الجهة الجانبية للورك اليمنى",
+    "family": "hip",
+    "side": "right",
+    "views": [
+      "right"
+    ],
+    "group": "hip",
+    "synonyms": [
+      "outer hip right",
+      "side of hip right",
+      "hip bursa right"
+    ],
+    "vertexCount": 51,
+    "triangles": 102,
+    "areaMm2": 7798,
+    "centroid": [
+      -0.1557,
+      0.9291,
+      0.0344
+    ],
+    "focusTarget": [
+      -0.156,
+      0.929,
+      0.034
+    ],
+    "focusRadius": 0.136,
+    "focusDistance": 0.42,
+    "neighbours": [
+      "hip-anterior-right",
+      "gluteus-medius-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "quadriceps-left",
+    "regionIdValue": 52,
+    "base": "quadriceps",
+    "label": "Front of thigh, left",
+    "labelAr": "العضلة الرباعية اليسرى",
+    "family": "knee",
+    "side": "left",
+    "views": [
+      "front"
+    ],
+    "group": "knee",
+    "synonyms": [
+      "front of thigh left",
+      "thigh muscle left"
+    ],
+    "vertexCount": 562,
+    "triangles": 1200,
+    "areaMm2": 124863,
+    "centroid": [
+      0.0964,
+      0.7608,
+      0.0596
+    ],
+    "focusTarget": [
+      0.096,
+      0.761,
+      0.06
+    ],
+    "focusRadius": 0.322,
+    "focusDistance": 1,
+    "neighbours": [
+      "hamstring-proximal-left",
+      "quadriceps-right",
+      "it-band-left",
+      "hamstring-mid-left",
+      "adductor-left",
+      "knee-medial-left",
+      "knee-anterior-left",
+      "knee-lateral-left",
+      "knee-posterior-left",
+      "hamstring-proximal-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "quadriceps-right",
+    "regionIdValue": 53,
+    "base": "quadriceps",
+    "label": "Front of thigh, right",
+    "labelAr": "العضلة الرباعية اليمنى",
+    "family": "knee",
+    "side": "right",
+    "views": [
+      "front"
+    ],
+    "group": "knee",
+    "synonyms": [
+      "front of thigh right",
+      "thigh muscle right"
+    ],
+    "vertexCount": 562,
+    "triangles": 1177,
+    "areaMm2": 123038,
+    "centroid": [
+      -0.0966,
+      0.7607,
+      0.0596
+    ],
+    "focusTarget": [
+      -0.097,
+      0.761,
+      0.06
+    ],
+    "focusRadius": 0.322,
+    "focusDistance": 1,
+    "neighbours": [
+      "hamstring-proximal-left",
+      "quadriceps-left",
+      "hamstring-proximal-right",
+      "it-band-right",
+      "hamstring-mid-right",
+      "adductor-right",
+      "knee-medial-right",
+      "knee-anterior-right",
+      "knee-lateral-right",
+      "knee-posterior-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "hamstring-proximal-left",
+    "regionIdValue": 54,
+    "base": "hamstring-proximal",
+    "label": "Top of hamstring / sit bone, left",
+    "labelAr": "أعلى خلف الفخذ اليسرى",
+    "family": "hip",
+    "side": "left",
+    "views": [
+      "back"
+    ],
+    "group": "hip",
+    "synonyms": [
+      "sit bone left",
+      "top of hamstring left",
+      "upper back thigh left"
+    ],
+    "vertexCount": 229,
+    "triangles": 438,
+    "areaMm2": 57575,
+    "centroid": [
+      0.0875,
+      0.8585,
+      -0.0736
+    ],
+    "focusTarget": [
+      0.088,
+      0.858,
+      -0.074
+    ],
+    "focusRadius": 0.226,
+    "focusDistance": 0.7,
+    "neighbours": [
+      "hamstring-proximal-right",
+      "hip-anterior-left",
+      "hip-anterior-right",
+      "gluteus-maximus-left",
+      "sacrum",
+      "quadriceps-left",
+      "quadriceps-right",
+      "it-band-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "hamstring-proximal-right",
+    "regionIdValue": 55,
+    "base": "hamstring-proximal",
+    "label": "Top of hamstring / sit bone, right",
+    "labelAr": "أعلى خلف الفخذ اليمنى",
+    "family": "hip",
+    "side": "right",
+    "views": [
+      "back"
+    ],
+    "group": "hip",
+    "synonyms": [
+      "sit bone right",
+      "top of hamstring right",
+      "upper back thigh right"
+    ],
+    "vertexCount": 209,
+    "triangles": 401,
+    "areaMm2": 55964,
+    "centroid": [
+      -0.0958,
+      0.8679,
+      -0.0803
+    ],
+    "focusTarget": [
+      -0.096,
+      0.868,
+      -0.08
+    ],
+    "focusRadius": 0.218,
+    "focusDistance": 0.676,
+    "neighbours": [
+      "hip-anterior-right",
+      "hip-anterior-left",
+      "hamstring-proximal-left",
+      "gluteus-maximus-right",
+      "sacrum",
+      "quadriceps-right",
+      "quadriceps-left",
+      "it-band-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "hamstring-mid-left",
+    "regionIdValue": 56,
+    "base": "hamstring-mid",
+    "label": "Back of thigh, left",
+    "labelAr": "منتصف خلف الفخذ اليسرى",
+    "family": "thigh",
+    "side": "left",
+    "views": [
+      "back"
+    ],
+    "group": "thigh",
+    "synonyms": [
+      "back of thigh left",
+      "hamstring left"
+    ],
+    "vertexCount": 357,
+    "triangles": 714,
+    "areaMm2": 74630,
+    "centroid": [
+      0.1001,
+      0.6822,
+      -0.0642
+    ],
+    "focusTarget": [
+      0.1,
+      0.682,
+      -0.064
+    ],
+    "focusRadius": 0.268,
+    "focusDistance": 0.831,
+    "neighbours": [
+      "quadriceps-left",
+      "it-band-left",
+      "adductor-left",
+      "knee-posterior-left",
+      "knee-medial-left",
+      "knee-lateral-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "hamstring-mid-right",
+    "regionIdValue": 57,
+    "base": "hamstring-mid",
+    "label": "Back of thigh, right",
+    "labelAr": "منتصف خلف الفخذ اليمنى",
+    "family": "thigh",
+    "side": "right",
+    "views": [
+      "back"
+    ],
+    "group": "thigh",
+    "synonyms": [
+      "back of thigh right",
+      "hamstring right"
+    ],
+    "vertexCount": 357,
+    "triangles": 714,
+    "areaMm2": 75177,
+    "centroid": [
+      -0.0999,
+      0.6822,
+      -0.0642
+    ],
+    "focusTarget": [
+      -0.1,
+      0.682,
+      -0.064
+    ],
+    "focusRadius": 0.268,
+    "focusDistance": 0.831,
+    "neighbours": [
+      "quadriceps-right",
+      "it-band-right",
+      "adductor-right",
+      "knee-posterior-right",
+      "knee-medial-right",
+      "knee-lateral-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "adductor-left",
+    "regionIdValue": 58,
+    "base": "adductor",
+    "label": "Inner thigh, left",
+    "labelAr": "العضلة الضامة اليسرى",
+    "family": "hip",
+    "side": "left",
+    "views": [
+      "right"
+    ],
+    "group": "hip",
+    "synonyms": [
+      "inner thigh left",
+      "groin muscle left",
+      "addle left"
+    ],
+    "vertexCount": 57,
+    "triangles": 114,
+    "areaMm2": 11861,
+    "centroid": [
+      0.0138,
+      0.6844,
+      0.0053
+    ],
+    "focusTarget": [
+      0.014,
+      0.684,
+      0.005
+    ],
+    "focusRadius": 0.14,
+    "focusDistance": 0.435,
+    "neighbours": [
+      "hamstring-mid-left",
+      "quadriceps-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "adductor-right",
+    "regionIdValue": 59,
+    "base": "adductor",
+    "label": "Inner thigh, right",
+    "labelAr": "العضلة الضامة اليمنى",
+    "family": "hip",
+    "side": "right",
+    "views": [
+      "left"
+    ],
+    "group": "hip",
+    "synonyms": [
+      "inner thigh right",
+      "groin muscle right",
+      "addle right"
+    ],
+    "vertexCount": 57,
+    "triangles": 114,
+    "areaMm2": 12248,
+    "centroid": [
+      -0.0138,
+      0.6886,
+      0.0053
+    ],
+    "focusTarget": [
+      -0.014,
+      0.689,
+      0.005
+    ],
+    "focusRadius": 0.14,
+    "focusDistance": 0.435,
+    "neighbours": [
+      "hamstring-mid-right",
+      "quadriceps-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "it-band-left",
+    "regionIdValue": 60,
+    "base": "it-band",
+    "label": "Outer thigh (IT band), left",
+    "labelAr": "النطاق الحرقفي الظنبوبي اليسرى",
+    "family": "knee",
+    "side": "left",
+    "views": [
+      "left"
+    ],
+    "group": "knee",
+    "synonyms": [
+      "it band left",
+      "outside of thigh left",
+      "side of knee thigh left"
+    ],
+    "vertexCount": 67,
+    "triangles": 134,
+    "areaMm2": 13921,
+    "centroid": [
+      0.1841,
+      0.6984,
+      0.0043
+    ],
+    "focusTarget": [
+      0.184,
+      0.698,
+      0.004
+    ],
+    "focusRadius": 0.147,
+    "focusDistance": 0.457,
+    "neighbours": [
+      "quadriceps-left",
+      "hamstring-proximal-left",
+      "hamstring-mid-left",
+      "knee-lateral-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "it-band-right",
+    "regionIdValue": 61,
+    "base": "it-band",
+    "label": "Outer thigh (IT band), right",
+    "labelAr": "النطاق الحرقفي الظنبوبي اليمنى",
+    "family": "knee",
+    "side": "right",
+    "views": [
+      "right"
+    ],
+    "group": "knee",
+    "synonyms": [
+      "it band right",
+      "outside of thigh right",
+      "side of knee thigh right"
+    ],
+    "vertexCount": 67,
+    "triangles": 134,
+    "areaMm2": 13686,
+    "centroid": [
+      -0.1841,
+      0.6942,
+      0.0043
+    ],
+    "focusTarget": [
+      -0.184,
+      0.694,
+      0.004
+    ],
+    "focusRadius": 0.147,
+    "focusDistance": 0.457,
+    "neighbours": [
+      "quadriceps-right",
+      "hamstring-proximal-right",
+      "hamstring-mid-right",
+      "knee-lateral-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "knee-anterior-left",
+    "regionIdValue": 62,
+    "base": "knee-anterior",
+    "label": "Front of knee, left",
+    "labelAr": "أمام الركبة اليسرى",
+    "family": "knee",
+    "side": "left",
+    "views": [
+      "front"
+    ],
+    "group": "knee",
+    "synonyms": [
+      "front of knee left",
+      "kneecap left",
+      "knee cap pain left"
+    ],
+    "vertexCount": 143,
+    "triangles": 260,
+    "areaMm2": 17835,
+    "centroid": [
+      0.1027,
+      0.4945,
+      0.0615
+    ],
+    "focusTarget": [
+      0.103,
+      0.495,
+      0.061
+    ],
+    "focusRadius": 0.19,
+    "focusDistance": 0.589,
+    "neighbours": [
+      "quadriceps-left",
+      "knee-medial-left",
+      "knee-lateral-left",
+      "shin-left",
+      "patellar-tendon-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "knee-anterior-right",
+    "regionIdValue": 63,
+    "base": "knee-anterior",
+    "label": "Front of knee, right",
+    "labelAr": "أمام الركبة اليمنى",
+    "family": "knee",
+    "side": "right",
+    "views": [
+      "front"
+    ],
+    "group": "knee",
+    "synonyms": [
+      "front of knee right",
+      "kneecap right",
+      "knee cap pain right"
+    ],
+    "vertexCount": 143,
+    "triangles": 260,
+    "areaMm2": 18180,
+    "centroid": [
+      -0.1032,
+      0.4945,
+      0.0615
+    ],
+    "focusTarget": [
+      -0.103,
+      0.495,
+      0.061
+    ],
+    "focusRadius": 0.19,
+    "focusDistance": 0.589,
+    "neighbours": [
+      "knee-medial-right",
+      "quadriceps-right",
+      "knee-lateral-right",
+      "shin-right",
+      "patellar-tendon-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "knee-medial-left",
+    "regionIdValue": 64,
+    "base": "knee-medial",
+    "label": "Inside of knee, left",
+    "labelAr": "الجهة الداخلية للركبة اليسرى",
+    "family": "knee",
+    "side": "left",
+    "views": [
+      "right"
+    ],
+    "group": "knee",
+    "synonyms": [
+      "inner knee left",
+      "inside of knee left",
+      "medial knee left"
+    ],
+    "vertexCount": 72,
+    "triangles": 130,
+    "areaMm2": 8239,
+    "centroid": [
+      0.0543,
+      0.4969,
+      0.0182
+    ],
+    "focusTarget": [
+      0.054,
+      0.497,
+      0.018
+    ],
+    "focusRadius": 0.151,
+    "focusDistance": 0.467,
+    "neighbours": [
+      "hamstring-mid-left",
+      "quadriceps-left",
+      "knee-posterior-left",
+      "knee-anterior-left",
+      "shin-left",
+      "calf-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "knee-medial-right",
+    "regionIdValue": 65,
+    "base": "knee-medial",
+    "label": "Inside of knee, right",
+    "labelAr": "الجهة الداخلية للركبة اليمنى",
+    "family": "knee",
+    "side": "right",
+    "views": [
+      "left"
+    ],
+    "group": "knee",
+    "synonyms": [
+      "inner knee right",
+      "inside of knee right",
+      "medial knee right"
+    ],
+    "vertexCount": 72,
+    "triangles": 131,
+    "areaMm2": 8473,
+    "centroid": [
+      -0.0543,
+      0.4954,
+      0.0182
+    ],
+    "focusTarget": [
+      -0.054,
+      0.495,
+      0.018
+    ],
+    "focusRadius": 0.151,
+    "focusDistance": 0.467,
+    "neighbours": [
+      "knee-posterior-right",
+      "hamstring-mid-right",
+      "quadriceps-right",
+      "knee-anterior-right",
+      "shin-right",
+      "calf-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "knee-lateral-left",
+    "regionIdValue": 66,
+    "base": "knee-lateral",
+    "label": "Outside of knee, left",
+    "labelAr": "الجهة الخارجية للركبة اليسرى",
+    "family": "knee",
+    "side": "left",
+    "views": [
+      "left"
+    ],
+    "group": "knee",
+    "synonyms": [
+      "outer knee left",
+      "outside of knee left"
+    ],
+    "vertexCount": 72,
+    "triangles": 130,
+    "areaMm2": 8204,
+    "centroid": [
+      0.1518,
+      0.4954,
+      0.0182
+    ],
+    "focusTarget": [
+      0.152,
+      0.495,
+      0.018
+    ],
+    "focusRadius": 0.151,
+    "focusDistance": 0.467,
+    "neighbours": [
+      "quadriceps-left",
+      "it-band-left",
+      "hamstring-mid-left",
+      "knee-anterior-left",
+      "knee-posterior-left",
+      "shin-left",
+      "calf-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "knee-lateral-right",
+    "regionIdValue": 67,
+    "base": "knee-lateral",
+    "label": "Outside of knee, right",
+    "labelAr": "الجهة الخارجية للركبة اليمنى",
+    "family": "knee",
+    "side": "right",
+    "views": [
+      "right"
+    ],
+    "group": "knee",
+    "synonyms": [
+      "outer knee right",
+      "outside of knee right"
+    ],
+    "vertexCount": 72,
+    "triangles": 131,
+    "areaMm2": 8365,
+    "centroid": [
+      -0.1518,
+      0.4969,
+      0.0182
+    ],
+    "focusTarget": [
+      -0.152,
+      0.497,
+      0.018
+    ],
+    "focusRadius": 0.151,
+    "focusDistance": 0.467,
+    "neighbours": [
+      "knee-anterior-right",
+      "quadriceps-right",
+      "it-band-right",
+      "hamstring-mid-right",
+      "knee-posterior-right",
+      "shin-right",
+      "calf-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "knee-posterior-left",
+    "regionIdValue": 68,
+    "base": "knee-posterior",
+    "label": "Back of knee, left",
+    "labelAr": "خلف الركبة اليسرى",
+    "family": "knee",
+    "side": "left",
+    "views": [
+      "back"
+    ],
+    "group": "knee",
+    "synonyms": [
+      "back of knee left",
+      "knee pit left",
+      "popliteal left"
+    ],
+    "vertexCount": 143,
+    "triangles": 260,
+    "areaMm2": 18080,
+    "centroid": [
+      0.1032,
+      0.4965,
+      -0.0289
+    ],
+    "focusTarget": [
+      0.103,
+      0.496,
+      -0.029
+    ],
+    "focusRadius": 0.19,
+    "focusDistance": 0.589,
+    "neighbours": [
+      "hamstring-mid-left",
+      "knee-medial-left",
+      "knee-lateral-left",
+      "quadriceps-left",
+      "shin-left",
+      "calf-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "knee-posterior-right",
+    "regionIdValue": 69,
+    "base": "knee-posterior",
+    "label": "Back of knee, right",
+    "labelAr": "خلف الركبة اليمنى",
+    "family": "knee",
+    "side": "right",
+    "views": [
+      "back"
+    ],
+    "group": "knee",
+    "synonyms": [
+      "back of knee right",
+      "knee pit right",
+      "popliteal right"
+    ],
+    "vertexCount": 143,
+    "triangles": 260,
+    "areaMm2": 18306,
+    "centroid": [
+      -0.1027,
+      0.4965,
+      -0.0289
+    ],
+    "focusTarget": [
+      -0.103,
+      0.496,
+      -0.029
+    ],
+    "focusRadius": 0.19,
+    "focusDistance": 0.589,
+    "neighbours": [
+      "hamstring-mid-right",
+      "knee-medial-right",
+      "knee-lateral-right",
+      "quadriceps-right",
+      "shin-right",
+      "calf-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "patellar-tendon-left",
+    "regionIdValue": 70,
+    "base": "patellar-tendon",
+    "label": "Kneecap tendon, left",
+    "labelAr": "الرباط الرضفي اليسرى",
+    "family": "knee",
+    "side": "left",
+    "views": [
+      "front"
+    ],
+    "group": "knee",
+    "synonyms": [
+      "jumper knee left",
+      "tendon below kneecap left"
+    ],
+    "vertexCount": 54,
+    "triangles": 108,
+    "areaMm2": 6077,
+    "centroid": [
+      0.0985,
+      0.4231,
+      0.0721
+    ],
+    "focusTarget": [
+      0.098,
+      0.423,
+      0.072
+    ],
+    "focusRadius": 0.138,
+    "focusDistance": 0.428,
+    "neighbours": [
+      "knee-anterior-left",
+      "shin-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "patellar-tendon-right",
+    "regionIdValue": 71,
+    "base": "patellar-tendon",
+    "label": "Kneecap tendon, right",
+    "labelAr": "الرباط الرضفي اليمنى",
+    "family": "knee",
+    "side": "right",
+    "views": [
+      "front"
+    ],
+    "group": "knee",
+    "synonyms": [
+      "jumper knee right",
+      "tendon below kneecap right"
+    ],
+    "vertexCount": 54,
+    "triangles": 108,
+    "areaMm2": 5976,
+    "centroid": [
+      -0.0996,
+      0.4231,
+      0.0721
+    ],
+    "focusTarget": [
+      -0.1,
+      0.423,
+      0.072
+    ],
+    "focusRadius": 0.138,
+    "focusDistance": 0.428,
+    "neighbours": [
+      "shin-right",
+      "knee-anterior-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "calf-left",
+    "regionIdValue": 72,
+    "base": "calf",
+    "label": "Calf, left",
+    "labelAr": "عضلة الساق الخلفية اليسرى",
+    "family": "ankle",
+    "side": "left",
+    "views": [
+      "back"
+    ],
+    "group": "ankle",
+    "synonyms": [
+      "calf muscle left",
+      "back of lower leg left"
+    ],
+    "vertexCount": 291,
+    "triangles": 582,
+    "areaMm2": 42195,
+    "centroid": [
+      0.0942,
+      0.3734,
+      -0.0568
+    ],
+    "focusTarget": [
+      0.094,
+      0.373,
+      -0.057
+    ],
+    "focusRadius": 0.247,
+    "focusDistance": 0.767,
+    "neighbours": [
+      "knee-posterior-left",
+      "shin-left",
+      "knee-lateral-left",
+      "knee-medial-left",
+      "achilles-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "calf-right",
+    "regionIdValue": 73,
+    "base": "calf",
+    "label": "Calf, right",
+    "labelAr": "عضلة الساق الخلفية اليمنى",
+    "family": "ankle",
+    "side": "right",
+    "views": [
+      "back"
+    ],
+    "group": "ankle",
+    "synonyms": [
+      "calf muscle right",
+      "back of lower leg right"
+    ],
+    "vertexCount": 291,
+    "triangles": 582,
+    "areaMm2": 41739,
+    "centroid": [
+      -0.0933,
+      0.3734,
+      -0.0568
+    ],
+    "focusTarget": [
+      -0.093,
+      0.373,
+      -0.057
+    ],
+    "focusRadius": 0.247,
+    "focusDistance": 0.767,
+    "neighbours": [
+      "knee-posterior-right",
+      "shin-right",
+      "knee-medial-right",
+      "knee-lateral-right",
+      "achilles-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "shin-left",
+    "regionIdValue": 74,
+    "base": "shin",
+    "label": "Shin, left",
+    "labelAr": "أمام الساق اليسرى",
+    "family": "lower-leg",
+    "side": "left",
+    "views": [
+      "front"
+    ],
+    "group": "lower-leg",
+    "synonyms": [
+      "shin left",
+      "front of lower leg left",
+      "shin splint left"
+    ],
+    "vertexCount": 625,
+    "triangles": 1278,
+    "areaMm2": 61968,
+    "centroid": [
+      0.0852,
+      0.2557,
+      0.0143
+    ],
+    "focusTarget": [
+      0.085,
+      0.256,
+      0.014
+    ],
+    "focusRadius": 0.337,
+    "focusDistance": 1.045,
+    "neighbours": [
+      "knee-posterior-left",
+      "knee-medial-left",
+      "knee-lateral-left",
+      "calf-left",
+      "knee-anterior-left",
+      "patellar-tendon-left",
+      "medial-shin-left",
+      "achilles-left",
+      "ankle-medial-left",
+      "ankle-lateral-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "shin-right",
+    "regionIdValue": 75,
+    "base": "shin",
+    "label": "Shin, right",
+    "labelAr": "أمام الساق اليمنى",
+    "family": "lower-leg",
+    "side": "right",
+    "views": [
+      "front"
+    ],
+    "group": "lower-leg",
+    "synonyms": [
+      "shin right",
+      "front of lower leg right",
+      "shin splint right"
+    ],
+    "vertexCount": 625,
+    "triangles": 1300,
+    "areaMm2": 62240,
+    "centroid": [
+      -0.0855,
+      0.2566,
+      0.0143
+    ],
+    "focusTarget": [
+      -0.085,
+      0.257,
+      0.014
+    ],
+    "focusRadius": 0.337,
+    "focusDistance": 1.045,
+    "neighbours": [
+      "knee-posterior-right",
+      "knee-medial-right",
+      "knee-lateral-right",
+      "calf-right",
+      "knee-anterior-right",
+      "patellar-tendon-right",
+      "medial-shin-right",
+      "achilles-right",
+      "ankle-medial-right",
+      "ankle-lateral-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "medial-shin-left",
+    "regionIdValue": 76,
+    "base": "medial-shin",
+    "label": "Inner edge of shin, left",
+    "labelAr": "الحافة الداخلية للظنبوب اليسرى",
+    "family": "lower-leg",
+    "side": "left",
+    "views": [
+      "right"
+    ],
+    "group": "lower-leg",
+    "synonyms": [],
+    "vertexCount": 63,
+    "triangles": 126,
+    "areaMm2": 7506,
+    "centroid": [
+      0.0387,
+      0.3177,
+      0.0047
+    ],
+    "focusTarget": [
+      0.039,
+      0.318,
+      0.005
+    ],
+    "focusRadius": 0.145,
+    "focusDistance": 0.448,
+    "neighbours": [
+      "shin-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "medial-shin-right",
+    "regionIdValue": 77,
+    "base": "medial-shin",
+    "label": "Inner edge of shin, right",
+    "labelAr": "الحافة الداخلية للظنبوب اليمنى",
+    "family": "lower-leg",
+    "side": "right",
+    "views": [
+      "left"
+    ],
+    "group": "lower-leg",
+    "synonyms": [],
+    "vertexCount": 63,
+    "triangles": 126,
+    "areaMm2": 7707,
+    "centroid": [
+      -0.0388,
+      0.3077,
+      0.0047
+    ],
+    "focusTarget": [
+      -0.039,
+      0.308,
+      0.005
+    ],
+    "focusRadius": 0.145,
+    "focusDistance": 0.448,
+    "neighbours": [
+      "shin-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "achilles-left",
+    "regionIdValue": 78,
+    "base": "achilles",
+    "label": "Achilles tendon, left",
+    "labelAr": "وتار أخيل اليسرى",
+    "family": "ankle",
+    "side": "left",
+    "views": [
+      "back"
+    ],
+    "group": "ankle",
+    "synonyms": [
+      "achilles left",
+      "heel cord left",
+      "back of ankle left"
+    ],
+    "vertexCount": 99,
+    "triangles": 198,
+    "areaMm2": 9461,
+    "centroid": [
+      0.0723,
+      0.1876,
+      -0.0508
+    ],
+    "focusTarget": [
+      0.072,
+      0.188,
+      -0.051
+    ],
+    "focusRadius": 0.167,
+    "focusDistance": 0.519,
+    "neighbours": [
+      "calf-left",
+      "shin-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "achilles-right",
+    "regionIdValue": 79,
+    "base": "achilles",
+    "label": "Achilles tendon, right",
+    "labelAr": "وتار أخيل اليمنى",
+    "family": "ankle",
+    "side": "right",
+    "views": [
+      "back"
+    ],
+    "group": "ankle",
+    "synonyms": [
+      "achilles right",
+      "heel cord right",
+      "back of ankle right"
+    ],
+    "vertexCount": 99,
+    "triangles": 198,
+    "areaMm2": 9600,
+    "centroid": [
+      -0.072,
+      0.1876,
+      -0.0508
+    ],
+    "focusTarget": [
+      -0.072,
+      0.188,
+      -0.051
+    ],
+    "focusRadius": 0.167,
+    "focusDistance": 0.519,
+    "neighbours": [
+      "calf-right",
+      "shin-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "ankle-lateral-left",
+    "regionIdValue": 80,
+    "base": "ankle-lateral",
+    "label": "Outside of ankle, left",
+    "labelAr": "الكاحل من الخارج اليسرى",
+    "family": "ankle",
+    "side": "left",
+    "views": [
+      "left"
+    ],
+    "group": "ankle",
+    "synonyms": [
+      "outside ankle left",
+      "rolled ankle left",
+      "sprain left"
+    ],
+    "vertexCount": 70,
+    "triangles": 124,
+    "areaMm2": 4258,
+    "centroid": [
+      0.087,
+      0.0925,
+      -0.0218
+    ],
+    "focusTarget": [
+      0.087,
+      0.093,
+      -0.022
+    ],
+    "focusRadius": 0.149,
+    "focusDistance": 0.463,
+    "neighbours": [
+      "shin-left",
+      "forefoot-left",
+      "instep-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "ankle-lateral-right",
+    "regionIdValue": 81,
+    "base": "ankle-lateral",
+    "label": "Outside of ankle, right",
+    "labelAr": "الكاحل من الخارج اليمنى",
+    "family": "ankle",
+    "side": "right",
+    "views": [
+      "right"
+    ],
+    "group": "ankle",
+    "synonyms": [
+      "outside ankle right",
+      "rolled ankle right",
+      "sprain right"
+    ],
+    "vertexCount": 70,
+    "triangles": 126,
+    "areaMm2": 4502,
+    "centroid": [
+      -0.0867,
+      0.0963,
+      -0.0194
+    ],
+    "focusTarget": [
+      -0.087,
+      0.096,
+      -0.019
+    ],
+    "focusRadius": 0.149,
+    "focusDistance": 0.463,
+    "neighbours": [
+      "shin-right",
+      "forefoot-right",
+      "instep-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "ankle-medial-left",
+    "regionIdValue": 82,
+    "base": "ankle-medial",
+    "label": "Inside of ankle, left",
+    "labelAr": "الكاحل من الداخل اليسرى",
+    "family": "ankle",
+    "side": "left",
+    "views": [
+      "right"
+    ],
+    "group": "ankle",
+    "synonyms": [
+      "inside ankle left"
+    ],
+    "vertexCount": 70,
+    "triangles": 124,
+    "areaMm2": 4209,
+    "centroid": [
+      0.032,
+      0.0963,
+      -0.0194
+    ],
+    "focusTarget": [
+      0.032,
+      0.096,
+      -0.019
+    ],
+    "focusRadius": 0.149,
+    "focusDistance": 0.463,
+    "neighbours": [
+      "shin-left",
+      "forefoot-left",
+      "instep-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "ankle-medial-right",
+    "regionIdValue": 83,
+    "base": "ankle-medial",
+    "label": "Inside of ankle, right",
+    "labelAr": "الكاحل من الداخل اليمنى",
+    "family": "ankle",
+    "side": "right",
+    "views": [
+      "left"
+    ],
+    "group": "ankle",
+    "synonyms": [
+      "inside ankle right"
+    ],
+    "vertexCount": 70,
+    "triangles": 126,
+    "areaMm2": 4243,
+    "centroid": [
+      -0.0317,
+      0.0925,
+      -0.0218
+    ],
+    "focusTarget": [
+      -0.032,
+      0.093,
+      -0.022
+    ],
+    "focusRadius": 0.149,
+    "focusDistance": 0.463,
+    "neighbours": [
+      "shin-right",
+      "forefoot-right",
+      "instep-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "heel-left",
+    "regionIdValue": 84,
+    "base": "heel",
+    "label": "Heel, left",
+    "labelAr": "العقب اليسرى",
+    "family": "ankle",
+    "side": "left",
+    "views": [
+      "back",
+      "bottom"
+    ],
+    "group": "ankle",
+    "synonyms": [
+      "heel left",
+      "heel spur left"
+    ],
+    "vertexCount": 66,
+    "triangles": 132,
+    "areaMm2": 6919,
+    "centroid": [
+      0.0561,
+      0.0487,
+      -0.0603
+    ],
+    "focusTarget": [
+      0.056,
+      0.049,
+      -0.06
+    ],
+    "focusRadius": 0.147,
+    "focusDistance": 0.455,
+    "neighbours": [
+      "forefoot-left",
+      "plantar-arch-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "heel-right",
+    "regionIdValue": 85,
+    "base": "heel",
+    "label": "Heel, right",
+    "labelAr": "العقب اليمنى",
+    "family": "ankle",
+    "side": "right",
+    "views": [
+      "back",
+      "bottom"
+    ],
+    "group": "ankle",
+    "synonyms": [
+      "heel right",
+      "heel spur right"
+    ],
+    "vertexCount": 66,
+    "triangles": 121,
+    "areaMm2": 6351,
+    "centroid": [
+      -0.0597,
+      0.0487,
+      -0.0603
+    ],
+    "focusTarget": [
+      -0.06,
+      0.049,
+      -0.06
+    ],
+    "focusRadius": 0.147,
+    "focusDistance": 0.455,
+    "neighbours": [
+      "forefoot-right",
+      "plantar-arch-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "plantar-arch-left",
+    "regionIdValue": 86,
+    "base": "plantar-arch",
+    "label": "Foot arch, left",
+    "labelAr": "قبو القدم اليسرى",
+    "family": "ankle",
+    "side": "left",
+    "views": [
+      "bottom"
+    ],
+    "group": "ankle",
+    "synonyms": [
+      "arch left",
+      "plantar left",
+      "bottom of foot left"
+    ],
+    "vertexCount": 130,
+    "triangles": 260,
+    "areaMm2": 10103,
+    "centroid": [
+      0.0607,
+      0.0231,
+      0.0122
+    ],
+    "focusTarget": [
+      0.061,
+      0.023,
+      0.012
+    ],
+    "focusRadius": 0.184,
+    "focusDistance": 0.569,
+    "neighbours": [
+      "heel-left",
+      "forefoot-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "plantar-arch-right",
+    "regionIdValue": 87,
+    "base": "plantar-arch",
+    "label": "Foot arch, right",
+    "labelAr": "قبو القدم اليمنى",
+    "family": "ankle",
+    "side": "right",
+    "views": [
+      "bottom"
+    ],
+    "group": "ankle",
+    "synonyms": [
+      "arch right",
+      "plantar right",
+      "bottom of foot right"
+    ],
+    "vertexCount": 130,
+    "triangles": 260,
+    "areaMm2": 10310,
+    "centroid": [
+      -0.0612,
+      0.0231,
+      0.0122
+    ],
+    "focusTarget": [
+      -0.061,
+      0.023,
+      0.012
+    ],
+    "focusRadius": 0.184,
+    "focusDistance": 0.569,
+    "neighbours": [
+      "heel-right",
+      "forefoot-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "forefoot-left",
+    "regionIdValue": 88,
+    "base": "forefoot",
+    "label": "Ball of foot, left",
+    "labelAr": "مشط القدم اليسرى",
+    "family": "foot",
+    "side": "left",
+    "views": [
+      "front",
+      "top",
+      "bottom"
+    ],
+    "group": "foot",
+    "synonyms": [
+      "ball of foot left",
+      "metatarsal left"
+    ],
+    "vertexCount": 407,
+    "triangles": 810,
+    "areaMm2": 18341,
+    "centroid": [
+      0.0613,
+      0.0433,
+      0.0479
+    ],
+    "focusTarget": [
+      0.061,
+      0.043,
+      0.048
+    ],
+    "focusRadius": 0.283,
+    "focusDistance": 0.876,
+    "neighbours": [
+      "heel-left",
+      "ankle-medial-left",
+      "ankle-lateral-left",
+      "instep-left",
+      "plantar-arch-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "forefoot-right",
+    "regionIdValue": 89,
+    "base": "forefoot",
+    "label": "Ball of foot, right",
+    "labelAr": "مشط القدم اليمنى",
+    "family": "foot",
+    "side": "right",
+    "views": [
+      "front",
+      "top",
+      "bottom"
+    ],
+    "group": "foot",
+    "synonyms": [
+      "ball of foot right",
+      "metatarsal right"
+    ],
+    "vertexCount": 407,
+    "triangles": 833,
+    "areaMm2": 18928,
+    "centroid": [
+      -0.0609,
+      0.0433,
+      0.0479
+    ],
+    "focusTarget": [
+      -0.061,
+      0.043,
+      0.048
+    ],
+    "focusRadius": 0.283,
+    "focusDistance": 0.876,
+    "neighbours": [
+      "heel-right",
+      "ankle-medial-right",
+      "ankle-lateral-right",
+      "instep-right",
+      "plantar-arch-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "instep-left",
+    "regionIdValue": 90,
+    "base": "instep",
+    "label": "Top of foot, left",
+    "labelAr": "ظهر القدم اليسرى",
+    "family": "foot",
+    "side": "left",
+    "views": [
+      "top",
+      "front"
+    ],
+    "group": "foot",
+    "synonyms": [],
+    "vertexCount": 121,
+    "triangles": 242,
+    "areaMm2": 7627,
+    "centroid": [
+      0.0611,
+      0.0652,
+      0.0218
+    ],
+    "focusTarget": [
+      0.061,
+      0.065,
+      0.022
+    ],
+    "focusRadius": 0.179,
+    "focusDistance": 0.555,
+    "neighbours": [
+      "ankle-medial-left",
+      "forefoot-left",
+      "ankle-lateral-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "instep-right",
+    "regionIdValue": 91,
+    "base": "instep",
+    "label": "Top of foot, right",
+    "labelAr": "ظهر القدم اليمنى",
+    "family": "foot",
+    "side": "right",
+    "views": [
+      "top",
+      "front"
+    ],
+    "group": "foot",
+    "synonyms": [],
+    "vertexCount": 121,
+    "triangles": 242,
+    "areaMm2": 7641,
+    "centroid": [
+      -0.0604,
+      0.0652,
+      0.0218
+    ],
+    "focusTarget": [
+      -0.06,
+      0.065,
+      0.022
+    ],
+    "focusRadius": 0.179,
+    "focusDistance": 0.555,
+    "neighbours": [
+      "forefoot-right",
+      "ankle-medial-right",
+      "ankle-lateral-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "toes-left",
+    "regionIdValue": 92,
+    "base": "toes",
+    "label": "Toes, left",
+    "labelAr": "أصابع القدم اليسرى",
+    "family": "foot",
+    "side": "left",
+    "views": [
+      "front",
+      "top",
+      "bottom"
+    ],
+    "group": "foot",
+    "synonyms": [
+      "toes left",
+      "big toe left",
+      "little toe left"
+    ],
+    "vertexCount": 100,
+    "triangles": 196,
+    "areaMm2": 9482,
+    "centroid": [
+      0.062,
+      0.0285,
+      0.108
+    ],
+    "focusTarget": [
+      0.062,
+      0.029,
+      0.108
+    ],
+    "focusRadius": 0.168,
+    "focusDistance": 0.52,
+    "neighbours": [],
+    "presentationIds": []
+  },
+  {
+    "id": "toes-right",
+    "regionIdValue": 93,
+    "base": "toes",
+    "label": "Toes, right",
+    "labelAr": "أصابع القدم اليمنى",
+    "family": "foot",
+    "side": "right",
+    "views": [
+      "front",
+      "top",
+      "bottom"
+    ],
+    "group": "foot",
+    "synonyms": [
+      "toes right",
+      "big toe right",
+      "little toe right"
+    ],
+    "vertexCount": 100,
+    "triangles": 196,
+    "areaMm2": 9482,
+    "centroid": [
+      -0.062,
+      0.0285,
+      0.108
+    ],
+    "focusTarget": [
+      -0.062,
+      0.029,
+      0.108
+    ],
+    "focusRadius": 0.168,
+    "focusDistance": 0.52,
+    "neighbours": [],
+    "presentationIds": []
+  },
+  {
+    "id": "biceps-left",
+    "regionIdValue": 94,
+    "base": "biceps",
+    "label": "Biceps, left",
+    "labelAr": "العضلة ذات الرأسين اليسرى",
+    "family": "elbow",
+    "side": "left",
+    "views": [
+      "front",
+      "left",
+      "right"
+    ],
+    "group": "elbow",
+    "synonyms": [
+      "biceps left",
+      "front of upper arm left"
+    ],
+    "vertexCount": 477,
+    "triangles": 1004,
+    "areaMm2": 45557,
+    "centroid": [
+      0.2275,
+      1.2381,
+      0.0213
+    ],
+    "focusTarget": [
+      0.227,
+      1.238,
+      0.021
+    ],
+    "focusRadius": 0.301,
+    "focusDistance": 0.934,
+    "neighbours": [
+      "posterior-deltoid-left",
+      "lateral-deltoid-left",
+      "anterior-deltoid-left",
+      "triceps-left",
+      "elbow-medial-left",
+      "elbow-lateral-left",
+      "elbow-posterior-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "biceps-right",
+    "regionIdValue": 95,
+    "base": "biceps",
+    "label": "Biceps, right",
+    "labelAr": "العضلة ذات الرأسين اليمنى",
+    "family": "elbow",
+    "side": "right",
+    "views": [
+      "front",
+      "left",
+      "right"
+    ],
+    "group": "elbow",
+    "synonyms": [
+      "biceps right",
+      "front of upper arm right"
+    ],
+    "vertexCount": 477,
+    "triangles": 997,
+    "areaMm2": 38202,
+    "centroid": [
+      -0.2268,
+      1.2373,
+      0.0213
+    ],
+    "focusTarget": [
+      -0.227,
+      1.237,
+      0.021
+    ],
+    "focusRadius": 0.301,
+    "focusDistance": 0.934,
+    "neighbours": [
+      "lateral-deltoid-right",
+      "posterior-deltoid-right",
+      "anterior-deltoid-right",
+      "triceps-right",
+      "elbow-medial-right",
+      "elbow-lateral-right",
+      "elbow-posterior-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "triceps-left",
+    "regionIdValue": 96,
+    "base": "triceps",
+    "label": "Triceps, left",
+    "labelAr": "العضلة ثلاثية الرؤوس اليسرى",
+    "family": "elbow",
+    "side": "left",
+    "views": [
+      "back"
+    ],
+    "group": "elbow",
+    "synonyms": [
+      "triceps left",
+      "back of upper arm left"
+    ],
+    "vertexCount": 236,
+    "triangles": 472,
+    "areaMm2": 21758,
+    "centroid": [
+      0.2273,
+      1.2332,
+      -0.0568
+    ],
+    "focusTarget": [
+      0.227,
+      1.233,
+      -0.057
+    ],
+    "focusRadius": 0.228,
+    "focusDistance": 0.708,
+    "neighbours": [
+      "posterior-deltoid-left",
+      "lateral-deltoid-left",
+      "biceps-left",
+      "elbow-medial-left",
+      "elbow-posterior-left",
+      "elbow-lateral-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "triceps-right",
+    "regionIdValue": 97,
+    "base": "triceps",
+    "label": "Triceps, right",
+    "labelAr": "العضلة ثلاثية الرؤوس اليمنى",
+    "family": "elbow",
+    "side": "right",
+    "views": [
+      "back"
+    ],
+    "group": "elbow",
+    "synonyms": [
+      "triceps right",
+      "back of upper arm right"
+    ],
+    "vertexCount": 236,
+    "triangles": 472,
+    "areaMm2": 20238,
+    "centroid": [
+      -0.2285,
+      1.2332,
+      -0.0568
+    ],
+    "focusTarget": [
+      -0.229,
+      1.233,
+      -0.057
+    ],
+    "focusRadius": 0.228,
+    "focusDistance": 0.708,
+    "neighbours": [
+      "posterior-deltoid-right",
+      "lateral-deltoid-right",
+      "biceps-right",
+      "elbow-medial-right",
+      "elbow-lateral-right",
+      "elbow-posterior-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "elbow-lateral-left",
+    "regionIdValue": 98,
+    "base": "elbow-lateral",
+    "label": "Outside of elbow, left",
+    "labelAr": "الجهة الخارجية للمرفق اليسرى",
+    "family": "elbow",
+    "side": "left",
+    "views": [
+      "left"
+    ],
+    "group": "elbow",
+    "synonyms": [
+      "tennis elbow left",
+      "outside of elbow left"
+    ],
+    "vertexCount": 87,
+    "triangles": 158,
+    "areaMm2": 5847,
+    "centroid": [
+      0.2906,
+      1.1448,
+      -0.0045
+    ],
+    "focusTarget": [
+      0.291,
+      1.145,
+      -0.005
+    ],
+    "focusRadius": 0.16,
+    "focusDistance": 0.497,
+    "neighbours": [
+      "biceps-left",
+      "triceps-left",
+      "forearm-flexor-left",
+      "forearm-extensor-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "elbow-lateral-right",
+    "regionIdValue": 99,
+    "base": "elbow-lateral",
+    "label": "Outside of elbow, right",
+    "labelAr": "الجهة الخارجية للمرفق اليمنى",
+    "family": "elbow",
+    "side": "right",
+    "views": [
+      "right"
+    ],
+    "group": "elbow",
+    "synonyms": [
+      "tennis elbow right",
+      "outside of elbow right"
+    ],
+    "vertexCount": 87,
+    "triangles": 158,
+    "areaMm2": 5689,
+    "centroid": [
+      -0.2906,
+      1.1307,
+      -0.0045
+    ],
+    "focusTarget": [
+      -0.291,
+      1.131,
+      -0.005
+    ],
+    "focusRadius": 0.16,
+    "focusDistance": 0.497,
+    "neighbours": [
+      "biceps-right",
+      "triceps-right",
+      "forearm-flexor-right",
+      "forearm-extensor-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "elbow-medial-left",
+    "regionIdValue": 100,
+    "base": "elbow-medial",
+    "label": "Inside of elbow, left",
+    "labelAr": "الجهة الداخلية للمرفق اليسرى",
+    "family": "elbow",
+    "side": "left",
+    "views": [
+      "right"
+    ],
+    "group": "elbow",
+    "synonyms": [
+      "golfer elbow left",
+      "inside of elbow left"
+    ],
+    "vertexCount": 87,
+    "triangles": 158,
+    "areaMm2": 5903,
+    "centroid": [
+      0.2211,
+      1.1307,
+      -0.0044
+    ],
+    "focusTarget": [
+      0.221,
+      1.131,
+      -0.004
+    ],
+    "focusRadius": 0.16,
+    "focusDistance": 0.497,
+    "neighbours": [
+      "triceps-left",
+      "biceps-left",
+      "forearm-flexor-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "elbow-medial-right",
+    "regionIdValue": 101,
+    "base": "elbow-medial",
+    "label": "Inside of elbow, right",
+    "labelAr": "الجهة الداخلية للمرفق اليمنى",
+    "family": "elbow",
+    "side": "right",
+    "views": [
+      "left"
+    ],
+    "group": "elbow",
+    "synonyms": [
+      "golfer elbow right",
+      "inside of elbow right"
+    ],
+    "vertexCount": 87,
+    "triangles": 158,
+    "areaMm2": 5848,
+    "centroid": [
+      -0.2212,
+      1.1448,
+      -0.0044
+    ],
+    "focusTarget": [
+      -0.221,
+      1.145,
+      -0.004
+    ],
+    "focusRadius": 0.16,
+    "focusDistance": 0.497,
+    "neighbours": [
+      "triceps-right",
+      "biceps-right",
+      "forearm-flexor-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "elbow-posterior-left",
+    "regionIdValue": 102,
+    "base": "elbow-posterior",
+    "label": "Tip of elbow, left",
+    "labelAr": "خلف المرفق اليسرى",
+    "family": "elbow",
+    "side": "left",
+    "views": [
+      "back"
+    ],
+    "group": "elbow",
+    "synonyms": [
+      "tip of elbow left",
+      "back of elbow left",
+      "olecranon left"
+    ],
+    "vertexCount": 135,
+    "triangles": 248,
+    "areaMm2": 9955,
+    "centroid": [
+      0.2575,
+      1.1288,
+      -0.0466
+    ],
+    "focusTarget": [
+      0.258,
+      1.129,
+      -0.047
+    ],
+    "focusRadius": 0.186,
+    "focusDistance": 0.577,
+    "neighbours": [
+      "triceps-left",
+      "biceps-left",
+      "forearm-flexor-left",
+      "forearm-extensor-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "elbow-posterior-right",
+    "regionIdValue": 103,
+    "base": "elbow-posterior",
+    "label": "Tip of elbow, right",
+    "labelAr": "خلف المرفق اليمنى",
+    "family": "elbow",
+    "side": "right",
+    "views": [
+      "back"
+    ],
+    "group": "elbow",
+    "synonyms": [
+      "tip of elbow right",
+      "back of elbow right",
+      "olecranon right"
+    ],
+    "vertexCount": 135,
+    "triangles": 246,
+    "areaMm2": 9652,
+    "centroid": [
+      -0.2571,
+      1.1288,
+      -0.0466
+    ],
+    "focusTarget": [
+      -0.257,
+      1.129,
+      -0.047
+    ],
+    "focusRadius": 0.186,
+    "focusDistance": 0.577,
+    "neighbours": [
+      "triceps-right",
+      "biceps-right",
+      "forearm-flexor-right",
+      "forearm-extensor-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "forearm-flexor-left",
+    "regionIdValue": 104,
+    "base": "forearm-flexor",
+    "label": "Forearm, palm side, left",
+    "labelAr": "عضلات الساعد الأمامية اليسرى",
+    "family": "elbow",
+    "side": "left",
+    "views": [
+      "front"
+    ],
+    "group": "elbow",
+    "synonyms": [
+      "inner forearm left",
+      "forearm underside left"
+    ],
+    "vertexCount": 664,
+    "triangles": 1394,
+    "areaMm2": 40656,
+    "centroid": [
+      0.2579,
+      1.0184,
+      0.0014
+    ],
+    "focusTarget": [
+      0.258,
+      1.018,
+      0.001
+    ],
+    "focusRadius": 0.346,
+    "focusDistance": 1.072,
+    "neighbours": [
+      "elbow-posterior-left",
+      "elbow-medial-left",
+      "elbow-lateral-left",
+      "forearm-extensor-left",
+      "wrist-volar-left",
+      "wrist-dorsal-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "forearm-flexor-right",
+    "regionIdValue": 105,
+    "base": "forearm-flexor",
+    "label": "Forearm, palm side, right",
+    "labelAr": "عضلات الساعد الأمامية اليمنى",
+    "family": "elbow",
+    "side": "right",
+    "views": [
+      "front"
+    ],
+    "group": "elbow",
+    "synonyms": [
+      "inner forearm right",
+      "forearm underside right"
+    ],
+    "vertexCount": 664,
+    "triangles": 1388,
+    "areaMm2": 40403,
+    "centroid": [
+      -0.2579,
+      1.0219,
+      0.0014
+    ],
+    "focusTarget": [
+      -0.258,
+      1.022,
+      0.001
+    ],
+    "focusRadius": 0.346,
+    "focusDistance": 1.072,
+    "neighbours": [
+      "elbow-posterior-right",
+      "elbow-medial-right",
+      "elbow-lateral-right",
+      "forearm-extensor-right",
+      "wrist-volar-right",
+      "wrist-dorsal-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "forearm-extensor-left",
+    "regionIdValue": 106,
+    "base": "forearm-extensor",
+    "label": "Forearm, back side, left",
+    "labelAr": "عضلات الساعد الخلفية اليسرى",
+    "family": "elbow",
+    "side": "left",
+    "views": [
+      "back"
+    ],
+    "group": "elbow",
+    "synonyms": [
+      "outer forearm left",
+      "top of forearm left"
+    ],
+    "vertexCount": 256,
+    "triangles": 512,
+    "areaMm2": 16575,
+    "centroid": [
+      0.3084,
+      1.0238,
+      0.0184
+    ],
+    "focusTarget": [
+      0.308,
+      1.024,
+      0.018
+    ],
+    "focusRadius": 0.236,
+    "focusDistance": 0.73,
+    "neighbours": [
+      "forearm-flexor-left",
+      "elbow-lateral-left",
+      "elbow-posterior-left",
+      "wrist-volar-left",
+      "wrist-dorsal-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "forearm-extensor-right",
+    "regionIdValue": 107,
+    "base": "forearm-extensor",
+    "label": "Forearm, back side, right",
+    "labelAr": "عضلات الساعد الخلفية اليمنى",
+    "family": "elbow",
+    "side": "right",
+    "views": [
+      "back"
+    ],
+    "group": "elbow",
+    "synonyms": [
+      "outer forearm right",
+      "top of forearm right"
+    ],
+    "vertexCount": 256,
+    "triangles": 512,
+    "areaMm2": 16279,
+    "centroid": [
+      -0.3089,
+      1.0147,
+      0.0184
+    ],
+    "focusTarget": [
+      -0.309,
+      1.015,
+      0.018
+    ],
+    "focusRadius": 0.236,
+    "focusDistance": 0.73,
+    "neighbours": [
+      "forearm-flexor-right",
+      "elbow-lateral-right",
+      "elbow-posterior-right",
+      "wrist-volar-right",
+      "wrist-dorsal-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "wrist-dorsal-left",
+    "regionIdValue": 108,
+    "base": "wrist-dorsal",
+    "label": "Back of wrist, left",
+    "labelAr": "ظهر الرسغ اليسرى",
+    "family": "wrist",
+    "side": "left",
+    "views": [
+      "back"
+    ],
+    "group": "wrist",
+    "synonyms": [
+      "back of wrist left",
+      "top of wrist left"
+    ],
+    "vertexCount": 123,
+    "triangles": 216,
+    "areaMm2": 3427,
+    "centroid": [
+      0.3053,
+      0.9035,
+      0.0222
+    ],
+    "focusTarget": [
+      0.305,
+      0.903,
+      0.022
+    ],
+    "focusRadius": 0.18,
+    "focusDistance": 0.558,
+    "neighbours": [
+      "forearm-extensor-left",
+      "forearm-flexor-left",
+      "wrist-volar-left",
+      "hand-dorsum-left",
+      "hand-palm-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "wrist-dorsal-right",
+    "regionIdValue": 109,
+    "base": "wrist-dorsal",
+    "label": "Back of wrist, right",
+    "labelAr": "ظهر الرسغ اليمنى",
+    "family": "wrist",
+    "side": "right",
+    "views": [
+      "back"
+    ],
+    "group": "wrist",
+    "synonyms": [
+      "back of wrist right",
+      "top of wrist right"
+    ],
+    "vertexCount": 123,
+    "triangles": 219,
+    "areaMm2": 3483,
+    "centroid": [
+      -0.3053,
+      0.8987,
+      0.0222
+    ],
+    "focusTarget": [
+      -0.305,
+      0.899,
+      0.022
+    ],
+    "focusRadius": 0.18,
+    "focusDistance": 0.558,
+    "neighbours": [
+      "wrist-volar-right",
+      "forearm-extensor-right",
+      "forearm-flexor-right",
+      "hand-dorsum-right",
+      "hand-palm-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "wrist-volar-left",
+    "regionIdValue": 110,
+    "base": "wrist-volar",
+    "label": "Palm side of wrist, left",
+    "labelAr": "جهة الرسغ الراحية اليسرى",
+    "family": "wrist",
+    "side": "left",
+    "views": [
+      "front"
+    ],
+    "group": "wrist",
+    "synonyms": [
+      "palm side of wrist left",
+      "inside of wrist left"
+    ],
+    "vertexCount": 172,
+    "triangles": 304,
+    "areaMm2": 4953,
+    "centroid": [
+      0.2746,
+      0.8995,
+      0.0273
+    ],
+    "focusTarget": [
+      0.275,
+      0.899,
+      0.027
+    ],
+    "focusRadius": 0.203,
+    "focusDistance": 0.629,
+    "neighbours": [
+      "forearm-flexor-left",
+      "forearm-extensor-left",
+      "wrist-dorsal-left",
+      "hand-dorsum-left",
+      "hand-palm-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "wrist-volar-right",
+    "regionIdValue": 111,
+    "base": "wrist-volar",
+    "label": "Palm side of wrist, right",
+    "labelAr": "جهة الرسغ الراحية اليمنى",
+    "family": "wrist",
+    "side": "right",
+    "views": [
+      "front"
+    ],
+    "group": "wrist",
+    "synonyms": [
+      "palm side of wrist right",
+      "inside of wrist right"
+    ],
+    "vertexCount": 172,
+    "triangles": 306,
+    "areaMm2": 5026,
+    "centroid": [
+      -0.2748,
+      0.9029,
+      0.0273
+    ],
+    "focusTarget": [
+      -0.275,
+      0.903,
+      0.027
+    ],
+    "focusRadius": 0.203,
+    "focusDistance": 0.629,
+    "neighbours": [
+      "forearm-flexor-right",
+      "forearm-extensor-right",
+      "wrist-dorsal-right",
+      "hand-dorsum-right",
+      "hand-palm-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "thumb-base-left",
+    "regionIdValue": 112,
+    "base": "thumb-base",
+    "label": "Base of thumb, left",
+    "labelAr": "قاعدة الإبهام اليسرى",
+    "family": "wrist",
+    "side": "left",
+    "views": [
+      "front",
+      "left",
+      "right"
+    ],
+    "group": "wrist",
+    "synonyms": [
+      "thumb base left",
+      "de quervain left",
+      "wrist thumb left"
+    ],
+    "vertexCount": 110,
+    "triangles": 216,
+    "areaMm2": 5891,
+    "centroid": [
+      0.2521,
+      0.8249,
+      0.0583
+    ],
+    "focusTarget": [
+      0.252,
+      0.825,
+      0.058
+    ],
+    "focusRadius": 0.173,
+    "focusDistance": 0.537,
+    "neighbours": [],
+    "presentationIds": []
+  },
+  {
+    "id": "thumb-base-right",
+    "regionIdValue": 113,
+    "base": "thumb-base",
+    "label": "Base of thumb, right",
+    "labelAr": "قاعدة الإبهام اليمنى",
+    "family": "wrist",
+    "side": "right",
+    "views": [
+      "front",
+      "left",
+      "right"
+    ],
+    "group": "wrist",
+    "synonyms": [
+      "thumb base right",
+      "de quervain right",
+      "wrist thumb right"
+    ],
+    "vertexCount": 110,
+    "triangles": 216,
+    "areaMm2": 4969,
+    "centroid": [
+      -0.2521,
+      0.8249,
+      0.0583
+    ],
+    "focusTarget": [
+      -0.252,
+      0.825,
+      0.058
+    ],
+    "focusRadius": 0.173,
+    "focusDistance": 0.537,
+    "neighbours": [],
+    "presentationIds": []
+  },
+  {
+    "id": "hand-palm-left",
+    "regionIdValue": 114,
+    "base": "hand-palm",
+    "label": "Palm, left",
+    "labelAr": "راحة اليد اليسرى",
+    "family": "wrist",
+    "side": "left",
+    "views": [
+      "front",
+      "bottom"
+    ],
+    "group": "wrist",
+    "synonyms": [
+      "palm left",
+      "hand left"
+    ],
+    "vertexCount": 192,
+    "triangles": 372,
+    "areaMm2": 6866,
+    "centroid": [
+      0.2978,
+      0.8262,
+      0.042
+    ],
+    "focusTarget": [
+      0.298,
+      0.826,
+      0.042
+    ],
+    "focusRadius": 0.211,
+    "focusDistance": 0.655,
+    "neighbours": [
+      "wrist-volar-left",
+      "wrist-dorsal-left",
+      "hand-dorsum-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "hand-palm-right",
+    "regionIdValue": 115,
+    "base": "hand-palm",
+    "label": "Palm, right",
+    "labelAr": "راحة اليد اليمنى",
+    "family": "wrist",
+    "side": "right",
+    "views": [
+      "front",
+      "bottom"
+    ],
+    "group": "wrist",
+    "synonyms": [
+      "palm right",
+      "hand right"
+    ],
+    "vertexCount": 192,
+    "triangles": 384,
+    "areaMm2": 6919,
+    "centroid": [
+      -0.2979,
+      0.8262,
+      0.042
+    ],
+    "focusTarget": [
+      -0.298,
+      0.826,
+      0.042
+    ],
+    "focusRadius": 0.211,
+    "focusDistance": 0.655,
+    "neighbours": [
+      "hand-dorsum-right",
+      "wrist-volar-right",
+      "wrist-dorsal-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "hand-dorsum-left",
+    "regionIdValue": 116,
+    "base": "hand-dorsum",
+    "label": "Back of hand, left",
+    "labelAr": "ظهر اليد اليسرى",
+    "family": "wrist",
+    "side": "left",
+    "views": [
+      "back"
+    ],
+    "group": "wrist",
+    "synonyms": [
+      "back of hand left"
+    ],
+    "vertexCount": 430,
+    "triangles": 868,
+    "areaMm2": 11902,
+    "centroid": [
+      0.2974,
+      0.8291,
+      0.023
+    ],
+    "focusTarget": [
+      0.297,
+      0.829,
+      0.023
+    ],
+    "focusRadius": 0.289,
+    "focusDistance": 0.896,
+    "neighbours": [
+      "wrist-volar-left",
+      "wrist-dorsal-left",
+      "hand-palm-left"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "hand-dorsum-right",
+    "regionIdValue": 117,
+    "base": "hand-dorsum",
+    "label": "Back of hand, right",
+    "labelAr": "ظهر اليد اليمنى",
+    "family": "wrist",
+    "side": "right",
+    "views": [
+      "back"
+    ],
+    "group": "wrist",
+    "synonyms": [
+      "back of hand right"
+    ],
+    "vertexCount": 430,
+    "triangles": 886,
+    "areaMm2": 11915,
+    "centroid": [
+      -0.2973,
+      0.8291,
+      0.023
+    ],
+    "focusTarget": [
+      -0.297,
+      0.829,
+      0.023
+    ],
+    "focusRadius": 0.289,
+    "focusDistance": 0.896,
+    "neighbours": [
+      "wrist-volar-right",
+      "wrist-dorsal-right",
+      "hand-palm-right"
+    ],
+    "presentationIds": []
+  },
+  {
+    "id": "fingers-left",
+    "regionIdValue": 118,
+    "base": "fingers",
+    "label": "Fingers, left",
+    "labelAr": "أصابع اليد اليسرى",
+    "family": "wrist",
+    "side": "left",
+    "views": [
+      "front",
+      "back",
+      "bottom"
+    ],
+    "group": "wrist",
+    "synonyms": [
+      "fingers left",
+      "knuckles of hand left"
+    ],
+    "vertexCount": 134,
+    "triangles": 264,
+    "areaMm2": 10942,
+    "centroid": [
+      0.2967,
+      0.7541,
+      0.0325
+    ],
+    "focusTarget": [
+      0.297,
+      0.754,
+      0.032
+    ],
+    "focusRadius": 0.186,
+    "focusDistance": 0.575,
+    "neighbours": [],
+    "presentationIds": []
+  },
+  {
+    "id": "fingers-right",
+    "regionIdValue": 119,
+    "base": "fingers",
+    "label": "Fingers, right",
+    "labelAr": "أصابع اليد اليمنى",
+    "family": "wrist",
+    "side": "right",
+    "views": [
+      "front",
+      "back",
+      "bottom"
+    ],
+    "group": "wrist",
+    "synonyms": [
+      "fingers right",
+      "knuckles of hand right"
+    ],
+    "vertexCount": 134,
+    "triangles": 264,
+    "areaMm2": 10504,
+    "centroid": [
+      -0.2967,
+      0.7541,
+      0.0325
+    ],
+    "focusTarget": [
+      -0.297,
+      0.754,
+      0.032
+    ],
+    "focusRadius": 0.186,
+    "focusDistance": 0.575,
+    "neighbours": [],
+    "presentationIds": []
+  }
+]
