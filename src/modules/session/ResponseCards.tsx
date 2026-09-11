@@ -54,7 +54,7 @@ export function PainPrompt({
         value={pain ?? 0}
         onChange={(event) => onChange(Number(event.target.value))}
         data-testid="session-pain"
-        aria-label="pain"
+        aria-label="pain · الألم"
       />
       <div className="row row-between">
         <TrafficLight tone={pain === null ? 'amber' : pain > 4 ? 'red' : 'green'} lang={lang} />

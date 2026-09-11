@@ -431,3 +431,30 @@ KB of CSS; the five routes that mount a figure ship ~560 KB gz, so three/R3F cos
 paid only where it is used. The mesh is 1.21 MB on disk, 0.93 MB gz on the wire, once per asset
 version. Frame time and cold-start wall clock still have no measurement here — no GPU — and
 `ASSET-SPEC.md` says that plainly instead of implying a result.
+
+## The journey store was untested, and it failed twice
+
+`src/lib/persistence.ts` is the only place a patient's work can be lost, and nothing tested it.
+Writing `tests/persistence.test.ts` (9 cases, with `idb-keyval` mocked and a `localStorage` stub)
+found two defects, both in the exact scenario the mirror exists for:
+
+- **One `try`/`catch` around the whole read turned private mode into an empty app.** `get()`
+  rejecting (Safari private mode, or any browser after site data is cleared for the tab) skipped
+  past the mirror and returned `null`, so a reload after a session showed an unselected body. The
+  IndexedDB read is now guarded on its own and a refusal falls through to the mirror.
+- **A corrupt mirror threw inside the same block**, so one half-written value hid both the mirror
+  and the legacy record. Storage reads now go through `readJson`, where anything unparseable reads
+  as absent. `importJourney` also stopped accepting _any_ object: an unrelated JSON file migrated
+  into a blank journey and looked like a fresh start, which now requires a recognizable v1 key and
+  otherwise says "unrecognised journey file".
+
+**A screen reader label is a string too.** Seven `aria-label` literals — nav, pain trend, pain map,
+session, pain, body map, pain after — were English-only while the demonstrator controls next to them
+carry `English · العربية`. They are bilingual now, and the content test greps every static
+`aria-label="…"` in `src/**/*.tsx` and fails if one lacks an Arabic run, so the convention is a gate
+rather than a habit. It was confirmed to fail: reverting one label to English-only produced
+`src/modules/body/Fallback2D.tsx :: body map` and a red suite.
+
+**Also in this pass:** the asset pipeline split for the 300-line rule — shipped-asset verification
+to `scripts/anatomy/check-shipped.mjs`, mesh self-measurement to `scripts/anatomy/measure.mjs` —
+with both GLB digests unchanged, which is how the move is known to be behaviour-preserving.

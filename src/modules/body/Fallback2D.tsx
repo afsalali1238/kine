@@ -78,7 +78,7 @@ export function Fallback2D({
       width="100%"
       height={height}
       role="img"
-      aria-label="body map"
+      aria-label="body map · خريطة الجسم"
       style={{ touchAction: 'none', direction: 'ltr' }}
       data-testid="fallback-2d"
       onPointerDown={(event) => {

@@ -49,12 +49,7 @@
       "feeling": "worse",
       "session": true,
       "phase": 1,
-      "completed": [
-        "neck-4",
-        "lower-back-2",
-        "lower-back-7",
-        "lower-back-1"
-      ],
+      "completed": ["neck-4", "lower-back-2", "lower-back-7", "lower-back-1"],
       "settled": false,
       "morningWorse": true,
       "effort": "hard",
@@ -66,12 +61,7 @@
       "feeling": "worse",
       "session": true,
       "phase": 1,
-      "completed": [
-        "neck-4",
-        "lower-back-2",
-        "lower-back-7",
-        "lower-back-1"
-      ],
+      "completed": ["neck-4", "lower-back-2", "lower-back-7", "lower-back-1"],
       "settled": false,
       "morningWorse": true,
       "effort": "hard",
@@ -83,12 +73,7 @@
       "feeling": "same",
       "session": true,
       "phase": 1,
-      "completed": [
-        "neck-4",
-        "lower-back-2",
-        "lower-back-7",
-        "lower-back-1"
-      ],
+      "completed": ["neck-4", "lower-back-2", "lower-back-7", "lower-back-1"],
       "settled": true,
       "morningWorse": false,
       "effort": "right",
@@ -100,12 +85,7 @@
       "feeling": "worse",
       "session": true,
       "phase": 1,
-      "completed": [
-        "neck-4",
-        "lower-back-2",
-        "lower-back-7",
-        "lower-back-1"
-      ],
+      "completed": ["neck-4", "lower-back-2", "lower-back-7", "lower-back-1"],
       "settled": false,
       "morningWorse": true,
       "effort": "hard",
@@ -129,12 +109,7 @@
       "feeling": "same",
       "session": true,
       "phase": 1,
-      "completed": [
-        "neck-4",
-        "lower-back-2",
-        "lower-back-7",
-        "lower-back-1"
-      ],
+      "completed": ["neck-4", "lower-back-2", "lower-back-7", "lower-back-1"],
       "settled": true,
       "morningWorse": false,
       "effort": "right",
@@ -146,12 +121,7 @@
       "feeling": "worse",
       "session": true,
       "phase": 1,
-      "completed": [
-        "neck-4",
-        "lower-back-2",
-        "lower-back-7",
-        "lower-back-1"
-      ],
+      "completed": ["neck-4", "lower-back-2", "lower-back-7", "lower-back-1"],
       "settled": false,
       "morningWorse": true,
       "effort": "hard",
@@ -163,12 +133,7 @@
       "feeling": "same",
       "session": true,
       "phase": 1,
-      "completed": [
-        "neck-4",
-        "lower-back-2",
-        "lower-back-7",
-        "lower-back-1"
-      ],
+      "completed": ["neck-4", "lower-back-2", "lower-back-7", "lower-back-1"],
       "settled": true,
       "morningWorse": false,
       "effort": "right",
@@ -180,12 +145,7 @@
       "feeling": "better",
       "session": true,
       "phase": 1,
-      "completed": [
-        "neck-4",
-        "lower-back-2",
-        "lower-back-7",
-        "lower-back-1"
-      ],
+      "completed": ["neck-4", "lower-back-2", "lower-back-7", "lower-back-1"],
       "settled": true,
       "morningWorse": false,
       "effort": "easy",
@@ -197,12 +157,7 @@
       "feeling": "same",
       "session": true,
       "phase": 1,
-      "completed": [
-        "neck-4",
-        "lower-back-2",
-        "lower-back-7",
-        "lower-back-1"
-      ],
+      "completed": ["neck-4", "lower-back-2", "lower-back-7", "lower-back-1"],
       "settled": true,
       "morningWorse": false,
       "effort": "right",
@@ -214,12 +169,7 @@
       "feeling": "same",
       "session": true,
       "phase": 1,
-      "completed": [
-        "neck-4",
-        "lower-back-2",
-        "lower-back-7",
-        "lower-back-1"
-      ],
+      "completed": ["neck-4", "lower-back-2", "lower-back-7", "lower-back-1"],
       "settled": true,
       "morningWorse": false,
       "effort": "right",
@@ -249,12 +199,7 @@
       "feeling": "same",
       "session": true,
       "phase": 1,
-      "completed": [
-        "neck-4",
-        "lower-back-2",
-        "lower-back-7",
-        "lower-back-1"
-      ],
+      "completed": ["neck-4", "lower-back-2", "lower-back-7", "lower-back-1"],
       "settled": true,
       "morningWorse": false,
       "effort": "right",
@@ -266,12 +211,7 @@
       "feeling": "same",
       "session": true,
       "phase": 1,
-      "completed": [
-        "neck-4",
-        "lower-back-2",
-        "lower-back-7",
-        "lower-back-1"
-      ],
+      "completed": ["neck-4", "lower-back-2", "lower-back-7", "lower-back-1"],
       "settled": true,
       "morningWorse": false,
       "effort": "right",
@@ -283,12 +223,7 @@
       "feeling": "better",
       "session": true,
       "phase": 2,
-      "completed": [
-        "neck-4",
-        "lower-back-2",
-        "lower-back-7",
-        "lower-back-1"
-      ],
+      "completed": ["neck-4", "lower-back-2", "lower-back-7", "lower-back-1"],
       "settled": true,
       "morningWorse": false,
       "effort": "easy",
@@ -312,12 +247,7 @@
       "feeling": "better",
       "session": true,
       "phase": 2,
-      "completed": [
-        "neck-4",
-        "lower-back-2",
-        "lower-back-7",
-        "lower-back-1"
-      ],
+      "completed": ["neck-4", "lower-back-2", "lower-back-7", "lower-back-1"],
       "settled": true,
       "morningWorse": false,
       "effort": "easy",
@@ -329,12 +259,7 @@
       "feeling": "better",
       "session": true,
       "phase": 2,
-      "completed": [
-        "neck-4",
-        "lower-back-2",
-        "lower-back-7",
-        "lower-back-1"
-      ],
+      "completed": ["neck-4", "lower-back-2", "lower-back-7", "lower-back-1"],
       "settled": true,
       "morningWorse": false,
       "effort": "easy",
@@ -358,12 +283,7 @@
       "feeling": "better",
       "session": true,
       "phase": 2,
-      "completed": [
-        "neck-4",
-        "lower-back-2",
-        "lower-back-7",
-        "lower-back-1"
-      ],
+      "completed": ["neck-4", "lower-back-2", "lower-back-7", "lower-back-1"],
       "settled": true,
       "morningWorse": false,
       "effort": "easy",
@@ -375,12 +295,7 @@
       "feeling": "better",
       "session": true,
       "phase": 2,
-      "completed": [
-        "neck-4",
-        "lower-back-2",
-        "lower-back-7",
-        "lower-back-1"
-      ],
+      "completed": ["neck-4", "lower-back-2", "lower-back-7", "lower-back-1"],
       "settled": true,
       "morningWorse": false,
       "effort": "easy",

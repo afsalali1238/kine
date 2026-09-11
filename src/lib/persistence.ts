@@ -68,33 +68,40 @@ export function migrateLegacy(raw: unknown): Journey | null {
 /** Reads IndexedDB first, falls back to the localStorage mirror, then to legacy v1 data. */
 export async function loadJourney(): Promise<Journey | null> {
   if (hydrated) return current;
+  let stored: Journey | null = null;
+  // A refused IndexedDB has to fall through to the mirror, not to "no journey". One
+  // try/catch around the whole read turned private mode into an empty app: the mirror is the
+  // thing that keeps a programme alive when the bigger store is unavailable.
   try {
-    const stored = (await get(KEY)) as Journey | null;
-    if (stored?.version === 2) {
-      current = stored;
-      hydrated = true;
-      return current;
-    }
-    const mirrored = typeof localStorage !== 'undefined' ? localStorage.getItem(KEY) : null;
-    if (mirrored) {
-      const parsed = JSON.parse(mirrored) as Journey;
-      if (parsed.version === 2) {
-        current = parsed;
-        hydrated = true;
-        return current;
-      }
-    }
-    if (typeof localStorage !== 'undefined') {
-      const legacy = localStorage.getItem(LEGACY);
-      if (legacy) {
-        current = migrateLegacy(JSON.parse(legacy));
-        hydrated = true;
-        return current;
-      }
-    }
+    stored = (await get(KEY)) as Journey | null;
   } catch {
-    current = null;
+    stored = null;
   }
+  if (stored?.version === 2) return adopt(stored);
+
+  const mirrored = readJson(KEY);
+  if ((mirrored as Journey | null)?.version === 2) return adopt(mirrored as Journey);
+
+  const legacy = readJson(LEGACY);
+  if (legacy) return adopt(migrateLegacy(legacy));
+
+  hydrated = true;
+  return current;
+}
+
+/** Anything in storage is untrusted: a half-written value must read as absent, not throw. */
+function readJson(key: string): unknown {
+  if (typeof localStorage === 'undefined') return null;
+  try {
+    const raw = localStorage.getItem(key);
+    return raw ? JSON.parse(raw) : null;
+  } catch {
+    return null;
+  }
+}
+
+function adopt(journey: Journey | null): Journey | null {
+  current = journey;
   hydrated = true;
   return current;
 }
@@ -126,14 +133,20 @@ export function exportJourney(journey: Journey): string {
   return JSON.stringify(journey, null, 2);
 }
 
+const V1_MARKERS = ['region', 'intake', 'logs', 'presentationId', 'goal', 'phase'];
+
 export function importJourney(text: string): Journey {
   const parsed = JSON.parse(text) as Partial<Journey>;
-  if (parsed.version !== 2) {
-    const migrated = migrateLegacy(parsed);
+  if (parsed && typeof parsed === 'object' && parsed.version !== 2) {
+    // Any object at all used to migrate into a *blank* journey, so importing the wrong file
+    // looked like a fresh start. Require something recognisably kinē before accepting it.
+    const looksV1 = V1_MARKERS.some((key) => key in (parsed as Record<string, unknown>));
+    const migrated = looksV1 ? migrateLegacy(parsed) : null;
     if (!migrated) throw new Error('unrecognised journey file');
     return migrated;
   }
-  return { ...emptyJourney(), ...parsed } as Journey;
+  if (parsed?.version === 2) return { ...emptyJourney(), ...parsed } as Journey;
+  throw new Error('unrecognised journey file');
 }
 
 /** Blocks the first paint from assuming "no journey" while IndexedDB is still reading. */

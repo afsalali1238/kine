@@ -53,7 +53,7 @@ export function Chrome({ children }: { children: React.ReactNode }) {
 
   return (
     <div className="shell">
-      <nav className="nav" aria-label="main" data-testid="nav">
+      <nav className="nav" aria-label="main · التنقل الرئيسي" data-testid="nav">
         {TABS.map((tab) => (
           <Link key={tab.href} href={tab.href} data-active={pathname === tab.href}>
             <tab.icon size={19} strokeWidth={1.7} />

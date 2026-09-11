@@ -67,34 +67,16 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "lumbar": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "lateral_flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "lateral_flexion": [null, null]
       },
       "hip": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "pelvis": {
-        "lateral_flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "lateral_flexion": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -166,34 +148,16 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "lumbar": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "lateral_flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "lateral_flexion": [null, null]
       },
       "hip": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "pelvis": {
-        "lateral_flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "lateral_flexion": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -265,34 +229,16 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "lumbar": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "lateral_flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "lateral_flexion": [null, null]
       },
       "hip": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "pelvis": {
-        "lateral_flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "lateral_flexion": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -357,43 +303,23 @@
     ],
     "easierVariantId": "lower-back-3",
     "harderVariantId": "lower-back-5",
-    "contraindicatedFor": [
-      "back-flexion"
-    ],
+    "contraindicatedFor": ["back-flexion"],
     "animationId": "lower-back-4-v2",
     "mediaKind": "rig_animation",
     "status": "published",
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "lumbar": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "lateral_flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "lateral_flexion": [null, null]
       },
       "hip": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "pelvis": {
-        "lateral_flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "lateral_flexion": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -465,34 +391,16 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "lumbar": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "lateral_flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "lateral_flexion": [null, null]
       },
       "hip": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "pelvis": {
-        "lateral_flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "lateral_flexion": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -564,34 +472,16 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "lumbar": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "lateral_flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "lateral_flexion": [null, null]
       },
       "hip": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "pelvis": {
-        "lateral_flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "lateral_flexion": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -663,34 +553,16 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "lumbar": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "lateral_flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "lateral_flexion": [null, null]
       },
       "hip": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "pelvis": {
-        "lateral_flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "lateral_flexion": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -762,34 +634,16 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "lumbar": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "lateral_flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "lateral_flexion": [null, null]
       },
       "hip": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "pelvis": {
-        "lateral_flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "lateral_flexion": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -861,34 +715,16 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "lumbar": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "lateral_flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "lateral_flexion": [null, null]
       },
       "hip": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "pelvis": {
-        "lateral_flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "lateral_flexion": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -960,34 +796,16 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "lumbar": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "lateral_flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "lateral_flexion": [null, null]
       },
       "hip": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "pelvis": {
-        "lateral_flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "lateral_flexion": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -1059,34 +877,16 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "lumbar": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "lateral_flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "lateral_flexion": [null, null]
       },
       "hip": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "pelvis": {
-        "lateral_flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "lateral_flexion": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -1158,34 +958,16 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "lumbar": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "lateral_flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "lateral_flexion": [null, null]
       },
       "hip": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "pelvis": {
-        "lateral_flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "lateral_flexion": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -1257,34 +1039,16 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "lumbar": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "lateral_flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "lateral_flexion": [null, null]
       },
       "hip": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "pelvis": {
-        "lateral_flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "lateral_flexion": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -1356,34 +1120,16 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "lumbar": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "lateral_flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "lateral_flexion": [null, null]
       },
       "hip": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "pelvis": {
-        "lateral_flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "lateral_flexion": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -1455,34 +1201,16 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "lumbar": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "lateral_flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "lateral_flexion": [null, null]
       },
       "hip": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "pelvis": {
-        "lateral_flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "lateral_flexion": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -1491,12 +1219,7 @@
     "id": "neck-1",
     "name": "Supported neck rest",
     "nameAr": null,
-    "presentationIds": [
-      "neck-mechanical",
-      "neck-postural",
-      "neck-headache",
-      "cervical-radicular"
-    ],
+    "presentationIds": ["neck-mechanical", "neck-postural", "neck-headache", "cervical-radicular"],
     "phase": 1,
     "targetRegions": [
       "cervical-upper",
@@ -1551,22 +1274,10 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "cervical": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "lateral_flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "lateral_flexion": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -1575,12 +1286,7 @@
     "id": "neck-2",
     "name": "Small neck turns",
     "nameAr": null,
-    "presentationIds": [
-      "neck-mechanical",
-      "neck-postural",
-      "neck-headache",
-      "cervical-radicular"
-    ],
+    "presentationIds": ["neck-mechanical", "neck-postural", "neck-headache", "cervical-radicular"],
     "phase": 1,
     "targetRegions": [
       "cervical-upper",
@@ -1636,22 +1342,10 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "cervical": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "lateral_flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "lateral_flexion": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -1660,12 +1354,7 @@
     "id": "neck-3",
     "name": "Gentle chin nod",
     "nameAr": null,
-    "presentationIds": [
-      "neck-mechanical",
-      "neck-postural",
-      "neck-headache",
-      "cervical-radicular"
-    ],
+    "presentationIds": ["neck-mechanical", "neck-postural", "neck-headache", "cervical-radicular"],
     "phase": 1,
     "targetRegions": [
       "cervical-upper",
@@ -1721,22 +1410,10 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "cervical": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "lateral_flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "lateral_flexion": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -1745,12 +1422,7 @@
     "id": "neck-4",
     "name": "Neck rotation hold",
     "nameAr": null,
-    "presentationIds": [
-      "neck-mechanical",
-      "neck-postural",
-      "neck-headache",
-      "cervical-radicular"
-    ],
+    "presentationIds": ["neck-mechanical", "neck-postural", "neck-headache", "cervical-radicular"],
     "phase": 1,
     "targetRegions": [
       "cervical-upper",
@@ -1806,22 +1478,10 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "cervical": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "lateral_flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "lateral_flexion": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -1830,12 +1490,7 @@
     "id": "neck-5",
     "name": "Seated shoulder rolls",
     "nameAr": null,
-    "presentationIds": [
-      "neck-mechanical",
-      "neck-postural",
-      "neck-headache",
-      "cervical-radicular"
-    ],
+    "presentationIds": ["neck-mechanical", "neck-postural", "neck-headache", "cervical-radicular"],
     "phase": 1,
     "targetRegions": [
       "cervical-upper",
@@ -1890,22 +1545,10 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "cervical": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "lateral_flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "lateral_flexion": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -1914,12 +1557,7 @@
     "id": "neck-6",
     "name": "Chin tuck",
     "nameAr": null,
-    "presentationIds": [
-      "neck-mechanical",
-      "neck-postural",
-      "neck-headache",
-      "cervical-radicular"
-    ],
+    "presentationIds": ["neck-mechanical", "neck-postural", "neck-headache", "cervical-radicular"],
     "phase": 2,
     "targetRegions": [
       "cervical-upper",
@@ -1975,22 +1613,10 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "cervical": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "lateral_flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "lateral_flexion": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -1999,12 +1625,7 @@
     "id": "neck-7",
     "name": "Seated neck rotation",
     "nameAr": null,
-    "presentationIds": [
-      "neck-mechanical",
-      "neck-postural",
-      "neck-headache",
-      "cervical-radicular"
-    ],
+    "presentationIds": ["neck-mechanical", "neck-postural", "neck-headache", "cervical-radicular"],
     "phase": 2,
     "targetRegions": [
       "cervical-upper",
@@ -2060,22 +1681,10 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "cervical": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "lateral_flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "lateral_flexion": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -2084,12 +1693,7 @@
     "id": "neck-8",
     "name": "Neck isometric press",
     "nameAr": null,
-    "presentationIds": [
-      "neck-mechanical",
-      "neck-postural",
-      "neck-headache",
-      "cervical-radicular"
-    ],
+    "presentationIds": ["neck-mechanical", "neck-postural", "neck-headache", "cervical-radicular"],
     "phase": 2,
     "targetRegions": [
       "cervical-upper",
@@ -2145,22 +1749,10 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "cervical": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "lateral_flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "lateral_flexion": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -2169,12 +1761,7 @@
     "id": "neck-9",
     "name": "Wall slide",
     "nameAr": null,
-    "presentationIds": [
-      "neck-mechanical",
-      "neck-postural",
-      "neck-headache",
-      "cervical-radicular"
-    ],
+    "presentationIds": ["neck-mechanical", "neck-postural", "neck-headache", "cervical-radicular"],
     "phase": 2,
     "targetRegions": [
       "cervical-upper",
@@ -2229,22 +1816,10 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "cervical": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "lateral_flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "lateral_flexion": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -2253,12 +1828,7 @@
     "id": "neck-10",
     "name": "Band row",
     "nameAr": null,
-    "presentationIds": [
-      "neck-mechanical",
-      "neck-postural",
-      "neck-headache",
-      "cervical-radicular"
-    ],
+    "presentationIds": ["neck-mechanical", "neck-postural", "neck-headache", "cervical-radicular"],
     "phase": 2,
     "targetRegions": [
       "cervical-upper",
@@ -2313,22 +1883,10 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "cervical": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "lateral_flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "lateral_flexion": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -2337,12 +1895,7 @@
     "id": "neck-11",
     "name": "Standing chin tuck",
     "nameAr": null,
-    "presentationIds": [
-      "neck-mechanical",
-      "neck-postural",
-      "neck-headache",
-      "cervical-radicular"
-    ],
+    "presentationIds": ["neck-mechanical", "neck-postural", "neck-headache", "cervical-radicular"],
     "phase": 3,
     "targetRegions": [
       "cervical-upper",
@@ -2398,22 +1951,10 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "cervical": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "lateral_flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "lateral_flexion": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -2422,12 +1963,7 @@
     "id": "neck-12",
     "name": "Resisted neck rotation",
     "nameAr": null,
-    "presentationIds": [
-      "neck-mechanical",
-      "neck-postural",
-      "neck-headache",
-      "cervical-radicular"
-    ],
+    "presentationIds": ["neck-mechanical", "neck-postural", "neck-headache", "cervical-radicular"],
     "phase": 3,
     "targetRegions": [
       "cervical-upper",
@@ -2483,22 +2019,10 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "cervical": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "lateral_flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "lateral_flexion": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -2507,12 +2031,7 @@
     "id": "neck-13",
     "name": "Incline wall press",
     "nameAr": null,
-    "presentationIds": [
-      "neck-mechanical",
-      "neck-postural",
-      "neck-headache",
-      "cervical-radicular"
-    ],
+    "presentationIds": ["neck-mechanical", "neck-postural", "neck-headache", "cervical-radicular"],
     "phase": 3,
     "targetRegions": [
       "cervical-upper",
@@ -2567,22 +2086,10 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "cervical": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "lateral_flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "lateral_flexion": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -2591,12 +2098,7 @@
     "id": "neck-14",
     "name": "Band pull apart",
     "nameAr": null,
-    "presentationIds": [
-      "neck-mechanical",
-      "neck-postural",
-      "neck-headache",
-      "cervical-radicular"
-    ],
+    "presentationIds": ["neck-mechanical", "neck-postural", "neck-headache", "cervical-radicular"],
     "phase": 3,
     "targetRegions": [
       "cervical-upper",
@@ -2651,22 +2153,10 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "cervical": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "lateral_flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "lateral_flexion": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -2675,12 +2165,7 @@
     "id": "neck-15",
     "name": "Overhead reach",
     "nameAr": null,
-    "presentationIds": [
-      "neck-mechanical",
-      "neck-postural",
-      "neck-headache",
-      "cervical-radicular"
-    ],
+    "presentationIds": ["neck-mechanical", "neck-postural", "neck-headache", "cervical-radicular"],
     "phase": 3,
     "targetRegions": [
       "cervical-upper",
@@ -2735,22 +2220,10 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "cervical": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "lateral_flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "lateral_flexion": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -2816,22 +2289,10 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "shoulder": {
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ],
-        "external_rotation": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "abduction": [null, null],
+        "external_rotation": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -2897,22 +2358,10 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "shoulder": {
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ],
-        "external_rotation": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "abduction": [null, null],
+        "external_rotation": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -2978,22 +2427,10 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "shoulder": {
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ],
-        "external_rotation": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "abduction": [null, null],
+        "external_rotation": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -3059,22 +2496,10 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "shoulder": {
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ],
-        "external_rotation": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "abduction": [null, null],
+        "external_rotation": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -3140,22 +2565,10 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "shoulder": {
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ],
-        "external_rotation": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "abduction": [null, null],
+        "external_rotation": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -3214,31 +2627,17 @@
     ],
     "easierVariantId": "shoulder-5",
     "harderVariantId": "shoulder-7",
-    "contraindicatedFor": [
-      "frozen-shoulder"
-    ],
+    "contraindicatedFor": ["frozen-shoulder"],
     "animationId": "shoulder-6-v2",
     "mediaKind": "rig_animation",
     "status": "published",
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "shoulder": {
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ],
-        "external_rotation": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "abduction": [null, null],
+        "external_rotation": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -3297,31 +2696,17 @@
     ],
     "easierVariantId": "shoulder-6",
     "harderVariantId": "shoulder-8",
-    "contraindicatedFor": [
-      "frozen-shoulder"
-    ],
+    "contraindicatedFor": ["frozen-shoulder"],
     "animationId": "shoulder-7-v2",
     "mediaKind": "rig_animation",
     "status": "published",
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "shoulder": {
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ],
-        "external_rotation": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "abduction": [null, null],
+        "external_rotation": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -3380,31 +2765,17 @@
     ],
     "easierVariantId": "shoulder-7",
     "harderVariantId": "shoulder-9",
-    "contraindicatedFor": [
-      "frozen-shoulder"
-    ],
+    "contraindicatedFor": ["frozen-shoulder"],
     "animationId": "shoulder-8-v2",
     "mediaKind": "rig_animation",
     "status": "published",
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "shoulder": {
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ],
-        "external_rotation": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "abduction": [null, null],
+        "external_rotation": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -3463,31 +2834,17 @@
     ],
     "easierVariantId": "shoulder-8",
     "harderVariantId": "shoulder-10",
-    "contraindicatedFor": [
-      "frozen-shoulder"
-    ],
+    "contraindicatedFor": ["frozen-shoulder"],
     "animationId": "shoulder-9-v2",
     "mediaKind": "rig_animation",
     "status": "published",
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "shoulder": {
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ],
-        "external_rotation": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "abduction": [null, null],
+        "external_rotation": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -3546,31 +2903,17 @@
     ],
     "easierVariantId": "shoulder-9",
     "harderVariantId": "shoulder-11",
-    "contraindicatedFor": [
-      "frozen-shoulder"
-    ],
+    "contraindicatedFor": ["frozen-shoulder"],
     "animationId": "shoulder-10-v2",
     "mediaKind": "rig_animation",
     "status": "published",
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "shoulder": {
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ],
-        "external_rotation": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "abduction": [null, null],
+        "external_rotation": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -3629,31 +2972,17 @@
     ],
     "easierVariantId": "shoulder-10",
     "harderVariantId": "shoulder-12",
-    "contraindicatedFor": [
-      "frozen-shoulder"
-    ],
+    "contraindicatedFor": ["frozen-shoulder"],
     "animationId": "shoulder-11-v2",
     "mediaKind": "rig_animation",
     "status": "published",
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "shoulder": {
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ],
-        "external_rotation": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "abduction": [null, null],
+        "external_rotation": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -3712,31 +3041,17 @@
     ],
     "easierVariantId": "shoulder-11",
     "harderVariantId": "shoulder-13",
-    "contraindicatedFor": [
-      "frozen-shoulder"
-    ],
+    "contraindicatedFor": ["frozen-shoulder"],
     "animationId": "shoulder-12-v2",
     "mediaKind": "rig_animation",
     "status": "published",
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "shoulder": {
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ],
-        "external_rotation": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "abduction": [null, null],
+        "external_rotation": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -3795,31 +3110,17 @@
     ],
     "easierVariantId": "shoulder-12",
     "harderVariantId": "shoulder-14",
-    "contraindicatedFor": [
-      "frozen-shoulder"
-    ],
+    "contraindicatedFor": ["frozen-shoulder"],
     "animationId": "shoulder-13-v2",
     "mediaKind": "rig_animation",
     "status": "published",
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "shoulder": {
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ],
-        "external_rotation": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "abduction": [null, null],
+        "external_rotation": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -3878,31 +3179,17 @@
     ],
     "easierVariantId": "shoulder-13",
     "harderVariantId": "shoulder-15",
-    "contraindicatedFor": [
-      "frozen-shoulder"
-    ],
+    "contraindicatedFor": ["frozen-shoulder"],
     "animationId": "shoulder-14-v2",
     "mediaKind": "rig_animation",
     "status": "published",
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "shoulder": {
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ],
-        "external_rotation": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "abduction": [null, null],
+        "external_rotation": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -3961,31 +3248,17 @@
     ],
     "easierVariantId": "shoulder-14",
     "harderVariantId": "shoulder-15-progressed",
-    "contraindicatedFor": [
-      "frozen-shoulder"
-    ],
+    "contraindicatedFor": ["frozen-shoulder"],
     "animationId": "shoulder-15-v2",
     "mediaKind": "rig_animation",
     "status": "published",
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "shoulder": {
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ],
-        "external_rotation": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "abduction": [null, null],
+        "external_rotation": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -3994,13 +3267,7 @@
     "id": "knee-1",
     "name": "Supported knee rest",
     "nameAr": null,
-    "presentationIds": [
-      "patellofemoral",
-      "patellar-tendon",
-      "meniscal",
-      "knee-oa",
-      "itb"
-    ],
+    "presentationIds": ["patellofemoral", "patellar-tendon", "meniscal", "knee-oa", "itb"],
     "phase": 1,
     "targetRegions": [
       "knee-anterior-left",
@@ -4059,20 +3326,11 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "knee": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "hip": {
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "abduction": [null, null]
       }
     },
     "mediaApproved": true
@@ -4081,13 +3339,7 @@
     "id": "knee-2",
     "name": "Knee extension hold",
     "nameAr": null,
-    "presentationIds": [
-      "patellofemoral",
-      "patellar-tendon",
-      "meniscal",
-      "knee-oa",
-      "itb"
-    ],
+    "presentationIds": ["patellofemoral", "patellar-tendon", "meniscal", "knee-oa", "itb"],
     "phase": 1,
     "targetRegions": [
       "knee-anterior-left",
@@ -4146,20 +3398,11 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "knee": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "hip": {
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "abduction": [null, null]
       }
     },
     "mediaApproved": true
@@ -4168,13 +3411,7 @@
     "id": "knee-3",
     "name": "Heel slide",
     "nameAr": null,
-    "presentationIds": [
-      "patellofemoral",
-      "patellar-tendon",
-      "meniscal",
-      "knee-oa",
-      "itb"
-    ],
+    "presentationIds": ["patellofemoral", "patellar-tendon", "meniscal", "knee-oa", "itb"],
     "phase": 1,
     "targetRegions": [
       "knee-anterior-left",
@@ -4233,20 +3470,11 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "knee": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "hip": {
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "abduction": [null, null]
       }
     },
     "mediaApproved": true
@@ -4255,13 +3483,7 @@
     "id": "knee-4",
     "name": "Gentle quadriceps squeeze",
     "nameAr": null,
-    "presentationIds": [
-      "patellofemoral",
-      "patellar-tendon",
-      "meniscal",
-      "knee-oa",
-      "itb"
-    ],
+    "presentationIds": ["patellofemoral", "patellar-tendon", "meniscal", "knee-oa", "itb"],
     "phase": 1,
     "targetRegions": [
       "knee-anterior-left",
@@ -4320,20 +3542,11 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "knee": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "hip": {
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "abduction": [null, null]
       }
     },
     "mediaApproved": true
@@ -4342,13 +3555,7 @@
     "id": "knee-5",
     "name": "Seated knee bend",
     "nameAr": null,
-    "presentationIds": [
-      "patellofemoral",
-      "patellar-tendon",
-      "meniscal",
-      "knee-oa",
-      "itb"
-    ],
+    "presentationIds": ["patellofemoral", "patellar-tendon", "meniscal", "knee-oa", "itb"],
     "phase": 1,
     "targetRegions": [
       "knee-anterior-left",
@@ -4407,20 +3614,11 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "knee": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "hip": {
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "abduction": [null, null]
       }
     },
     "mediaApproved": true
@@ -4429,13 +3627,7 @@
     "id": "knee-6",
     "name": "Seated knee extension",
     "nameAr": null,
-    "presentationIds": [
-      "patellofemoral",
-      "patellar-tendon",
-      "meniscal",
-      "knee-oa",
-      "itb"
-    ],
+    "presentationIds": ["patellofemoral", "patellar-tendon", "meniscal", "knee-oa", "itb"],
     "phase": 2,
     "targetRegions": [
       "knee-anterior-left",
@@ -4494,20 +3686,11 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "knee": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "hip": {
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "abduction": [null, null]
       }
     },
     "mediaApproved": true
@@ -4516,13 +3699,7 @@
     "id": "knee-7",
     "name": "High chair sit to stand",
     "nameAr": null,
-    "presentationIds": [
-      "patellofemoral",
-      "patellar-tendon",
-      "meniscal",
-      "knee-oa",
-      "itb"
-    ],
+    "presentationIds": ["patellofemoral", "patellar-tendon", "meniscal", "knee-oa", "itb"],
     "phase": 2,
     "targetRegions": [
       "knee-anterior-left",
@@ -4581,20 +3758,11 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "knee": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "hip": {
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "abduction": [null, null]
       }
     },
     "mediaApproved": true
@@ -4603,13 +3771,7 @@
     "id": "knee-8",
     "name": "Low step up",
     "nameAr": null,
-    "presentationIds": [
-      "patellofemoral",
-      "patellar-tendon",
-      "meniscal",
-      "knee-oa",
-      "itb"
-    ],
+    "presentationIds": ["patellofemoral", "patellar-tendon", "meniscal", "knee-oa", "itb"],
     "phase": 2,
     "targetRegions": [
       "knee-anterior-left",
@@ -4668,20 +3830,11 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "knee": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "hip": {
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "abduction": [null, null]
       }
     },
     "mediaApproved": true
@@ -4690,13 +3843,7 @@
     "id": "knee-9",
     "name": "Supported mini squat",
     "nameAr": null,
-    "presentationIds": [
-      "patellofemoral",
-      "patellar-tendon",
-      "meniscal",
-      "knee-oa",
-      "itb"
-    ],
+    "presentationIds": ["patellofemoral", "patellar-tendon", "meniscal", "knee-oa", "itb"],
     "phase": 2,
     "targetRegions": [
       "knee-anterior-left",
@@ -4755,20 +3902,11 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "knee": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "hip": {
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "abduction": [null, null]
       }
     },
     "mediaApproved": true
@@ -4777,13 +3915,7 @@
     "id": "knee-10",
     "name": "Slow knee extension",
     "nameAr": null,
-    "presentationIds": [
-      "patellofemoral",
-      "patellar-tendon",
-      "meniscal",
-      "knee-oa",
-      "itb"
-    ],
+    "presentationIds": ["patellofemoral", "patellar-tendon", "meniscal", "knee-oa", "itb"],
     "phase": 2,
     "targetRegions": [
       "knee-anterior-left",
@@ -4842,20 +3974,11 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "knee": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "hip": {
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "abduction": [null, null]
       }
     },
     "mediaApproved": true
@@ -4864,13 +3987,7 @@
     "id": "knee-11",
     "name": "Chair squat",
     "nameAr": null,
-    "presentationIds": [
-      "patellofemoral",
-      "patellar-tendon",
-      "meniscal",
-      "knee-oa",
-      "itb"
-    ],
+    "presentationIds": ["patellofemoral", "patellar-tendon", "meniscal", "knee-oa", "itb"],
     "phase": 3,
     "targetRegions": [
       "knee-anterior-left",
@@ -4929,20 +4046,11 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "knee": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "hip": {
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "abduction": [null, null]
       }
     },
     "mediaApproved": true
@@ -4951,13 +4059,7 @@
     "id": "knee-12",
     "name": "Step down",
     "nameAr": null,
-    "presentationIds": [
-      "patellofemoral",
-      "patellar-tendon",
-      "meniscal",
-      "knee-oa",
-      "itb"
-    ],
+    "presentationIds": ["patellofemoral", "patellar-tendon", "meniscal", "knee-oa", "itb"],
     "phase": 3,
     "targetRegions": [
       "knee-anterior-left",
@@ -5016,20 +4118,11 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "knee": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "hip": {
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "abduction": [null, null]
       }
     },
     "mediaApproved": true
@@ -5038,13 +4131,7 @@
     "id": "knee-13",
     "name": "Split squat",
     "nameAr": null,
-    "presentationIds": [
-      "patellofemoral",
-      "patellar-tendon",
-      "meniscal",
-      "knee-oa",
-      "itb"
-    ],
+    "presentationIds": ["patellofemoral", "patellar-tendon", "meniscal", "knee-oa", "itb"],
     "phase": 3,
     "targetRegions": [
       "knee-anterior-left",
@@ -5103,20 +4190,11 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "knee": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "hip": {
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "abduction": [null, null]
       }
     },
     "mediaApproved": true
@@ -5125,13 +4203,7 @@
     "id": "knee-14",
     "name": "Weighted squat",
     "nameAr": null,
-    "presentationIds": [
-      "patellofemoral",
-      "patellar-tendon",
-      "meniscal",
-      "knee-oa",
-      "itb"
-    ],
+    "presentationIds": ["patellofemoral", "patellar-tendon", "meniscal", "knee-oa", "itb"],
     "phase": 3,
     "targetRegions": [
       "knee-anterior-left",
@@ -5190,20 +4262,11 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "knee": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "hip": {
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "abduction": [null, null]
       }
     },
     "mediaApproved": true
@@ -5212,13 +4275,7 @@
     "id": "knee-15",
     "name": "Single leg sit to stand",
     "nameAr": null,
-    "presentationIds": [
-      "patellofemoral",
-      "patellar-tendon",
-      "meniscal",
-      "knee-oa",
-      "itb"
-    ],
+    "presentationIds": ["patellofemoral", "patellar-tendon", "meniscal", "knee-oa", "itb"],
     "phase": 3,
     "targetRegions": [
       "knee-anterior-left",
@@ -5277,20 +4334,11 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "knee": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "hip": {
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "abduction": [null, null]
       }
     },
     "mediaApproved": true
@@ -5366,30 +4414,15 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "hip": {
-        "abduction": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "abduction": [null, null],
+        "flexion": [null, null],
+        "internal_rotation": [null, null]
       },
       "knee": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "lumbar": {
-        "extension": [
-          null,
-          null
-        ]
+        "extension": [null, null]
       }
     },
     "mediaApproved": true
@@ -5465,30 +4498,15 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "hip": {
-        "abduction": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "abduction": [null, null],
+        "flexion": [null, null],
+        "internal_rotation": [null, null]
       },
       "knee": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "lumbar": {
-        "extension": [
-          null,
-          null
-        ]
+        "extension": [null, null]
       }
     },
     "mediaApproved": true
@@ -5564,30 +4582,15 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "hip": {
-        "abduction": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "abduction": [null, null],
+        "flexion": [null, null],
+        "internal_rotation": [null, null]
       },
       "knee": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "lumbar": {
-        "extension": [
-          null,
-          null
-        ]
+        "extension": [null, null]
       }
     },
     "mediaApproved": true
@@ -5663,30 +4666,15 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "hip": {
-        "abduction": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "abduction": [null, null],
+        "flexion": [null, null],
+        "internal_rotation": [null, null]
       },
       "knee": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "lumbar": {
-        "extension": [
-          null,
-          null
-        ]
+        "extension": [null, null]
       }
     },
     "mediaApproved": true
@@ -5762,30 +4750,15 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "hip": {
-        "abduction": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "abduction": [null, null],
+        "flexion": [null, null],
+        "internal_rotation": [null, null]
       },
       "knee": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "lumbar": {
-        "extension": [
-          null,
-          null
-        ]
+        "extension": [null, null]
       }
     },
     "mediaApproved": true
@@ -5861,30 +4834,15 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "hip": {
-        "abduction": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "abduction": [null, null],
+        "flexion": [null, null],
+        "internal_rotation": [null, null]
       },
       "knee": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "lumbar": {
-        "extension": [
-          null,
-          null
-        ]
+        "extension": [null, null]
       }
     },
     "mediaApproved": true
@@ -5960,30 +4918,15 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "hip": {
-        "abduction": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "abduction": [null, null],
+        "flexion": [null, null],
+        "internal_rotation": [null, null]
       },
       "knee": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "lumbar": {
-        "extension": [
-          null,
-          null
-        ]
+        "extension": [null, null]
       }
     },
     "mediaApproved": true
@@ -6059,30 +5002,15 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "hip": {
-        "abduction": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "abduction": [null, null],
+        "flexion": [null, null],
+        "internal_rotation": [null, null]
       },
       "knee": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "lumbar": {
-        "extension": [
-          null,
-          null
-        ]
+        "extension": [null, null]
       }
     },
     "mediaApproved": true
@@ -6158,30 +5086,15 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "hip": {
-        "abduction": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "abduction": [null, null],
+        "flexion": [null, null],
+        "internal_rotation": [null, null]
       },
       "knee": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "lumbar": {
-        "extension": [
-          null,
-          null
-        ]
+        "extension": [null, null]
       }
     },
     "mediaApproved": true
@@ -6257,30 +5170,15 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "hip": {
-        "abduction": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "abduction": [null, null],
+        "flexion": [null, null],
+        "internal_rotation": [null, null]
       },
       "knee": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "lumbar": {
-        "extension": [
-          null,
-          null
-        ]
+        "extension": [null, null]
       }
     },
     "mediaApproved": true
@@ -6356,30 +5254,15 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "hip": {
-        "abduction": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "abduction": [null, null],
+        "flexion": [null, null],
+        "internal_rotation": [null, null]
       },
       "knee": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "lumbar": {
-        "extension": [
-          null,
-          null
-        ]
+        "extension": [null, null]
       }
     },
     "mediaApproved": true
@@ -6455,30 +5338,15 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "hip": {
-        "abduction": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "abduction": [null, null],
+        "flexion": [null, null],
+        "internal_rotation": [null, null]
       },
       "knee": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "lumbar": {
-        "extension": [
-          null,
-          null
-        ]
+        "extension": [null, null]
       }
     },
     "mediaApproved": true
@@ -6554,30 +5422,15 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "hip": {
-        "abduction": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "abduction": [null, null],
+        "flexion": [null, null],
+        "internal_rotation": [null, null]
       },
       "knee": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "lumbar": {
-        "extension": [
-          null,
-          null
-        ]
+        "extension": [null, null]
       }
     },
     "mediaApproved": true
@@ -6653,30 +5506,15 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "hip": {
-        "abduction": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "abduction": [null, null],
+        "flexion": [null, null],
+        "internal_rotation": [null, null]
       },
       "knee": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "lumbar": {
-        "extension": [
-          null,
-          null
-        ]
+        "extension": [null, null]
       }
     },
     "mediaApproved": true
@@ -6752,30 +5590,15 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "hip": {
-        "abduction": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "abduction": [null, null],
+        "flexion": [null, null],
+        "internal_rotation": [null, null]
       },
       "knee": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "lumbar": {
-        "extension": [
-          null,
-          null
-        ]
+        "extension": [null, null]
       }
     },
     "mediaApproved": true
@@ -6850,24 +5673,12 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "ankle": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null]
       },
       "toes": {
-        "extension": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ]
+        "extension": [null, null],
+        "flexion": [null, null]
       }
     },
     "mediaApproved": true
@@ -6942,24 +5753,12 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "ankle": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null]
       },
       "toes": {
-        "extension": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ]
+        "extension": [null, null],
+        "flexion": [null, null]
       }
     },
     "mediaApproved": true
@@ -7034,24 +5833,12 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "ankle": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null]
       },
       "toes": {
-        "extension": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ]
+        "extension": [null, null],
+        "flexion": [null, null]
       }
     },
     "mediaApproved": true
@@ -7126,24 +5913,12 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "ankle": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null]
       },
       "toes": {
-        "extension": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ]
+        "extension": [null, null],
+        "flexion": [null, null]
       }
     },
     "mediaApproved": true
@@ -7218,24 +5993,12 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "ankle": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null]
       },
       "toes": {
-        "extension": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ]
+        "extension": [null, null],
+        "flexion": [null, null]
       }
     },
     "mediaApproved": true
@@ -7310,24 +6073,12 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "ankle": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null]
       },
       "toes": {
-        "extension": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ]
+        "extension": [null, null],
+        "flexion": [null, null]
       }
     },
     "mediaApproved": true
@@ -7402,24 +6153,12 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "ankle": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null]
       },
       "toes": {
-        "extension": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ]
+        "extension": [null, null],
+        "flexion": [null, null]
       }
     },
     "mediaApproved": true
@@ -7494,24 +6233,12 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "ankle": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null]
       },
       "toes": {
-        "extension": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ]
+        "extension": [null, null],
+        "flexion": [null, null]
       }
     },
     "mediaApproved": true
@@ -7586,24 +6313,12 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "ankle": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null]
       },
       "toes": {
-        "extension": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ]
+        "extension": [null, null],
+        "flexion": [null, null]
       }
     },
     "mediaApproved": true
@@ -7678,24 +6393,12 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "ankle": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null]
       },
       "toes": {
-        "extension": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ]
+        "extension": [null, null],
+        "flexion": [null, null]
       }
     },
     "mediaApproved": true
@@ -7770,24 +6473,12 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "ankle": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null]
       },
       "toes": {
-        "extension": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ]
+        "extension": [null, null],
+        "flexion": [null, null]
       }
     },
     "mediaApproved": true
@@ -7862,24 +6553,12 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "ankle": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null]
       },
       "toes": {
-        "extension": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ]
+        "extension": [null, null],
+        "flexion": [null, null]
       }
     },
     "mediaApproved": true
@@ -7954,24 +6633,12 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "ankle": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null]
       },
       "toes": {
-        "extension": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ]
+        "extension": [null, null],
+        "flexion": [null, null]
       }
     },
     "mediaApproved": true
@@ -8046,24 +6713,12 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "ankle": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null]
       },
       "toes": {
-        "extension": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ]
+        "extension": [null, null],
+        "flexion": [null, null]
       }
     },
     "mediaApproved": true
@@ -8131,34 +6786,19 @@
     ],
     "easierVariantId": "ankle-14",
     "harderVariantId": "ankle-15-progressed",
-    "contraindicatedFor": [
-      "achilles",
-      "plantar-heel"
-    ],
+    "contraindicatedFor": ["achilles", "plantar-heel"],
     "animationId": "ankle-15-v2",
     "mediaKind": "rig_animation",
     "status": "published",
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "ankle": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null]
       },
       "toes": {
-        "extension": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ]
+        "extension": [null, null],
+        "flexion": [null, null]
       }
     },
     "mediaApproved": true
@@ -8239,34 +6879,16 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "elbow": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null]
       },
       "wrist": {
-        "extension": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ]
+        "extension": [null, null],
+        "flexion": [null, null],
+        "abduction": [null, null]
       },
       "shoulder": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       }
     },
     "mediaApproved": true
@@ -8348,34 +6970,16 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "elbow": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null]
       },
       "wrist": {
-        "extension": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ]
+        "extension": [null, null],
+        "flexion": [null, null],
+        "abduction": [null, null]
       },
       "shoulder": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       }
     },
     "mediaApproved": true
@@ -8457,34 +7061,16 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "elbow": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null]
       },
       "wrist": {
-        "extension": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ]
+        "extension": [null, null],
+        "flexion": [null, null],
+        "abduction": [null, null]
       },
       "shoulder": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       }
     },
     "mediaApproved": true
@@ -8565,34 +7151,16 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "elbow": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null]
       },
       "wrist": {
-        "extension": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ]
+        "extension": [null, null],
+        "flexion": [null, null],
+        "abduction": [null, null]
       },
       "shoulder": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       }
     },
     "mediaApproved": true
@@ -8673,34 +7241,16 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "elbow": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null]
       },
       "wrist": {
-        "extension": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ]
+        "extension": [null, null],
+        "flexion": [null, null],
+        "abduction": [null, null]
       },
       "shoulder": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       }
     },
     "mediaApproved": true
@@ -8782,34 +7332,16 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "elbow": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null]
       },
       "wrist": {
-        "extension": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ]
+        "extension": [null, null],
+        "flexion": [null, null],
+        "abduction": [null, null]
       },
       "shoulder": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       }
     },
     "mediaApproved": true
@@ -8891,34 +7423,16 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "elbow": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null]
       },
       "wrist": {
-        "extension": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ]
+        "extension": [null, null],
+        "flexion": [null, null],
+        "abduction": [null, null]
       },
       "shoulder": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       }
     },
     "mediaApproved": true
@@ -9000,34 +7514,16 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "elbow": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null]
       },
       "wrist": {
-        "extension": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ]
+        "extension": [null, null],
+        "flexion": [null, null],
+        "abduction": [null, null]
       },
       "shoulder": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       }
     },
     "mediaApproved": true
@@ -9108,34 +7604,16 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "elbow": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null]
       },
       "wrist": {
-        "extension": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ]
+        "extension": [null, null],
+        "flexion": [null, null],
+        "abduction": [null, null]
       },
       "shoulder": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       }
     },
     "mediaApproved": true
@@ -9217,34 +7695,16 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "elbow": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null]
       },
       "wrist": {
-        "extension": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ]
+        "extension": [null, null],
+        "flexion": [null, null],
+        "abduction": [null, null]
       },
       "shoulder": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       }
     },
     "mediaApproved": true
@@ -9326,34 +7786,16 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "elbow": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null]
       },
       "wrist": {
-        "extension": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ]
+        "extension": [null, null],
+        "flexion": [null, null],
+        "abduction": [null, null]
       },
       "shoulder": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       }
     },
     "mediaApproved": true
@@ -9435,34 +7877,16 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "elbow": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null]
       },
       "wrist": {
-        "extension": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ]
+        "extension": [null, null],
+        "flexion": [null, null],
+        "abduction": [null, null]
       },
       "shoulder": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       }
     },
     "mediaApproved": true
@@ -9544,34 +7968,16 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "elbow": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null]
       },
       "wrist": {
-        "extension": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ]
+        "extension": [null, null],
+        "flexion": [null, null],
+        "abduction": [null, null]
       },
       "shoulder": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       }
     },
     "mediaApproved": true
@@ -9652,34 +8058,16 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "elbow": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null]
       },
       "wrist": {
-        "extension": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ]
+        "extension": [null, null],
+        "flexion": [null, null],
+        "abduction": [null, null]
       },
       "shoulder": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       }
     },
     "mediaApproved": true
@@ -9760,34 +8148,16 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "elbow": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null]
       },
       "wrist": {
-        "extension": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ]
+        "extension": [null, null],
+        "flexion": [null, null],
+        "abduction": [null, null]
       },
       "shoulder": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       }
     },
     "mediaApproved": true
@@ -9796,12 +8166,7 @@
     "id": "upper-back-1",
     "name": "Supported rib breathing",
     "nameAr": null,
-    "presentationIds": [
-      "thoracic",
-      "rib",
-      "scapular",
-      "chest-wall"
-    ],
+    "presentationIds": ["thoracic", "rib", "scapular", "chest-wall"],
     "phase": 1,
     "targetRegions": [
       "thoracic-spine",
@@ -9854,28 +8219,13 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "thoracic": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "rotation": [null, null]
       },
       "scapula": {
-        "abduction": [
-          null,
-          null
-        ],
-        "adduction": [
-          null,
-          null
-        ]
+        "abduction": [null, null],
+        "adduction": [null, null]
       }
     },
     "mediaApproved": true
@@ -9884,12 +8234,7 @@
     "id": "upper-back-2",
     "name": "Small shoulder rolls",
     "nameAr": null,
-    "presentationIds": [
-      "thoracic",
-      "rib",
-      "scapular",
-      "chest-wall"
-    ],
+    "presentationIds": ["thoracic", "rib", "scapular", "chest-wall"],
     "phase": 1,
     "targetRegions": [
       "thoracic-spine",
@@ -9941,28 +8286,13 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "thoracic": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "rotation": [null, null]
       },
       "scapula": {
-        "abduction": [
-          null,
-          null
-        ],
-        "adduction": [
-          null,
-          null
-        ]
+        "abduction": [null, null],
+        "adduction": [null, null]
       }
     },
     "mediaApproved": true
@@ -9971,12 +8301,7 @@
     "id": "upper-back-3",
     "name": "Seated gentle rotation",
     "nameAr": null,
-    "presentationIds": [
-      "thoracic",
-      "rib",
-      "scapular",
-      "chest-wall"
-    ],
+    "presentationIds": ["thoracic", "rib", "scapular", "chest-wall"],
     "phase": 1,
     "targetRegions": [
       "thoracic-spine",
@@ -10028,28 +8353,13 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "thoracic": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "rotation": [null, null]
       },
       "scapula": {
-        "abduction": [
-          null,
-          null
-        ],
-        "adduction": [
-          null,
-          null
-        ]
+        "abduction": [null, null],
+        "adduction": [null, null]
       }
     },
     "mediaApproved": true
@@ -10058,12 +8368,7 @@
     "id": "upper-back-4",
     "name": "Shoulder blade setting",
     "nameAr": null,
-    "presentationIds": [
-      "thoracic",
-      "rib",
-      "scapular",
-      "chest-wall"
-    ],
+    "presentationIds": ["thoracic", "rib", "scapular", "chest-wall"],
     "phase": 1,
     "targetRegions": [
       "thoracic-spine",
@@ -10115,28 +8420,13 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "thoracic": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "rotation": [null, null]
       },
       "scapula": {
-        "abduction": [
-          null,
-          null
-        ],
-        "adduction": [
-          null,
-          null
-        ]
+        "abduction": [null, null],
+        "adduction": [null, null]
       }
     },
     "mediaApproved": true
@@ -10145,12 +8435,7 @@
     "id": "upper-back-5",
     "name": "Supported chest opening",
     "nameAr": null,
-    "presentationIds": [
-      "thoracic",
-      "rib",
-      "scapular",
-      "chest-wall"
-    ],
+    "presentationIds": ["thoracic", "rib", "scapular", "chest-wall"],
     "phase": 1,
     "targetRegions": [
       "thoracic-spine",
@@ -10202,28 +8487,13 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "thoracic": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "rotation": [null, null]
       },
       "scapula": {
-        "abduction": [
-          null,
-          null
-        ],
-        "adduction": [
-          null,
-          null
-        ]
+        "abduction": [null, null],
+        "adduction": [null, null]
       }
     },
     "mediaApproved": true
@@ -10232,12 +8502,7 @@
     "id": "upper-back-6",
     "name": "Seated thoracic extension",
     "nameAr": null,
-    "presentationIds": [
-      "thoracic",
-      "rib",
-      "scapular",
-      "chest-wall"
-    ],
+    "presentationIds": ["thoracic", "rib", "scapular", "chest-wall"],
     "phase": 2,
     "targetRegions": [
       "thoracic-spine",
@@ -10289,28 +8554,13 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "thoracic": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "rotation": [null, null]
       },
       "scapula": {
-        "abduction": [
-          null,
-          null
-        ],
-        "adduction": [
-          null,
-          null
-        ]
+        "abduction": [null, null],
+        "adduction": [null, null]
       }
     },
     "mediaApproved": true
@@ -10319,12 +8569,7 @@
     "id": "upper-back-7",
     "name": "Side lying open book",
     "nameAr": null,
-    "presentationIds": [
-      "thoracic",
-      "rib",
-      "scapular",
-      "chest-wall"
-    ],
+    "presentationIds": ["thoracic", "rib", "scapular", "chest-wall"],
     "phase": 2,
     "targetRegions": [
       "thoracic-spine",
@@ -10376,28 +8621,13 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "thoracic": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "rotation": [null, null]
       },
       "scapula": {
-        "abduction": [
-          null,
-          null
-        ],
-        "adduction": [
-          null,
-          null
-        ]
+        "abduction": [null, null],
+        "adduction": [null, null]
       }
     },
     "mediaApproved": true
@@ -10406,12 +8636,7 @@
     "id": "upper-back-8",
     "name": "Wall slide",
     "nameAr": null,
-    "presentationIds": [
-      "thoracic",
-      "rib",
-      "scapular",
-      "chest-wall"
-    ],
+    "presentationIds": ["thoracic", "rib", "scapular", "chest-wall"],
     "phase": 2,
     "targetRegions": [
       "thoracic-spine",
@@ -10463,28 +8688,13 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "thoracic": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "rotation": [null, null]
       },
       "scapula": {
-        "abduction": [
-          null,
-          null
-        ],
-        "adduction": [
-          null,
-          null
-        ]
+        "abduction": [null, null],
+        "adduction": [null, null]
       }
     },
     "mediaApproved": true
@@ -10493,12 +8703,7 @@
     "id": "upper-back-9",
     "name": "Band row",
     "nameAr": null,
-    "presentationIds": [
-      "thoracic",
-      "rib",
-      "scapular",
-      "chest-wall"
-    ],
+    "presentationIds": ["thoracic", "rib", "scapular", "chest-wall"],
     "phase": 2,
     "targetRegions": [
       "thoracic-spine",
@@ -10550,28 +8755,13 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "thoracic": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "rotation": [null, null]
       },
       "scapula": {
-        "abduction": [
-          null,
-          null
-        ],
-        "adduction": [
-          null,
-          null
-        ]
+        "abduction": [null, null],
+        "adduction": [null, null]
       }
     },
     "mediaApproved": true
@@ -10580,12 +8770,7 @@
     "id": "upper-back-10",
     "name": "Standing thoracic rotation",
     "nameAr": null,
-    "presentationIds": [
-      "thoracic",
-      "rib",
-      "scapular",
-      "chest-wall"
-    ],
+    "presentationIds": ["thoracic", "rib", "scapular", "chest-wall"],
     "phase": 2,
     "targetRegions": [
       "thoracic-spine",
@@ -10637,28 +8822,13 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "thoracic": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "rotation": [null, null]
       },
       "scapula": {
-        "abduction": [
-          null,
-          null
-        ],
-        "adduction": [
-          null,
-          null
-        ]
+        "abduction": [null, null],
+        "adduction": [null, null]
       }
     },
     "mediaApproved": true
@@ -10667,12 +8837,7 @@
     "id": "upper-back-11",
     "name": "Band pull apart",
     "nameAr": null,
-    "presentationIds": [
-      "thoracic",
-      "rib",
-      "scapular",
-      "chest-wall"
-    ],
+    "presentationIds": ["thoracic", "rib", "scapular", "chest-wall"],
     "phase": 3,
     "targetRegions": [
       "thoracic-spine",
@@ -10724,28 +8889,13 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "thoracic": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "rotation": [null, null]
       },
       "scapula": {
-        "abduction": [
-          null,
-          null
-        ],
-        "adduction": [
-          null,
-          null
-        ]
+        "abduction": [null, null],
+        "adduction": [null, null]
       }
     },
     "mediaApproved": true
@@ -10754,12 +8904,7 @@
     "id": "upper-back-12",
     "name": "Prone arm lift",
     "nameAr": null,
-    "presentationIds": [
-      "thoracic",
-      "rib",
-      "scapular",
-      "chest-wall"
-    ],
+    "presentationIds": ["thoracic", "rib", "scapular", "chest-wall"],
     "phase": 3,
     "targetRegions": [
       "thoracic-spine",
@@ -10811,28 +8956,13 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "thoracic": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "rotation": [null, null]
       },
       "scapula": {
-        "abduction": [
-          null,
-          null
-        ],
-        "adduction": [
-          null,
-          null
-        ]
+        "abduction": [null, null],
+        "adduction": [null, null]
       }
     },
     "mediaApproved": true
@@ -10841,12 +8971,7 @@
     "id": "upper-back-13",
     "name": "Resisted row",
     "nameAr": null,
-    "presentationIds": [
-      "thoracic",
-      "rib",
-      "scapular",
-      "chest-wall"
-    ],
+    "presentationIds": ["thoracic", "rib", "scapular", "chest-wall"],
     "phase": 3,
     "targetRegions": [
       "thoracic-spine",
@@ -10898,28 +9023,13 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "thoracic": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "rotation": [null, null]
       },
       "scapula": {
-        "abduction": [
-          null,
-          null
-        ],
-        "adduction": [
-          null,
-          null
-        ]
+        "abduction": [null, null],
+        "adduction": [null, null]
       }
     },
     "mediaApproved": true
@@ -10928,12 +9038,7 @@
     "id": "upper-back-14",
     "name": "Standing rotation press",
     "nameAr": null,
-    "presentationIds": [
-      "thoracic",
-      "rib",
-      "scapular",
-      "chest-wall"
-    ],
+    "presentationIds": ["thoracic", "rib", "scapular", "chest-wall"],
     "phase": 3,
     "targetRegions": [
       "thoracic-spine",
@@ -10985,28 +9090,13 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "thoracic": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "rotation": [null, null]
       },
       "scapula": {
-        "abduction": [
-          null,
-          null
-        ],
-        "adduction": [
-          null,
-          null
-        ]
+        "abduction": [null, null],
+        "adduction": [null, null]
       }
     },
     "mediaApproved": true
@@ -11015,12 +9105,7 @@
     "id": "upper-back-15",
     "name": "Overhead reach",
     "nameAr": null,
-    "presentationIds": [
-      "thoracic",
-      "rib",
-      "scapular",
-      "chest-wall"
-    ],
+    "presentationIds": ["thoracic", "rib", "scapular", "chest-wall"],
     "phase": 3,
     "targetRegions": [
       "thoracic-spine",
@@ -11072,28 +9157,13 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "thoracic": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "rotation": [null, null]
       },
       "scapula": {
-        "abduction": [
-          null,
-          null
-        ],
-        "adduction": [
-          null,
-          null
-        ]
+        "abduction": [null, null],
+        "adduction": [null, null]
       }
     },
     "mediaApproved": true
@@ -11166,34 +9236,16 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "lumbar": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "lateral_flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "lateral_flexion": [null, null]
       },
       "hip": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "pelvis": {
-        "lateral_flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "lateral_flexion": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -11265,34 +9317,16 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "lumbar": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "lateral_flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "lateral_flexion": [null, null]
       },
       "hip": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "pelvis": {
-        "lateral_flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "lateral_flexion": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -11301,12 +9335,7 @@
     "id": "neck-1-supported",
     "name": "Short supported neck rest",
     "nameAr": null,
-    "presentationIds": [
-      "neck-mechanical",
-      "neck-postural",
-      "neck-headache",
-      "cervical-radicular"
-    ],
+    "presentationIds": ["neck-mechanical", "neck-postural", "neck-headache", "cervical-radicular"],
     "phase": 1,
     "targetRegions": [
       "cervical-upper",
@@ -11361,22 +9390,10 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "cervical": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "lateral_flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "lateral_flexion": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -11385,12 +9402,7 @@
     "id": "neck-15-progressed",
     "name": "Overhead reach with a little more resistance",
     "nameAr": null,
-    "presentationIds": [
-      "neck-mechanical",
-      "neck-postural",
-      "neck-headache",
-      "cervical-radicular"
-    ],
+    "presentationIds": ["neck-mechanical", "neck-postural", "neck-headache", "cervical-radicular"],
     "phase": 3,
     "targetRegions": [
       "cervical-upper",
@@ -11445,22 +9457,10 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "cervical": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "lateral_flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "lateral_flexion": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -11526,22 +9526,10 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "shoulder": {
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ],
-        "external_rotation": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "abduction": [null, null],
+        "external_rotation": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -11600,31 +9588,17 @@
     ],
     "easierVariantId": "shoulder-15",
     "harderVariantId": null,
-    "contraindicatedFor": [
-      "frozen-shoulder"
-    ],
+    "contraindicatedFor": ["frozen-shoulder"],
     "animationId": "shoulder-15-progressed-v2",
     "mediaKind": "rig_animation",
     "status": "published",
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "shoulder": {
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ],
-        "external_rotation": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "abduction": [null, null],
+        "external_rotation": [null, null],
+        "internal_rotation": [null, null]
       }
     },
     "mediaApproved": true
@@ -11633,13 +9607,7 @@
     "id": "knee-1-supported",
     "name": "Short supported knee rest",
     "nameAr": null,
-    "presentationIds": [
-      "patellofemoral",
-      "patellar-tendon",
-      "meniscal",
-      "knee-oa",
-      "itb"
-    ],
+    "presentationIds": ["patellofemoral", "patellar-tendon", "meniscal", "knee-oa", "itb"],
     "phase": 1,
     "targetRegions": [
       "knee-anterior-left",
@@ -11698,20 +9666,11 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "knee": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "hip": {
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "abduction": [null, null]
       }
     },
     "mediaApproved": true
@@ -11720,13 +9679,7 @@
     "id": "knee-15-progressed",
     "name": "Single leg sit to stand with a little more resistance",
     "nameAr": null,
-    "presentationIds": [
-      "patellofemoral",
-      "patellar-tendon",
-      "meniscal",
-      "knee-oa",
-      "itb"
-    ],
+    "presentationIds": ["patellofemoral", "patellar-tendon", "meniscal", "knee-oa", "itb"],
     "phase": 3,
     "targetRegions": [
       "knee-anterior-left",
@@ -11785,20 +9738,11 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "knee": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "hip": {
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "abduction": [null, null]
       }
     },
     "mediaApproved": true
@@ -11874,30 +9818,15 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "hip": {
-        "abduction": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "abduction": [null, null],
+        "flexion": [null, null],
+        "internal_rotation": [null, null]
       },
       "knee": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "lumbar": {
-        "extension": [
-          null,
-          null
-        ]
+        "extension": [null, null]
       }
     },
     "mediaApproved": true
@@ -11973,30 +9902,15 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "hip": {
-        "abduction": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ],
-        "internal_rotation": [
-          null,
-          null
-        ]
+        "abduction": [null, null],
+        "flexion": [null, null],
+        "internal_rotation": [null, null]
       },
       "knee": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       },
       "lumbar": {
-        "extension": [
-          null,
-          null
-        ]
+        "extension": [null, null]
       }
     },
     "mediaApproved": true
@@ -12071,24 +9985,12 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "ankle": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null]
       },
       "toes": {
-        "extension": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ]
+        "extension": [null, null],
+        "flexion": [null, null]
       }
     },
     "mediaApproved": true
@@ -12156,34 +10058,19 @@
     ],
     "easierVariantId": "ankle-15",
     "harderVariantId": null,
-    "contraindicatedFor": [
-      "achilles",
-      "plantar-heel"
-    ],
+    "contraindicatedFor": ["achilles", "plantar-heel"],
     "animationId": "ankle-15-progressed-v2",
     "mediaKind": "rig_animation",
     "status": "published",
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "ankle": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null]
       },
       "toes": {
-        "extension": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ]
+        "extension": [null, null],
+        "flexion": [null, null]
       }
     },
     "mediaApproved": true
@@ -12264,34 +10151,16 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "elbow": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null]
       },
       "wrist": {
-        "extension": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ]
+        "extension": [null, null],
+        "flexion": [null, null],
+        "abduction": [null, null]
       },
       "shoulder": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       }
     },
     "mediaApproved": true
@@ -12372,34 +10241,16 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "elbow": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null]
       },
       "wrist": {
-        "extension": [
-          null,
-          null
-        ],
-        "flexion": [
-          null,
-          null
-        ],
-        "abduction": [
-          null,
-          null
-        ]
+        "extension": [null, null],
+        "flexion": [null, null],
+        "abduction": [null, null]
       },
       "shoulder": {
-        "flexion": [
-          null,
-          null
-        ]
+        "flexion": [null, null]
       }
     },
     "mediaApproved": true
@@ -12408,12 +10259,7 @@
     "id": "upper-back-1-supported",
     "name": "Short supported rib breathing",
     "nameAr": null,
-    "presentationIds": [
-      "thoracic",
-      "rib",
-      "scapular",
-      "chest-wall"
-    ],
+    "presentationIds": ["thoracic", "rib", "scapular", "chest-wall"],
     "phase": 1,
     "targetRegions": [
       "thoracic-spine",
@@ -12466,28 +10312,13 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "thoracic": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "rotation": [null, null]
       },
       "scapula": {
-        "abduction": [
-          null,
-          null
-        ],
-        "adduction": [
-          null,
-          null
-        ]
+        "abduction": [null, null],
+        "adduction": [null, null]
       }
     },
     "mediaApproved": true
@@ -12496,12 +10327,7 @@
     "id": "upper-back-15-progressed",
     "name": "Overhead reach with a little more resistance",
     "nameAr": null,
-    "presentationIds": [
-      "thoracic",
-      "rib",
-      "scapular",
-      "chest-wall"
-    ],
+    "presentationIds": ["thoracic", "rib", "scapular", "chest-wall"],
     "phase": 3,
     "targetRegions": [
       "thoracic-spine",
@@ -12553,28 +10379,13 @@
     "provenance": "migrated-from-v1",
     "rangeCaps": {
       "thoracic": {
-        "flexion": [
-          null,
-          null
-        ],
-        "extension": [
-          null,
-          null
-        ],
-        "rotation": [
-          null,
-          null
-        ]
+        "flexion": [null, null],
+        "extension": [null, null],
+        "rotation": [null, null]
       },
       "scapula": {
-        "abduction": [
-          null,
-          null
-        ],
-        "adduction": [
-          null,
-          null
-        ]
+        "abduction": [null, null],
+        "adduction": [null, null]
       }
     },
     "mediaApproved": true

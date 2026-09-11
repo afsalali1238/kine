@@ -5,7 +5,7 @@
  */
 
 import { describe, expect, it } from 'vitest';
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
 import {
   animations,
   exerciseById,
@@ -177,5 +177,36 @@ describe('rule wiring', () => {
         presentation.id,
       ).toEqual([]);
     }
+  });
+});
+
+describe('language contract', () => {
+  /**
+   * C3 says a single render never mixes languages: every string carries English and Arabic,
+   * and an Arabic gap is filled with a visible "translation pending" chip rather than a
+   * guess. Accessible names are strings too — a screen reader in an Arabic session reading
+   * "pain trend" is the same defect nobody would put on screen. Static literals are greppable,
+   * so the rule is checked at the source rather than asserted in prose.
+   */
+  function sources(dir: string): string[] {
+    const out: string[] = [];
+    for (const entry of readdirSync(dir, { withFileTypes: true })) {
+      const path = `${dir}/${entry.name}`;
+      if (entry.isDirectory()) out.push(...sources(path));
+      else if (entry.name.endsWith('.tsx')) out.push(path);
+    }
+    return out;
+  }
+
+  it('gives every static accessible label both languages', () => {
+    const root = new URL('../src', import.meta.url).pathname;
+    const flat: string[] = [];
+    for (const file of sources(root)) {
+      const text = readFileSync(file, 'utf8');
+      for (const match of text.matchAll(/aria-label="([^"]*)"/g)) {
+        if (!/[\u0600-\u06FF]/.test(match[1]!)) flat.push(`${file} :: ${match[1]}`);
+      }
+    }
+    expect(flat, flat.join('\n')).toEqual([]);
   });
 });

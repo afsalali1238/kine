@@ -9,106 +9,77 @@
           "key": "bending",
           "label": "Bending forward",
           "labelAr": "الانحناء للأمام",
-          "worse": [
-            "back-extension"
-          ],
-          "better": [
-            "back-flexion"
-          ]
+          "worse": ["back-extension"],
+          "better": ["back-flexion"]
         },
         {
           "key": "arching",
           "label": "Arching back or standing tall",
           "labelAr": "التقوس للخلف أو الوقوف",
-          "worse": [
-            "back-flexion"
-          ],
-          "better": [
-            "back-extension"
-          ]
+          "worse": ["back-flexion"],
+          "better": ["back-extension"]
         },
         {
           "key": "sitting",
           "label": "Sitting, especially soft seats or car",
           "labelAr": "الجلوس خاصة على كرسي ناعم",
-          "worse": [
-            "back-extension",
-            "si-joint"
-          ],
+          "worse": ["back-extension", "si-joint"],
           "better": []
         },
         {
           "key": "standing",
           "label": "Standing still",
           "labelAr": "الوقوف ثابتًا",
-          "worse": [
-            "back-flexion"
-          ],
+          "worse": ["back-flexion"],
           "better": []
         },
         {
           "key": "lifting",
           "label": "Lifting or carrying",
           "labelAr": "الرفع أو الحمل",
-          "worse": [
-            "back-extension",
-            "lumbar-radicular"
-          ],
+          "worse": ["back-extension", "lumbar-radicular"],
           "better": []
         },
         {
           "key": "twisting",
           "label": "Twisting or turning",
           "labelAr": "الالتفاف أو الدوران",
-          "worse": [
-            "si-joint",
-            "trunk-motor"
-          ],
+          "worse": ["si-joint", "trunk-motor"],
           "better": []
         },
         {
           "key": "leg",
           "label": "Pain travelling down the leg",
           "labelAr": "ألم ينزل إلى الساق",
-          "worse": [
-            "lumbar-radicular"
-          ],
+          "worse": ["lumbar-radicular"],
           "better": []
         },
         {
           "key": "tingling",
           "label": "Tingling or numbness",
           "labelAr": "تنميل أو فقدان إحساس",
-          "worse": [
-            "lumbar-radicular"
-          ],
+          "worse": ["lumbar-radicular"],
           "better": []
         },
         {
           "key": "cough",
           "label": "Coughing or sneezing",
           "labelAr": "السعال أو العطس",
-          "worse": [
-            "lumbar-radicular"
-          ],
+          "worse": ["lumbar-radicular"],
           "better": []
         },
         {
           "key": "one-leg",
           "label": "Rolling in bed, one leg, stairs",
           "labelAr": "التقلب في السرير أو الدرج",
-          "worse": [
-            "si-joint"
-          ],
+          "worse": ["si-joint"],
           "better": []
         },
         {
           "key": "stairs",
           "label": "Stairs",
           "labelAr": "الدرج",
-          "worse": [
-            "si-joint"
-          ],
+          "worse": ["si-joint"],
           "better": []
         },
         {
@@ -116,10 +87,7 @@
           "label": "Eases with gentle movement",
           "labelAr": "يرتاح مع الحركة اللطيفة",
           "worse": [],
-          "better": [
-            "back-flexion",
-            "trunk-motor"
-          ]
+          "better": ["back-flexion", "trunk-motor"]
         }
       ]
     },
@@ -131,37 +99,28 @@
           "key": "cough",
           "label": "Coughing, sneezing, straining",
           "labelAr": "السعال أو الشد",
-          "worse": [
-            "trunk-motor"
-          ],
+          "worse": ["trunk-motor"],
           "better": []
         },
         {
           "key": "bending",
           "label": "Bending forward",
           "labelAr": "الانحناء للأمام",
-          "worse": [
-            "trunk-motor"
-          ],
+          "worse": ["trunk-motor"],
           "better": []
         },
         {
           "key": "twisting",
           "label": "Twisting",
           "labelAr": "الالتفاف",
-          "worse": [
-            "trunk-motor",
-            "rib"
-          ],
+          "worse": ["trunk-motor", "rib"],
           "better": []
         },
         {
           "key": "lifting",
           "label": "Lifting",
           "labelAr": "الرفع",
-          "worse": [
-            "trunk-motor"
-          ],
+          "worse": ["trunk-motor"],
           "better": []
         },
         {
@@ -176,9 +135,7 @@
           "label": "Eases with movement",
           "labelAr": "يرتاح مع الحركة",
           "worse": [],
-          "better": [
-            "trunk-motor"
-          ]
+          "better": ["trunk-motor"]
         }
       ]
     },
@@ -190,76 +147,56 @@
           "key": "turning",
           "label": "Turning your head",
           "labelAr": "تدوير الرأس",
-          "worse": [
-            "neck-mechanical",
-            "thoracic"
-          ],
+          "worse": ["neck-mechanical", "thoracic"],
           "better": []
         },
         {
           "key": "looking-up",
           "label": "Looking up or reversing the car",
           "labelAr": "النظر للأعلى أو الرجوع للخلف",
-          "worse": [
-            "neck-mechanical",
-            "neck-headache"
-          ],
+          "worse": ["neck-mechanical", "neck-headache"],
           "better": []
         },
         {
           "key": "desk",
           "label": "Desk work or phone use",
           "labelAr": "العمل على المكتب أو الجوال",
-          "worse": [
-            "neck-postural"
-          ],
+          "worse": ["neck-postural"],
           "better": []
         },
         {
           "key": "sitting",
           "label": "Sitting for long periods",
           "labelAr": "الجلوس لفترة طويلة",
-          "worse": [
-            "neck-postural",
-            "thoracic"
-          ],
+          "worse": ["neck-postural", "thoracic"],
           "better": []
         },
         {
           "key": "headache",
           "label": "Headache that starts in the neck",
           "labelAr": "صداع يبدأ من الرقبة",
-          "worse": [
-            "neck-headache"
-          ],
+          "worse": ["neck-headache"],
           "better": []
         },
         {
           "key": "arm",
           "label": "Pain or numbness into the arm",
           "labelAr": "ألم أو تنميل إلى الذراع",
-          "worse": [
-            "cervical-radicular"
-          ],
+          "worse": ["cervical-radicular"],
           "better": []
         },
         {
           "key": "tingling",
           "label": "Tingling in fingers",
           "labelAr": "تنميل في الأصابع",
-          "worse": [
-            "cervical-radicular",
-            "carpal-tunnel"
-          ],
+          "worse": ["cervical-radicular", "carpal-tunnel"],
           "better": []
         },
         {
           "key": "side-lying",
           "label": "Worse lying on it at night",
           "labelAr": "يزداد عند النوم عليه",
-          "worse": [
-            "gluteal-tendon"
-          ],
+          "worse": ["gluteal-tendon"],
           "better": []
         },
         {
@@ -267,10 +204,7 @@
           "label": "Eases with gentle movement",
           "labelAr": "يرتاح مع الحركة اللطيفة",
           "worse": [],
-          "better": [
-            "neck-mechanical",
-            "neck-postural"
-          ]
+          "better": ["neck-mechanical", "neck-postural"]
         }
       ]
     },
@@ -282,37 +216,28 @@
           "key": "chewing",
           "label": "Chewing or wide yawning",
           "labelAr": "المضغ أو التثاؤب الواسع",
-          "worse": [
-            "tmj"
-          ],
+          "worse": ["tmj"],
           "better": []
         },
         {
           "key": "clicking",
           "label": "Clicking or locking of the jaw",
           "labelAr": "طقطقة أو قفل الفك",
-          "worse": [
-            "tmj"
-          ],
+          "worse": ["tmj"],
           "better": []
         },
         {
           "key": "grinding",
           "label": "Clenching or grinding at night",
           "labelAr": "العض أو الصرير ليلًا",
-          "worse": [
-            "tmj",
-            "neck-postural"
-          ],
+          "worse": ["tmj", "neck-postural"],
           "better": []
         },
         {
           "key": "neck",
           "label": "It starts in the neck",
           "labelAr": "يبدأ من الرقبة",
-          "worse": [
-            "neck-headache"
-          ],
+          "worse": ["neck-headache"],
           "better": []
         },
         {
@@ -332,95 +257,70 @@
           "key": "overhead",
           "label": "Reaching up or overhead",
           "labelAr": "الوصول للأعلى",
-          "worse": [
-            "subacromial",
-            "biceps-tendon"
-          ],
+          "worse": ["subacromial", "biceps-tendon"],
           "better": []
         },
         {
           "key": "cross-body",
           "label": "Reaching across the body",
           "labelAr": "الوصول عبر الجسم",
-          "worse": [
-            "ac-joint",
-            "biceps-tendon"
-          ],
+          "worse": ["ac-joint", "biceps-tendon"],
           "better": []
         },
         {
           "key": "behind-back",
           "label": "Reaching behind your back",
           "labelAr": "الوصول خلف الظهر",
-          "worse": [
-            "frozen-shoulder",
-            "rotator-cuff"
-          ],
+          "worse": ["frozen-shoulder", "rotator-cuff"],
           "better": []
         },
         {
           "key": "dressing",
           "label": "Dressing or doing your hair",
           "labelAr": "اللبس أو ترتيب الشعر",
-          "worse": [
-            "frozen-shoulder"
-          ],
+          "worse": ["frozen-shoulder"],
           "better": []
         },
         {
           "key": "stiff-all",
           "label": "Stiff in several directions",
           "labelAr": "تيبس في عدة اتجاهات",
-          "worse": [
-            "frozen-shoulder"
-          ],
+          "worse": ["frozen-shoulder"],
           "better": []
         },
         {
           "key": "lifting",
           "label": "Lifting or carrying",
           "labelAr": "الرفع أو الحمل",
-          "worse": [
-            "rotator-cuff"
-          ],
+          "worse": ["rotator-cuff"],
           "better": []
         },
         {
           "key": "reaching",
           "label": "Reaching out in front",
           "labelAr": "المد للأمام",
-          "worse": [
-            "rotator-cuff",
-            "shoulder-instability"
-          ],
+          "worse": ["rotator-cuff", "shoulder-instability"],
           "better": []
         },
         {
           "key": "side-lying",
           "label": "Cannot lie on it at night",
           "labelAr": "لا أستطيع النوم عليه",
-          "worse": [
-            "ac-joint",
-            "subacromial"
-          ],
+          "worse": ["ac-joint", "subacromial"],
           "better": []
         },
         {
           "key": "loose",
           "label": "It feels like it might slip out",
           "labelAr": "يشعر أنه قد ينخلع",
-          "worse": [
-            "shoulder-instability"
-          ],
+          "worse": ["shoulder-instability"],
           "better": []
         },
         {
           "key": "blade",
           "label": "The shoulder blade aches or sticks",
           "labelAr": "لوح الكتف يؤلم أو يعلق",
-          "worse": [
-            "scapular"
-          ],
+          "worse": ["scapular"],
           "better": []
         }
       ]
@@ -433,48 +333,35 @@
           "key": "sitting",
           "label": "Sitting or slouching",
           "labelAr": "الجلوس أو الانحناء",
-          "worse": [
-            "thoracic"
-          ],
+          "worse": ["thoracic"],
           "better": []
         },
         {
           "key": "turning",
           "label": "Twisting or turning",
           "labelAr": "الدوران",
-          "worse": [
-            "thoracic",
-            "rib"
-          ],
+          "worse": ["thoracic", "rib"],
           "better": []
         },
         {
           "key": "breathing",
           "label": "Deep breaths hurt",
           "labelAr": "النفس العميق يؤلم",
-          "worse": [
-            "rib",
-            "chest-wall"
-          ],
+          "worse": ["rib", "chest-wall"],
           "better": []
         },
         {
           "key": "pressing",
           "label": "It is tender if you press the rib joints",
           "labelAr": "يتألم عند الضغط على مفاصل الأضلاع",
-          "worse": [
-            "chest-wall",
-            "rib"
-          ],
+          "worse": ["chest-wall", "rib"],
           "better": []
         },
         {
           "key": "reaching",
           "label": "Reaching overhead",
           "labelAr": "الوصول للأعلى",
-          "worse": [
-            "scapular"
-          ],
+          "worse": ["scapular"],
           "better": []
         },
         {
@@ -482,10 +369,7 @@
           "label": "Eases with movement",
           "labelAr": "يرتاح مع الحركة",
           "worse": [],
-          "better": [
-            "thoracic",
-            "rib"
-          ]
+          "better": ["thoracic", "rib"]
         }
       ]
     },
@@ -497,28 +381,21 @@
           "key": "breathing",
           "label": "Deep breaths or coughing hurt",
           "labelAr": "النفس العميق أو السعال",
-          "worse": [
-            "chest-wall",
-            "rib"
-          ],
+          "worse": ["chest-wall", "rib"],
           "better": []
         },
         {
           "key": "pressing",
           "label": "Tender when you press it",
           "labelAr": "حساس عند الضغط",
-          "worse": [
-            "chest-wall"
-          ],
+          "worse": ["chest-wall"],
           "better": []
         },
         {
           "key": "lying",
           "label": "Worse lying flat",
           "labelAr": "يزداد عند الاستلقاء",
-          "worse": [
-            "chest-wall"
-          ],
+          "worse": ["chest-wall"],
           "better": []
         },
         {
@@ -545,104 +422,77 @@
           "key": "side-lying",
           "label": "Lying on that side",
           "labelAr": "النوم على الجهة المصابة",
-          "worse": [
-            "gluteal-tendon"
-          ],
+          "worse": ["gluteal-tendon"],
           "better": []
         },
         {
           "key": "one-leg",
           "label": "Standing on one leg, stairs",
           "labelAr": "الوقوف على ساق أو الدرج",
-          "worse": [
-            "gluteal-tendon"
-          ],
+          "worse": ["gluteal-tendon"],
           "better": []
         },
         {
           "key": "pinching",
           "label": "Pinch at the front when lifting the knee",
           "labelAr": "قرصة أمام الورك عند رفع الركب",
-          "worse": [
-            "hip-flexor",
-            "hip-oa"
-          ],
+          "worse": ["hip-flexor", "hip-oa"],
           "better": []
         },
         {
           "key": "groin-push",
           "label": "Pushing the legs together or changing direction",
           "labelAr": "ضم الساقين أو تغيير الاتجاه",
-          "worse": [
-            "groin-strain"
-          ],
+          "worse": ["groin-strain"],
           "better": []
         },
         {
           "key": "walking",
           "label": "Walking",
           "labelAr": "المشي",
-          "worse": [
-            "hip-oa"
-          ],
+          "worse": ["hip-oa"],
           "better": []
         },
         {
           "key": "morning",
           "label": "Stiff first thing, eases as you move",
           "labelAr": "يباس أول النهار ثم يلين",
-          "worse": [
-            "hip-oa"
-          ],
+          "worse": ["hip-oa"],
           "better": []
         },
         {
           "key": "sit-beyond-90",
           "label": "Deep sitting or low chairs",
           "labelAr": "الجلوس المنخفض",
-          "worse": [
-            "hip-oa",
-            "hip-flexor"
-          ],
+          "worse": ["hip-oa", "hip-flexor"],
           "better": []
         },
         {
           "key": "running",
           "label": "Running or sprinting",
           "labelAr": "الجري",
-          "worse": [
-            "groin-strain",
-            "hamstring-strain"
-          ],
+          "worse": ["groin-strain", "hamstring-strain"],
           "better": []
         },
         {
           "key": "incident",
           "label": "It happened in one specific moment",
           "labelAr": "حدث في لحظة محددة",
-          "worse": [
-            "groin-strain",
-            "hamstring-strain"
-          ],
+          "worse": ["groin-strain", "hamstring-strain"],
           "better": []
         },
         {
           "key": "stairs",
           "label": "Stairs",
           "labelAr": "الدرج",
-          "worse": [
-            "gluteal-tendon",
-            "hip-oa"
-          ],
+          "worse": ["gluteal-tendon", "hip-oa"],
           "better": []
         },
         {
           "key": "standing",
           "label": "Long standing",
           "labelAr": "الوقوف الطويل",
-          "worse": [
-            "gluteal-tendon"
-          ],
+          "worse": ["gluteal-tendon"],
           "better": []
         }
       ]
@@ -655,48 +505,35 @@
           "key": "sprint",
           "label": "Pushing off or sprinting",
           "labelAr": "الانطلاق أو العدو",
-          "worse": [
-            "hamstring-strain",
-            "thigh-muscle"
-          ],
+          "worse": ["hamstring-strain", "thigh-muscle"],
           "better": []
         },
         {
           "key": "stretch",
           "label": "Stretching it hurts sharply",
           "labelAr": "التمدد يسبب ألما حادا",
-          "worse": [
-            "hamstring-strain"
-          ],
+          "worse": ["hamstring-strain"],
           "better": []
         },
         {
           "key": "sit-beyond-90",
           "label": "Sitting then standing up",
           "labelAr": "الجلوس ثم الوقوف",
-          "worse": [
-            "thigh-muscle",
-            "patellofemoral"
-          ],
+          "worse": ["thigh-muscle", "patellofemoral"],
           "better": []
         },
         {
           "key": "squatting",
           "label": "Squatting",
           "labelAr": "القرفصاء",
-          "worse": [
-            "thigh-muscle"
-          ],
+          "worse": ["thigh-muscle"],
           "better": []
         },
         {
           "key": "cough",
           "label": "Pain with cough or sneeze plus back pain",
           "labelAr": "ألم مع السعال مع ألم الظهر",
-          "worse": [
-            "lumbar-radicular",
-            "hamstring-strain"
-          ],
+          "worse": ["lumbar-radicular", "hamstring-strain"],
           "better": []
         }
       ]
@@ -709,122 +546,91 @@
           "key": "stairs",
           "label": "Stairs, especially down",
           "labelAr": "الدرول والنزول",
-          "worse": [
-            "patellofemoral",
-            "knee-oa"
-          ],
+          "worse": ["patellofemoral", "knee-oa"],
           "better": []
         },
         {
           "key": "squatting",
           "label": "Squatting or kneeling",
           "labelAr": "القرفصاء أو الركوع",
-          "worse": [
-            "patellofemoral",
-            "meniscal"
-          ],
+          "worse": ["patellofemoral", "meniscal"],
           "better": []
         },
         {
           "key": "deep-bend",
           "label": "Bending past 90 degrees",
           "labelAr": "ثني أكثر من تسعين درجة",
-          "worse": [
-            "meniscal",
-            "patellofemoral"
-          ],
+          "worse": ["meniscal", "patellofemoral"],
           "better": []
         },
         {
           "key": "sitting",
           "label": "Sitting with the knee bent",
           "labelAr": "الجلوس والركبة مثنية",
-          "worse": [
-            "patellofemoral"
-          ],
+          "worse": ["patellofemoral"],
           "better": []
         },
         {
           "key": "twisting",
           "label": "Twisting on a planted foot",
           "labelAr": "الدوران والقدم ثابتة",
-          "worse": [
-            "meniscal"
-          ],
+          "worse": ["meniscal"],
           "better": []
         },
         {
           "key": "locking",
           "label": "Locking, catching or giving way",
           "labelAr": "قفل أو خديعة الركبة",
-          "worse": [
-            "meniscal"
-          ],
+          "worse": ["meniscal"],
           "better": []
         },
         {
           "key": "running",
           "label": "Running or jumping",
           "labelAr": "الجري أو القفز",
-          "worse": [
-            "patellar-tendon",
-            "itb"
-          ],
+          "worse": ["patellar-tendon", "itb"],
           "better": []
         },
         {
           "key": "jumping",
           "label": "Jumping or landing",
           "labelAr": "القفز أو النزول",
-          "worse": [
-            "patellar-tendon"
-          ],
+          "worse": ["patellar-tendon"],
           "better": []
         },
         {
           "key": "morning",
           "label": "Stiff first thing, eases as you move",
           "labelAr": "يباس أول النهار ثم يلين",
-          "worse": [
-            "knee-oa"
-          ],
+          "worse": ["knee-oa"],
           "better": []
         },
         {
           "key": "outside-knee",
           "label": "Sore on the outside, worse downhill",
           "labelAr": "خارج الركبة ويشتد في النزول",
-          "worse": [
-            "itb"
-          ],
+          "worse": ["itb"],
           "better": []
         },
         {
           "key": "walking",
           "label": "Walking",
           "labelAr": "المشي",
-          "worse": [
-            "knee-oa",
-            "patellofemoral"
-          ],
+          "worse": ["knee-oa", "patellofemoral"],
           "better": []
         },
         {
           "key": "incident",
           "label": "It happened in one specific moment",
           "labelAr": "حدث في لحظة محددة",
-          "worse": [
-            "meniscal"
-          ],
+          "worse": ["meniscal"],
           "better": []
         },
         {
           "key": "below-kneecap",
           "label": "Tender just below the kneecap",
           "labelAr": "حساس تحت صابونة الركبة",
-          "worse": [
-            "patellar-tendon"
-          ],
+          "worse": ["patellar-tendon"],
           "better": []
         }
       ]
@@ -837,92 +643,70 @@
           "key": "incident",
           "label": "It rolled or twisted suddenly",
           "labelAr": "التواء مفاجئ",
-          "worse": [
-            "ankle-sprain"
-          ],
+          "worse": ["ankle-sprain"],
           "better": []
         },
         {
           "key": "twisting",
           "label": "Rolls again on uneven ground",
           "labelAr": "يلتوي مرة ثانية على أرض غير مستوية",
-          "worse": [
-            "ankle-instability"
-          ],
+          "worse": ["ankle-instability"],
           "better": []
         },
         {
           "key": "first-steps",
           "label": "Worst for the first steps in the morning",
           "labelAr": "أسوأ في أول خطوات الصباح",
-          "worse": [
-            "plantar-heel"
-          ],
+          "worse": ["plantar-heel"],
           "better": []
         },
         {
           "key": "heel-raise",
           "label": "Standing on tiptoe or calf work",
           "labelAr": "الوقوف على أطراف الأصابع",
-          "worse": [
-            "achilles"
-          ],
+          "worse": ["achilles"],
           "better": []
         },
         {
           "key": "running",
           "label": "Running or hopping",
           "labelAr": "الجري أو النط",
-          "worse": [
-            "achilles",
-            "shin-stress"
-          ],
+          "worse": ["achilles", "shin-stress"],
           "better": []
         },
         {
           "key": "swelling",
           "label": "Swelling at the back of the heel",
           "labelAr": "تورم خلف الكعب",
-          "worse": [
-            "achilles"
-          ],
+          "worse": ["achilles"],
           "better": []
         },
         {
           "key": "numb-foot",
           "label": "Numbness or burning in the sole",
           "labelAr": "تنميل أو حرقة في باطن القدم",
-          "worse": [
-            "forefoot"
-          ],
+          "worse": ["forefoot"],
           "better": []
         },
         {
           "key": "walking",
           "label": "Walking barefoot or in flat shoes",
           "labelAr": "المشي حافيًا أو بحذاء مسطح",
-          "worse": [
-            "plantar-heel",
-            "forefoot"
-          ],
+          "worse": ["plantar-heel", "forefoot"],
           "better": []
         },
         {
           "key": "morning",
           "label": "Worst first thing in the morning",
           "labelAr": "الأسوأ صباحًا",
-          "worse": [
-            "plantar-heel"
-          ],
+          "worse": ["plantar-heel"],
           "better": []
         },
         {
           "key": "standing",
           "label": "Long standing",
           "labelAr": "الوقوف الطويل",
-          "worse": [
-            "plantar-heel"
-          ],
+          "worse": ["plantar-heel"],
           "better": []
         }
       ]
@@ -935,45 +719,35 @@
           "key": "running",
           "label": "Builds with running or marching",
           "labelAr": "يزداد مع الجري",
-          "worse": [
-            "shin-stress"
-          ],
+          "worse": ["shin-stress"],
           "better": []
         },
         {
           "key": "pressing",
           "label": "Tender along the inner edge of the shin",
           "labelAr": "حساس على حافة الظنبوب الداخلية",
-          "worse": [
-            "shin-stress"
-          ],
+          "worse": ["shin-stress"],
           "better": []
         },
         {
           "key": "hop",
           "label": "Hopping on that leg is sharply painful",
           "labelAr": "النط على هذه الساق مؤلم",
-          "worse": [
-            "shin-stress"
-          ],
+          "worse": ["shin-stress"],
           "better": []
         },
         {
           "key": "rest",
           "label": "Aches at rest or at night",
           "labelAr": "يؤلم في الراحة أو الليل",
-          "worse": [
-            "shin-stress"
-          ],
+          "worse": ["shin-stress"],
           "better": []
         },
         {
           "key": "calf-stretch",
           "label": "Stretching the calf pulls the back of the leg",
           "labelAr": "شد السمانة يسحب خلف الساق",
-          "worse": [
-            "achilles"
-          ],
+          "worse": ["achilles"],
           "better": []
         }
       ]
@@ -986,56 +760,42 @@
           "key": "barefoot",
           "label": "Worse barefoot or in flat shoes",
           "labelAr": "أسوأ حافيًا أو بحذاء مسطح",
-          "worse": [
-            "forefoot",
-            "plantar-heel"
-          ],
+          "worse": ["forefoot", "plantar-heel"],
           "better": []
         },
         {
           "key": "numb-foot",
           "label": "Numbness, burning or tingling toes",
           "labelAr": "تنميل أو حرقة في الأصابع",
-          "worse": [
-            "forefoot"
-          ],
+          "worse": ["forefoot"],
           "better": []
         },
         {
           "key": "stiff-toe",
           "label": "Big toe is stiff when you push off",
           "labelAr": "الإبهاب الأصغر يابس عند الدفع",
-          "worse": [
-            "forefoot"
-          ],
+          "worse": ["forefoot"],
           "better": []
         },
         {
           "key": "first-steps",
           "label": "Worst for the first steps",
           "labelAr": "أسوأ في أول الخطوات",
-          "worse": [
-            "plantar-heel"
-          ],
+          "worse": ["plantar-heel"],
           "better": []
         },
         {
           "key": "walking",
           "label": "Long standing or walking",
           "labelAr": "الوقوف أو المشي الطويل",
-          "worse": [
-            "plantar-heel",
-            "forefoot"
-          ],
+          "worse": ["plantar-heel", "forefoot"],
           "better": []
         },
         {
           "key": "morning",
           "label": "Worst for the first steps",
           "labelAr": "الأسوأ في أول الخطوات",
-          "worse": [
-            "plantar-heel"
-          ],
+          "worse": ["plantar-heel"],
           "better": []
         }
       ]
@@ -1048,83 +808,63 @@
           "key": "gripping",
           "label": "Gripping, twisting a jar or key",
           "labelAr": "القبض أو فتح برطمان",
-          "worse": [
-            "lateral-elbow",
-            "medial-elbow"
-          ],
+          "worse": ["lateral-elbow", "medial-elbow"],
           "better": []
         },
         {
           "key": "lifting",
           "label": "Lifting with the palm down",
           "labelAr": "الرفع وراحة اليد للأسفل",
-          "worse": [
-            "lateral-elbow"
-          ],
+          "worse": ["lateral-elbow"],
           "better": []
         },
         {
           "key": "pulling",
           "label": "Pulling, rows or chin-ups",
           "labelAr": "السحب",
-          "worse": [
-            "medial-elbow"
-          ],
+          "worse": ["medial-elbow"],
           "better": []
         },
         {
           "key": "pushing",
           "label": "Push-ups or pressing from a chair",
           "labelAr": "الضغط أو النهوض من الكرسي",
-          "worse": [
-            "elbow-extension"
-          ],
+          "worse": ["elbow-extension"],
           "better": []
         },
         {
           "key": "straightening",
           "label": "Straightening it under load",
           "labelAr": "فرده تحت الحمل",
-          "worse": [
-            "elbow-extension"
-          ],
+          "worse": ["elbow-extension"],
           "better": []
         },
         {
           "key": "wrist-flexion",
           "label": "Bending the wrist down",
           "labelAr": "ثني الرسغ للأسفل",
-          "worse": [
-            "medial-elbow"
-          ],
+          "worse": ["medial-elbow"],
           "better": []
         },
         {
           "key": "carrying",
           "label": "Carrying bags",
           "labelAr": "حمل الأكياس",
-          "worse": [
-            "lateral-elbow",
-            "biceps-tendon"
-          ],
+          "worse": ["lateral-elbow", "biceps-tendon"],
           "better": []
         },
         {
           "key": "night",
           "label": "Wakes you at night",
           "labelAr": "يوقظك ليلًا",
-          "worse": [
-            "carpal-tunnel"
-          ],
+          "worse": ["carpal-tunnel"],
           "better": []
         },
         {
           "key": "tingling",
           "label": "Tingling in thumb, index or middle finger",
           "labelAr": "تنميل في الإبهام أو السبابة",
-          "worse": [
-            "carpal-tunnel"
-          ],
+          "worse": ["carpal-tunnel"],
           "better": []
         }
       ]
@@ -1137,65 +877,49 @@
           "key": "thumb",
           "label": "Lifting a baby or a pan with the thumb out",
           "labelAr": "حمل شيء والإبهاب للخارج",
-          "worse": [
-            "de-quervain"
-          ],
+          "worse": ["de-quervain"],
           "better": []
         },
         {
           "key": "pinching",
           "label": "Pinching or twisting (jars, keys)",
           "labelAr": "القرص أو الفتح",
-          "worse": [
-            "de-quervain",
-            "hand-stiff"
-          ],
+          "worse": ["de-quervain", "hand-stiff"],
           "better": []
         },
         {
           "key": "weight-bearing",
           "label": "Pressing weight through a bent-back wrist",
           "labelAr": "الحمل على رسغ مثني للخلف",
-          "worse": [
-            "wrist-load"
-          ],
+          "worse": ["wrist-load"],
           "better": []
         },
         {
           "key": "grip-fall",
           "label": "Your grip gives way",
           "labelAr": "القبض يخذلك",
-          "worse": [
-            "lateral-elbow",
-            "carpal-tunnel"
-          ],
+          "worse": ["lateral-elbow", "carpal-tunnel"],
           "better": []
         },
         {
           "key": "tingling",
           "label": "Numbness waking you at night, shaken out",
           "labelAr": "تنميل يوقظك وتهزه",
-          "worse": [
-            "carpal-tunnel"
-          ],
+          "worse": ["carpal-tunnel"],
           "better": []
         },
         {
           "key": "morning",
           "label": "Hand is stiff in the morning",
           "labelAr": "تيبس اليد صباحًا",
-          "worse": [
-            "hand-stiff"
-          ],
+          "worse": ["hand-stiff"],
           "better": []
         },
         {
           "key": "dropping",
           "label": "Dropping things",
           "labelAr": "سقوط الأشياء من اليد",
-          "worse": [
-            "carpal-tunnel"
-          ],
+          "worse": ["carpal-tunnel"],
           "better": []
         }
       ]

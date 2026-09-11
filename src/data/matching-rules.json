@@ -2,10 +2,7 @@
   {
     "presentationId": "back-flexion",
     "family": "trunk",
-    "families": [
-      "lower-back",
-      "trunk"
-    ],
+    "families": ["lower-back", "trunk"],
     "group": "trunk",
     "baseScore": 3,
     "aggravators": {
@@ -23,11 +20,7 @@
   {
     "presentationId": "back-extension",
     "family": "lower-back",
-    "families": [
-      "lower-back",
-      "knee",
-      "hip"
-    ],
+    "families": ["lower-back", "knee", "hip"],
     "group": "lower-back",
     "baseScore": 1,
     "aggravators": {
@@ -45,12 +38,7 @@
   {
     "presentationId": "lumbar-radicular",
     "family": "lower-back",
-    "families": [
-      "lower-back",
-      "hip",
-      "thigh",
-      "knee"
-    ],
+    "families": ["lower-back", "hip", "thigh", "knee"],
     "group": "lower-back",
     "baseScore": 1,
     "aggravators": {
@@ -67,11 +55,7 @@
   {
     "presentationId": "si-joint",
     "family": "lower-back",
-    "families": [
-      "lower-back",
-      "hip",
-      "trunk"
-    ],
+    "families": ["lower-back", "hip", "trunk"],
     "group": "lower-back",
     "baseScore": 1,
     "aggravators": {
@@ -88,9 +72,7 @@
   {
     "presentationId": "neck-mechanical",
     "family": "neck",
-    "families": [
-      "neck"
-    ],
+    "families": ["neck"],
     "group": "neck",
     "baseScore": 3,
     "aggravators": {
@@ -107,11 +89,7 @@
   {
     "presentationId": "neck-postural",
     "family": "neck",
-    "families": [
-      "neck",
-      "upper-back",
-      "shoulder"
-    ],
+    "families": ["neck", "upper-back", "shoulder"],
     "group": "neck",
     "baseScore": 1,
     "aggravators": {
@@ -128,10 +106,7 @@
   {
     "presentationId": "neck-headache",
     "family": "head-jaw",
-    "families": [
-      "neck",
-      "head-jaw"
-    ],
+    "families": ["neck", "head-jaw"],
     "group": "head-jaw",
     "baseScore": 1,
     "aggravators": {
@@ -147,11 +122,7 @@
   {
     "presentationId": "cervical-radicular",
     "family": "neck",
-    "families": [
-      "neck",
-      "shoulder",
-      "elbow"
-    ],
+    "families": ["neck", "shoulder", "elbow"],
     "group": "neck",
     "baseScore": 1,
     "aggravators": {
@@ -166,9 +137,7 @@
   {
     "presentationId": "rotator-cuff",
     "family": "shoulder",
-    "families": [
-      "shoulder"
-    ],
+    "families": ["shoulder"],
     "group": "shoulder",
     "baseScore": 3,
     "aggravators": {
@@ -184,9 +153,7 @@
   {
     "presentationId": "subacromial",
     "family": "shoulder",
-    "families": [
-      "shoulder"
-    ],
+    "families": ["shoulder"],
     "group": "shoulder",
     "baseScore": 1,
     "aggravators": {
@@ -201,10 +168,7 @@
   {
     "presentationId": "frozen-shoulder",
     "family": "shoulder",
-    "families": [
-      "shoulder",
-      "chest"
-    ],
+    "families": ["shoulder", "chest"],
     "group": "shoulder",
     "baseScore": 1,
     "aggravators": {
@@ -220,10 +184,7 @@
   {
     "presentationId": "ac-joint",
     "family": "shoulder",
-    "families": [
-      "shoulder",
-      "chest"
-    ],
+    "families": ["shoulder", "chest"],
     "group": "shoulder",
     "baseScore": 1,
     "aggravators": {
@@ -238,9 +199,7 @@
   {
     "presentationId": "patellofemoral",
     "family": "knee",
-    "families": [
-      "knee"
-    ],
+    "families": ["knee"],
     "group": "knee",
     "baseScore": 3,
     "aggravators": {
@@ -258,9 +217,7 @@
   {
     "presentationId": "patellar-tendon",
     "family": "knee",
-    "families": [
-      "knee"
-    ],
+    "families": ["knee"],
     "group": "knee",
     "baseScore": 1,
     "aggravators": {
@@ -276,11 +233,7 @@
   {
     "presentationId": "meniscal",
     "family": "knee",
-    "families": [
-      "knee",
-      "thigh",
-      "ankle"
-    ],
+    "families": ["knee", "thigh", "ankle"],
     "group": "knee",
     "baseScore": 1,
     "aggravators": {
@@ -298,10 +251,7 @@
   {
     "presentationId": "knee-oa",
     "family": "knee",
-    "families": [
-      "knee",
-      "ankle"
-    ],
+    "families": ["knee", "ankle"],
     "group": "knee",
     "baseScore": 1,
     "aggravators": {
@@ -317,9 +267,7 @@
   {
     "presentationId": "gluteal-tendon",
     "family": "hip",
-    "families": [
-      "hip"
-    ],
+    "families": ["hip"],
     "group": "hip",
     "baseScore": 3,
     "aggravators": {
@@ -336,11 +284,7 @@
   {
     "presentationId": "hip-oa",
     "family": "hip",
-    "families": [
-      "hip",
-      "knee",
-      "upper-back"
-    ],
+    "families": ["hip", "knee", "upper-back"],
     "group": "hip",
     "baseScore": 1,
     "aggravators": {
@@ -358,10 +302,7 @@
   {
     "presentationId": "groin-strain",
     "family": "hip",
-    "families": [
-      "hip",
-      "trunk"
-    ],
+    "families": ["hip", "trunk"],
     "group": "hip",
     "baseScore": 1,
     "aggravators": {
@@ -377,10 +318,7 @@
   {
     "presentationId": "ankle-sprain",
     "family": "ankle",
-    "families": [
-      "ankle",
-      "lower-leg"
-    ],
+    "families": ["ankle", "lower-leg"],
     "group": "ankle",
     "baseScore": 3,
     "aggravators": {
@@ -395,9 +333,7 @@
   {
     "presentationId": "achilles",
     "family": "ankle",
-    "families": [
-      "ankle"
-    ],
+    "families": ["ankle"],
     "group": "ankle",
     "baseScore": 1,
     "aggravators": {
@@ -413,10 +349,7 @@
   {
     "presentationId": "plantar-heel",
     "family": "ankle",
-    "families": [
-      "ankle",
-      "foot"
-    ],
+    "families": ["ankle", "foot"],
     "group": "ankle",
     "baseScore": 1,
     "aggravators": {
@@ -434,10 +367,7 @@
   {
     "presentationId": "lateral-elbow",
     "family": "elbow",
-    "families": [
-      "elbow",
-      "wrist"
-    ],
+    "families": ["elbow", "wrist"],
     "group": "elbow",
     "baseScore": 3,
     "aggravators": {
@@ -454,10 +384,7 @@
   {
     "presentationId": "medial-elbow",
     "family": "elbow",
-    "families": [
-      "elbow",
-      "wrist"
-    ],
+    "families": ["elbow", "wrist"],
     "group": "elbow",
     "baseScore": 1,
     "aggravators": {
@@ -473,10 +400,7 @@
   {
     "presentationId": "de-quervain",
     "family": "wrist",
-    "families": [
-      "wrist",
-      "elbow"
-    ],
+    "families": ["wrist", "elbow"],
     "group": "wrist",
     "baseScore": 1,
     "aggravators": {
@@ -491,10 +415,7 @@
   {
     "presentationId": "carpal-tunnel",
     "family": "wrist",
-    "families": [
-      "wrist",
-      "elbow"
-    ],
+    "families": ["wrist", "elbow"],
     "group": "wrist",
     "baseScore": 1,
     "aggravators": {
@@ -511,10 +432,7 @@
   {
     "presentationId": "thoracic",
     "family": "upper-back",
-    "families": [
-      "upper-back",
-      "shoulder"
-    ],
+    "families": ["upper-back", "shoulder"],
     "group": "upper-back",
     "baseScore": 3,
     "aggravators": {
@@ -531,11 +449,7 @@
   {
     "presentationId": "rib",
     "family": "upper-back",
-    "families": [
-      "upper-back",
-      "chest",
-      "trunk"
-    ],
+    "families": ["upper-back", "chest", "trunk"],
     "group": "upper-back",
     "baseScore": 1,
     "aggravators": {
@@ -554,9 +468,7 @@
   {
     "presentationId": "trunk-motor",
     "family": "trunk",
-    "families": [
-      "trunk"
-    ],
+    "families": ["trunk"],
     "group": "trunk",
     "baseScore": 1,
     "aggravators": {
@@ -575,9 +487,7 @@
   {
     "presentationId": "scapular",
     "family": "shoulder",
-    "families": [
-      "shoulder"
-    ],
+    "families": ["shoulder"],
     "group": "shoulder",
     "baseScore": 1,
     "aggravators": {
@@ -591,9 +501,7 @@
   {
     "presentationId": "shoulder-instability",
     "family": "shoulder",
-    "families": [
-      "shoulder"
-    ],
+    "families": ["shoulder"],
     "group": "shoulder",
     "baseScore": 1,
     "aggravators": {
@@ -608,9 +516,7 @@
   {
     "presentationId": "itb",
     "family": "knee",
-    "families": [
-      "knee"
-    ],
+    "families": ["knee"],
     "group": "knee",
     "baseScore": 1,
     "aggravators": {
@@ -625,9 +531,7 @@
   {
     "presentationId": "hamstring-strain",
     "family": "hip",
-    "families": [
-      "hip"
-    ],
+    "families": ["hip"],
     "group": "hip",
     "baseScore": 1,
     "aggravators": {
@@ -642,9 +546,7 @@
   {
     "presentationId": "thigh-muscle",
     "family": "knee",
-    "families": [
-      "knee"
-    ],
+    "families": ["knee"],
     "group": "knee",
     "baseScore": 1,
     "aggravators": {},
@@ -656,9 +558,7 @@
   {
     "presentationId": "hip-flexor",
     "family": "hip",
-    "families": [
-      "hip"
-    ],
+    "families": ["hip"],
     "group": "hip",
     "baseScore": 1,
     "aggravators": {
@@ -673,9 +573,7 @@
   {
     "presentationId": "ankle-instability",
     "family": "ankle",
-    "families": [
-      "ankle"
-    ],
+    "families": ["ankle"],
     "group": "ankle",
     "baseScore": 1,
     "aggravators": {
@@ -689,9 +587,7 @@
   {
     "presentationId": "shin-stress",
     "family": "lower-leg",
-    "families": [
-      "lower-leg"
-    ],
+    "families": ["lower-leg"],
     "group": "lower-leg",
     "baseScore": 1,
     "aggravators": {
@@ -708,9 +604,7 @@
   {
     "presentationId": "forefoot",
     "family": "foot",
-    "families": [
-      "foot"
-    ],
+    "families": ["foot"],
     "group": "foot",
     "baseScore": 1,
     "aggravators": {
@@ -727,9 +621,7 @@
   {
     "presentationId": "elbow-extension",
     "family": "elbow",
-    "families": [
-      "elbow"
-    ],
+    "families": ["elbow"],
     "group": "elbow",
     "baseScore": 1,
     "aggravators": {
@@ -744,9 +636,7 @@
   {
     "presentationId": "biceps-tendon",
     "family": "elbow",
-    "families": [
-      "elbow"
-    ],
+    "families": ["elbow"],
     "group": "elbow",
     "baseScore": 1,
     "aggravators": {
@@ -760,9 +650,7 @@
   {
     "presentationId": "wrist-load",
     "family": "wrist",
-    "families": [
-      "wrist"
-    ],
+    "families": ["wrist"],
     "group": "wrist",
     "baseScore": 1,
     "aggravators": {
@@ -776,9 +664,7 @@
   {
     "presentationId": "hand-stiff",
     "family": "wrist",
-    "families": [
-      "wrist"
-    ],
+    "families": ["wrist"],
     "group": "wrist",
     "baseScore": 1,
     "aggravators": {
@@ -793,9 +679,7 @@
   {
     "presentationId": "chest-wall",
     "family": "chest",
-    "families": [
-      "chest"
-    ],
+    "families": ["chest"],
     "group": "chest",
     "baseScore": 1,
     "aggravators": {

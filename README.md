@@ -56,13 +56,17 @@ npm run dev            # http://localhost:3000
 npm run verify         # every gate, in the order that fails cheapest first
 ```
 
-- `assets:build` / `assets:check` — regenerate the body assets, or assert that the shipped ones
-  match the generator.
+- `assets:build` / `assets:check` — regenerate the body assets, or verify them. The check writes
+  nothing: it re-hashes the file named in `src/data/models.json` and demands the digest agree with
+  the manifest and with what the current anatomy table produces, so a stale or hand-edited mesh
+  fails the build instead of shipping mislabelled picking.
 - `content:build` — rebuild exercises, presentations, rules, regions and animation timelines,
   re-signing content hashes.
 - `content:validate` — the clinical gate: enums, cue spacing, ROM ranges, no placeholder Arabic,
   translation status.
-- `test` — vitest: clinical rules, content contract, headless render contract.
+- `test` — vitest (65 cases): clinical rules, content contract and language gate, headless render
+  contract, mesh fidelity against the generator, the progression clock, dosing, and the offline
+  journey store including a blocked-IndexedDB reload.
 - `e2e` — Playwright if a browser exists, otherwise an HTTP journey against `next start`, and it
   prints which mode it ran.
 - `format` / `format:check` — Prettier at 100 columns, then the file gate: nothing over 120 columns

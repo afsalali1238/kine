@@ -28,7 +28,7 @@ export function Sparkline({ rows, height = 76 }: { rows: DailyLog[]; height?: nu
       width="100%"
       height={height}
       role="img"
-      aria-label="pain trend"
+      aria-label="pain trend · اتجاه الألم"
       data-testid="sparkline"
     >
       <polyline
@@ -123,7 +123,7 @@ export function PainMapReplay({ journey }: { journey: Journey }) {
         width="100%"
         height={260}
         role="img"
-        aria-label="pain map"
+        aria-label="pain map · خريطة الألم"
         data-testid="pain-map"
       >
         <rect x={0} y={0} width={120} height={320} fill="none" />
@@ -159,7 +159,7 @@ export function PainMapReplay({ journey }: { journey: Journey }) {
         max={frames.length - 1}
         value={Math.min(index, frames.length - 1)}
         onChange={(event) => setIndex(Number(event.target.value))}
-        aria-label="session"
+        aria-label="session · الجلسة"
         data-testid="map-scrub"
       />
       <div className="row row-between">

@@ -8,18 +8,8 @@
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
     "nameAr": "ألم ظهر يستريح مع الانحناء",
     "family": "trunk",
-    "sites": [
-      "lumbar-spine",
-      "sacrum",
-      "oblique",
-      "upper-abdomen",
-      "lower-abdomen"
-    ],
-    "prefer": [
-      "mobility",
-      "motor_control",
-      "isometric"
-    ],
+    "sites": ["lumbar-spine", "sacrum", "oblique", "upper-abdomen", "lower-abdomen"],
+    "prefer": ["mobility", "motor_control", "isometric"],
     "caps": {
       "lumbar": {
         "flexion": 60,
@@ -35,10 +25,7 @@
     "cue": "Comfortable bending is your friend here — we use it to unload the joint surfaces.",
     "redirect": null,
     "shares": [],
-    "families": [
-      "lower-back",
-      "trunk"
-    ]
+    "families": ["lower-back", "trunk"]
   },
   {
     "id": "back-extension",
@@ -49,18 +36,8 @@
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
     "nameAr": "ألم ظهر يستريح مع الاستقامة",
     "family": "lower-back",
-    "sites": [
-      "lumbar-spine",
-      "sacrum",
-      "si-joint",
-      "quadriceps",
-      "hip-anterior"
-    ],
-    "prefer": [
-      "mobility",
-      "motor_control",
-      "strength"
-    ],
+    "sites": ["lumbar-spine", "sacrum", "si-joint", "quadriceps", "hip-anterior"],
+    "prefer": ["mobility", "motor_control", "strength"],
     "caps": {
       "lumbar": {
         "flexion": 10,
@@ -76,11 +53,7 @@
     "cue": "Straightening eases you, so we keep the low back long and avoid sustained slumping.",
     "redirect": null,
     "shares": [],
-    "families": [
-      "lower-back",
-      "knee",
-      "hip"
-    ]
+    "families": ["lower-back", "knee", "hip"]
   },
   {
     "id": "lumbar-radicular",
@@ -91,18 +64,8 @@
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
     "nameAr": "ألم أسفل الظهر مع تحسس العصب",
     "family": "lower-back",
-    "sites": [
-      "lumbar-spine",
-      "sacrum",
-      "gluteus-maximus",
-      "hamstring-mid",
-      "knee-posterior"
-    ],
-    "prefer": [
-      "mobility",
-      "nerve_glide",
-      "motor_control"
-    ],
+    "sites": ["lumbar-spine", "sacrum", "gluteus-maximus", "hamstring-mid", "knee-posterior"],
+    "prefer": ["mobility", "nerve_glide", "motor_control"],
     "caps": {
       "lumbar": {
         "flexion": 35,
@@ -121,12 +84,7 @@
     "cue": "Nerves do not like being stretched hard. We move within a range that leaves the leg calm.",
     "redirect": null,
     "shares": [],
-    "families": [
-      "lower-back",
-      "hip",
-      "thigh",
-      "knee"
-    ]
+    "families": ["lower-back", "hip", "thigh", "knee"]
   },
   {
     "id": "si-joint",
@@ -137,18 +95,8 @@
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
     "nameAr": "ألم حول مفصل الحوض الخلفي",
     "family": "lower-back",
-    "sites": [
-      "si-joint",
-      "sacrum",
-      "gluteus-medius",
-      "gluteus-maximus",
-      "lower-abdomen"
-    ],
-    "prefer": [
-      "isometric",
-      "motor_control",
-      "strength"
-    ],
+    "sites": ["si-joint", "sacrum", "gluteus-medius", "gluteus-maximus", "lower-abdomen"],
+    "prefer": ["isometric", "motor_control", "strength"],
     "caps": {
       "pelvis": {
         "lateral_flexion": 12,
@@ -164,11 +112,7 @@
     "cue": "Symmetry and steady loading suit this joint: avoid long strides and heavy twisting at first.",
     "redirect": null,
     "shares": [],
-    "families": [
-      "lower-back",
-      "hip",
-      "trunk"
-    ]
+    "families": ["lower-back", "hip", "trunk"]
   },
   {
     "id": "neck-mechanical",
@@ -179,16 +123,8 @@
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
     "nameAr": "رقبة متحسسة ويابسة",
     "family": "neck",
-    "sites": [
-      "cervical-upper",
-      "cervical-lower",
-      "trapezius-upper",
-      "occiput"
-    ],
-    "prefer": [
-      "mobility",
-      "isometric"
-    ],
+    "sites": ["cervical-upper", "cervical-lower", "trapezius-upper", "occiput"],
+    "prefer": ["mobility", "isometric"],
     "caps": {
       "cervical": {
         "flexion": 45,
@@ -206,9 +142,7 @@
     "cue": "Small, frequent, comfortable movement. Cracking or end-range stretching is not the goal.",
     "redirect": null,
     "shares": [],
-    "families": [
-      "neck"
-    ]
+    "families": ["neck"]
   },
   {
     "id": "neck-postural",
@@ -219,18 +153,8 @@
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
     "nameAr": "انزعاج الرقبة مع وضوية ثابتة",
     "family": "neck",
-    "sites": [
-      "trapezius-upper",
-      "cervical-lower",
-      "rhomboid",
-      "thoracic-spine",
-      "scapula"
-    ],
-    "prefer": [
-      "motor_control",
-      "strength",
-      "mobility"
-    ],
+    "sites": ["trapezius-upper", "cervical-lower", "rhomboid", "thoracic-spine", "scapula"],
+    "prefer": ["motor_control", "strength", "mobility"],
     "caps": {
       "cervical": {
         "flexion": 40,
@@ -246,11 +170,7 @@
     "cue": "Holding one position is the trigger, not the position itself — we change shape often.",
     "redirect": null,
     "shares": [],
-    "families": [
-      "neck",
-      "upper-back",
-      "shoulder"
-    ]
+    "families": ["neck", "upper-back", "shoulder"]
   },
   {
     "id": "neck-headache",
@@ -261,17 +181,8 @@
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
     "nameAr": "صداع مرتبط بحركة الرقبة",
     "family": "head-jaw",
-    "sites": [
-      "occiput",
-      "cervical-upper",
-      "temple",
-      "forehead",
-      "scalp-side"
-    ],
-    "prefer": [
-      "mobility",
-      "motor_control"
-    ],
+    "sites": ["occiput", "cervical-upper", "temple", "forehead", "scalp-side"],
+    "prefer": ["mobility", "motor_control"],
     "caps": {
       "cervical": {
         "flexion": 40,
@@ -288,10 +199,7 @@
     "cue": "These headaches usually start in the upper neck, so we move the neck, not the head only.",
     "redirect": null,
     "shares": [],
-    "families": [
-      "neck",
-      "head-jaw"
-    ]
+    "families": ["neck", "head-jaw"]
   },
   {
     "id": "cervical-radicular",
@@ -309,11 +217,7 @@
       "posterior-deltoid",
       "forearm-extensor"
     ],
-    "prefer": [
-      "mobility",
-      "nerve_glide",
-      "isometric"
-    ],
+    "prefer": ["mobility", "nerve_glide", "isometric"],
     "caps": {
       "cervical": {
         "flexion": 35,
@@ -331,11 +235,7 @@
     "cue": "If tingling travels further down the arm, we shorten the range immediately.",
     "redirect": null,
     "shares": [],
-    "families": [
-      "neck",
-      "shoulder",
-      "elbow"
-    ]
+    "families": ["neck", "shoulder", "elbow"]
   },
   {
     "id": "rotator-cuff",
@@ -353,11 +253,7 @@
       "scapula",
       "anterior-deltoid"
     ],
-    "prefer": [
-      "isometric",
-      "motor_control",
-      "strength"
-    ],
+    "prefer": ["isometric", "motor_control", "strength"],
     "caps": {
       "shoulder": {
         "flexion": 120,
@@ -374,9 +270,7 @@
     "cue": "Load the cuff before you load the range. Pain-free early, full range later.",
     "redirect": null,
     "shares": [],
-    "families": [
-      "shoulder"
-    ]
+    "families": ["shoulder"]
   },
   {
     "id": "subacromial",
@@ -387,17 +281,8 @@
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
     "nameAr": "ألم عند رفع الذراع",
     "family": "shoulder",
-    "sites": [
-      "lateral-deltoid",
-      "anterior-deltoid",
-      "ac-joint",
-      "rotator-cuff"
-    ],
-    "prefer": [
-      "mobility",
-      "isometric",
-      "motor_control"
-    ],
+    "sites": ["lateral-deltoid", "anterior-deltoid", "ac-joint", "rotator-cuff"],
+    "prefer": ["mobility", "isometric", "motor_control"],
     "caps": {
       "shoulder": {
         "flexion": 110,
@@ -414,9 +299,7 @@
     "cue": "The painful arc is usually in the middle. We train below it and above it, not inside it.",
     "redirect": null,
     "shares": [],
-    "families": [
-      "shoulder"
-    ]
+    "families": ["shoulder"]
   },
   {
     "id": "frozen-shoulder",
@@ -434,10 +317,7 @@
       "rotator-cuff",
       "pectoral"
     ],
-    "prefer": [
-      "mobility",
-      "breathing"
-    ],
+    "prefer": ["mobility", "breathing"],
     "caps": {
       "shoulder": {
         "flexion": 100,
@@ -451,17 +331,11 @@
     "nerveWatch": false,
     "reviewSoon": false,
     "maxPhase": 1,
-    "lockPhases": [
-      2,
-      3
-    ],
+    "lockPhases": [2, 3],
     "cue": "Stiffness in several directions means we protect the joint: no strengthening until it settles.",
     "redirect": null,
     "shares": [],
-    "families": [
-      "shoulder",
-      "chest"
-    ]
+    "families": ["shoulder", "chest"]
   },
   {
     "id": "ac-joint",
@@ -472,17 +346,8 @@
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
     "nameAr": "ألم أعلى الكتف",
     "family": "shoulder",
-    "sites": [
-      "ac-joint",
-      "anterior-deltoid",
-      "pectoral",
-      "lateral-deltoid"
-    ],
-    "prefer": [
-      "isometric",
-      "mobility",
-      "motor_control"
-    ],
+    "sites": ["ac-joint", "anterior-deltoid", "pectoral", "lateral-deltoid"],
+    "prefer": ["isometric", "mobility", "motor_control"],
     "caps": {
       "shoulder": {
         "flexion": 90,
@@ -499,10 +364,7 @@
     "cue": "Reaching across the body is the provocative direction, so we keep the arm in front of you.",
     "redirect": null,
     "shares": [],
-    "families": [
-      "shoulder",
-      "chest"
-    ]
+    "families": ["shoulder", "chest"]
   },
   {
     "id": "patellofemoral",
@@ -513,18 +375,8 @@
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
     "nameAr": "ألم حول صابونة الركبة",
     "family": "knee",
-    "sites": [
-      "knee-anterior",
-      "quadriceps",
-      "patellar-tendon",
-      "it-band",
-      "knee-lateral"
-    ],
-    "prefer": [
-      "isometric",
-      "strength",
-      "mobility"
-    ],
+    "sites": ["knee-anterior", "quadriceps", "patellar-tendon", "it-band", "knee-lateral"],
+    "prefer": ["isometric", "strength", "mobility"],
     "caps": {
       "knee": {
         "flexion": 60
@@ -542,9 +394,7 @@
     "cue": "We build the quadriceps in the range that does not press the kneecap in hard.",
     "redirect": null,
     "shares": [],
-    "families": [
-      "knee"
-    ]
+    "families": ["knee"]
   },
   {
     "id": "patellar-tendon",
@@ -555,16 +405,8 @@
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
     "nameAr": "تحمل الرضفي أمام الركبة",
     "family": "knee",
-    "sites": [
-      "patellar-tendon",
-      "knee-anterior",
-      "quadriceps"
-    ],
-    "prefer": [
-      "isometric",
-      "eccentric",
-      "strength"
-    ],
+    "sites": ["patellar-tendon", "knee-anterior", "quadriceps"],
+    "prefer": ["isometric", "eccentric", "strength"],
     "caps": {
       "knee": {
         "flexion": 70
@@ -579,9 +421,7 @@
     "cue": "Tendons like slow, heavy, predictable load. Total rest usually makes the next day worse.",
     "redirect": null,
     "shares": [],
-    "families": [
-      "knee"
-    ]
+    "families": ["knee"]
   },
   {
     "id": "meniscal",
@@ -592,18 +432,8 @@
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
     "nameAr": "ركبة تتحسس الدوران",
     "family": "knee",
-    "sites": [
-      "knee-medial",
-      "knee-lateral",
-      "knee-posterior",
-      "hamstring-mid",
-      "calf"
-    ],
-    "prefer": [
-      "mobility",
-      "strength",
-      "motor_control"
-    ],
+    "sites": ["knee-medial", "knee-lateral", "knee-posterior", "hamstring-mid", "calf"],
+    "prefer": ["mobility", "strength", "motor_control"],
     "caps": {
       "knee": {
         "flexion": 90
@@ -618,11 +448,7 @@
     "cue": "Deep squatting and twisting together is the aggravating pattern, so we separate them.",
     "redirect": null,
     "shares": [],
-    "families": [
-      "knee",
-      "thigh",
-      "ankle"
-    ]
+    "families": ["knee", "thigh", "ankle"]
   },
   {
     "id": "knee-oa",
@@ -633,18 +459,8 @@
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
     "nameAr": "ركبة يابسة تلين مع الحركة",
     "family": "knee",
-    "sites": [
-      "knee-anterior",
-      "knee-medial",
-      "knee-lateral",
-      "quadriceps",
-      "calf"
-    ],
-    "prefer": [
-      "mobility",
-      "strength",
-      "isometric"
-    ],
+    "sites": ["knee-anterior", "knee-medial", "knee-lateral", "quadriceps", "calf"],
+    "prefer": ["mobility", "strength", "isometric"],
     "caps": {
       "knee": {
         "flexion": 110
@@ -659,10 +475,7 @@
     "cue": "Stiffness eases with movement, so the first minutes are a warm-up, not a waste.",
     "redirect": null,
     "shares": [],
-    "families": [
-      "knee",
-      "ankle"
-    ]
+    "families": ["knee", "ankle"]
   },
   {
     "id": "gluteal-tendon",
@@ -673,17 +486,8 @@
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
     "nameAr": "ألم خارج الورك",
     "family": "hip",
-    "sites": [
-      "gluteus-medius",
-      "hip-lateral",
-      "gluteus-maximus",
-      "hamstring-proximal"
-    ],
-    "prefer": [
-      "isometric",
-      "strength",
-      "motor_control"
-    ],
+    "sites": ["gluteus-medius", "hip-lateral", "gluteus-maximus", "hamstring-proximal"],
+    "prefer": ["isometric", "strength", "motor_control"],
     "caps": {
       "hip": {
         "abduction": 35,
@@ -699,9 +503,7 @@
     "cue": "Compression matters more than weakness: we reduce time on that side before adding load.",
     "redirect": null,
     "shares": [],
-    "families": [
-      "hip"
-    ]
+    "families": ["hip"]
   },
   {
     "id": "hip-oa",
@@ -712,18 +514,8 @@
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
     "nameAr": "ورك يابس بعد الجلوس",
     "family": "hip",
-    "sites": [
-      "hip-anterior",
-      "hip-lateral",
-      "quadriceps",
-      "gluteus-maximus",
-      "thoracic-spine"
-    ],
-    "prefer": [
-      "mobility",
-      "strength",
-      "isometric"
-    ],
+    "sites": ["hip-anterior", "hip-lateral", "quadriceps", "gluteus-maximus", "thoracic-spine"],
+    "prefer": ["mobility", "strength", "isometric"],
     "caps": {
       "hip": {
         "flexion": 100,
@@ -740,11 +532,7 @@
     "cue": "Stiffness after sitting eases with movement; end-range grinding is not a goal.",
     "redirect": null,
     "shares": [],
-    "families": [
-      "hip",
-      "knee",
-      "upper-back"
-    ]
+    "families": ["hip", "knee", "upper-back"]
   },
   {
     "id": "groin-strain",
@@ -755,16 +543,8 @@
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
     "nameAr": "شد في المغبن",
     "family": "hip",
-    "sites": [
-      "hip-anterior",
-      "adductor",
-      "lower-abdomen"
-    ],
-    "prefer": [
-      "isometric",
-      "strength",
-      "mobility"
-    ],
+    "sites": ["hip-anterior", "adductor", "lower-abdomen"],
+    "prefer": ["isometric", "strength", "mobility"],
     "caps": {
       "hip": {
         "abduction": 30,
@@ -780,10 +560,7 @@
     "cue": "Adduction is loaded early but slowly — this area is stubborn when rushed.",
     "redirect": null,
     "shares": [],
-    "families": [
-      "hip",
-      "trunk"
-    ]
+    "families": ["hip", "trunk"]
   },
   {
     "id": "ankle-sprain",
@@ -794,17 +571,8 @@
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
     "nameAr": "كاحل يتعافى من التواء",
     "family": "ankle",
-    "sites": [
-      "ankle-lateral",
-      "ankle-medial",
-      "calf",
-      "shin"
-    ],
-    "prefer": [
-      "mobility",
-      "isometric",
-      "balance"
-    ],
+    "sites": ["ankle-lateral", "ankle-medial", "calf", "shin"],
+    "prefer": ["mobility", "isometric", "balance"],
     "caps": {
       "ankle": {
         "flexion": 40,
@@ -820,10 +588,7 @@
     "cue": "Balance work is not a bonus here: it is how the ankle learns to trust the ground again.",
     "redirect": null,
     "shares": [],
-    "families": [
-      "ankle",
-      "lower-leg"
-    ]
+    "families": ["ankle", "lower-leg"]
   },
   {
     "id": "achilles",
@@ -834,17 +599,8 @@
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
     "nameAr": "وتار أخيل يتحسس الحمل",
     "family": "ankle",
-    "sites": [
-      "achilles",
-      "calf",
-      "heel",
-      "ankle-medial"
-    ],
-    "prefer": [
-      "isometric",
-      "eccentric",
-      "strength"
-    ],
+    "sites": ["achilles", "calf", "heel", "ankle-medial"],
+    "prefer": ["isometric", "eccentric", "strength"],
     "caps": {
       "ankle": {
         "flexion": 45,
@@ -860,9 +616,7 @@
     "cue": "Heel raises are the treatment, not the risk — but slow, and never first thing in the morning.",
     "redirect": null,
     "shares": [],
-    "families": [
-      "ankle"
-    ]
+    "families": ["ankle"]
   },
   {
     "id": "plantar-heel",
@@ -873,17 +627,8 @@
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
     "nameAr": "ألم الكعب في أول الخطوات",
     "family": "ankle",
-    "sites": [
-      "heel",
-      "plantar-arch",
-      "toes",
-      "forefoot"
-    ],
-    "prefer": [
-      "isometric",
-      "mobility",
-      "strength"
-    ],
+    "sites": ["heel", "plantar-arch", "toes", "forefoot"],
+    "prefer": ["isometric", "mobility", "strength"],
     "caps": {
       "ankle": {
         "extension": 18
@@ -901,10 +646,7 @@
     "cue": "First-step pain eases with load preparedness: calf and foot work before you stand up.",
     "redirect": null,
     "shares": [],
-    "families": [
-      "ankle",
-      "foot"
-    ]
+    "families": ["ankle", "foot"]
   },
   {
     "id": "lateral-elbow",
@@ -915,16 +657,8 @@
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
     "nameAr": "ألم خارج المرفق",
     "family": "elbow",
-    "sites": [
-      "elbow-lateral",
-      "forearm-extensor",
-      "wrist-dorsal"
-    ],
-    "prefer": [
-      "isometric",
-      "eccentric",
-      "strength"
-    ],
+    "sites": ["elbow-lateral", "forearm-extensor", "wrist-dorsal"],
+    "prefer": ["isometric", "eccentric", "strength"],
     "caps": {
       "elbow": {
         "flexion": 140
@@ -943,10 +677,7 @@
     "cue": "Grip and wrist extension load the tender spot. We work the wrist with the elbow bent.",
     "redirect": null,
     "shares": [],
-    "families": [
-      "elbow",
-      "wrist"
-    ]
+    "families": ["elbow", "wrist"]
   },
   {
     "id": "medial-elbow",
@@ -957,16 +688,8 @@
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
     "nameAr": "ألم داخل المرفق",
     "family": "elbow",
-    "sites": [
-      "elbow-medial",
-      "forearm-flexor",
-      "wrist-volar"
-    ],
-    "prefer": [
-      "isometric",
-      "eccentric",
-      "strength"
-    ],
+    "sites": ["elbow-medial", "forearm-flexor", "wrist-volar"],
+    "prefer": ["isometric", "eccentric", "strength"],
     "caps": {
       "elbow": {
         "flexion": 140
@@ -985,10 +708,7 @@
     "cue": "Same logic as the outer elbow: less stretch, more steady load, and the grip gets easier.",
     "redirect": null,
     "shares": [],
-    "families": [
-      "elbow",
-      "wrist"
-    ]
+    "families": ["elbow", "wrist"]
   },
   {
     "id": "de-quervain",
@@ -999,16 +719,8 @@
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
     "nameAr": "ألم الرسغ جهة الإبهام",
     "family": "wrist",
-    "sites": [
-      "thumb-base",
-      "wrist-volar",
-      "forearm-extensor"
-    ],
-    "prefer": [
-      "isometric",
-      "mobility",
-      "strength"
-    ],
+    "sites": ["thumb-base", "wrist-volar", "forearm-extensor"],
+    "prefer": ["isometric", "mobility", "strength"],
     "caps": {
       "wrist": {
         "extension": 45,
@@ -1025,10 +737,7 @@
     "cue": "Lifting with the thumb out to the side is what flares it. We keep the thumb in line.",
     "redirect": null,
     "shares": [],
-    "families": [
-      "wrist",
-      "elbow"
-    ]
+    "families": ["wrist", "elbow"]
   },
   {
     "id": "carpal-tunnel",
@@ -1039,18 +748,8 @@
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
     "nameAr": "تنميل في اليد",
     "family": "wrist",
-    "sites": [
-      "wrist-volar",
-      "hand-palm",
-      "fingers",
-      "forearm-flexor",
-      "elbow-medial"
-    ],
-    "prefer": [
-      "nerve_glide",
-      "mobility",
-      "isometric"
-    ],
+    "sites": ["wrist-volar", "hand-palm", "fingers", "forearm-flexor", "elbow-medial"],
+    "prefer": ["nerve_glide", "mobility", "isometric"],
     "caps": {
       "wrist": {
         "extension": 40,
@@ -1069,10 +768,7 @@
     "cue": "Nerve symptoms need positions that unload them: we avoid end-range wrist flexion and extension.",
     "redirect": null,
     "shares": [],
-    "families": [
-      "wrist",
-      "elbow"
-    ]
+    "families": ["wrist", "elbow"]
   },
   {
     "id": "thoracic",
@@ -1083,17 +779,8 @@
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
     "nameAr": "يبوسة أعلى الظهر",
     "family": "upper-back",
-    "sites": [
-      "thoracic-spine",
-      "rhomboid",
-      "costal-margin",
-      "scapula"
-    ],
-    "prefer": [
-      "mobility",
-      "motor_control",
-      "strength"
-    ],
+    "sites": ["thoracic-spine", "rhomboid", "costal-margin", "scapula"],
+    "prefer": ["mobility", "motor_control", "strength"],
     "caps": {
       "thoracic": {
         "flexion": 40,
@@ -1109,13 +796,8 @@
     "lockPhases": [],
     "cue": "The upper back is stiff because it is unloaded, not because it is fragile.",
     "redirect": null,
-    "shares": [
-      "thoracic"
-    ],
-    "families": [
-      "upper-back",
-      "shoulder"
-    ]
+    "shares": ["thoracic"],
+    "families": ["upper-back", "shoulder"]
   },
   {
     "id": "rib",
@@ -1126,17 +808,8 @@
     "helps": "Start with a dose you can recover from. Use the next-morning response to guide load, then build strength gradually.",
     "nameAr": "ألم حركة الأضلاع",
     "family": "upper-back",
-    "sites": [
-      "costal-margin",
-      "thoracic-spine",
-      "pectoral",
-      "oblique"
-    ],
-    "prefer": [
-      "breathing",
-      "mobility",
-      "motor_control"
-    ],
+    "sites": ["costal-margin", "thoracic-spine", "pectoral", "oblique"],
+    "prefer": ["breathing", "mobility", "motor_control"],
     "caps": {
       "thoracic": {
         "flexion": 25,
@@ -1153,11 +826,7 @@
     "cue": "Breathing is the treatment here: a shallow rib cage keeps the area guarded.",
     "redirect": null,
     "shares": [],
-    "families": [
-      "upper-back",
-      "chest",
-      "trunk"
-    ]
+    "families": ["upper-back", "chest", "trunk"]
   },
   {
     "id": "trunk-motor",
@@ -1168,17 +837,8 @@
     "course": "Often improves within a few weeks once the trunk muscles are used consistently rather than hard.",
     "helps": "Short, frequent sessions. Stop before form breaks down, not when it hurts.",
     "nameAr": "تحكم عضلات الجذع",
-    "sites": [
-      "oblique",
-      "upper-abdomen",
-      "lower-abdomen",
-      "lumbar-spine"
-    ],
-    "prefer": [
-      "breathing",
-      "motor_control",
-      "isometric"
-    ],
+    "sites": ["oblique", "upper-abdomen", "lower-abdomen", "lumbar-spine"],
+    "prefer": ["breathing", "motor_control", "isometric"],
     "caps": {
       "lumbar": {
         "flexion": 40,
@@ -1193,9 +853,7 @@
     "lockPhases": [],
     "cue": "The tummy muscles work with the back, not against it. We start with breathing and bracing.",
     "redirect": null,
-    "shares": [
-      "back-flexion"
-    ]
+    "shares": ["back-flexion"]
   },
   {
     "id": "scapular",
@@ -1206,17 +864,8 @@
     "course": "Responds well to a few weeks of controlled movement and loading.",
     "helps": "Move the blade, then load it. Posture cues alone rarely fix this.",
     "nameAr": "ألم حول لوح الكتف",
-    "sites": [
-      "scapula",
-      "rhomboid",
-      "trapezius-upper",
-      "posterior-deltoid"
-    ],
-    "prefer": [
-      "motor_control",
-      "strength",
-      "mobility"
-    ],
+    "sites": ["scapula", "rhomboid", "trapezius-upper", "posterior-deltoid"],
+    "prefer": ["motor_control", "strength", "mobility"],
     "caps": {
       "scapula": {
         "abduction": 40,
@@ -1231,9 +880,7 @@
     "lockPhases": [],
     "cue": "The blade has to move freely before the arm can be strong.",
     "redirect": null,
-    "shares": [
-      "thoracic"
-    ]
+    "shares": ["thoracic"]
   },
   {
     "id": "shoulder-instability",
@@ -1244,17 +891,8 @@
     "course": "Confidence in the shoulder usually returns gradually over 6–12 weeks of steady loading.",
     "helps": "Keep the arm in front of you at first. Avoid end-range external rotation with load.",
     "nameAr": "كتف يشعر بعدم الثبات",
-    "sites": [
-      "anterior-deltoid",
-      "rotator-cuff",
-      "lateral-deltoid",
-      "pectoral"
-    ],
-    "prefer": [
-      "isometric",
-      "strength",
-      "motor_control"
-    ],
+    "sites": ["anterior-deltoid", "rotator-cuff", "lateral-deltoid", "pectoral"],
+    "prefer": ["isometric", "strength", "motor_control"],
     "caps": {
       "shoulder": {
         "flexion": 120,
@@ -1270,9 +908,7 @@
     "lockPhases": [],
     "cue": "A shoulder that has felt loose is trained in the safe arc, with the arm in front of the body.",
     "redirect": null,
-    "shares": [
-      "rotator-cuff"
-    ]
+    "shares": ["rotator-cuff"]
   },
   {
     "id": "itb",
@@ -1283,18 +919,8 @@
     "course": "Usually improves over 4–8 weeks when running or walking load is cut back and rebuilt.",
     "helps": "Reduce distance first, then strengthen the hip. Stretching the band itself changes little.",
     "nameAr": "ألم خارج الركبة والفخذ",
-    "sites": [
-      "it-band",
-      "knee-lateral",
-      "gluteus-medius",
-      "hip-lateral",
-      "quadriceps"
-    ],
-    "prefer": [
-      "isometric",
-      "strength",
-      "mobility"
-    ],
+    "sites": ["it-band", "knee-lateral", "gluteus-medius", "hip-lateral", "quadriceps"],
+    "prefer": ["isometric", "strength", "mobility"],
     "caps": {
       "knee": {
         "flexion": 70
@@ -1311,9 +937,7 @@
     "lockPhases": [],
     "cue": "The outer knee usually settles when the hip muscles take more of the work.",
     "redirect": null,
-    "shares": [
-      "patellofemoral"
-    ]
+    "shares": ["patellofemoral"]
   },
   {
     "id": "hamstring-strain",
@@ -1324,17 +948,8 @@
     "course": "Expect 3–6 weeks for a simple strain; heavier ones take longer.",
     "helps": "Isometrics early, slow lengthening under load later. Avoid aggressive stretching for a week.",
     "nameAr": "إصابة عضلات خلف الفخذ",
-    "sites": [
-      "hamstring-mid",
-      "hamstring-proximal",
-      "gluteus-maximus",
-      "knee-posterior"
-    ],
-    "prefer": [
-      "isometric",
-      "eccentric",
-      "strength"
-    ],
+    "sites": ["hamstring-mid", "hamstring-proximal", "gluteus-maximus", "knee-posterior"],
+    "prefer": ["isometric", "eccentric", "strength"],
     "caps": {
       "hip": {
         "flexion": 70
@@ -1351,9 +966,7 @@
     "lockPhases": [],
     "cue": "Early stretching is what turns a short strain into a long one. We load it gently instead.",
     "redirect": null,
-    "shares": [
-      "groin-strain"
-    ]
+    "shares": ["groin-strain"]
   },
   {
     "id": "thigh-muscle",
@@ -1364,17 +977,8 @@
     "course": "Typically settles in 2–4 weeks with steady loading.",
     "helps": "Keep the muscle working through the range that does not sharp-pain.",
     "nameAr": "ألم عضلي في الفخذ",
-    "sites": [
-      "quadriceps",
-      "adductor",
-      "hamstring-mid",
-      "it-band"
-    ],
-    "prefer": [
-      "isometric",
-      "strength",
-      "mobility"
-    ],
+    "sites": ["quadriceps", "adductor", "hamstring-mid", "it-band"],
+    "prefer": ["isometric", "strength", "mobility"],
     "caps": {
       "knee": {
         "flexion": 100
@@ -1392,9 +996,7 @@
     "lockPhases": [],
     "cue": "Ache on the squeeze is fine; sharp pain at the same spot means we shorten the lever.",
     "redirect": null,
-    "shares": [
-      "groin-strain"
-    ]
+    "shares": ["groin-strain"]
   },
   {
     "id": "hip-flexor",
@@ -1405,17 +1007,8 @@
     "course": "Settles over a few weeks when the provocative angle is respected.",
     "helps": "Stop short of the pinch, then extend the range weekly.",
     "nameAr": "ألم أمام الورك",
-    "sites": [
-      "hip-anterior",
-      "quadriceps",
-      "lower-abdomen",
-      "lumbar-spine"
-    ],
-    "prefer": [
-      "isometric",
-      "mobility",
-      "strength"
-    ],
+    "sites": ["hip-anterior", "quadriceps", "lower-abdomen", "lumbar-spine"],
+    "prefer": ["isometric", "mobility", "strength"],
     "caps": {
       "hip": {
         "flexion": 95
@@ -1432,9 +1025,7 @@
     "lockPhases": [],
     "cue": "Front-of-hip pinching means we stop short of the pinch and work around it.",
     "redirect": null,
-    "shares": [
-      "hip-oa"
-    ]
+    "shares": ["hip-oa"]
   },
   {
     "id": "ankle-instability",
@@ -1445,17 +1036,8 @@
     "course": "Neuromuscular gains build over 6–8 weeks of short daily practice.",
     "helps": "Practice balance on soft surfaces, progress to turning and landing.",
     "nameAr": "كاحل يوشك أن ينخاس",
-    "sites": [
-      "ankle-lateral",
-      "ankle-medial",
-      "calf",
-      "shin"
-    ],
-    "prefer": [
-      "balance",
-      "strength",
-      "isometric"
-    ],
+    "sites": ["ankle-lateral", "ankle-medial", "calf", "shin"],
+    "prefer": ["balance", "strength", "isometric"],
     "caps": {
       "ankle": {
         "flexion": 45,
@@ -1470,9 +1052,7 @@
     "lockPhases": [],
     "cue": "Giving way is a control problem, so we train control on unstable ground progressively.",
     "redirect": null,
-    "shares": [
-      "ankle-sprain"
-    ]
+    "shares": ["ankle-sprain"]
   },
   {
     "id": "shin-stress",
@@ -1483,16 +1063,8 @@
     "course": "A few weeks of reduced impact plus calf and hip capacity usually settles it.",
     "helps": "Reduce impact now, keep non-impact fitness, rebuild distance slowly.",
     "nameAr": "ألم أمام الساق مع الجري",
-    "sites": [
-      "shin",
-      "medial-shin",
-      "calf"
-    ],
-    "prefer": [
-      "isometric",
-      "strength",
-      "balance"
-    ],
+    "sites": ["shin", "medial-shin", "calf"],
+    "prefer": ["isometric", "strength", "balance"],
     "caps": {
       "ankle": {
         "flexion": 35,
@@ -1507,9 +1079,7 @@
     "lockPhases": [],
     "cue": "Pain along the shin that is worse with impact needs load reduced now, then rebuilt carefully.",
     "redirect": null,
-    "shares": [
-      "ankle-sprain"
-    ]
+    "shares": ["ankle-sprain"]
   },
   {
     "id": "forefoot",
@@ -1520,18 +1090,8 @@
     "course": "Improves over several weeks once the load pattern changes.",
     "helps": "Calf strength, toe movement, and shoes that bend where your foot bends.",
     "nameAr": "ألم مشط القدم",
-    "sites": [
-      "forefoot",
-      "toes",
-      "instep",
-      "plantar-arch",
-      "heel"
-    ],
-    "prefer": [
-      "mobility",
-      "strength",
-      "balance"
-    ],
+    "sites": ["forefoot", "toes", "instep", "plantar-arch", "heel"],
+    "prefer": ["mobility", "strength", "balance"],
     "caps": {
       "toes": {
         "extension": 50,
@@ -1546,9 +1106,7 @@
     "lockPhases": [],
     "cue": "Toe and ball-of-foot pain responds to calf work and to shoes that bend where you bend.",
     "redirect": null,
-    "shares": [
-      "plantar-heel"
-    ]
+    "shares": ["plantar-heel"]
   },
   {
     "id": "elbow-extension",
@@ -1559,17 +1117,8 @@
     "course": "Tendon-type symptoms: expect several weeks of steady load.",
     "helps": "Bent-elbow loading first, gradual straightening under load later.",
     "nameAr": "ألم خلف المرفق",
-    "sites": [
-      "elbow-posterior",
-      "triceps",
-      "forearm-extensor",
-      "elbow-lateral"
-    ],
-    "prefer": [
-      "mobility",
-      "isometric",
-      "strength"
-    ],
+    "sites": ["elbow-posterior", "triceps", "forearm-extensor", "elbow-lateral"],
+    "prefer": ["mobility", "isometric", "strength"],
     "caps": {
       "elbow": {
         "flexion": 145,
@@ -1584,9 +1133,7 @@
     "lockPhases": [],
     "cue": "Straightening under load is the sore movement, so we build in the middle of the range first.",
     "redirect": null,
-    "shares": [
-      "lateral-elbow"
-    ]
+    "shares": ["lateral-elbow"]
   },
   {
     "id": "biceps-tendon",
@@ -1597,17 +1144,8 @@
     "course": "Usually settles in 4–8 weeks with graded loading.",
     "helps": "Reduce overhead volume, strengthen elbow flexion in mid-range.",
     "nameAr": "ألم الوتر الأمامي للكتف والمرفق",
-    "sites": [
-      "biceps",
-      "anterior-deltoid",
-      "elbow-lateral",
-      "triceps"
-    ],
-    "prefer": [
-      "isometric",
-      "mobility",
-      "strength"
-    ],
+    "sites": ["biceps", "anterior-deltoid", "elbow-lateral", "triceps"],
+    "prefer": ["isometric", "mobility", "strength"],
     "caps": {
       "shoulder": {
         "flexion": 120
@@ -1624,9 +1162,7 @@
     "lockPhases": [],
     "cue": "Front-of-shoulder and elbow ache usually shares one cause: overhead loading too early.",
     "redirect": null,
-    "shares": [
-      "lateral-elbow"
-    ]
+    "shares": ["lateral-elbow"]
   },
   {
     "id": "wrist-load",
@@ -1637,17 +1173,8 @@
     "course": "A few weeks of graded wrist loading, often with a brace for the aggravating activity.",
     "helps": "Keep the wrist straight when loading, build tolerance gradually.",
     "nameAr": "ألم الرسغ مع الحمل",
-    "sites": [
-      "wrist-dorsal",
-      "hand-dorsum",
-      "forearm-extensor",
-      "wrist-volar"
-    ],
-    "prefer": [
-      "mobility",
-      "isometric",
-      "strength"
-    ],
+    "sites": ["wrist-dorsal", "hand-dorsum", "forearm-extensor", "wrist-volar"],
+    "prefer": ["mobility", "isometric", "strength"],
     "caps": {
       "wrist": {
         "extension": 60,
@@ -1662,9 +1189,7 @@
     "lockPhases": [],
     "cue": "Weight-bearing through a bent-back wrist is the aggravator. We build the same load upright first.",
     "redirect": null,
-    "shares": [
-      "lateral-elbow"
-    ]
+    "shares": ["lateral-elbow"]
   },
   {
     "id": "hand-stiff",
@@ -1675,17 +1200,8 @@
     "course": "Consistency matters more than intensity; several short sessions a day.",
     "helps": "Move it often, avoid forcing a fist, warm the hand first.",
     "nameAr": "يبوسة اليد والأصابع",
-    "sites": [
-      "fingers",
-      "hand-palm",
-      "hand-dorsum",
-      "thumb-base",
-      "wrist-volar"
-    ],
-    "prefer": [
-      "mobility",
-      "isometric"
-    ],
+    "sites": ["fingers", "hand-palm", "hand-dorsum", "thumb-base", "wrist-volar"],
+    "prefer": ["mobility", "isometric"],
     "caps": {
       "wrist": {
         "flexion": 60,
@@ -1700,9 +1216,7 @@
     "lockPhases": [],
     "cue": "Tendon gliding keeps the fingers moving; forcing a fist is what makes the morning worse.",
     "redirect": null,
-    "shares": [
-      "lateral-elbow"
-    ]
+    "shares": ["lateral-elbow"]
   },
   {
     "id": "chest-wall",
@@ -1713,15 +1227,8 @@
     "course": "Often settles in a few weeks with movement and breathing work.",
     "helps": "Deep breaths at your own pace, gentle opening, and an assessment if it is not clearly muscular.",
     "nameAr": "ألم جدار الصدر",
-    "sites": [
-      "pectoral",
-      "costal-margin",
-      "upper-abdomen"
-    ],
-    "prefer": [
-      "breathing",
-      "mobility"
-    ],
+    "sites": ["pectoral", "costal-margin", "upper-abdomen"],
+    "prefer": ["breathing", "mobility"],
     "caps": {
       "thoracic": {
         "extension": 20
@@ -1735,9 +1242,7 @@
     "lockPhases": [],
     "cue": "Chest wall pain is common and benign, but chest symptoms always get checked first.",
     "redirect": null,
-    "shares": [
-      "rib"
-    ]
+    "shares": ["rib"]
   },
   {
     "id": "tmj",
@@ -1748,16 +1253,8 @@
     "course": "Varies; many settle with a few weeks of rest positions and stress management.",
     "helps": "Teeth apart, tongue on the roof of the mouth, soft diet for a week, and an assessment if it locks.",
     "nameAr": "مفصل الفك",
-    "sites": [
-      "jaw",
-      "temple",
-      "face",
-      "ear"
-    ],
-    "prefer": [
-      "mobility",
-      "motor_control"
-    ],
+    "sites": ["jaw", "temple", "face", "ear"],
+    "prefer": ["mobility", "motor_control"],
     "caps": {
       "cervical": {
         "flexion": 30
@@ -1782,14 +1279,7 @@
     "course": "Depends entirely on the cause.",
     "helps": "If it came on suddenly and severely, or with visual or neurological change, seek care now.",
     "nameAr": "الرأس والوجه",
-    "sites": [
-      "forehead",
-      "face",
-      "ear",
-      "scalp-side",
-      "scalp-top",
-      "temple"
-    ],
+    "sites": ["forehead", "face", "ear", "scalp-side", "scalp-top", "temple"],
     "prefer": [],
     "caps": {},
     "guidanceOnly": true,
@@ -1811,10 +1301,7 @@
     "course": "Not an exercise-responsive pattern in most cases.",
     "helps": "Get it assessed, especially with swallowing change, swelling or a persistent lump.",
     "nameAr": "أمام الرقبة",
-    "sites": [
-      "sterno",
-      "cervical-lower"
-    ],
+    "sites": ["sterno", "cervical-lower"],
     "prefer": [],
     "caps": {},
     "guidanceOnly": true,
@@ -1836,10 +1323,7 @@
     "course": "Depends on the cause.",
     "helps": "New, severe, one-sided with a bulge, or with fever or bowel change: get seen.",
     "nameAr": "منطقة البطن",
-    "sites": [
-      "upper-abdomen",
-      "lower-abdomen"
-    ],
+    "sites": ["upper-abdomen", "lower-abdomen"],
     "prefer": [],
     "caps": {},
     "guidanceOnly": true,
@@ -1861,9 +1345,7 @@
     "course": "Simple bursitis settles over weeks once the pressure is removed.",
     "helps": "Stop leaning on it. If it is hot, red or you feel unwell, get seen today.",
     "nameAr": "خلف المرفق",
-    "sites": [
-      "elbow-posterior"
-    ],
+    "sites": ["elbow-posterior"],
     "prefer": [],
     "caps": {},
     "guidanceOnly": true,

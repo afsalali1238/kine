@@ -168,7 +168,7 @@ export function PostSessionCheck({
         value={after}
         onChange={(event) => setAfter(Number(event.target.value))}
         data-testid="pain-after"
-        aria-label="pain after"
+        aria-label="pain after · الألم بعد الجلسة"
       />
       <div className="row row-between">
         <TrafficLight tone={traffic(after)} lang={lang} />
