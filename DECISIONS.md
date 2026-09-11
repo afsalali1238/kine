@@ -402,3 +402,32 @@ the `contentHash` it carries: changing one keyframe degree changes the digest, w
 `reviewedBy` do not enter the payload, which is exactly why the animator screen can clear an
 approval on an edit. While here, the GLB loader the render tests duplicated moved to `tests/glb.ts`,
 and the two tests now share it.
+
+### The asset gate could not fail, and the mesh was re-downloaded every session
+
+Two findings from measuring instead of asserting.
+
+**`assets:check` was vacuous.** It rebuilt the GLBs into `public/models`, then compared the bytes it
+had just written against the report it had just written. It now writes nothing: it reads
+`src/data/models.json`, re-hashes the referenced file on disk, and compares that digest with both
+the manifest and what the generator produces from the current anatomy table. Proven by tampering —
+flipping one byte in the shipped male mesh made the gate report
+`does not match the hash the app loads it under` and exit 1; restoring it made it pass. `--check`
+also stopped overwriting `regions.json`, `skeleton.json` and `body-outline.json`, so a verification
+step can no longer leave the tree formatted differently than `prettier` had it.
+
+**The filenames carry the digest now.** `body-male.23b50b5f91.glb`, and the generator prunes every
+other `body-male.*.glb` including v1's unhashed name, so a stale URL cannot resolve. That is what
+makes `Cache-Control: public, max-age=31536000, immutable` safe: an asset change is by construction
+a URL change, which matters because a mesh out of step with the region table is mislabelled picking,
+not a visual glitch. The app reads the URL from the manifest instead of a constant, and so do the
+e2e check and the render and fidelity tests — four consumers that would otherwise be free to
+disagree with the build. The procedural skin set stays unhashed and hourly-revalidated, because it
+is 117 KB and wrong skin is only wrong skin. The loading bar's fallback total also stopped assuming
+both bodies arrive (2.4 MB) and now uses the fetching sex's own byte count.
+
+**The numbers, same pass:** a text route ships ~13 KB of HTML, ~270 KB gz of first-load JS and 5.6
+KB of CSS; the five routes that mount a figure ship ~560 KB gz, so three/R3F costs ~285 KB gz and is
+paid only where it is used. The mesh is 1.21 MB on disk, 0.93 MB gz on the wire, once per asset
+version. Frame time and cold-start wall clock still have no measurement here — no GPU — and
+`ASSET-SPEC.md` says that plainly instead of implying a result.

@@ -26,7 +26,10 @@ export async function loadShippedMesh(): Promise<THREE.Mesh> {
     return image;
   };
   (globalThis as Record<string, unknown>).self = globalThis;
-  const bytes = readFileSync(new URL('../public/models/body-male.glb', import.meta.url));
+  const manifest = JSON.parse(
+    readFileSync(new URL('../src/data/models.json', import.meta.url), 'utf8'),
+  ) as { male: { file: string } };
+  const bytes = readFileSync(new URL(`../public/models/${manifest.male.file}`, import.meta.url));
   const buffer = new ArrayBuffer(bytes.byteLength);
   new Uint8Array(buffer).set(bytes);
   const gltf = await new Promise<{ scene: THREE.Group }>((resolve, reject) => {

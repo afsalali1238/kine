@@ -10,7 +10,7 @@
  */
 
 import { spawn, execFileSync } from 'node:child_process';
-import { existsSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { createRequire } from 'node:module';
 import net from 'node:net';
 
@@ -112,12 +112,18 @@ async function httpJourney() {
         `${ok ? '✓' : '✗'} ${route.padEnd(17)} ${response.status} ${response.ok ? '' : '(bad status)'}`,
       );
     }
-    const glb = await fetch(`${base}/models/body-male.glb`, { method: 'HEAD' });
+    // The model URL comes from the build manifest, the same file the app reads, so this
+    // check cannot drift from what ships.
+    const manifest = JSON.parse(
+      readFileSync(new URL('../src/data/models.json', import.meta.url), 'utf8'),
+    );
+    const glb = await fetch(`${base}${manifest.male.url}`, { method: 'HEAD' });
     const bytes = Number(glb.headers.get('content-length') ?? 0);
     const modelOk = glb.ok && bytes > 500_000;
     if (!modelOk) failures++;
     console.log(
-      `${modelOk ? '✓' : '✗'} body model      ${glb.status} ${(bytes / 1e6).toFixed(2)} MB`,
+      `${modelOk ? '✓' : '✗'} body model      ${glb.status} ${(bytes / 1e6).toFixed(2)} MB ` +
+        `${manifest.male.file}`,
     );
     const textures = await Promise.all(
       ['skin-albedo.png', 'skin-normal.png', 'skin-orm.png'].map((name) =>

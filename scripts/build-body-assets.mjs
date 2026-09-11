@@ -24,6 +24,8 @@ import { buildGlb } from './anatomy/glb.mjs';
 import { skinTextureSet } from './anatomy/textures.mjs';
 import { writePng } from './lib/png.mjs';
 import { renderPanels } from './anatomy/preview.mjs';
+import { checkShippedAssets } from './anatomy/check-shipped.mjs';
+import { outline, regionRecords } from './anatomy/measure.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const MODELS = path.join(ROOT, 'public', 'models');
@@ -32,6 +34,9 @@ const PREVIEW = path.join(ROOT, '.preview');
 const THIN_REGIONS = ['ear', 'fingers', 'toes', 'face', 'thumb-base', 'nose'];
 const argv = process.argv.slice(2);
 const has = (flag) => argv.includes(flag);
+// `--check` must not touch the tree: a verification step that rewrites the thing it is
+// verifying can never fail, and it is how v1's asset gate stayed quiet for a whole release.
+const WRITE = !has('--check');
 const quality = Number(argv[argv.indexOf('--quality') + 1] || 1);
 const qualityScale = { 0: 0.6, 1: 1.55, 2: 2.1 }[quality] ?? 1.55;
 
@@ -73,44 +78,6 @@ function buildFigure(sex, images) {
 }
 
 /** Region metadata measured from the mesh, never authored by hand. */
-function regionRecords(body) {
-  const zones = expandZones();
-  const byId = new Map(zones.map((z) => [z.id, z]));
-  const out = [];
-  for (const region of body.regions) {
-    const id = region.id;
-    const stat = body.stats.get(body.indexOfRegion.get(id));
-    const meta = byId.get(id);
-    if (!stat || !meta) continue;
-    const radius = Math.sqrt(stat.count / Math.PI) * 0.02 + 0.055;
-    const neighbours = [...(body.neighbours.get(body.indexOfRegion.get(id)) ?? [])]
-      .map((n) => body.regions[n - 1]?.id)
-      .filter(Boolean)
-      .slice(0, 10);
-    out.push({
-      id,
-      regionIdValue: body.indexOfRegion.get(id),
-      base: meta.base,
-      label: meta.label,
-      labelAr: meta.labelAr,
-      family: meta.family,
-      side: meta.side,
-      views: meta.views.filter((v) => stat.views.has(v) || v === 'top'),
-      group: meta.family,
-      synonyms: meta.synonyms,
-      vertexCount: stat.count,
-      triangles: stat.tris,
-      areaMm2: Math.round(stat.area * 1e6),
-      centroid: stat.c.map((v) => Number(v.toFixed(4))),
-      focusTarget: stat.c.map((v) => Number(v.toFixed(3))),
-      focusRadius: Number(radius.toFixed(3)),
-      focusDistance: Number(Math.max(0.42, radius * 3.1).toFixed(3)),
-      neighbours,
-      presentationIds: [],
-    });
-  }
-  return out;
-}
 
 function main() {
   fs.mkdirSync(MODELS, { recursive: true });
@@ -138,17 +105,38 @@ function main() {
     ['skin-normal.png', tex.normal],
     ['skin-orm.png', tex.roughness],
   ]) {
-    fs.writeFileSync(path.join(MODELS, name), pngBuffer(entry.w, entry.h, entry.rgba));
+    if (WRITE) fs.writeFileSync(path.join(MODELS, name), pngBuffer(entry.w, entry.h, entry.rgba));
   }
 
   const report = { generator: 'scripts/build-body-assets.mjs', quality, bodies: {}, regions: 0 };
   let first = null;
+  let assets = null;
   const outlines = {};
   for (const sex of ['male', 'female']) {
     const { body, glb } = buildFigure(sex, images);
     outlines[sex] = outline(body);
     if (!first) first = body;
-    fs.writeFileSync(path.join(MODELS, `body-${sex}.glb`), glb);
+    // The URL carries the digest, so the browser can cache the body forever: a rebuild that
+    // changes a triangle changes the filename, and nothing can serve a stale mesh against a
+    // fresh region table.
+    const assetFile = `body-${sex}.${hash(glb).slice(0, 10)}.glb`;
+    (assets ??= {})[sex] = {
+      file: assetFile,
+      url: `/models/${assetFile}`,
+      hash: hash(glb),
+      bytes: glb.length,
+      triangles: body.triangleCount,
+    };
+    if (WRITE) {
+      fs.writeFileSync(path.join(MODELS, assetFile), glb);
+      for (const stale of fs.readdirSync(MODELS)) {
+        if (stale.startsWith(`body-${sex}.`) && stale.endsWith('.glb') && stale !== assetFile)
+          fs.unlinkSync(path.join(MODELS, stale));
+      }
+      // v1 shipped an unhashed name; a leftover would let a stale URL resolve silently.
+      const legacy = path.join(MODELS, `body-${sex}.glb`);
+      if (fs.existsSync(legacy)) fs.unlinkSync(legacy);
+    }
     // Sanity gates: a body that fails these must never reach a browser.
     const height = body.bounds.hi[1] - body.bounds.lo[1];
     if (height < 1.55 || height > 1.85)
@@ -173,7 +161,8 @@ function main() {
   }
 
   const skel = skeleton();
-  fs.writeFileSync(path.join(DATA, 'skeleton.json'), `${JSON.stringify(skel, null, 2)}\n`);
+  if (WRITE)
+    fs.writeFileSync(path.join(DATA, 'skeleton.json'), `${JSON.stringify(skel, null, 2)}\n`);
   const regions = regionRecords(first);
   report.regions = regions.length;
   const expected = expandZones();
@@ -238,24 +227,23 @@ function main() {
     regions.length = 0;
     regions.push(...merged);
   }
-  fs.writeFileSync(previousPath, `${JSON.stringify(regions, null, 2)}\n`);
+  if (WRITE) fs.writeFileSync(previousPath, `${JSON.stringify(regions, null, 2)}\n`);
   // Per sex, because the fallback silhouette and its anchors must match the figure the
   // patient actually loaded: bust width and waist shift the outline and the anchors.
-  fs.writeFileSync(
-    path.join(DATA, 'body-outline.json'),
-    `${JSON.stringify({ male: outlines.male, female: outlines.female }, null, 2)}\n`,
-  );
-  fs.writeFileSync(path.join(MODELS, 'ASSET-REPORT.json'), `${JSON.stringify(report, null, 2)}\n`);
-  if (has('--check')) {
-    for (const key of ['male', 'female']) {
-      const file = path.join(MODELS, `body-${key}.glb`);
-      const now = hash(fs.readFileSync(file));
-      const recorded = report.bodies[key].hash;
-      if (now !== recorded)
-        throw new Error(`${key}.glb does not match the generator: re-run assets:build`);
-    }
-    console.log('asset hash check passed');
+  if (WRITE)
+    fs.writeFileSync(
+      path.join(DATA, 'body-outline.json'),
+      `${JSON.stringify({ male: outlines.male, female: outlines.female }, null, 2)}\n`,
+    );
+  if (WRITE) {
+    fs.writeFileSync(
+      path.join(MODELS, 'ASSET-REPORT.json'),
+      `${JSON.stringify(report, null, 2)}\n`,
+    );
+    fs.writeFileSync(path.join(DATA, 'models.json'), `${JSON.stringify(assets, null, 2)}\n`);
   }
+  if (has('--check')) checkShippedAssets({ MODELS, DATA, report, hash });
+
   console.log(
     `body assets: ${report.bodies.male.triangles} + ${report.bodies.female.triangles} triangles, ` +
       `${report.regions} regions, ${(
@@ -263,32 +251,6 @@ function main() {
         1e6
       ).toFixed(2)} MB of GLB`,
   );
-}
-
-function outline(body) {
-  const { front, side, bounds } = body.silhouette;
-  const toPath = (rows, pick) =>
-    rows.map((r) => [Number(r[0].toFixed(4)), Number(r[1].toFixed(4)), pick?.(r)]);
-  return {
-    bounds: {
-      lo: bounds.lo.map((v) => Number(v.toFixed(4))),
-      hi: bounds.hi.map((v) => Number(v.toFixed(4))),
-    },
-    front: toPath(front, (r) => r[1]),
-    side,
-    anchors: body.regions
-      .map((region, i) => {
-        const stat = body.stats.get(i + 1);
-        if (!stat) return null;
-        return {
-          id: region.id,
-          front: [Number(stat.c[0].toFixed(4)), Number(stat.c[1].toFixed(4))],
-          back: [Number(-stat.c[0].toFixed(4)), Number(stat.c[1].toFixed(4))],
-          r: Math.max(0.018, Math.min(0.075, Math.sqrt(stat.count / Math.PI) * 0.012)),
-        };
-      })
-      .filter(Boolean),
-  };
 }
 
 main();

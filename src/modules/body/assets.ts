@@ -6,12 +6,28 @@
 
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import * as THREE from 'three';
+import manifest from '@/data/models.json';
 
 export type Sex = 'male' | 'female';
 
+export type BodyAsset = {
+  file: string;
+  url: string;
+  hash: string;
+  bytes: number;
+  triangles: number;
+};
+
+/**
+ * The URL comes from the build manifest, not a constant: the filename carries the digest of
+ * the mesh, so the browser can cache it forever and a stale body can never be served against a
+ * fresh region table.
+ */
+export const BODY_ASSETS = manifest as unknown as Record<Sex, BodyAsset>;
+
 export const MODEL_URL: Record<Sex, string> = {
-  male: '/models/body-male.glb',
-  female: '/models/body-female.glb',
+  male: BODY_ASSETS.male.url,
+  female: BODY_ASSETS.female.url,
 };
 
 type Loaded = { geometry: THREE.BufferGeometry; material: THREE.MeshStandardMaterial };
@@ -63,7 +79,7 @@ export function loadBody(sex: Sex, onProgress?: (ratio: number) => void): Promis
   const promise = loader
     .loadAsync(MODEL_URL[sex], (event) => {
       if (!onProgress) return;
-      const total = event.total || 2_400_000;
+      const total = event.total || BODY_ASSETS[sex].bytes;
       onProgress(Math.min(1, event.loaded / total));
     })
     .then((gltf) => {
@@ -91,5 +107,5 @@ export function isLoaded(sex: Sex): boolean {
   return cache.has(sex);
 }
 
-/** Byte size for the loading copy, read from the asset report when it is available. */
-export const MODEL_BYTES = 1_240_000;
+/** Bytes of the mesh being fetched, for the loading copy the shell shows. */
+export const modelBytes = (sex: Sex) => BODY_ASSETS[sex].bytes;

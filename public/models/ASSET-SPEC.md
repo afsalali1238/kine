@@ -2,13 +2,15 @@
 
 Every number on this page is measured from the build, not remembered from a plan. Re-run
 `npm run assets:build` and the whole file is reproducible; `npm run assets:check` fails if the
-shipped GLBs do not match the generator that claims to have produced them.
+shipped GLBs do not match the generator that claims to have produced them. `--check` writes nothing
+— a verification step that rewrites what it verifies can never fail, which is how v1's gate stayed
+quiet while the models it guarded were placeholders.
 
 ## What ships
 
-- `body-male.glb`, `body-female.glb` — `scripts/build-body-assets.mjs` — 23,153 vertices, 46,198
-  triangles, 1.715 m tall, 1.21 MB each. Geometry plus the `_REGIONID` and `_THIN` attributes; no
-  skin, no morph targets, no embedded textures.
+- `body-male.<digest>.glb`, `body-female.<digest>.glb` — `scripts/build-body-assets.mjs` — 23,153
+  vertices, 46,198 triangles, 1.715 m tall, 1.21 MB each. Geometry plus the `_REGIONID` and `_THIN`
+  attributes; no skin, no morph targets, no embedded textures.
 - `skin-albedo.png`, `skin-normal.png`, `skin-orm.png` — same generator — 256², seamless,
   procedural, 117 KB together. Low frequency on purpose: the figure is read at arm's length on a
   phone, and every kilobyte here is paid for again on a cold start.
@@ -97,3 +99,23 @@ the headless ones in `tests/render.test.ts` (does the file parse, does every reg
 vertex data, does a pose actually deform the body, does a left pose stay on the left). Anyone who
 can run it on a real phone should record the numbers here before the figures are quoted anywhere
 else.
+
+## What it costs a phone
+
+Measured on the production build served by `next start`, with gzip, from the prerendered HTML each
+route ships:
+
+| payload                    | first visit                | repeat visit                             |
+| -------------------------- | -------------------------- | ---------------------------------------- |
+| HTML for a text screen     | ~13 KB                     | ~13 KB                                   |
+| first-load JS, text screen | ~270 KB gz                 | cached                                   |
+| first-load JS, 3D screen   | ~560 KB gz                 | cached                                   |
+| CSS (all screens)          | 5.6 KB gz                  | cached                                   |
+| body mesh (5 routes)       | 0.93 MB gz on the wire     | 0 — immutable; a rebuild changes the URL |
+| procedural skin set        | 117 KB, revalidated hourly | 117 KB                                   |
+
+The 3D screens therefore pay the three/R3F chunk (~285 KB gz more than a text screen) and one mesh,
+and the mesh is paid once per asset version rather than once per session. What this environment
+cannot measure is the other half of a cold start — decode plus first frame — because there is no GPU
+here; 60 fps and a sub-3-second cold start on mid-range Android remain a target with the transfer
+side of it quantified, not a certified result.

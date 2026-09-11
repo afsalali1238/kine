@@ -1,6 +1,6 @@
 {
   "generator": "scripts/build-body-assets.mjs",
-  "quality": null,
+  "quality": 1,
   "bodies": {
     "male": {
       "triangles": 46198,

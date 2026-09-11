@@ -45,7 +45,8 @@ clones the buffer and skins it at runtime from `src/data/skeleton.json`. They ca
 visually. Exercise ranges are clamped per pattern, so a guarded shoulder demonstrates the guarded
 range.
 
-`public/models/ASSET-SPEC.md` is the measured contract; `DECISIONS.md` is the reasoning.
+`public/models/ASSET-SPEC.md` is the measured contract, including what the body costs a phone to
+fetch; `DECISIONS.md` is the reasoning.
 
 ## Run it
 

@@ -1,0 +1,16 @@
+{
+  "male": {
+    "file": "body-male.23b50b5f91.glb",
+    "url": "/models/body-male.23b50b5f91.glb",
+    "hash": "23b50b5f9160e6f2",
+    "bytes": 1206653,
+    "triangles": 46198
+  },
+  "female": {
+    "file": "body-female.f5135d56f6.glb",
+    "url": "/models/body-female.f5135d56f6.glb",
+    "hash": "f5135d56f6abbd7c",
+    "bytes": 1206657,
+    "triangles": 46198
+  }
+}

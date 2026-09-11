@@ -2,7 +2,7 @@ export { BodyLocator, type LocatorMode } from './BodyLocator';
 export { Fallback2D, pointTo2D } from './Fallback2D';
 export { RegionSearch } from './RegionSearch';
 export { CameraRig, REST_FOCUS, focusForRegion, type Focus } from './CameraRig';
-export { hasWebGL, loadBody, MODEL_URL } from './assets';
+export { hasWebGL, loadBody, MODEL_URL, BODY_ASSETS, modelBytes, type BodyAsset } from './assets';
 export { buildRegionIndex, type RegionIndex } from './regionPick';
 export {
   createSkinMaterial,
