@@ -32,14 +32,25 @@ export function deriveJourney(state: Recovery, phaseTab: number, rejected: strin
   const doneSessions = state.logs.filter((l) => l.session).length;
 
   const uniqueDays = [...new Set(state.logs.filter((l) => l.session).map((l) => l.date.slice(0, 10)))].sort().reverse();
+  /** Calendar day (UTC, matching how `CheckIn.date` is written) offset from today. */
+  const day = (offset: number) => {
+    const d = new Date();
+    d.setDate(d.getDate() + offset);
+    return d.toISOString().slice(0, 10);
+  };
+  // A streak is still alive while the most recent session is today OR yesterday.
+  // Requiring "today" made a three-day streak read as 0 the moment the user
+  // opened the app before training, which is the opposite of what an
+  // adherence-focused product wants. It lapses only after a full missed day.
+  const startOffset = uniqueDays[0] === day(0) ? 0 : uniqueDays[0] === day(-1) ? -1 : null;
   let streak = 0;
-  for (let d = 0; d < uniqueDays.length; d++) {
-    const date = new Date();
-    date.setDate(date.getDate() - d);
-    if (uniqueDays[d] === date.toISOString().slice(0, 10)) streak++;
-    else break;
+  if (startOffset !== null) {
+    for (let i = 0; i < uniqueDays.length; i++) {
+      if (uniqueDays[i] === day(startOffset - i)) streak++;
+      else break;
+    }
   }
-  const dailyDone = state.logs.some((l) => !l.session && l.date.slice(0, 10) === new Date().toISOString().slice(0, 10));
+  const dailyDone = state.logs.some((l) => !l.session && l.date.slice(0, 10) === day(0));
 
   return {
     region,
