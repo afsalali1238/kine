@@ -12,10 +12,39 @@ import { checkRecoveryRateLimit } from '@/lib/rate-limit';
  * device-local sync (503) rather than data loss — the client keeps
  * localStorage as its source of truth either way.
  */
-function clientKey(req: NextRequest, id: string): string {
+const IPV4_OCTET = '25[0-5]|2[0-4]\\d|1\\d\\d|[1-9]?\\d';
+const IPV4 = new RegExp(`^(${IPV4_OCTET})\\.(${IPV4_OCTET})\\.(${IPV4_OCTET})\\.(${IPV4_OCTET})$`);
+const IPV6 = /^[0-9a-f:]+$/i;
+
+/**
+ * Best available caller address for rate-limit bucketing.
+ *
+ * Proxies APPEND to `x-forwarded-for`, so the leftmost entry is whatever the
+ * client chose to send and is trivially spoofable — taking it lets an attacker
+ * mint a fresh bucket per request and walk straight through the limiter. The
+ * rightmost syntactically valid hop is the one our own upstream proxy added,
+ * so that is the one we trust. Platform-set headers beat it when present.
+ *
+ * Residual caveat: with no trusted proxy in front of the app at all, a
+ * client-supplied single-entry header is indistinguishable from a real one.
+ */
+function clientIp(req: NextRequest): string {
+  const platform = req.headers.get('x-real-ip') || req.headers.get('cf-connecting-ip');
+  if (platform) return platform.trim();
+
   const forwarded = req.headers.get('x-forwarded-for');
-  const ip = forwarded ? forwarded.split(',')[0].trim() : 'unknown';
-  return `${ip}:${id}`;
+  if (forwarded) {
+    const hops = forwarded.split(',').map((h) => h.trim()).filter(Boolean);
+    for (let i = hops.length - 1; i >= 0; i--) {
+      const hop = hops[i].replace(/^\[|\]$/g, '');
+      if (IPV4.test(hop) || IPV6.test(hop)) return hop;
+    }
+  }
+  return 'unknown';
+}
+
+function clientKey(req: NextRequest, id: string): string {
+  return `${clientIp(req)}:${id}`;
 }
 
 export async function GET(req: NextRequest) {

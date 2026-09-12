@@ -29,5 +29,14 @@ jobs:
       - name: Unit tests
         run: npm test
 
+      # Guards the committed 3D body assets. This check exists because broken
+      # placeholder GLBs shipped once; it must run on every PR, not by hand.
+      - name: 3D asset checks
+        run: npm run check:assets
+
+      # 136/136 exercise illustrations must keep solving to valid poses.
+      - name: Illustration checks
+        run: npm run check:illustrations
+
       - name: Production build
         run: npm run build
